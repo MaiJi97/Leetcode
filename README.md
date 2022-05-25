@@ -2,8 +2,8 @@
 
 | #        |  Title                                    |  Category          |
 |----------|-------------------------------------------|--------------------|
-| 206      |  Reverse linkedlist                       | Linkedlist         |
-| 141      |  Linkedlist cycle                         | Linkedlist         |
-| 234      |  Palindrom linkedlist                     | Linkedlist         |
-| 230      |  kth smallest elemnt in BST               | BST                |
-| 234      |  Course schedule                          | Graph              |
+| 206      |  Reverse Linkedlist                       | Linkedlist         |
+| 141      |  Linkedlist Cycle                         | Linkedlist         |
+| 234      |  Palindrom Linkedlist                     | Linkedlist         |
+| 230      |  kth Smallest Elemnt in BST               | BST                |
+| 207      |  Course Schedule                          | Graph              |
