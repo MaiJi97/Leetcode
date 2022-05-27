@@ -1,4 +1,3 @@
-// method 1: DFS/inorder traverse
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         ArrayList<Integer> nums = new ArrayList<>();
