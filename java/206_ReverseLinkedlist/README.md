@@ -5,3 +5,5 @@
 
 
 ## Method 2: Iterative
+
+<img width="863" alt="Screen Shot 2022-05-27 at 2 07 28 PM" src="https://user-images.githubusercontent.com/106039830/170766952-5f7da4f5-4e2f-4a72-bb19-91d29a03d749.png">
