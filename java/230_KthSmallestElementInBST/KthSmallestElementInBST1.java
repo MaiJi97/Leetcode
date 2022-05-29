@@ -6,7 +6,7 @@ class Solution {
     }
 
     public void inOrder(TreeNode root, ArrayList<Integer> nums) {
-        if(root == null) {
+        if (root == null) {
             return;
         }
         else {
