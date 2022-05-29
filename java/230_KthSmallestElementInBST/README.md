@@ -3,5 +3,6 @@ Use a helper function to traverse and store the elements in order in an array li
 Time Complexity: O(n)
 
 ## Method 2: DFS / Inorder searching using Stack
+This is also utilizing DFS to traverse inorder the elements in the BST, and we will return as soon as we pop out the kth element. <br />
 Time Complexity: O(n)
 
