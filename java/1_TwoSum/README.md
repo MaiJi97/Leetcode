@@ -5,5 +5,5 @@ Time Complexity: O(n^2)
 
 ## Method 2: HashMap
 Use a map to store the value as key-pair. Key is the number and value is its index.
-Need to clarify: if it is sorted? if there is duplicate?
+Need to clarify: is it sorted? is there duplicate? what to return if no solution?
 Time Complexity: O(n)
