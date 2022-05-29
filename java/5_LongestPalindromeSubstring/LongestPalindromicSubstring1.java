@@ -1,5 +1,8 @@
 class Solution {
     public String longestPalindrome(String s) {
+        if (s == null) {
+            return null;
+        }
         int maxlen = 0;
         String maxstr = "";
         for (int i = 0; i < s.length(); i++) {
