@@ -5,7 +5,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             for (int j = i; j < s.length(); j++) {
                 if (isPalindrome(s.substring(i, j+1))) {
-                    if((j + 1 - i) > maxlen){
+                    if ((j + 1 - i) > maxlen){
                         maxlen = j + 1 - i;
                         maxstr = s.substring(i, j+1);
                     }
