@@ -8,7 +8,9 @@ Two possibilities: <br />
 1) For odd length of palindrome: center = i <br />
 2) For even length of palindrome: center = i to i + 1 <br />
 <br />
-Length = right - left + 1
+Length = right - left + 1 <br />
+
+Time complexity is O(n^2)
 
 ## Method 3: Dynamic Programming
 Store true / false information in a matrix, opt[i][j] represents if the substring from index i to index j is palindromic or not. <br />
