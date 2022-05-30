@@ -7,3 +7,8 @@ Time Complexity: O(n^2)
 Use a map to store the value as key-pair. Key is the number and value is its index. <br />
 Need to clarify: is it sorted? is there duplicate? what to return if no solution? <br />
 Time Complexity: O(n)
+
+## Method 3: Sort and Find
+Sorting an array takes O(nlogn) <br />
+Then we can use two pointers to find the two numbers whose sum is the target value, which takes O(n). <br />
+TIme Complexity: O(nlogn)
