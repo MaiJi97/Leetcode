@@ -16,6 +16,6 @@
 # Notes in Essential Categories
 
 ## Binary Search
-In a sorted array with boundaries, want to look for a value or index
+In a sorted array with boundaries, want to look for a target value or index
 
 ## Two Pointers
