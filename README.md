@@ -3,7 +3,7 @@
 | #        |  Title                                                                                        |  Category          | Solution          |
 |----------|-----------------------------------------------------------------------------------------------|--------------------|-------------------|
 | 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | Hash               | [solution](java/1_TwoSum)|
-| 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Hash               | [solution](java/167_TwoSum)| 
+| 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / BS  | [solution](java/167_TwoSum)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                 | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP             | [solution](java/516_LongestPalindromeSubsequence)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linkedlist         | [solution](java/206_ReverseLinkedlist)|
