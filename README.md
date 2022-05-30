@@ -4,10 +4,11 @@
 |----------|-----------------------------------------------------------------------------------------------|--------------------|-------------------|
 | 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | Hash               | [solution](java/1_TwoSum)|
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / BS  | [solution](java/167_TwoSum)| 
-| 15      |  [Three Sum](https://leetcode.com/problems/3sum/)                                              | Two Pointers       | [solution](java/15_ThreeSum)|
-| 16      |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                              | Two Pointers       | [solution](java/16_ThreeSumClosest)|
-| 18      |  [Four Sum](https://leetcode.com/problems/4sum/)                                               | Two Pointers       | [solution](java/18_FourSum)|
-| 704     |  [Binary Search](https://leetcode.com/problems/binary-search/)                                 | BS                 | [solution](java/704_BinarySearch)|
+| 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers       | [solution](java/15_ThreeSum)|
+| 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers       | [solution](java/16_ThreeSumClosest)|
+| 18       |  [Four Sum](https://leetcode.com/problems/4sum/)                                              | Two Pointers       | [solution](java/18_FourSum)|
+| 125      |  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                          | Two Pointers       | [solution](java/125_ValidPalindrome)|
+| 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | BS                 | [solution](java/704_BinarySearch)|
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                 | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP             | [solution](java/516_LongestPalindromeSubsequence)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linkedlist         | [solution](java/206_ReverseLinkedlist)|
