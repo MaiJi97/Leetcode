@@ -13,3 +13,9 @@
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph              | [solution](java/207_CourseSchedule)| 
 
 
+# Notes in Essential Categories
+
+## Binary Search
+In a sorted array, want to look for a value or index
+
+## Two Pointers
