@@ -10,5 +10,5 @@ Time Complexity: O(n)
 
 ## Method 3: Sort and Find
 Sorting an array takes O(nlogn) <br />
-Then we can use two pointers to find the two numbers whose sum is the target value, which takes O(n). <br />
-TIme Complexity: O(nlogn)
+Then we can use two pointers or binary search to find the two numbers whose sum is the target value, which takes O(n) or O(nlogn). <br />
+Time Complexity: O(nlogn)
