@@ -13,7 +13,7 @@ class Solution {
                         left++;
                     }
                     while (right - 1 > left && nums[right - 1] == nums[right]) {
-                        left++;
+                        right--;
                     }
                     left++;
                     right--;
