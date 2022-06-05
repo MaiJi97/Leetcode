@@ -6,8 +6,9 @@
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / BS  | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers       | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers       | [solution](java/16_ThreeSumClosest)|
-| 18       |  [Four Sum](https://leetcode.com/problems/4sum/)                                              | Two Pointers       | [solution](java/18_FourSum)|
 | 125      |  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                          | Two Pointers       | [solution](java/125_ValidPalindrome)|
+| 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers       | [solution](java/680_ValidPalindrome)|
+| 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers       | [solution](java/611_ValidTriangleNumber)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | BS                 | [solution](java/704_BinarySearch)|
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                 | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP             | [solution](java/516_LongestPalindromeSubsequence)| 
@@ -20,7 +21,10 @@
 
 # Notes in Essential Categories
 
+## Two Pointers
+### 1) 相向
+One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually in some sort of order.
+
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index
 
-## Two Pointers
