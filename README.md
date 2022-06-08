@@ -26,5 +26,16 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually in some sort of order.
 
 ## Binary Search
-In a sorted array with boundaries, want to look for a target value or index
+In a sorted array with boundaries, want to look for a target value or index.
+</br>
+两种写法：</br>
+</br>
+1)基础写法，用于搜索一个可以通过访问单个索引来确定的元素，无需后续处理直接返回
+while (left <= right) -> left = mid + 1, right = mid - 1; </br>
+Eg: 704
+while (left <= right) -> left = mid + 1, right = mid - 1; </br>
+</br>
+2)高级写法,当在数组中搜索一个元素时需要访问当前索引元素及其右邻居索引的元素
+while (left < right) -> left = mid + 1, right = mid
+Eg: 33
 
