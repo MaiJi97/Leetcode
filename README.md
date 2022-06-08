@@ -32,7 +32,7 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 1) 基础写法，用于搜索一个可以通过访问单个索引来确定的元素，无需后续处理直接返回 </br>
 while (left <= right) -> left = mid + 1, right = mid - 1; </br>
 Eg: 704 </br>
-2) 高级写法,当在数组中搜索一个元素时需要访问当前索引元素及其右邻居索引的元素 </br>
+2) 高级写法，用于搜索一个元素时需要访问当前索引元素及其右邻居索引的元素 </br>
 while (left < right) -> left = mid + 1, right = mid; </br>
 Eg: 33
 
