@@ -37,8 +37,8 @@ while (left < right) -> left = mid + 1, right = mid; </br>
 Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
-1) Recursion - DFS & Traverse </br>
-2) Recursion - Divide and Conquer </br>
-3) Queue - BFS & Level Order Traverse </br>
-   Queue的实现：Linked List / Array </br>
+1) Recursion - DFS & Traverse
+2) Recursion - Divide and Conquer
+3) Queue - BFS & Level Order Traverse
+   Queue的实现：Linked List / Array
 
