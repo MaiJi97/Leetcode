@@ -38,7 +38,10 @@ Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
 1) Recursion - DFS & Traverse
-2) Recursion - Divide and Conquer
+2) Recursion - Divide and Conquer </br>
+   左子树返回结果 = DivideAndConquer(root.left) </br>
+   右子树返回结果 = DivideAndConquer(root.right) </br>
+   整棵树的结果 = 按一定方法合并左右子树结果 </br>
 3) Queue - BFS & Level Order Traverse
    Queue的实现：Linked List / Array
 
