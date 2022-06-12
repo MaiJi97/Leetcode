@@ -1,7 +1,7 @@
 # Java Solutions to Leetcode 
 
 | #        |  Title                                                                                        |  Category                    | Solution          |
-|----------|-----------------------------------------------------------------------------------------------|------------------------------|-------------------|
+|----------|-----------------------------------------------------------------------------------------------|------------------------------|---------------|
 | 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | Hash                         | [solution](java/1_TwoSum)|
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers                 | [solution](java/15_ThreeSum)|
@@ -10,12 +10,20 @@
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers                 | [solution](java/680_ValidPalindrome)|
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers                 | [solution](java/611_ValidTriangleNumber)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
+| 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
+| 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
+| 658      |  [FindKClosestElement](https://leetcode.com/problems/find-k-closest-elements/)                | Binary Search                | [solution](java/658_FindKClosestElement)|
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 141      |  [Linkedlist Cycle](https://leetcode.com/problems/linked-list-cycle/)                         | Linked List                  | [solution](java/141_LinkedlistCycle)|  
 | 234      |  [Palindrome Linkedlist](https://leetcode.com/problems/palindrome-linked-list/)               | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
-| 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Binary Search Tree           | [solution](java/230_KthSmallestElementInBST)               | 
+| 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree                         | [solution](java/230_KthSmallestElementInBST)| 
+| 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree                         | [solution](java/104_MaximumDepthOfBinaryTree)| 
+| 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree                         | [solution](java/110_BalancedBinaryTree)| 
+| 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree                         | [solution](java/257_BinaryTreePaths)| 
+| 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree               | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
+| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree       | [solution](java/236_LowestCommonAncesterOfBinaryTree)| 
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph                        | [solution](java/207_CourseSchedule)| 
 
 
@@ -39,6 +47,7 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 1) Recursion - DFS & Traverse
 2) Recursion - Divide and Conquer </br>
+   需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
