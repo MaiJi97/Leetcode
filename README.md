@@ -44,13 +44,22 @@ Eg: 704 </br>
 while (left < right) -> left = mid + 1, right = mid; </br>
 Eg: 33
 
+## Divide and Conquer 
+通常应用于二叉树和数组
+
 ## Binary Tree / Binary Search Tree / Graph
-1) Recursion - DFS & Traverse
-2) Recursion - Divide and Conquer </br>
+常见方法：
+1) DFS & Traverse through Recursion
+2) Divide and Conquer through Recursion </br>
    需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
-3) Queue - BFS & Level Order Traverse
+3) BFS & Level Order Traverse through Queue
    Queue的实现：Linked List / Array
+   
+常见题型：
+- 二叉树上求值 (Max,Min,Sum,Average,Paths)
+- 二叉树结构变化 (Flatten to Linked List)
+- BST
 
