@@ -23,7 +23,7 @@
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree                         | [solution](java/110_BalancedBinaryTree)| 
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree                         | [solution](java/257_BinaryTreePaths)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree               | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
-| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree       | [solution](java/236_LowestCommonAncesterOfBinaryTree)| 
+| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree       | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph                        | [solution](java/207_CourseSchedule)| 
 
 
