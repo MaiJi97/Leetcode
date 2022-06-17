@@ -59,6 +59,13 @@ Eg: 33
 3) BFS & Level Order Traverse through Queue </br>
    Queue的实现：Linked List / Array
    
+   BFS of a Tree: </br>
+   Eg: 102 </br>
+   
+   BFS OF a Graph: </br>
+   Need to use a hashset to determine if the node has already been visited. </br>
+   Eg: 133
+   
 Binary Tree 常见题型：
 - 二叉树上求值 (Max,Min,Sum,Average,Paths)
 - 二叉树结构变化 (Flatten to Linked List)
