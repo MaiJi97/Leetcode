@@ -49,13 +49,14 @@ Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
-1) DFS & Traverse through Recursion
+1) DFS & Traverse through Recursion </br>
+   还可以使用non recursion实现，通过stack
 2) Divide and Conquer through Recursion </br>
    需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
-3) BFS & Level Order Traverse through Queue
+3) BFS & Level Order Traverse through Queue </br>
    Queue的实现：Linked List / Array
    
 常见题型：
