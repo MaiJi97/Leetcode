@@ -17,10 +17,11 @@ class Solution {
         while (!queue.isEmpty()) {
             Node curr = queue.poll();
             for (Node neighbor : curr.neighbors) {
-                if (!visited.contains(neighbor)) {
-                    visited.add(neighbor); // 入队时标记为访问
-                    queue.offer(neighbor);
+                if (visited.contains(neighbor)) {
+                    continue;
                 }
+                visited.add(neighbor); // 入队时标记为访问
+                queue.offer(neighbor);
             }
         }
         return new LinkedList<>(visited);
