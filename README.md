@@ -50,7 +50,9 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
 1) DFS & Traverse through Recursion </br>
-   Can also use a non recursion / iterative approach through Stack
+   Can also use a non recursion / iterative approach through Stack </br>
+   Eg: #230
+   
 2) Divide and Conquer through Recursion </br>
    需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
@@ -60,11 +62,11 @@ Eg: 33
    Queue的实现：Linked List / Array
    
    BFS of a Tree: </br>
-   Eg: 102 </br>
+   Eg: #102 </br>
    
    BFS OF a Graph: </br>
    Need to use a hashset to determine if the node has already been visited. </br>
-   Eg: 133
+   Eg: #133
    
 Binary Tree 常见题型：
 - 二叉树上求值 (Max,Min,Sum,Average,Paths)
