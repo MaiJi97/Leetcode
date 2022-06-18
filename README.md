@@ -59,7 +59,7 @@ Eg: 33
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
 3) BFS & Level Order Traverse through Queue </br>
-   Queue的实现：Linked List / Array
+   Queue的实现：Linked List / ArrayDeque (preferred because it is faster)
    
    BFS of a Tree: </br>
    Eg: #102 </br>
