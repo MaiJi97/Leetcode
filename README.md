@@ -49,27 +49,42 @@ Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
-1) DFS & Traverse through Recursion </br>
+1) DFS through Recursion </br>
+   a. Preorder/Inorder/Postorder traverse </br>
    Can also use a non recursion / iterative approach through Stack </br>
    Eg: #230
    
-2) Divide and Conquer through Recursion </br>
+   b. Divide and Conquer through </br>
    需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
-3) BFS & Level Order Traverse through Queue </br>
-   Queue的实现：Linked List / ArrayDeque (preferred because it is faster)
    
-   BFS of a Tree: </br>
-   Eg: #102 </br>
+2) BFS through Queue </br>
+   Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
    
-   BFS OF a Graph: </br>
-   Need to use a hashset to determine if the node has already been visited. </br>
-   Eg: #133
+   a. Level Order Traverse through Queue </br>
+   
+      - BFS in Tree: </br>
+        Eg: #102 </br>
+   
+      - BFS in Graph: </br>
+        Need to use a hashset to determine if the node has already been visited. </br>
+        Eg: #133, simple graph shortest path
+   
+   b. BFS in Matrix（连通块）: </br>
+      Eg: #200
+   
+   c. Topological Sorting（拓扑排序）: </br>
+      - 求任意一个拓扑排序
+      - 问是否有拓扑排序
+      - 求是否存在且仅存在一个拓扑排序
+      - 求字典序最小的拓扑排序
    
 Binary Tree 常见题型：
 - 二叉树上求值 (Max,Min,Sum,Average,Paths)
 - 二叉树结构变化 (Flatten to Linked List)
 - BST
 
+## Combination & Permutation题型
+常用方法: DFS
