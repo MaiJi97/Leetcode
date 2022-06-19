@@ -3,21 +3,20 @@ class Solution {
         if (root == null) {
             return;
         }
-        if (root.left == null && root.right == null) {
-            return;
-        }
         
-        if (root.left != null) {
-            flatten(root.left);
-            TreeNode temp = root.right; // store the initial right subtree
-            root.right = root.left; // insert the flattened left subtree
-            root.left = null; // set the left subtree to null
-            TreeNode curr = root;
-            while (curr.right != null) {
-                curr = curr.right;
-            }
-            curr.right = temp;        
+        flatten(root.left);    
+        flatten(root.right);   
+        
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+        
+        root.left = null;
+        root.right = left;
+        
+        TreeNode curr = root;
+        while (curr.right != null) {
+            curr = curr.right;
         }
-        flatten(root.right);    
+        curr.right = right;
     }
 }
