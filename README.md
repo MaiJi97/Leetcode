@@ -49,7 +49,7 @@ Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
-1) DFS through Recursion </br>
+1) DFS through Recursion - Mostly Tree Problems </br>
    a. Preorder/Inorder/Postorder traverse </br>
    Can also use a non recursion / iterative approach through Stack </br>
    Eg: #230
@@ -60,7 +60,7 @@ Eg: 33
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
    
-2) BFS through Queue </br>
+2) BFS through Queue - Mostly Graph Problems</br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
    
    a. Level Order Traverse through Queue </br>
