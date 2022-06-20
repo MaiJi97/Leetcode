@@ -18,13 +18,16 @@
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 141      |  [Linkedlist Cycle](https://leetcode.com/problems/linked-list-cycle/)                         | Linked List                  | [solution](java/141_LinkedlistCycle)|  
 | 234      |  [Palindrome Linkedlist](https://leetcode.com/problems/palindrome-linked-list/)               | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
-| 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree                         | [solution](java/230_KthSmallestElementInBST)| 
-| 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree                         | [solution](java/104_MaximumDepthOfBinaryTree)| 
-| 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree                         | [solution](java/110_BalancedBinaryTree)| 
-| 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree                         | [solution](java/257_BinaryTreePaths)| 
-| 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree               | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
-| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree       | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
-| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph                        | [solution](java/207_CourseSchedule)| 
+| 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
+| 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS                   | [solution](java/104_MaximumDepthOfBinaryTree)| 
+| 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS                   | [solution](java/110_BalancedBinaryTree)| 
+| 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS                   | [solution](java/257_BinaryTreePaths)| 
+| 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS         | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
+| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
+| 102      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS               | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
+| 107      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS            | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
+| 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | Graph / BFS                  | [solution](java/133_CloneGraph)|
+| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / BFS                  | [solution](java/207_CourseSchedule)| 
 
 
 # Notes in Essential Categories
@@ -50,11 +53,11 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
 1) DFS through Recursion - Mostly Tree Problems </br>
-   a. Preorder/Inorder/Postorder traverse </br>
+   a. Preorder / Inorder / Postorder traverse </br>
    Can also use a non recursion / iterative approach through Stack </br>
    Eg: #230
    
-   b. Divide and Conquer through </br>
+   b. Divide and Conquer </br>
    需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
@@ -70,13 +73,13 @@ Eg: 33
    
       - BFS in Graph: </br>
         Need to use a hashset to determine if the node has already been visited. </br>
-        Eg: #133, simple graph shortest path
+        Eg: #133, #127 (shortest path in simple graph)
    
    b. BFS in Matrix（连通块）: </br>
       Eg: #200
    
    c. Topological Sorting（拓扑排序）: </br>
-      - 求任意一个拓扑排序
+      - 求任意一个拓扑排序 Eg: #207
       - 问是否有拓扑排序
       - 求是否存在且仅存在一个拓扑排序
       - 求字典序最小的拓扑排序
