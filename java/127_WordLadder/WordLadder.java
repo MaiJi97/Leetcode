@@ -3,8 +3,8 @@ class Solution {
         HashSet<String> set = new HashSet<String>(wordList);
         Queue<String> queue = new ArrayDeque<>();
         HashSet<String> visited = new HashSet<>();
-        visited.add(beginWord);
         queue.offer(beginWord);
+        visited.add(beginWord);
         
         int length = 1;
         while (!queue.isEmpty()) {
@@ -20,8 +20,8 @@ class Solution {
                         newWordArr[j] = (char)k;
                         String newWord = new String(newWordArr);
                         if (set.contains(newWord) && !visited.contains(newWord)) {
-                            visited.add(newWord);
                             queue.add(newWord);
+                            visited.add(newWord);
                         }
                     }
                 }
