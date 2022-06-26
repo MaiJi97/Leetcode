@@ -13,8 +13,6 @@
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
 | 658      |  [FindKClosestElement](https://leetcode.com/problems/find-k-closest-elements/)                | Binary Search                | [solution](java/658_FindKClosestElement)|
-| 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
-| 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 141      |  [Linkedlist Cycle](https://leetcode.com/problems/linked-list-cycle/)                         | Linked List                  | [solution](java/141_LinkedlistCycle)|  
 | 234      |  [Palindrome Linkedlist](https://leetcode.com/problems/palindrome-linked-list/)               | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
@@ -28,6 +26,8 @@
 | 107      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS            | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | Graph / BFS                  | [solution](java/133_CloneGraph)|
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / BFS                  | [solution](java/207_CourseSchedule)| 
+| 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
+| 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 
 
 # Notes in Essential Categories
@@ -52,7 +52,7 @@ Eg: 33
 
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
-1) DFS through Recursion - Most Tree Problems - 使用for loop的灵活方式</br>
+1) DFS through Recursion </br>
    Can also use a non recursion / iterative approach through Stack </br>
    
    a. Preorder / Inorder / Postorder traverse 遍历法</br>
@@ -64,10 +64,7 @@ Eg: 33
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
    
-   Note: 10% DFS problems are Combination and Permutation problem
-   
-   
-2) BFS through Queue - Most Graph Problems</br>
+2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
    
    a. Level Order Traverse through Queue </br>
@@ -93,5 +90,57 @@ Binary Tree 常见题型：
 - 二叉树结构变化 (Flatten to Linked List)
 - BST
 
-## Combination & Permutation题型
-常用方法: DFS
+## DFS
+Tree, Graph </br>
+Combination and Permutation problems
+
+## Dynamic Programming
+
+a. 记忆化搜索 Memoization Search through Recursion, 递归方式 </br>
+DFS + 记忆 </br>
+缺点：不适合O(n)的DP问题，会造成stack overflow
+
+b. 迭代方式 / 多重循环
+
+什么场景可以用DP？
+1) 最优值
+2) 可行性
+3) 方案数
+
+<img width="798" alt="Screen Shot 2022-06-25 at 9 48 39 PM" src="https://user-images.githubusercontent.com/106039830/175795975-1b332dc0-91ee-47f5-a7f7-ff86e05c4d2e.png">
+
+DP的常见题型：
+1) 坐标型 (一维坐标，二维坐标) </br>
+dp[i]代表从起点走到坐标i的最优值/可行性/方案数 </br>
+dp[i][j]代表从起点走到坐标i，j的最优值/可行性/方案数 </br>
+Eg: #120, #62 </br>
+
+2) 前缀型
+
+- 划分型 </br>
+dp[i]代表前i个字符的最优值/可行性/方案数 </br>
+dp[i][j]代表前i个字符划分为j个部分的最优值/可行性/方案数 </br>
+Eg: #139 </br>
+
+- 匹配型 </br>
+dp[i][j]代表第一个字符串的前i个字符匹配上第二个字符串的前j个字符的最优值/可行性/方案数 </br>
+Eg: #1143, #44 </br>
+
+3) 背包型 * </br>
+dp[i][j]代表前i个物品里选出一些物品组成和为j大小的最优值/可行性/方案数 </br>
+
+DP的四要素: 
+1) 状态State: 递归的定义 </br>
+dp[i][j]定义某个规模更小的问题的答案
+
+2) 方程Function: 递归的拆解
+大问题如何拆解为小问题 </br>
+dp[i][j]通过规模更小的一些状态求max/min/sum/or来进行推导
+
+3) 初始化Initialize: 递归的出口 </br>
+无法再拆解的极限小的状态下的值 </br>
+dp[0][0] or dp[i][0] or dp[0][i]
+
+4) 答案Answer: 递归的调用 </br>
+最后的return，如dp[m][n]
+
