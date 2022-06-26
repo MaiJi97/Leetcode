@@ -92,7 +92,8 @@ Binary Tree 常见题型：
 
 ## DFS
 Tree, Graph </br>
-Combination and Permutation problems
+Combination and Permutation problems </br>
+Matrix, etc
 
 ## Dynamic Programming
 
