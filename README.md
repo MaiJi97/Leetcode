@@ -53,7 +53,8 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
 1) DFS through Recursion </br>
-   Can also use a non recursion / iterative approach through Stack </br>
+   Usually through recursion, but can also use a non recursive / iterative approach through Stack </br>
+   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
    
    a. Preorder / Inorder / Postorder traverse 遍历法</br>
    Eg: #230
@@ -66,22 +67,35 @@ Eg: 33
    
 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
+   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
    
    a. Level Order Traverse through Queue </br>
    
-      分层 or 不分层？
+      分层 or 不分层？</br>
+      分层即在poll前多一层循环
    
       - BFS in Tree: </br>
         Eg: #102 </br>
    
       - BFS in Graph: </br>
-        Need to use a hashset to determine if the node has already been visited. </br>
         Eg: #133, #127 (shortest path in simple graph)
    
    b. BFS in Matrix（连通块）: </br>
       Eg: #200
    
    c. Topological Sorting（拓扑排序）: </br>
+   
+      For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. </br>
+      
+      算法描述：</br>
+      1) 统计每个点的入度(in degree)
+      2) 将每个in degree为0的点放入queue作为起始节点
+      3) 不断从queue中拿出一个点，去掉这个点的所有连边
+      4) 一旦发现新的in degree为0的点，丢入queue中
+      </br>
+      
+      常见题型：
+      
       - 求任意一个拓扑排序 Eg: #207
       - 问是否有拓扑排序
       - 求是否存在且仅存在一个拓扑排序
@@ -92,10 +106,10 @@ Binary Tree 常见题型：
 - 二叉树结构变化 (Flatten to Linked List)
 - BST
 
-## DFS
-Tree, Graph </br>
-Combination and Permutation problems </br>
-Matrix, etc
+## DFS ***
+Not only in Tree, Graph problems</br>
+Can also be used in combination and Permutation problems </br>
+Matrix problems, etc
 
 ## Dynamic Programming
 
