@@ -20,8 +20,8 @@ class Solution {
                 if (visited.contains(neighbor)) {
                     continue;
                 }
-                visited.add(neighbor); // 入队时标记为访问
                 queue.offer(neighbor);
+                visited.add(neighbor); // 入队时标记为访问
             }
         }
         return new LinkedList<>(visited);
