@@ -1,4 +1,4 @@
-## Method 1: BFS / Level Order Traverse
+## Method 1: BFS / Level Order Traverse through Queue
 
 Steps:
 1) Find all the points
