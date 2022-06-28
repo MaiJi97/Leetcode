@@ -2,7 +2,7 @@ class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         Map<Integer, List<Integer>> preMap = new HashMap<>();
         
-        for (int i=0; i < numCourses; i++) {
+        for (int i = 0; i < numCourses; i++) {
             preMap.put(i, new ArrayList<Integer>());
         }
         for (int[] pre : prerequisites) {
