@@ -25,7 +25,9 @@
 | 102      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS               | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
 | 107      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS            | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | Graph / BFS                  | [solution](java/133_CloneGraph)|
-| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / BFS                  | [solution](java/207_CourseSchedule)| 
+| 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | Graph / BFS                  | [solution](java/127_WordLadder)|
+| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | Graph / DFS / BFS            | [solution](java/200_NumberOfIslands)|
+| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / DFS / BFS            | [solution](java/207_CourseSchedule)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 
@@ -80,7 +82,7 @@ Eg: 33
       - BFS in Graph: </br>
         Eg: #133, #127 (shortest path in simple graph)
    
-   b. BFS in Matrix（连通块）: </br>
+   b. Matrix Traverse（连通块）: </br>
       Eg: #200
    
    c. Topological Sorting（拓扑排序）: </br>
