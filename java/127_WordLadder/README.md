@@ -1,4 +1,4 @@
-## Method 1: BFS through Queue 
+## Method 1: BFS / Level Order Traverse through Queue 
 有明显分层, size = queue.size() - for loop </br>
 For each element/word pop out of the queue, we modify one character and check it is in the word list. If it is, then we count it as a neighbor of the current node and add it to the queue / visited set. </br>
 
