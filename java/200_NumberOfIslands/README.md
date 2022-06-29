@@ -4,8 +4,8 @@ DFS traverse through recursion </br>
 
 Time Complexity: O(M * N) 
 
-## Method 2: BFS / Matrix Traverse
+## Method 2: BFS / Matrix Traverse through Queue
 
-BFS matrxi traverse through queue </br>
+BFS matrix traverse through queue 连通块问题 </br>
 
 Time Complexity: O(M * N) 
