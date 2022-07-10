@@ -38,6 +38,12 @@
 ### 1) 相向
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually in some sort of order.
 
+### 2) 同向
+One pointer starting from the beginning of the array, the other pointer starting from the next index right after the first pointer and loop through the rest of the array.
+
+<img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
+
+
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
 
@@ -144,26 +150,6 @@ b. 迭代方式 / 多重循环
 3) 方案数
 
 <img width="798" alt="Screen Shot 2022-06-25 at 9 48 39 PM" src="https://user-images.githubusercontent.com/106039830/175795975-1b332dc0-91ee-47f5-a7f7-ff86e05c4d2e.png">
-
-DP的常见题型：
-1) 坐标型 (一维坐标，二维坐标) </br>
-dp[i]代表从起点走到坐标i的最优值/可行性/方案数 </br>
-dp[i][j]代表从起点走到坐标i，j的最优值/可行性/方案数 </br>
-Eg: #120, #62 </br>
-
-2) 前缀型
-
-- 划分型 </br>
-dp[i]代表前i个字符的最优值/可行性/方案数 </br>
-dp[i][j]代表前i个字符划分为j个部分的最优值/可行性/方案数 </br>
-Eg: #139 </br>
-
-- 匹配型 </br>
-dp[i][j]代表第一个字符串的前i个字符匹配上第二个字符串的前j个字符的最优值/可行性/方案数 </br>
-Eg: #1143, #44 </br>
-
-3) 背包型 * </br>
-dp[i][j]代表前i个物品里选出一些物品组成和为j大小的最优值/可行性/方案数 </br>
 
 DP的四要素: 
 1) 状态State: 递归的定义 </br>
