@@ -55,10 +55,9 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
 1) DFS through Recursion </br>
-   Usually through recursion, but can also use a non recursive / iterative approach through Stack </br>
-   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
+   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
    
-   a. Preorder / Inorder / Postorder traverse 遍历法</br>
+   a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
    
    b. Divide and Conquer 分治法</br>
@@ -67,11 +66,29 @@ Eg: 33
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
    
+   Usually through recursion, but can also use a non recursive / iterative approach through Stack </br>
+   1. Create an empty stack S.
+   2. Initialize current node as root
+   3. Push the current node to S and set current to its left child until current is NULL
+   4. If current is NULL and stack is not empty then 
+      1) Pop the top item from the stack (LIFO)
+      2) Print the popped item, set current to its right child
+      3) Go to step 3.
+   5. If current is NULL and stack is empty then we are done.
+   
 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
+   
+   1. Create an empty queue q
+   2. Initialize current node as root
+   3. While the queue is not empty
+      1) Poll the top item from the queue (FIFO)
+      2) Offer its children into the queue in some order
+      3) Repeat step 3
+    
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
    
-   a. Level Order Traverse through Queue </br>
+   a. Level Order Traversal through Queue </br>
    
       分层 or 不分层？</br>
       分层即在poll前多一层循环
