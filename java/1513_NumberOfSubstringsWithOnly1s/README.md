@@ -1,5 +1,8 @@
-## Method 1: Two Pointers 同向双指针
-One pointer i to loop through the string, the other pointer j to loop through i+1 until the end of the string, and look for consecutive 1s which count substrings towards the result.
+## Method 1: One Pointer
+00111000011 </br>
+111 contains 1 + 2 + 3 = 6 substrings of only 1s </br>
+11 contains 1 + 2 = 3 substrings of only 1s </br>
+Just need one pointer i to loop through the string, and as there is a consecutive substring of 1s, we add 1 to the counter and add the count to the result.
 
 Time Complexity:
 O(n)
