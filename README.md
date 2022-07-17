@@ -9,6 +9,10 @@
 | 125      |  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                          | Two Pointers                 | [solution](java/125_ValidPalindrome)|
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers                 | [solution](java/680_ValidPalindrome)|
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers                 | [solution](java/611_ValidTriangleNumber)|
+| 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
+| 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
+| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers                 | [solution](java/209_MinimumSizeSubarraySum)|
+| 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
@@ -28,6 +32,9 @@
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | Graph / BFS                  | [solution](java/127_WordLadder)|
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | Graph / DFS / BFS            | [solution](java/200_NumberOfIslands)|
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / DFS / BFS            | [solution](java/207_CourseSchedule)| 
+| 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Combination| [solution](java/17_LetterCombinationsOfPhoneNumber)|
+| 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS / Combination            | [solution](java/39_CombinationSum)|
+| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Permutation            | [solution](java/46_Permutations)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 
