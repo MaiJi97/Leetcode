@@ -26,6 +26,7 @@ class Solution {
     
     public void dfs(int[] candidates, int target, int index, List<Integer> combination) {
         if (target == 0) {
+            // deep copy because modifying it later will affect the result
             ret.add(new ArrayList<Integer>(combination));
             return;
         }
