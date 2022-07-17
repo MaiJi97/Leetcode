@@ -1,4 +1,4 @@
-## Method 1: Two Pointers
+## Method 1: Two Pointers 相向双指针
 Set two pointers, one goes from left to right, the other goes from right to left. We can compare the two character that the two pointers are pointing at and determine if the string is palindromic or not. <br />
 
 Note: another way to clean the string <br />
