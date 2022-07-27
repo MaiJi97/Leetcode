@@ -9,7 +9,7 @@ class Solution {
         cleanString = cleanString.toLowerCase();
         int left = 0;
         int right = cleanString.length() - 1;
-        while (left < right) {
+        while (left <= right) {
             if (cleanString.charAt(left) != cleanString.charAt(right)) {
                 return false;
             }

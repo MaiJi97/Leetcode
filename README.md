@@ -41,12 +41,12 @@
 
 # Notes in Essential Categories
 
-## Two Pointers
-### 1) 相向
+## Two Pointers（关键词：subarray, substring）
+### 1) 相向（two sum型，partition型）
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually in some sort of order.
 
-### 2) 同向
-One pointer starting from the beginning of the array, the other pointer starting from the next index right after the first pointer and loop through the rest of the array.
+### 2) 同向（sliding window型，fast&slow型）
+One pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array. We use the second pointer to track the index of some specfiic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
@@ -138,23 +138,18 @@ Binary Tree 常见题型：
 - 二叉树结构变化 (Flatten to Linked List)
 - BST
 
-## DFS ***
+## DFS ***(关键词：求全部方案)
 Not only in Tree, Graph problems</br>
 Can also be used in combination and Permutation problems </br>
 Matrix problems, etc
 
-## Dynamic Programming
+## Dynamic Programming（关键词：最优值，可行性，方案数）
 
 a. 记忆化搜索 Memoization Search through Recursion, 递归方式 </br>
 DFS + 记忆 </br>
 缺点：不适合O(n)的DP问题，会造成stack overflow
 
 b. 迭代方式 / 多重循环
-
-什么场景可以用DP？
-1) 最优值
-2) 可行性
-3) 方案数
 
 <img width="798" alt="Screen Shot 2022-06-25 at 9 48 39 PM" src="https://user-images.githubusercontent.com/106039830/175795975-1b332dc0-91ee-47f5-a7f7-ff86e05c4d2e.png">
 
