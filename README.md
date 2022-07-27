@@ -9,10 +9,23 @@
 | 125      |  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                          | Two Pointers                 | [solution](java/125_ValidPalindrome)|
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers                 | [solution](java/680_ValidPalindrome)|
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers                 | [solution](java/611_ValidTriangleNumber)|
+| 11       |  [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)        | Two Pointers                 | [solution](java/11_ContainerWithMostWater)|
+| 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers                 | [solution](java/977_SquaresOfASortedArray)|
+| 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers                 | [solution](java/75_SortColors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers                 | [solution](java/209_MinimumSizeSubarraySum)|
+| 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers                 | [solution](java/713_SubarrayProductLessThanK)|
+| 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers     | [solution](java/992_SubarraysWithKDifferentIntegers)|
+| 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers                 | [solution](java/76_MinimumWindowSubstring)|
+| 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers                 | [solution](java/283_MoveZeroes)|
+| 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers                 | [solution](java/781_RabbitsInForest)|
+| 3        |  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
+| 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
+| 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
+| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/88_MergeSortedArray)|
+| 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
