@@ -56,7 +56,7 @@
 
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
-One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually in some sort of order.
+One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
 One pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array. We use the second pointer to track the index of some specfiic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
