@@ -73,6 +73,7 @@ while (left <= right) -> left = mid + 1, right = mid - 1; </br>
 Eg: 704 </br>
 2) 高级写法，用于判断当前index和index+1之间的关系，用于搜索一个元素时需要访问当前索引元素及其右邻居索引的元素 </br>
 while (left < right) -> left = mid + 1, right = mid; </br>
+left == right as we step out of the while loop, so the return value can simply be either left or right. </br>
 Eg: 33
 
 ## Divide and Conquer 
