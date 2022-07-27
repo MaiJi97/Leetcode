@@ -6,7 +6,7 @@ class Solution {
         
         int maxCount = 0;
         
-        while (right < s.length()) { // 循环得出left-right区间的string为最终结果向哟啊的string
+        while (right < s.length()) { // 循环得出left-right区间的string为最终结果想要的string
             freq[s.charAt(right) - 'A']++; // 记录right pointer指向的字母出现的次数
             maxCount = Math.max(maxCount, freq[s.charAt(right) - 'A']); // 得到出现次数最多的字母出现的次数
             right++;
