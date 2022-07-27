@@ -15,9 +15,13 @@
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers                 | [solution](java/209_MinimumSizeSubarraySum)|
+| 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers                 | [solution](java/713_SubarrayProductLessThanK)|
+| 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers     | [solution](java/992_SubarraysWithKDifferentIntegers)|
+| 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers                 | [solution](java/76_MinimumWindowSubstring)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers                 | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers                 | [solution](java/781_RabbitsInForest)|
-| 3        |  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)   | Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
+| 3        |  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
+| 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/88_MergeSortedArray)|
