@@ -8,7 +8,7 @@ class Solution {
         int right = nums.length - 1;
         while (left < right) { // find the pivot which is the smallest number in the array
             int mid = left + (right - left) / 2;
-            if (nums[mid] > nums[right]) {
+            if (nums[mid] >= nums[right]) {
                 left = mid + 1;
             }
             else {
@@ -23,7 +23,7 @@ class Solution {
             left = pivot;
         }
         else {
-            right = pivot;
+            right = pivot - 1;
         }
         
         while (left <= right) {
