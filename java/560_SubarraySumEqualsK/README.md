@@ -1,4 +1,4 @@
-## Method 1:Prefix Sum + HashMap
+## Method 1: Prefix Sum + HashMap
 
 Since there might be negative numbers in the input array, we cannot use two pointers approach. Instead, we apply the prefix sum approach here:
 
