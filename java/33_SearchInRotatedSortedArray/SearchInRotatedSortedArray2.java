@@ -11,7 +11,7 @@ class Solution {
             if (nums[mid] == target) {
                 return mid;
             }
-            else if (nums[mid] >= nums[left]) {
+            else if (nums[mid] > nums[left]) {
                 if (target <= nums[mid] && target >= nums[left]) { // target in left half
                     right = mid - 1;
                 }
