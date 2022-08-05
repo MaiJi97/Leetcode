@@ -24,12 +24,19 @@
 | 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
-| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/88_MergeSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
+| 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
+| 34       |  [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| Binary Search| [solution](java/34_FindFirstAndLastPositionOfElementInSortedArray)|
 | 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
+| 81       |  [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| Binary Search        | [solution](java/81_SearchInRotatedSortedArray)|
+| 153      |  [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| Binary Search  | [solution](java/153_FindMinimumInRotatedSortedArray)|
+| 154      |  [Find Minimum In Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| Binary Search| [solution](java/154_FindMinimumInRotatedSortedArray)|
+| 74       |  [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                      | Binary Search                | [solution](java/74_SearchA2DMatrix)|
+| 240      |  [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                | Binary Search                | [solution](java/240_SearchA2DMatrix)|
 | 658      |  [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)             | Binary Search                | [solution](java/658_FindKClosestElement)|
+| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Binary Search                | [solution](java/88_MergeSortedArray)|
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 141      |  [Linkedlist Cycle](https://leetcode.com/problems/linked-list-cycle/)                         | Linked List                  | [solution](java/141_LinkedlistCycle)|  
 | 234      |  [Palindrome Linkedlist](https://leetcode.com/problems/palindrome-linked-list/)               | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
@@ -48,8 +55,10 @@
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Combination| [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS / Combination            | [solution](java/39_CombinationSum)|
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Permutation            | [solution](java/46_Permutations)| 
+| 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP               | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
+| 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
 
 
 # Notes in Essential Categories
