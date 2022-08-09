@@ -10,8 +10,13 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
+        if (head == null) {
+            return;
+        }
         ListNode mid = findMid(head);
-        ListNode l2 = reverse(mid);
+        ListNode l2 = mid.next;
+        mid.next = null;
+        l2 = reverse(l2);
         ListNode l1 = head;
         while (l1 != null && l2 != null) {
             ListNode temp = l1.next;
@@ -21,9 +26,6 @@ class Solution {
             temp = l2.next;
             l2.next = l1;
             l2 = temp;
-        }
-        if (l1 != null) {
-            l1.next = null;
         }
     }
     
