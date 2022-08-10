@@ -7,6 +7,8 @@ class Solution {
     
     }
     
+    public int searchStartIndex(int[] nums, int target) {
+        int left = 0;
         int right = nums.length - 1;
         int index = -1;
         

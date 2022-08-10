@@ -7,7 +7,7 @@ class Solution {
             prefixSum[i] = prefixSum[i - 1] + nums[i - 1];
         }
         for (int i = 1; i < nums.length + 1; i++) {
-            int left = i;
+            int left = i; // 寻找从i开始的subarray的终点
             int right = nums.length;
             int newTarget = target + prefixSum[i - 1];
             while (left <= right) {

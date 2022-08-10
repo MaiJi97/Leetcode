@@ -13,9 +13,9 @@ Length = right - left + 1 <br />
 Time complexity is O(n^2)
 
 ## Method 3: Dynamic Programming
-Store true / false information in a matrix, opt[i][j] represents if the substring from index i to index j is palindromic or not. <br />
+Store true / false information in a matrix, dp[i][j] represents if the substring from index i to index j is palindromic or not. <br />
 Recurrence relation is: <br />
-OPT[i][j] = true if i == j (base case) <br />
-OPT[i][j] = true if s.charAt(i) == s.charAt(j) && j - i <= 2 <br />
-OPT[i][j] = true if s.charAt(i) == s.charAt(j) && OPT[i+1][j-1] == true <br />
+dp[i][j] = true if i == j (base case) <br />
+dp[i][j] = true if s.charAt(i) == s.charAt(j) && j - i <= 2 <br />
+dp[i][j] = true if s.charAt(i) == s.charAt(j) && dp[i+1][j-1] == true <br />
 Time complexity is O(n^2)
