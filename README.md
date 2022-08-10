@@ -14,7 +14,7 @@
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers                 | [solution](java/75_SortColors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
-| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers                 | [solution](java/209_MinimumSizeSubarraySum)|
+| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers                 | [solution](java/713_SubarrayProductLessThanK)|
 | 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers     | [solution](java/992_SubarraysWithKDifferentIntegers)|
 | 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers                 | [solution](java/76_MinimumWindowSubstring)|
@@ -24,6 +24,7 @@
 | 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
+| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/_MergeSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
@@ -36,7 +37,9 @@
 | 74       |  [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                      | Binary Search                | [solution](java/74_SearchA2DMatrix)|
 | 240      |  [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                | Binary Search                | [solution](java/240_SearchA2DMatrix)|
 | 658      |  [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)             | Binary Search                | [solution](java/658_FindKClosestElement)|
-| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Binary Search                | [solution](java/88_MergeSortedArray)|
+| 378      |  [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/merge-sorted-array/) | Binary Search                | [solution](java/378_KthSmallestElementInASortedMatrix)|
+| 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search                | [solution](java/4_MedianOfTwoSortedArrays)|
+| 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search                | [solution](java/410_SplitArrayLargestSum)|
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 141      |  [Linkedlist Cycle](https://leetcode.com/problems/linked-list-cycle/)                         | Linked List                  | [solution](java/141_LinkedlistCycle)|  
 | 234      |  [Palindrome Linkedlist](https://leetcode.com/problems/palindrome-linked-list/)               | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
@@ -84,6 +87,8 @@ Eg: 704 </br>
 while (left < right) -> left = mid + 1, right = mid; </br>
 left == right as we step out of the while loop, so the return value can simply be either left or right. </br>
 Eg: 33
+
+有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
 ## Divide and Conquer 
 通常应用于二叉树和数组
