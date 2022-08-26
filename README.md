@@ -181,7 +181,7 @@ Binary Tree 常见题型：
 万物皆可DFS </br>
 Not only in Tree, Graph problems</br>
 Can also be used in combination and Permutation problems </br>
-Matrix problems and other problems that can be converted to graph problems </br>
+Matrix problems and other problems </br>
 
 ## Dynamic Programming（关键词：最优值，可行性，方案数）
 
