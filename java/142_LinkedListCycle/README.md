@@ -1,4 +1,4 @@
-## Method 1: Two pointers
+## Method 1: Iterative - Pointers
 
 <img width="731" alt="Screen Shot 2022-08-12 at 7 07 41 PM" src="https://user-images.githubusercontent.com/106039830/184455862-67b77618-d89d-4330-b0af-ec75a4ea1999.png">
 

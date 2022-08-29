@@ -10,26 +10,26 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        ListNode temp1 = new ListNode(-1, head);
-        ListNode temp2 = new ListNode(-1, head);
-        ListNode temp1_pointer = temp1;
-        ListNode temp2_pointer = temp2;
+        ListNode dummy1 = new ListNode(-1, head);
+        ListNode dummy2 = new ListNode(-1, head);
+        ListNode dummy1_pointer = dummy1;
+        ListNode dummy2_pointer = dummy2;
         ListNode current = head;
         while (current != null) {
             if (current.val < x) {
-                temp1_pointer.next = current;
-                temp1_pointer = temp1_pointer.next;
+                dummy1_pointer.next = current;
+                dummy1_pointer = dummy1_pointer.next;
             }
             else {
-                temp2_pointer.next = current;
-                temp2_pointer = temp2_pointer.next;
+                dummy2_pointer.next = current;
+                dummy2_pointer = dummy2_pointer.next;
             }
             current = current.next;
         }
         
-        temp2_pointer.next = null;
-        temp1_pointer.next = temp2.next;
+        dummy2_pointer.next = null;
+        dummy1_pointer.next = dummy2.next;
        
-        return temp1.next;
+        return dummy1.next;
     }
 }

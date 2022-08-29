@@ -1,4 +1,4 @@
-## Method 1: Iterative Approach - Pointers
+## Method 1: Iterative - Pointers
 
 <img width="769" alt="Screen Shot 2022-08-15 at 8 30 53 PM" src="https://user-images.githubusercontent.com/106039830/184994369-13540b77-0910-49ed-9d9c-a4e25ba1f379.png">
 
