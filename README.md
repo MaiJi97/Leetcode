@@ -70,6 +70,7 @@
 | 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS / Combination            | [solution](java/39_CombinationSum)|
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Permutation            | [solution](java/46_Permutations)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
+| 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                           | [solution](java/120_Triangle)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP               | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
