@@ -13,7 +13,7 @@ class Solution {
         if (j <= 0) {
             return i;
         }
-        if(memo[i][j] != 0) {
+        if (memo[i][j] != 0) {
             return memo[i][j];
         }
         if (word1.charAt(i-1) == word2.charAt(j-1)) {
