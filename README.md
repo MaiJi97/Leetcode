@@ -24,7 +24,7 @@
 | 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers         | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
-| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/_MergeSortedArray)|
+| 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/88_MergeSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
@@ -41,8 +41,8 @@
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search                | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search                | [solution](java/410_SplitArrayLargestSum)|
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
-| 82       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Linked List      | [solution](java/82_RemoveDuplicatesFromSortedArray)| 
-| 83       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| Linked List   | [solution](java/83_RemoveDuplicatesFromSortedArray)| 
+| 82       |  [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List     | [solution](java/82_RemoveDuplicatesFromSortedList)| 
+| 83       |  [Remove Duplicates From Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List        | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 203      |  [Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/)     | Linked List                  | [solution](java/203_RemoveLinkedListElement)| 
 | 19       |  [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Linked List            | [solution](java/19_RemoveNthNodeFromEndOfList)| 
 | 141      |  [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                        | Linked List                  | [solution](java/141_LinkedListCycle)|  
