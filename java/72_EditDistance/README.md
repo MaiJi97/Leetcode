@@ -11,11 +11,10 @@ Bottom up solution, dp[i][j] represents the edit distance of vi and wj, where vi
  </br>
 
 Recurrence relation: </br>
-dp[i][j] </br>
-=> dp[i-1][j-1] if v(i-1) == w(j-1) </br>
-=> max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]+1) if v(i-1) != w(j-1) </br>
-=> i if j == 0 </br>
-=> j if i == 0 </br>
+dp[i][j] = dp[i-1][j-1] if v(i-1) == w(j-1) </br>
+dp[i][j] = max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]+1) if v(i-1) != w(j-1) </br>
+dp[i][j] = i if j == 0 </br>
+dp[i][j] = j if i == 0 </br>
 
 dp[i-1, j] + 1 is deletion:
 for example, from horse to hors
