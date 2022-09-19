@@ -1,15 +1,18 @@
 class Solution {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        boolean[] dp = new boolean[s.length() + 1];
-        dp[0] = true;
-        for (int i = 1; i < s.length() + 1; i++) {
-            for (int j = 0; j < i; j++) {
-                if (dp[j] == true && wordDict.contains(s.substring(j, i))) {
-                    dp[i] = true;
-                    break;
+    public int longestCommonSubsequence(String text1, String text2) {
+        int len1 = text1.length();
+        int len2 = text2.length();
+        int[][] dp = new int[len1 + 1][len2 + 1];
+        for (int i = 1; i < len1 + 1; i++) {
+            for (int j = 1; j < len2 + 1; j++) {
+                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
+                    dp[i][j] = dp[i-1][j-1] + 1;
+                }
+                else {
+                    dp[i][j] = Math.max(dp[i][j-1], dp[i-1][j]);
                 }
             }
         }
-        return dp[s.length()];
+        return dp[len1][len2];
     }
 }
