@@ -1,6 +1,6 @@
 ## Method 1: Dynamic Programming
 
-DP[i] represents the longest increasing subsequence up to index i.
+dp[i] represents the longest increasing subsequence up to index i.
 
 Recurrence relation is: </br>
 dp[i] = max(dp[j]) + 1 where j < i and nums[j] < nums[i]
