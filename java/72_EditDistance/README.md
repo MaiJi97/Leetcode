@@ -10,11 +10,12 @@ Time Complexity: O(mn)
 Bottom up solution, dp[i][j] represents the edit distance of vi and wj, where vi is the prefix of v of length i (substring from the beginning of length I, 即v的前i个char) and wj is the prefix of w of length j (substring from the beginning of length j, 即w的前j个char)
  </br>
 
-Recurrence relation:
-dp[i][j] => dp[i-1][j-1] if v(i-1) == w(j-1)
-         => max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]+1) if v(i-1) != w(j-1)
-         => i if j == 0
-         => j if i == 0
+Recurrence relation: </br>
+dp[i][j] </br>
+=> dp[i-1][j-1] if v(i-1) == w(j-1) </br>
+=> max(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]+1) if v(i-1) != w(j-1) </br>
+=> i if j == 0 </br>
+=> j if i == 0 </br>
 
 dp[i-1, j] + 1 is deletion:
 for example, from horse to hors
