@@ -71,7 +71,9 @@
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Permutation            | [solution](java/46_Permutations)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                           | [solution](java/120_Triangle)| 
-| 139      |  [Word Break](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/139_WordBreak)| 
+| 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                           | [solution](java/139_WordBreak)| 
+| 312      |  [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                              | DP                           | [solution](java/312_BurstBalloons)| 
+| 1143     |  [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | DP                           | [solution](java/1143_LongestCommonSubsequence)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP               | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
