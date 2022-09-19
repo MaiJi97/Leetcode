@@ -12,6 +12,6 @@ Bottom up solution, dp[i][j] represents the minimum path sum from position (i,j)
 Recurrence relation:
 
 dp[i][j] = triangle(i,j) if i == 0 </br>
-dp[i][j] = Math.min(dp[i+1,j], dp[i+1][j+1]) + triangle(i,j)
+dp[i][j] = min(dp[i+1,j], dp[i+1][j+1]) + triangle(i,j)
 
 Time Complexity: O(n^2)
