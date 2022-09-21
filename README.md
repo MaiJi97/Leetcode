@@ -217,3 +217,22 @@ dp[0][0] or dp[i][0] or dp[0][i]
 4) 答案Answer: 递归的调用 </br>
 最后的return，如dp[m][n]
 
+## Common Methods Documentation:
+- Iterate through hash map </br>
+  Method 1: Use hm.entrySet() </br>
+  <img width="581" alt="Screen Shot 2022-09-21 at 12 48 28 AM" src="https://user-images.githubusercontent.com/106039830/191424478-727ca7dd-3148-4ed4-9b12-c8765d6f1662.png">
+  
+  Method 2: For each lambda expression </br>
+  hm.forEach((k, v)-> System.out.println(k + " : " + (v + 10)));
+  
+  Method 3: Use an iterator </br>
+
+- String concat vs String Builder </br>
+  String is immutable while String Builder is mutable. </br>
+  String Builder append(char), insert(index,char), reverse(), toString(), setLength(num) </br>
+ 
+- String to int: Integer.parseInt(s) </br>
+  String to char array: s.toCharArray() </br>
+  int to String: String.valueOf(int) / Integer.toString() </br>
+  repeat a string multiple time: s.repeat(k)
+                                             
