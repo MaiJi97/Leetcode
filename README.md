@@ -40,11 +40,13 @@
 | 378      |  [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/merge-sorted-array/) | Binary Search                | [solution](java/378_KthSmallestElementInASortedMatrix)|
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search                | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search                | [solution](java/410_SplitArrayLargestSum)|
+| 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 203      |  [Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/)     | Linked List                  | [solution](java/203_RemoveLinkedListElement)| 
 | 19       |  [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Linked List            | [solution](java/19_RemoveNthNodeFromEndOfList)| 
+| 1836     |  [Remove Duplicates From Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| Linked List| [solution](java/1836_RemoveDuplicatesFromUnsortedLinkedList)| 
 | 141      |  [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                        | Linked List                  | [solution](java/141_LinkedListCycle)|  
 | 142      |  [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                  | Linked List                  | [solution](java/142_LinkedListCycle)|  
 | 86       |  [Partition List](https://leetcode.com/problems/partition-list/)                              | Linked List                  | [solution](java/86_PartitionList)| 
@@ -62,13 +64,14 @@
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
 | 102      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS               | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
 | 107      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS            | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
-| 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | Graph / BFS                  | [solution](java/133_CloneGraph)|
-| 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | Graph / BFS                  | [solution](java/127_WordLadder)|
-| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | Graph / DFS / BFS            | [solution](java/200_NumberOfIslands)|
-| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | Graph / DFS / BFS            | [solution](java/207_CourseSchedule)| 
+| 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                          | [solution](java/133_CloneGraph)|
+| 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                          | [solution](java/127_WordLadder)|
+| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | DFS / BFS                    | [solution](java/200_NumberOfIslands)|
+| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | DFS / BFS                    | [solution](java/207_CourseSchedule)| 
+| 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | DFS / BFS                    | [solution](java/547_NumberOfProvinces)| 
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Combination| [solution](java/17_LetterCombinationsOfPhoneNumber)|
-| 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS / Combination            | [solution](java/39_CombinationSum)|
-| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Permutation            | [solution](java/46_Permutations)| 
+| 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS                          | [solution](java/39_CombinationSum)|
+| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                          | [solution](java/46_Permutations)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                           | [solution](java/120_Triangle)| 
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                           | [solution](java/139_WordBreak)| 
@@ -78,6 +81,7 @@
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
+|780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                         | [solution](java/780_ReachingPoints)| 
 
 
 # Notes in Essential Categories
