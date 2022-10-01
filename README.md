@@ -116,7 +116,9 @@ Eg: 33
 ## Binary Tree / Binary Search Tree / Graph
 常见方法：
 1) DFS through Recursion </br>
+
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
+   Condition to break the recursion is usually when all the nodes in certain branch / block has been visited. </br>
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -148,6 +150,7 @@ Eg: 33
       3) Repeat step 3
     
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
+   Condition to break the loop is usually when the queue becomes empty. </br>
    
    a. Level Order Traversal through Queue </br>
    
