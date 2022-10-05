@@ -26,6 +26,7 @@
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers                 | [solution](java/88_MergeSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
+| 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
@@ -72,6 +73,7 @@
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Combination| [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS                          | [solution](java/39_CombinationSum)|
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                          | [solution](java/46_Permutations)| 
+| 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP                 | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                           | [solution](java/120_Triangle)| 
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                           | [solution](java/139_WordBreak)| 
@@ -239,3 +241,6 @@ dp[0][0] or dp[i][0] or dp[0][i]
   int to String: String.valueOf(int) / Integer.toString() </br>
   repeat a string multiple time: s.repeat(k)
                                              
+- Java Stream </br>
+  list.stream()...</br>
+  Arrays.stream(array)...</br>
