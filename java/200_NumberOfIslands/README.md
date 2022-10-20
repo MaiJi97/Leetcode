@@ -1,11 +1,11 @@
 ## Method 1: DFS / Traverse through recursion
 
-DFS traverse through recursion </br>
+DFS traverse through recursion. For each block in the matrix, recursively find all the blocks connecting to it and count the whole area as 1. Break the recursion when the block is 0 / the block has been visited / we reach the border of the matrix. 
 
 Time Complexity: O(M * N) 
 
 ## Method 2: BFS / Matrix Traverse through Queue
 
-BFS matrix traverse through queue 连通块问题 </br>
+BFS matrix traverse through queue. Similar as DFS but need to consider what to be pushed into the queue -> the index of the current block as a two element array or an inner class data structure.
 
 Time Complexity: O(M * N) 
