@@ -6,6 +6,6 @@ Time Complexity: O(M * N)
 
 ## Method 2: BFS / Traverse through Queue
 
-Similar as DFS, but instead of recursion we use a queue to traverse and compute the area that each block is connected to. Note that when we explore the adjacent block, there are several ways to get the index: 1) Create a deltaX and a deltaY, and then loop through the two arrays and use a two element array, first element being the change in X and second element being the change in Y comparing to the current index. 2) Create a inner class containing the two changes as attribute.
+Similar as DFS, but instead of recursion we use a queue to traverse and compute the area that each block is connected to. Note that when we explore the adjacent block, there are several ways to get the index: 1) Create a deltaX and a deltaY, and then loop through the two arrays and use a two element array, first element being the change in X and second element being the change in Y comparing to the current index. 2) Create a inner class containing the two changes as attribute. 3) loop through int[] direction = {{0,1}, {1,0}, {0,-1}, {-1,0}};
 
 Time Complexity: O(M * N)
