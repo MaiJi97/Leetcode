@@ -101,14 +101,8 @@ One pointer starting from the beginning of the array, the other pointer starting
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
 
-两种写法：</br>
-1) 基础写法，找到有序数组中的目标值，用于搜索一个可以通过访问单个索引来确定的元素，无需后续处理直接返回 </br>
-while (left <= right) -> left = mid + 1, right = mid - 1; </br>
-Eg: 704 </br>
-2) 高级写法，用于判断当前index和index+1之间的关系，用于搜索一个元素时需要访问当前索引元素及其右邻居索引的元素 </br>
-while (left < right) -> left = mid + 1, right = mid; </br>
-left == right as we step out of the while loop, so the return value can simply be either left or right. </br>
-Eg: 33
+模版: </br>
+<img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
