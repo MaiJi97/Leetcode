@@ -8,7 +8,7 @@ class Solution {
         }
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int split = helper(nums, mid);
+            int split = helper(nums, mid); // return the number of subarrays whose sum is mid
             if (split > m) {
                 left = mid + 1;
             }
