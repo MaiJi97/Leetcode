@@ -26,14 +26,11 @@ class Solution {
                 current.child = null;
                 tail.next = next;
                 if (next != null) next.prev = tail;
-                current = tail;
+                
             }
-            else {
-                current = next;
-            }
+            current = next;
             if (current != null) tail = current;   
         }
         return tail;
     }
-
 }
