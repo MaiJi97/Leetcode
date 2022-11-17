@@ -43,8 +43,11 @@
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search                | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search                | [solution](java/410_SplitArrayLargestSum)|
 | 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search                | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
+| 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                        | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
+| 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                        | [solution](java/394_DecodeString)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
+| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
@@ -59,12 +62,14 @@
 | 24       |  [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | Linked List                  | [solution](java/24_SwapNodesInPairs)| 
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List                  | [solution](java/61_RotateList)| 
 | 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
+| 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List                  | [solution](java/725_SplitLinkedListInParts)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS                   | [solution](java/104_MaximumDepthOfBinaryTree)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS                   | [solution](java/110_BalancedBinaryTree)| 
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS                   | [solution](java/257_BinaryTreePaths)| 
+| 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS                   | [solution](java/98_ValidateBinarySearchTree)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS         | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
 | 102      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS               | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
@@ -82,6 +87,7 @@
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                          | [solution](java/46_Permutations)| 
 | 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS                   | [solution](java/494_TargetSum)| 
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP                 | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
+| 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                           | [solution](java/62_UniquePaths)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                           | [solution](java/120_Triangle)| 
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                           | [solution](java/139_WordBreak)| 
