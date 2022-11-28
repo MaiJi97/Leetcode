@@ -24,11 +24,10 @@ Time Complexity: O(n)
 
 If using DFS, there is no guarantee that the traverse order will be from top to bottom. So in the hash map we also need to track the row number of a node. </br>
   
-After we complete filling in the hash map, we can sort the key set of the hash map, iterate through each column from left to right and add the values 
-in corresponding order. </br>
+After we complete filling in the hash map, we can iterate through the hash map in the order of its column number / key value, then sort the value of 
+each value by its row number and add the column number to the result. </br>
   
 HashMap<Integer, List<int[]>> where key is the column number and value is the list of node values as well as the row number of a node from this column. Then
-we can sort the value of each entry by its row number and add the column number to the result.
 
 Time Complexity: O(W * H log H)
   
