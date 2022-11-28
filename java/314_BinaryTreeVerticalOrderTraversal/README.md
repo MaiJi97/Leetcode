@@ -27,7 +27,7 @@ If using DFS, there is no guarantee that the traverse order will be from top to 
 After we complete filling in the hash map, we can iterate through the hash map in the order of its column number / key value, then sort the value of 
 each value by its row number and add the column number to the result. </br>
   
-HashMap<Integer, List<int[]>> where key is the column number and value is the list of node values as well as the row number of a node from this column. Then
+HashMap<Integer, List<int[]>> where key is the column number and value is the list of node values as well as the row number of a node from this column. 
 
 Time Complexity: O(W * H log H)
   
