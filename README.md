@@ -13,6 +13,7 @@
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers                 | [solution](java/977_SquaresOfASortedArray)|
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers                 | [solution](java/75_SortColors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
+| 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers                 | [solution](java/56_MergeIntervals)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers                 | [solution](java/713_SubarrayProductLessThanK)|
@@ -28,6 +29,7 @@
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
+| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Number             | [solution](java/723_CandyCrush)| 
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
@@ -72,8 +74,9 @@
 | 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS                   | [solution](java/98_ValidateBinarySearchTree)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS         | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
-| 102      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS               | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
-| 107      |  [BinaryTreeLevelOrderTraversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS            | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
+| 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / DFS / BFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
+| 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS           | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
+| 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS        | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                          | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                          | [solution](java/127_WordLadder)|
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS                          | [solution](java/1631_PathWithMinimumEffort)|
@@ -81,6 +84,7 @@
 | 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | DFS / BFS                    | [solution](java/207_CourseSchedule)| 
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | DFS / BFS                    | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | DFS / BFS                    | [solution](java/695_MaxAreaOfIsland)| 
+| 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS                      | [solution](java/797_AllPathsFromSourceToTarget)|
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS                          | [solution](java/721_AccountsMerge)|
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS           | [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS                          | [solution](java/39_CombinationSum)|
@@ -97,9 +101,9 @@
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP                 | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
+| 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy                 | [solution](java/1029_TwoCityScheduling)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
-|780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                         | [solution](java/780_ReachingPoints)| 
-
+| 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                        | [solution](java/780_ReachingPoints)| 
 
 # Notes in Essential Categories
 
@@ -108,7 +112,7 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
-One pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array. We use the second pointer to track the index of some specfiic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
+A left pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array until it matches some conditions, then start sliding the left pointer until the conditions no longer match / move the left pointer directly to the position where the condition match. We use the left pointer to track the index of some specfiic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
