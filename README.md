@@ -29,6 +29,7 @@
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
+| 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                   | [solution](java/370_RangeAddition)|
 | 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Number             | [solution](java/723_CandyCrush)| 
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
