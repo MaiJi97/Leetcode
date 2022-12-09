@@ -2,7 +2,7 @@
 
 | #        |  Title                                                                                        |  Category                    | Solution          |
 |----------|-----------------------------------------------------------------------------------------------|------------------------------|---------------|
-| 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | Hash                         | [solution](java/1_TwoSum)|
+| 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | HashMap                      | [solution](java/1_TwoSum)|
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers                 | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers                 | [solution](java/16_ThreeSumClosest)|
@@ -49,6 +49,7 @@
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                        | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                        | [solution](java/394_DecodeString)| 
+| 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                        | [solution](java/622_DesignCircularQueue)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
@@ -66,6 +67,7 @@
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List                  | [solution](java/61_RotateList)| 
 | 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
 | 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
+| 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Linked List + HashMap        | [solution](java/146_LRUCache)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List                  | [solution](java/725_SplitLinkedListInParts)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
@@ -147,7 +149,7 @@ In a sorted array with boundaries, want to look for a target value or index. </b
    
    Usually through recursion, but can also use a non recursive / iterative approach through Stack </br>
    1. Create an empty stack S.
-   2. Initialize current node as root
+   2. Push root node to S
    3. Push the current node to S and set current to its left child until current is NULL
    4. If current is NULL and stack is not empty then 
       1) Pop the top item from the stack (LIFO)
@@ -158,20 +160,20 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
    
-   1. Create an empty queue q
-   2. Initialize current node as root
+   1. Create an empty queue 
+   2. Add root node to the queue
    3. While the queue is not empty
       1) Poll the top item from the queue (FIFO)
       2) Offer its children into the queue in some order
       3) Repeat step 3
     
-   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. </br>
+   If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
    Condition to break the loop is usually when the queue becomes empty. </br>
    
    a. Level Order Traversal through Queue </br>
    
       分层 or 不分层？</br>
-      分层即在poll前多一层循环
+      分层即在poll前多一层循环, 讲当前queue里的node全部poll
    
       - BFS in Tree: </br>
         Eg: #102 </br>
