@@ -3,6 +3,8 @@
 | #        |  Title                                                                                        |  Category                    | Solution          |
 |----------|-----------------------------------------------------------------------------------------------|------------------------------|---------------|
 | 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | HashMap                      | [solution](java/1_TwoSum)|
+| 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | HashMap + Linked List        | [solution](java/146_LRUCache)| 
+| 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| HashMap                  | [solution](java/380_InsertDeleteGetRandom)| 
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers                 | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers                 | [solution](java/16_ThreeSumClosest)|
@@ -67,7 +69,6 @@
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List                  | [solution](java/61_RotateList)| 
 | 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
 | 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
-| 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Linked List + HashMap        | [solution](java/146_LRUCache)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List                  | [solution](java/725_SplitLinkedListInParts)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
