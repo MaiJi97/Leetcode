@@ -11,21 +11,17 @@ class CustomStack {
     }
     
     public void push(int x) {
-        if (top == capacity) {
-			return;
-		}
-		arr[top] = x;
-		top++;
+        if (top == capacity) return; 
+	arr[top] = x;
+	top++;
     }
     
     public int pop() {
-        if (top == 0) {
-			return -1;
-		}
-		int temp = arr[top-1];
+        if (top == 0) return -1;
+	int temp = arr[top-1];
         arr[top-1] = 0;
-		top--;
-		return temp;
+	top--;
+	return temp;
     }
     
     public void increment(int k, int val) {
