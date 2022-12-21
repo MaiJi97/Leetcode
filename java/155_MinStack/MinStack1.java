@@ -20,7 +20,7 @@ class MinStack {
         if (stack.isEmpty()) {
             return;
         }
-        if (minStack.peek().equals(stack.peek())) {
+        if (stack.peek() == minStack.peek()) {
             minStack.pop();
         }
         stack.pop();
