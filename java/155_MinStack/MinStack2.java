@@ -6,12 +6,11 @@ class MinStack {
     public MinStack() {
         this.stack = new Stack<>();
         this.minStack = new Stack<>();
-        minStack.push(new int[]{Integer.MAX_VALUE, 1});
     }
     
     public void push(int val) {
         stack.push(val);
-        if (val < minStack.peek()[0]) {
+        if (minStack.isEmpty() || val < minStack.peek()[0]) {
             minStack.push(new int[]{val, 1});
         }
         else if (val == minStack.peek()[0]) {
@@ -39,9 +38,6 @@ class MinStack {
     }
     
     public int top() {
-        if (stack.isEmpty()) {
-            return -1;
-        }
         return stack.peek();
     }
     
