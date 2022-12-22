@@ -7,35 +7,31 @@ class CustomStack {
     public CustomStack(int maxSize) {
         this.arr = new int[maxSize];
         this.capacity = maxSize;
-        this.top = 0;
+        this.top = -1;
     }
     
     public void push(int x) {
-        if (top == capacity) return; 
+        if (top == capacity - 1) {
+		return;
+	}
+        top++;
 	arr[top] = x;
-	top++;
     }
     
     public int pop() {
-        if (top == 0) return -1;
-	int temp = arr[top-1];
-        arr[top-1] = 0;
+        if (top == -1) {
+		return -1;
+	}
+	int temp = arr[top];
+        arr[top] = 0;
 	top--;
 	return temp;
     }
     
     public void increment(int k, int val) {
-        int num = Math.min(k, top);
+        int num = Math.min(k, top+1);
         for (int i = 0; i < num; i++) {
             arr[i] += val;
         }
     }
 }
-
-/**
- * Your CustomStack object will be instantiated and called as such:
- * CustomStack obj = new CustomStack(maxSize);
- * obj.push(x);
- * int param_2 = obj.pop();
- * obj.increment(k,val);
- */
