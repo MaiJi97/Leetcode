@@ -1,6 +1,6 @@
 ## Method 1: Implementation using arrays
 
-We need 4 public fields: the array of length k, capacity of the array (for easier computation), the current size of the array, a front pointer and a 
+We need 5 public fields: the array of length k, capacity of the array (for easier computation), the current size of the array, a front pointer and a 
 tail / rear pointer. At the beginning, we set the front pointer to point at index 0, which represents the start index of the array. The tail index will 
 be front + size - 1, so will be -1 at the beginning. Next time we would want to add or remove an element, we will need to update the front pointer / tail
 pointer first.</br>
