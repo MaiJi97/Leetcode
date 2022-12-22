@@ -12,9 +12,12 @@ class MyStack {
         while (!q1.isEmpty()) {
             q2.offer(q1.poll());
         }
-        while (!q2.isEmpty()) {
-            q1.offer(q2.poll());
-        }
+//         while (!q2.isEmpty()) {
+//             q1.offer(q2.poll());
+//         }
+        Queue temp = q1;
+        q1 = q2;
+        q2 = temp;
     }
     
     public int pop() {
