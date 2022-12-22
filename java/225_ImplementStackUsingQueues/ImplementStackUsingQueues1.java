@@ -20,8 +20,7 @@ class MyStack {
         q2 = temp;
     }
     
-    public int pop() {
-        
+    public int pop() {  
         return q1.poll();
     }
     
