@@ -4,4 +4,9 @@ We need 4 public fields: the array of length k, capacity of the array (for easie
 tail / rear pointer. At the beginning, we set the front pointer to point at index 0, which represents the start index of the array. The tail index will 
 be front + size - 1, so will be -1 at the beginning. Next time we would want to add or remove an element, we will need to update the front pointer / tail
 pointer first.</br>
-<img width="223" alt="Screen Shot 2022-11-26 at 4 47 34 PM" src="https://user-images.githubusercontent.com/106039830/204111617-31a3103a-ca03-4d11-ad94-0c98eccd3556.png">
+
+<img width="679" alt="Screen Shot 2022-12-22 at 3 48 34 PM" src="https://user-images.githubusercontent.com/106039830/209231914-2ce1820f-4df5-4d30-a72d-a806f4f129c1.png">
+
+If followup on multi-thread, can use lock. Synchronized, volatile, mutex, etc.
+
+Time Complexity: O(1)
