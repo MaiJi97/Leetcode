@@ -25,6 +25,9 @@ class MyQueue {
     }
     
     public int peek() {
+        if (s1.isEmpty()) {
+            return -1;
+        }
         return s1.peek();
     }
     
