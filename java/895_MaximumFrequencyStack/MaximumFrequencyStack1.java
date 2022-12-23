@@ -1,10 +1,13 @@
 class FreqStack {
 
-    PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] == a[1] ? b[2] - a[2] : b[1] - a[1]);
-    Map<Integer, Integer> map = new HashMap<>();
-    int pushCount = 0;
+    PriorityQueue<int[]> pq;
+    Map<Integer, Integer> map;
+    int pushCount;
 
     public FreqStack() {
+        this.pq = new PriorityQueue<>((a, b) -> b[1] == a[1] ? b[2] - a[2] : b[1] - a[1]);
+        this.map = new HashMap<>();
+        this.pushCount = 0;
     }
     
     public void push(int x) {
