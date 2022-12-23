@@ -21,10 +21,16 @@ class MyStack {
     }
     
     public int pop() {  
+        if (q1.isEmpty()) {
+            return -1;
+        }
         return q1.poll();
     }
     
     public int top() {
+        if (q1.isEmpty()) {
+            return -1;
+        }
         return q1.peek();
     }
     
