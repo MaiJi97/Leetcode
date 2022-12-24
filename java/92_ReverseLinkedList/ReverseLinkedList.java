@@ -10,20 +10,19 @@
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-
-        ListNode prev = null;
+        if (head == null) {
+            return null;
+        }
         ListNode current = head;
-        
+        ListNode prev = null;
         while (left > 1) {
             prev = current;
             current = current.next;
             left--;
             right--;
         }
-        
-        ListNode connection = prev;
-        ListNode tail = current;
-        
+        ListNode start = current; // 2
+        ListNode beforeStart = prev; // 1
         while (right > 0) {
             ListNode next = current.next;
             current.next = prev;
@@ -31,14 +30,15 @@ class Solution {
             current = next;
             right--;
         }
-        
-        if (connection != null) {
-            connection.next = prev;
+        ListNode afterEnd = current; // 5
+        ListNode end = prev; // 4
+        if (beforeStart != null) { // If reverse not starts from the first node
+            beforeStart.next = end;
         }
-        else {
+        else { // If reverse starts from the first node
             head = prev;
         }
-        tail.next = current;
+        start.next = afterEnd;
         return head;
     }
 }
