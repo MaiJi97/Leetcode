@@ -49,12 +49,18 @@
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search                | [solution](java/410_SplitArrayLargestSum)|
 | 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search                | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                        | [solution](java/20_ValidParentheses)| 
-| 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
+| 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                        | [solution](java/394_DecodeString)| 
+| 1381     |  [Design Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)| Stack      | [solution](java/1381_DesignStackWithIncrementOperation)| 
+| 155      |  [Min Stack](https://leetcode.com/problems/min-stack/)                                        | Stack                        | [solution](java/155_MinStack)| 
+| 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                        | [solution](java/232_ImplementQueueUsingStacks)| 
+| 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                        | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                        | [solution](java/622_DesignCircularQueue)| 
+| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap     | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
+| 92       |  [Reverse Linkedlist II](https://leetcode.com/problems/reverse-linked-list-ii/)               | Linked List                  | [solution](java/92_ReverseLinkedList)|
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 203      |  [Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/)     | Linked List                  | [solution](java/203_RemoveLinkedListElement)| 
@@ -129,6 +135,14 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 
 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
+## Linked List
+常见方法：
+1) Recursion
+2) Pointers </br>
+a. current, previous, next pointers </br>
+b. fast & slow pointers </br>
+c. dummy pointer </br>
+ 
 ## Divide and Conquer 
 通常应用于二叉树和数组
 
