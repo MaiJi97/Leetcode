@@ -22,6 +22,6 @@ Also the second while loop breaks when current reaches the position after the ri
 case when the reverse starts from the first node, then no need to link beforeStart node with the end node but will need to set head to be the end node.
 
 If we modify the problem to be reverse the first k nodes, we do not need to link the beforeStart node with the end node, but instead can return the end 
-node as the result. As for lin the start node with the afterEnd node, we can just refer to head node as the start node.
+node as the result. As for linking the start node with the afterEnd node, we can just refer to head node as the start node.
 
 Time Complexity: O(n)
