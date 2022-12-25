@@ -9,6 +9,6 @@ Time Complexity: O(n)
 
 To use recursion, we can reverse the first k length linked list and then link it with the rest of the linked list (we bypass the first k nodes and call
 the method on the rest of the linked list). It is similar as in problem 92 but here we assume we only reverse the first k nodes instead of the nodes 
-between a specific interval. So we do not need to link the beforeStart node with the end node, just need to link the start node (head) with the afterEnd node.
+between a specific interval. So we do not need to link the beforeStart node with the end node, just need to link the start node (head) with the afterEnd node and return the end node.
 
 Time Complexity: O(n)
