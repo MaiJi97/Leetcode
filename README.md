@@ -149,6 +149,8 @@ a. current, previous, next pointers </br>
 b. fast & slow pointers </br>
 c. dummy pointer </br>
 
+   What is the purpose of dummy node? To standardize the situation, for example, make the linked list never to be empty or headless (eg: in case when the first node is the node we want to remove)
+
 Note: </br>
 1. For variable that we do not need to track values, we can manipute on them directly instead of create a new variable from it. Same for pointers, some problems is all about manipulate the pointers, try not to create too many variables.
  
