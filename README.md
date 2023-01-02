@@ -3,6 +3,7 @@
 | #        |  Title                                                                                        |  Category                    | Solution          |
 |----------|-----------------------------------------------------------------------------------------------|------------------------------|---------------|
 | 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | HashMap                      | [solution](java/1_TwoSum)|
+| 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | HashMap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | HashMap + Linked List        | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| HashMap                  | [solution](java/380_InsertDeleteGetRandom)| 
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
@@ -32,7 +33,6 @@
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                   | [solution](java/370_RangeAddition)|
-| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Number             | [solution](java/723_CandyCrush)| 
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
@@ -56,11 +56,16 @@
 | 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                        | [solution](java/232_ImplementQueueUsingStacks)| 
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                        | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                        | [solution](java/622_DesignCircularQueue)| 
-| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap     | [solution](java/895_MaximumFrequencyStack)| 
+| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
 | 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
 | 92       |  [Reverse Linkedlist II](https://leetcode.com/problems/reverse-linked-list-ii/)               | Linked List                  | [solution](java/92_ReverseLinkedList)|
+| 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List                  | [solution](java/25_ReverseNodesInKGroup)|
+| 2        |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                            | Linked List                  | [solution](java/2_AddTwoNumbers)|
+| 445      |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers-ii/)                         | Linked List + Stack          | [solution](java/445_AddTwoNumbers)|
+| 21       |  [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)              | Linked List                  | [solution](java/21_MergeTwoSortedLists)|
+| 23       |  [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                  | Linked List + Priority Queue | [solution](java/23_MergeKSortedLists)|
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 203      |  [Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/)     | Linked List                  | [solution](java/203_RemoveLinkedListElement)| 
@@ -114,6 +119,7 @@
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy                 | [solution](java/1029_TwoCityScheduling)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
 | 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                        | [solution](java/780_ReachingPoints)| 
+| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                   | Negative Marking             | [solution](java/723_CandyCrush)| 
 
 # Notes in Essential Categories
 
@@ -126,14 +132,14 @@ A left pointer starting from the beginning of the array, the other pointer start
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
-
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
 
 模版: </br>
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
-有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
+Note: </br>
+1. 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
 ## Linked List
 常见方法：
@@ -142,6 +148,9 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 a. current, previous, next pointers </br>
 b. fast & slow pointers </br>
 c. dummy pointer </br>
+
+Note: </br>
+1. For variable that we do not need to track values, we can manipute on them directly instead of create a new variable from it. Same for pointers, some problems is all about manipulate the pointers, try not to create too many variables.
  
 ## Divide and Conquer 
 通常应用于二叉树和数组
