@@ -1,8 +1,8 @@
 class Solution {
     public int findDuplicate(int[] nums) { // 1,2,2,3,4 - 5 numbers
-        int left = 0;
+        int left = 1;
         int right = nums.length - 1;
-        while (left < right) {
+        while (left <= right) {
             int mid = left + (right - left) / 2;
             int count = 0;
             for (int i = 0; i < nums.length; i++) {
@@ -11,7 +11,7 @@ class Solution {
                 }
             }
             if (count > mid) {
-                right = mid;
+                right = mid - 1;
             }
             else {
                 left = mid + 1;
