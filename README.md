@@ -59,8 +59,8 @@
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
-| 206      |  [Reverse Linkedlist](https://leetcode.com/problems/reverse-linked-list/)                     | Linked List                  | [solution](java/206_ReverseLinkedlist)|
-| 92       |  [Reverse Linkedlist II](https://leetcode.com/problems/reverse-linked-list-ii/)               | Linked List                  | [solution](java/92_ReverseLinkedList)|
+| 206      |  [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                    | Linked List                  | [solution](java/206_ReverseLinkedList)|
+| 92       |  [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)              | Linked List                  | [solution](java/92_ReverseLinkedList)|
 | 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List                  | [solution](java/25_ReverseNodesInKGroup)|
 | 2        |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                            | Linked List                  | [solution](java/2_AddTwoNumbers)|
 | 445      |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers-ii/)                         | Linked List + Stack          | [solution](java/445_AddTwoNumbers)|
