@@ -13,6 +13,6 @@ Next, just iterate through both linked list at the same speed to determine if th
 Why not count the length of the linked list and cut it into half through length / 2? Take more effort to consider cases when the number of elements is an 
 even number or an odd number.
 
-Followup: If we need to mutate back the original linked list? If so, call reverse again.
+Followup: If we need to retain the original linked list? If so, call reverse again on the second half of the linked list and link back.
 
 Time Complexity: O(n)
