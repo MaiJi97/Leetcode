@@ -22,7 +22,7 @@ class Solution {
                 prev.next = current; // point prev to current
             }
             else { // only needs to update pointers
-                prev = current;
+                prev = prev.next;
                 current = current.next;
             }
         }
