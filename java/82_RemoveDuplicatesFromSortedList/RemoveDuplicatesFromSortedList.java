@@ -14,16 +14,17 @@ class Solution {
         ListNode prev = dummy;
         ListNode current = head;
         while (current != null) {
-            if (current.next != null && current.val == current.next.val) {
+            if (current.next != null && current.val == current.next.val) { // skip all the duplicate
                 while (current.next != null && current.val == current.next.val) {
                     current = current.next;
                 }
-                prev.next = current.next;
+                current = current.next; // update current
+                prev.next = current; // point prev to current
             }
-            else {
-                prev = prev.next;
+            else { // only needs to update pointers
+                prev = current;
+                current = current.next;
             }
-            current = current.next;
         }
         return dummy.next;
     }
