@@ -72,14 +72,18 @@
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 19       |  [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Linked List            | [solution](java/19_RemoveNthNodeFromEndOfList)| 
+| 1171     |  [Remove Zero Sum Consecutive Nodes From Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)| Linked List| [solution](java/1171_RemoveZeroSumConsecutiveNodesFromLinkedList)| 
 | 1836     |  [Remove Duplicates From Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| Linked List| [solution](java/1836_RemoveDuplicatesFromUnsortedLinkedList)| 
+| 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
+| 160      |  [Intersection Of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/)| Linked List             | [solution](java/160_IntersectionOfTwoLinkedList)| 
+| 138      |  [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| Linked List                  | [solution](java/138_CopyListWithRandomPointer)| 
+| 426      |  [Convert Binary Search Tree To Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)| Linked List | [solution](java/426_ConvertBinarySearchTreeToSortedDoublyLinkedList)| 
+| 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
 | 86       |  [Partition List](https://leetcode.com/problems/partition-list/)                              | Linked List                  | [solution](java/86_PartitionList)| 
 | 143      |  [Reorder List](https://leetcode.com/problems/reorder-list/)                                  | Linked List                  | [solution](java/143_ReorderList)|  
 | 148      |  [Sort List](https://leetcode.com/problems/sort-list/)                                        | Linked List                  | [solution](java/148_SortList)| 
 | 24       |  [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | Linked List                  | [solution](java/24_SwapNodesInPairs)| 
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List                  | [solution](java/61_RotateList)| 
-| 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
-| 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List                  | [solution](java/725_SplitLinkedListInParts)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
