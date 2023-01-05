@@ -16,7 +16,7 @@ Time Complexity: O(n)
 We can modify the previous solution and remove the use of dummy node. We do not really need the dummy node, if we add a check before each linkage to see if
 we are at the beginning of the list. If we are at the beginning then just update the first pointer (which tracks the beginning of the list to be the first 
 node poped out of the stack. This replace the dummy pointer) and then skip the first linkage. This add an additional check but eliminate the need to remove
-the dummy pointer at the end.
+the dummy pointer at the end. In a word, dummy node standardizes the situation but we do not need it if we add a special case checking.
 
 Time Complexity: O(n)
 
