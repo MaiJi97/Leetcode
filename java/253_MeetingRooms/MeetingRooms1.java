@@ -1,22 +1,21 @@
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
-        int[] starts = new int[intervals.length];
-        int[] ends = new int[intervals.length];
-        for (int i = 0; i < intervals.length; i++) {
-            starts[i] = intervals[i][0];
-            ends[i] = intervals[i][1];
+        List<int[]> list = new ArrayList<>();
+        for (int[] interval : intervals) {
+            list.add(new int[]{interval[0], 1}); // start
+            list.add(new int[]{interval[1], -1}); // end
         }
-        Arrays.sort(starts);
-        Arrays.sort(ends);
-        int endIndex = 0;
+        int count = 0; 
         int ret = 0;
-        for (int i = 0; i < intervals.length; i++) {
-            if (starts[i] < ends[endIndex]) {
-                ret++;
+        Collections.sort(list, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
+        for (int[] interval : list) {
+            if (interval[1] == 1) {
+                count++;
             }
             else {
-                endIndex++;
+                count--;
             }
+            ret = Math.max(ret, count);
         }
         return ret;
     }
