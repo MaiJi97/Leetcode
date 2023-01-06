@@ -132,7 +132,7 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
-A left pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array until it satisfies certain conditions, then start sliding the left pointer until the conditions no longer satisfy - do some operations here (ie. record the optimal value, move the left pointer to the right pointer's place, etc). We use the left pointer to track the index of some specfic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
+A left pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array until it satisfies certain conditions, then start sliding the left pointer until the conditions no longer satisfy / reset the left pointer. We use the left pointer to track the index of some specfic position. Also occasions when we have two arrays or strings and we use two pointers seperately to loop through.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
