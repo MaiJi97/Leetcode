@@ -5,16 +5,26 @@ start first and then end.
 
 Time Complexity: O(nlogn)
 
+
 ## Method 2: Scanning Line 扫描线 by Priority Queue
 
 Same as method 1 but use priority queue instead. We want the timestamp to be in order so priority queue can always be an option.
 
 Time Complexity: O(nlogn)
 
-## Method 3: Priority Queue 
 
-Another method is to use priority queue directly. Elements in the queue represent rooms that are taken into use and are sorted by end time. Next we sort the intervals by start time. For each interval, if there is an idle room in the queue (end time is earlier than the start time of the current interval), 
-we poll an element out and offer the end time of the current interval into the queue. Else just offer the end time of the current interval into the queue.
-Final result will be the size of the queue.
+Method 3: Two Pointers
+
+This problem is an extension from problem 252 and reminds us of sliding window. Though the difficult point is that we may reuse the room if any of them become idle. We can use two arrays to store the start times and end times both in ascending order. Then iterate through the start times using one pointer and set a second pointer at the beginning of the end times. For each start time, check the end time pointed by the second pointer and see if it is earlier than the current start time. If it is, it means there is going to be a room released and to be reused before the current start time so we do not need an additional room for it. If the end time is later than the current start time, it means we need an additional room for the new meeting. Increment both the counter and the second pointer.
+
+Time Complexity: O(nlogn)
+
+
+## Method 4: Priority Queue 
+
+Similar idea as using two arrays. Here we replace the array holding the ends times by a priority queue. If the peek element (earliest unchecked end time) 
+is earlier than the current start time we pop one element out (the earliest unchecked end time) and add a new element (the current start time) in to the
+queue. The overall number of element in the queue does not change since we can reuse the room to be released. Else it means we need an additional room 
+for the new meeting, so we just add a new element into the queue.
 
 Time Complexity: O(nlogn)
