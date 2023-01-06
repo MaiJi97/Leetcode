@@ -5,8 +5,16 @@ start first and then end.
 
 Time Complexity: O(nlogn)
 
-## Method 2: Priority Queue
+## Method 2: Scanning Line 扫描线 by Priority Queue
 
 Same as method 1 but use priority queue instead. We want the timestamp to be in order so priority queue can always be an option.
+
+Time Complexity: O(nlogn)
+
+## Method 3: Priority Queue 
+
+Another method is to use priority queue directly. Elements in the queue represent rooms that are taken into use and are sorted by end time. Next we sort the intervals by start time. For each interval, if there is an idle room in the queue (end time is earlier than the start time of the current interval), 
+we poll an element out and offer the end time of the current interval into the queue. Else just offer the end time of the current interval into the queue.
+Final result will be the size of the queue.
 
 Time Complexity: O(nlogn)
