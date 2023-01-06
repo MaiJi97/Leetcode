@@ -9,12 +9,13 @@ class Solution {
         int ret = 0;
         Collections.sort(list, (a, b) -> a[0] == b[0] ? a[1] - b[1] : a[0] - b[0]);
         for (int[] interval : list) {
-            if (interval[1] == 1) {
-                count++;
-            }
-            else {
-                count--;
-            }
+            // if (interval[1] == 1) {
+            //     count++;
+            // }
+            // else {
+            //     count--;
+            // }
+            count += interval[1];
             ret = Math.max(ret, count);
         }
         return ret;
