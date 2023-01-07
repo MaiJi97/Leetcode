@@ -14,6 +14,9 @@ class Solution {
             if (starts[i] < ends[endIndex]) {
                 ret++;
             }
+            else {
+                endIndex++;
+            }
         }
         return ret;
     }
