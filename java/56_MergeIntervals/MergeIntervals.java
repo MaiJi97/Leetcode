@@ -8,12 +8,12 @@ class Solution {
         ret.add(newInterval);
         for (int i = 0; i < intervals.length; i++) {
             int[] interval = intervals[i];
-            if (interval[0] <= newInterval[1]) {
-                newInterval[1] = Math.max(interval[1], newInterval[1]);
-            }
-            else {
+            if (interval[0] > newInterval[1]) {
                 ret.add(interval);
                 newInterval = interval;
+            }
+            else {
+                newInterval[1] = Math.max(interval[1], newInterval[1]);
             }
         }
         return ret.toArray(new int[ret.size()][]);    
