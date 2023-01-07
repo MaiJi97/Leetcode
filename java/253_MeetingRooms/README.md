@@ -25,5 +25,8 @@ Time Complexity: O(nlogn)
 
 The difficult point is that we may reuse the room if any of them become idle. We can use two arrays to store the start times and end times both in ascending order. Then iterate through the start times using one pointer and set a second pointer at the beginning of the end times. For each start time, check the end time pointed by the second pointer and see if it is earlier than the current start time. If it is, it means there is going to be a room released and to be reused before the current start time so we do not need an additional room for it. If the end time is later than the current start time, it means we need an additional room for the new meeting. Increment both the counter and the second pointer.
 
+<img width="795" alt="Screen Shot 2023-01-06 at 6 25 45 PM" src="https://user-images.githubusercontent.com/106039830/211121648-0def9509-8240-4708-9da6-0f6c2f08a542.png">
+
+
 Time Complexity: O(nlogn)
 
