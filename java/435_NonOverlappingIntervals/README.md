@@ -1,4 +1,12 @@
-## Method 1: Greedy Approach
+## Method 1: Dynamic Programming
+
+An intuitive way is to solve the problem through DP. First sort the intervals by end time and let dp[i] represents the maximum number of intervals we can
+include up to index i so that there is no intersection. Minimum number of interval to be removed would be the length of intervals - maximum number of 
+intervals with no intersection.
+
+Time Complexity: O(n^2)
+
+## Method 2: Greedy Approach
 
 Always choose the interval that ends first.
 
