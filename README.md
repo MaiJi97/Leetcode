@@ -16,7 +16,6 @@
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers                 | [solution](java/977_SquaresOfASortedArray)|
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers                 | [solution](java/75_SortColors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers           | [solution](java/121_BestTimeToBuyAndSellStocks)|
-| 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers                 | [solution](java/56_MergeIntervals)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers     | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers                 | [solution](java/713_SubarrayProductLessThanK)|
@@ -33,6 +32,16 @@
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                   | [solution](java/370_RangeAddition)|
+| 252      |  [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)                                | Two Pointers                 | [solution](java/252_MeetingRooms)|
+| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
+| 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers                 | [solution](java/56_MergeIntervals)|
+| 57       |  [Insert Interval](https://leetcode.com/problems/insert-interval/)                            | Two Pointers                 | [solution](java/57_InsertInterval)|
+| 1272     |  [Remove Interval](https://leetcode.com/problems/remove-interval/)                            | Two Pointers                 | [solution](java/1272_RemoveInterval)|
+| 1288     |  [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)          | Two Pointers                 | [solution](java/1288_RemoveCoveredIntervals)|
+| 1229     |  [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)                        | Two Pointers                 | [solution](java/1229_MeetingScheduler)|
+| 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers                 | [solution](java/986_IntervalListIntersections)|
+| 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
+| 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | DP / Greedy                  | [solution](java/435_NonOverlappingIntervals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
@@ -57,8 +66,7 @@
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                        | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                        | [solution](java/622_DesignCircularQueue)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
-| 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
-| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Priority Queue               | [solution](java/253_MeetingRooms)| 
+| 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)|  
 | 206      |  [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                    | Linked List                  | [solution](java/206_ReverseLinkedList)|
 | 92       |  [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)              | Linked List                  | [solution](java/92_ReverseLinkedList)|
 | 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List                  | [solution](java/25_ReverseNodesInKGroup)|
@@ -93,8 +101,10 @@
 | 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS                   | [solution](java/98_ValidateBinarySearchTree)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS         | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
-| 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / DFS / BFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
+| 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS             | [solution](java/111_MinimumDepthOfBinaryTree)| 
+| 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / BFS / DFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
 | 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS           | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
+| 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
 | 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS        | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                          | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                          | [solution](java/127_WordLadder)|
@@ -135,6 +145,9 @@ One pointer starting from the beginning of the array, the other pointer starting
 A left pointer starting from the beginning of the array, the other pointer starting from the beginning or the next index right after the first pointer and loop through the rest of the array until it satisfies certain conditions, then start sliding the left pointer until the conditions no longer satisfy / reset the left pointer. We use the left pointer to track the index of some specfic position. Also occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
+
+## Intervals 问题
+Basic idea is 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
 
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
@@ -268,3 +281,6 @@ dp[0][0] or dp[i][0] or dp[0][i]
 4) 答案Answer: 递归的调用 </br>
 最后的return，如dp[m][n]
 
+## Additional Notes
+Frequency -> Bucket sort </br>
+Mapping between numbers and their index
