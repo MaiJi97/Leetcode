@@ -7,3 +7,9 @@ Steps:
 
 Time Complexity: O(n) - number of nodes
 
+## Method 2: DFS / Level Order Traverse through recursion
+
+Another method is through DFS, but we need to take in an extra piece of information which is the current height. If we are at the level that we already has
+the list that includes all the nodes on that list, height >= list.size(), then add the root value to it and continue traversing its left and right child. Else add an empty list to the result and do the same.
+
+Time Complexity: O(n) 
