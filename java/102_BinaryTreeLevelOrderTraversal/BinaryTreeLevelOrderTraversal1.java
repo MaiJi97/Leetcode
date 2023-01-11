@@ -12,13 +12,13 @@ class Solution {
             List<Integer> level = new ArrayList<>();
             int size = q.size();
             for (int i = 0; i < size; i++) {
-                TreeNode temp = q.poll();
-                level.add(temp.val);
-                if (temp.left != null) {
-                    q.offer(temp.left);
+                TreeNode current = q.poll();
+                level.add(current.val);
+                if (current.left != null) {
+                    q.offer(current.left);
                 }
-                if (temp.right != null) {
-                    q.offer(temp.right);
+                if (current.right != null) {
+                    q.offer(current.right);
                 }
             }
             ret.add(level);
