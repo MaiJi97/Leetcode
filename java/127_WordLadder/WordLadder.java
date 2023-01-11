@@ -1,32 +1,29 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Queue<String> q = new ArrayDeque<>();
         HashSet<String> set = new HashSet<String>(wordList);
-        Queue<String> queue = new ArrayDeque<>();
         HashSet<String> visited = new HashSet<>();
-        queue.offer(beginWord);
+        q.offer(beginWord);
         visited.add(beginWord);
-        
-        int length = 1;
-        while (!queue.isEmpty()) {
-            int size = queue.size();
+        int ret = 1;
+        while (!q.isEmpty()) {
+            int size = q.size();
             for (int i = 0; i < size; i++) {
-                String word = queue.poll();
-                if (word.equals(endWord)) {
-                    return length;
-                }
-                for (int j = 0; j < word.length(); j++) {
-                    for (char k = 'a'; k <= 'z'; k++) {
-                        char[] newWordArr = word.toCharArray();
-                        newWordArr[j] = (char)k;
-                        String newWord = new String(newWordArr);
+                String current = q.poll();
+                if (current.equals(endWord)) return ret;
+                for (int j = 0; j < beginWord.length(); j++) {
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        StringBuilder sb = new StringBuilder(current);
+                        sb.setCharAt(j, c);
+                        String newWord = sb.toString();
                         if (set.contains(newWord) && !visited.contains(newWord)) {
-                            queue.add(newWord);
+                            q.offer(newWord);
                             visited.add(newWord);
                         }
                     }
                 }
             }
-            length++;
+            ret++;
         }
         return 0;
     }
