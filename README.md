@@ -283,4 +283,4 @@ dp[0][0] or dp[i][0] or dp[0][i]
 
 ## Additional Notes
 Frequency -> Bucket sort </br>
-Mapping between numbers and their index
+Mapping between numbers and their index / Hash Map as a way to store index of elements
