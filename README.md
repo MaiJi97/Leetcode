@@ -179,7 +179,7 @@ Note: </br>
 1) DFS through Recursion </br>
 
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
-   Condition to break the recursion is usually when all the nodes in certain branch / block has been visited. </br>
+   Break条件 in the base case of recursion </br>
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -211,7 +211,7 @@ Note: </br>
       3) Repeat step 3
     
    If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
-   Condition to break the loop is usually when the queue becomes empty. </br>
+   Break条件 when the queue becomes empty. </br>
    
    a. Level Order Traversal through Queue </br>
    
