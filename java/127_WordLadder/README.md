@@ -5,6 +5,8 @@
 有明显分层, size = queue.size() - for loop </br>
 For each element/word pop out of the queue, we modify one character and check it is in the word list. If it is, then we count it as a neighbor of the current node and add it to the queue / visited set. </br>
 
+Why need to convert the word list array list to a hash set? Because hash set contains method takes O(1) while array list takes O(n)
+
 Time Complexity: </br>
 M is the size of the word list. </br>
 N is the length of each word in the list. </br>
