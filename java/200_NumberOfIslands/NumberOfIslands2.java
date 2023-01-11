@@ -8,8 +8,7 @@ class Solution {
         }
     }
     
-    int[] deltaX = {0, 1, -1, 0};
-    int[] deltaY = {1, 0, 0, -1};
+    int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         
     public int numIslands(char[][] grid) {
         int count = 0;
@@ -37,9 +36,9 @@ class Solution {
         visited[0][0] = true;
         while (!queue.isEmpty()) {
             Coordinate curr = queue.poll();
-            for (int direction = 0; direction < 4; direction++) {
-                int newX = curr.x + deltaX[direction];
-                int newY = curr.y + deltaY[direction];
+            for (int[] direction : directions) {
+                int newX = curr.x + direction[0];
+                int newY = curr.y + direction[1];
                 if (newX < 0 || newX >= grid.length || newY < 0 || newY >= grid[0].length || grid[newX][newY] == '0' || visited[newX][newY] == true) {
                     continue;
                 }
