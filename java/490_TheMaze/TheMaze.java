@@ -4,7 +4,7 @@ class Solution {
         boolean[][] visited = new boolean[maze.length][maze[0].length];
         visited[start[0]][start[1]] = true;
         Queue<int[]> q = new ArrayDeque<>();
-        q.add(start);
+        q.offer(start);
         while(!q.isEmpty()) {
             int[] current = q.poll();
             if (current[0] == destination[0] && current[1] == destination[1]) return true;
