@@ -182,8 +182,8 @@ Note: </br>
    
    Note: </br>
    - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. </br>
-   - During recursion call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
+   - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -219,8 +219,8 @@ Note: </br>
    If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
    
    Note: </br>
-   - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    - When to break the iteration? When the queue becomes empty. </br>
+   - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    
    a. Level Order Traversal through Queue </br>
    
