@@ -1,6 +1,6 @@
 class Solution {
+    int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
-        int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         boolean[][] visited = new boolean[maze.length][maze[0].length];
         visited[start[0]][start[1]] = true;
         Queue<int[]> q = new ArrayDeque<>();
