@@ -1,6 +1,6 @@
-## Method 1: DFS / Traverse through recursion
+## Method 1: DFS / Matrix Traverse through recursion
 
-DFS traverse through recursion. Break the recursion when the block is 0 / the block has been visited / we reach the border of the matrix. Else we call the method on its four adjacent blocks and recursively find all the blocks connecting to it and count the whole area as 1. 
+DFS matrix traverse through recursion. Break the recursion when the block is 0 / all the blocks have been visited / we reach the border of the matrix. Else we call the method on its four adjacent blocks and recursively find all the blocks connecting to it and count the whole area as 1. 
 
 Time Complexity: O(mn) 
 
