@@ -10,7 +10,7 @@ queue if the calculated new distance is shorter than the distance stored in the 
 
 Time Complexity: O(mnlog(mn))
 
-## Method 2: DFS / Dijkstra Algorithm through recursion
+## Method 2: DFS / Matrix Traverse through recursion
 
 DFS traverse through recursion. Also in this problem we need a distance matrix to store the distance from start point to each block in the maze, and the helper method dfs does not need to have any return type other than filling in the distance matrix. Other parts are the same - we call the method on its neighbors and recursively find if there is a path from the start to the end point. What are the neighbors? They are the blocks that we will reach if keep going until hitting the wall and only if the calculated total distance is shorter than the distance stored in the matrix.
 
