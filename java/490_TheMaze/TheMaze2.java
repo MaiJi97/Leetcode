@@ -6,6 +6,7 @@ class Solution {
     }
 
     public boolean dfs (int[][] maze, int[] current, int[] destination, boolean[][] visited) {
+        int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         if (current[0] == destination[0] && current[1] == destination[1]) {
             return true;
         }
@@ -14,22 +15,19 @@ class Solution {
         }
         visited[current[0]][current[1]] = true;
 
-        int right = current[1] + 1;
-        while (right < maze[0].length && maze[current[0]][right] == 0) right++;
-        if (dfs(maze, new int[]{current[0], right-1}, destination, visited)) return true;
-
-        int left = current[1] - 1;
-        while (left >= 0 && maze[current[0]][left] == 0) left--;
-        if (dfs(maze, new int[]{current[0], left+1}, destination, visited)) return true;
-
-        int up = current[0] - 1;
-        while (up >= 0 && maze[up][current[1]] == 0) up--;
-        if (dfs(maze, new int[]{up+1, current[1]}, destination, visited)) return true;
-
-        int down = current[0] + 1;
-        while (down < maze.length && maze[down][current[1]] == 0) down++;
-        if (dfs(maze, new int[]{down-1, current[1]}, destination, visited)) return true;
-
+        for (int[] direction : directions) {
+            int newX = current[0] + direction[0];
+            int newY = current[1] + direction[1];
+            while (newX >= 0 && newY >= 0 && newX < maze.length && newY < maze[0].length && maze[newX][newY] == 0) {
+                newX += direction[0];
+                newY += direction[1];
+            }
+            newX -= direction[0]; // 已不满足while条件，退一步
+            newY -= direction[1]; // 已不满足while条件，退一步
+            if (!visited[newX][newY]) {
+                if (dfs(maze, new int[]{newX, newY}, destination, visited)) return true;
+            }
+        }
         return false;
     }
 }
