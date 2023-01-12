@@ -156,7 +156,7 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 Note: </br>
-1. 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
+- 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
 ## Linked List
 常见方法：
@@ -166,26 +166,30 @@ a. current, previous, next pointers </br>
 b. fast & slow pointers: To detect cycle, to find the midpoint, to locate the element that is n places from the tail, etc. </br>
 c. dummy pointer </br> 
 
-   What is the purpose of dummy node? To standardize the situation, for example, make the linked list never to be empty or headless (eg: in case when the   first node is the node we want to remove)
+   - What is the purpose of dummy node? To standardize the situation, for example, make the linked list never to be empty or headless (eg: in case when  the first node is the node we want to remove)
 
 Note: </br>
-1. For variable that we do not need to track values, we can manipute on them directly instead of create a new variable from it. Same for pointers, some problems is all about manipulate the pointers, try not to create too many variables.
+- For variable that we do not need to track values, we can manipute on them directly instead of create a new variable from it. Same for pointers, some problems is all about manipulate the pointers, try not to create too many variables.
  
 ## Divide and Conquer 
 通常应用于二叉树和数组
 
-## Binary Tree / Binary Search Tree / Graph
-常见方法：
-1) DFS through Recursion </br>
+## Binary Tree / Binary Search Tree / Graph / Not Directly But 类卿
+
+### 1) DFS through Recursion </br>
 
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
-   Break条件 in the base case of recursion </br>
+   
+   Note: </br>
+   - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. </br>
+   - During recursion call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
+   - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
    
    b. Divide and Conquer 分治法</br>
-   需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
+   - 需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
    整棵树的结果 = 按一定方法合并左右子树结果 </br>
@@ -200,7 +204,7 @@ Note: </br>
       3) Go to step 3.
    5. If current is NULL and stack is empty then we are done.
    
-2) BFS through Queue </br>
+### 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
    
    1. Create an empty queue 
@@ -211,7 +215,10 @@ Note: </br>
       3) Repeat step 3
     
    If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
-   Break条件 when the queue becomes empty. </br>
+   
+   Note: </br>
+   - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
+   - When to break the iteration? When the queue becomes empty. </br>
    
    a. Level Order Traversal through Queue </br>
    
