@@ -5,3 +5,10 @@ vertically and horizontally. 2) When we add neighbors of the current node to the
 until hitting the wall. Not the four adjacent blocks. 3) The ball will keep going until it hits the wall or the boundary. As we break out of the while loop the conditions in the while loop (that the ball will keep going) no longer satisfy. So we need to take one step back to continue traversing.
 
 Time Complexity: O(mn)
+
+## Method 2: DFS / Matrix Traverse through recursion
+
+DFS traverse through recursion. Break the recursion when we reach the end point (return true) or when all the block has been visited. Else we call the method on its neighbors and recursively find if there is a path from the start to the end point. What are the neighbors? They are the blocks that we will
+reach if keep going until hitting the wall or encounter a '1'.
+
+Time Complexity: O(mn)
