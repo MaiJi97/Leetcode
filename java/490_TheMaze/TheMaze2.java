@@ -1,4 +1,6 @@
 class Solution {
+    
+    int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         boolean[][] visited = new boolean[maze.length][maze[0].length];
@@ -6,7 +8,6 @@ class Solution {
     }
 
     public boolean dfs (int[][] maze, int[] current, int[] destination, boolean[][] visited) {
-        int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         if (current[0] == destination[0] && current[1] == destination[1]) {
             return true;
         }
