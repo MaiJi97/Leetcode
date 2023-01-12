@@ -104,7 +104,7 @@
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS             | [solution](java/111_MinimumDepthOfBinaryTree)| 
 | 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / BFS / DFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
 | 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS           | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
-| 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
+| 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS|[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
 | 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS        | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                          | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                          | [solution](java/127_WordLadder)|
@@ -188,7 +188,9 @@ Note: </br>
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
    
-   b. Divide and Conquer 分治法</br>
+   b. Matrix Traverse（连通块）
+   
+   c. Divide and Conquer 分治法</br>
    - 需思考整棵树在问题上的结果和根+左子树+右子树的结果的关系：
    左子树返回结果 = DivideAndConquer(root.left) </br>
    右子树返回结果 = DivideAndConquer(root.right) </br>
@@ -233,8 +235,11 @@ Note: </br>
    
    b. Matrix Traverse（连通块）: </br>
       Eg: #200
+      
+   c. Dijkstra Algorithm for SSSP (Single Source Shortest Path): </br>
+      Distance matrix and Priority Queue
    
-   c. Topological Sorting（拓扑排序）: </br>
+   d. Topological Sorting（拓扑排序）: </br>
    
       For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. </br>
       
