@@ -9,4 +9,6 @@ Time Complexity: O(mn)
 
 DFS traverse through recursion. Break the recursion when we reach the end point (return true) or when all the block has been visited (return false). Else we call the method on its neighbors and recursively find if there is a path from the start to the end point. What are the neighbors? They are the blocks that we will reach if keep going until hitting the wall or encounter a '1'.
 
+Note: can also use the direction array here.
+
 Time Complexity: O(mn)
