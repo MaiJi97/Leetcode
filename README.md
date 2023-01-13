@@ -147,7 +147,7 @@ A left pointer starting from the beginning of the array, the other pointer start
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
 ## Intervals 问题
-Basic idea is 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
+Basic idea is to sort first, then 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
 
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
