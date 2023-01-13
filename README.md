@@ -185,7 +185,11 @@ Note: </br>
    - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. </br>
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
-   - 是否退一步 for other options after recursive call - backtrack？看情况。
+   
+   Backtrack模版: </br>
+   <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
+   https://www.1point3acres.com/bbs/thread-583166-1-1.html
+
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -242,16 +246,15 @@ Note: </br>
    c. Dijkstra Algorithm for SSSP (Single Source Shortest Path): </br>
       Distance matrix and Priority Queue
    
-   d. Topological Sorting（拓扑排序）: </br>
+   d. Topological Sorting（拓扑排序）:
    
       For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. </br>
       
-      算法描述：</br>
+      算法描述：
       1) 统计每个点的入度(in degree)
       2) 将每个in degree为0的点放入queue作为起始节点
       3) 不断从queue中拿出一个点，去掉这个点的所有连边
       4) 一旦发现新的in degree为0的点，丢入queue中
-      </br>
       
       常见题型：
       
