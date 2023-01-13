@@ -13,5 +13,7 @@ Steps：</br>
 3) 不断从queue中拿出一个点，去掉这个点的所有连边
 4) 一旦发现新的in degree为0的点，丢入queue中
 </br>
+
+We use topological sorting as an approach to detect cycle. If there is a cycle in the graph, we cannot complete all the courses.
       
 Time Complexity: O(V+E)
