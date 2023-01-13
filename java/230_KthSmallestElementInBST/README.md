@@ -1,6 +1,6 @@
 ## Method 1: DFS / Inorder traverse through recursion
 
-Use a helper function to traverse and store the elements in order in an array list / priority queue. Since this is a BST is sorted so we are visiting and storing its elements in ascending order, we can get the value directly by using get(k-1) method.
+Use a helper function to traverse and store the elements in order in an array list / priority queue. The extra parameter contains information about the current state (the nodes we have already visited) and we are calling the method recursively on its left child and right child in order. Since this is a BST that is sorted so we are visiting and storing its elements in ascending order, we can get the value directly by using get(k-1) method.
 
 Time Complexity: O(n)
 
