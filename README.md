@@ -174,16 +174,18 @@ Note: </br>
 ## Divide and Conquer 
 通常应用于二叉树和数组
 
-## Binary Tree / Binary Search Tree / Graph / Not Directly But 类卿
+## Binary Tree / Binary Search Tree / Graph / 类卿
 
 ### 1) DFS through Recursion </br>
-
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
+  
+   一条路走到黑，通常用于求最优解
    
    Note: </br>
    - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. </br>
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
+   - 是否退一步 for other options after recursive call - backtrack？看情况。
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -208,6 +210,7 @@ Note: </br>
    
 ### 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
+   If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
    
    1. Create an empty queue 
    2. Add root node to the queue
@@ -215,11 +218,11 @@ Note: </br>
       1) Poll the top item from the queue (FIFO)
       2) Offer its children into the queue in some order
       3) Repeat step 3
-    
-   If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
+      
+   广撒网，通常用于求最优解(eg: Dijkstra)
    
    Note: </br>
-   - When to break the iteration? When the queue becomes empty. </br>
+   - When to break the iteration? When the queue becomes empty or 已满足条件. </br>
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    
    a. Level Order Traversal through Queue </br>
