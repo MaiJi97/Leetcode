@@ -20,7 +20,7 @@ class Solution {
         return ret;
     }
 
-    public void dfs(TreeNode root, int height,List<List<Integer>> list) {
+    public void dfs(TreeNode root, int height, List<List<Integer>> list) {
         if (root == null) return;
         if (height >= list.size()) list.add(new ArrayList<>());
         list.get(height).add(root.val);
