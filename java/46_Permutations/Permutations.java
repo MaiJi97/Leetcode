@@ -1,23 +1,20 @@
 class Solution {
     
-    List<List<Integer>> ret = new ArrayList<>();
-    
     public List<List<Integer>> permute(int[] nums) {
-        dfs(nums, 0, new ArrayList<>());
+        List<List<Integer>> ret = new ArrayList<>();
+        dfs(nums, ret, new ArrayList<>());
         return ret;
     }
     
-    public void dfs(int[] nums, int index, List<Integer> permutation) {
-        if(permutation.size() == nums.length) {
-            // deep copy because modifying it later will affect the result
-            ret.add(new ArrayList<>(permutation)); 
-            return;
+    public void dfs(int[] nums, List<List<Integer>> ret, List<Integer> current) {
+        if (current.size() == nums.length) {
+            ret.add(new ArrayList<>(current));
         }
         for (int i = 0; i < nums.length; i++) {
-            if (!permutation.contains(nums[i])) {
-                permutation.add(nums[i]);
-                dfs(nums, index + 1, permutation);
-                permutation.remove(permutation.size() - 1);
+            if (!current.contains(nums[i])) {
+                current.add(nums[i]);
+                dfs(nums, ret, current);
+                current.remove(current.size()-1);
             }
         }
     }
