@@ -1,43 +1,25 @@
 class Solution {
     
-    public List<List<Integer>> ret = new ArrayList<>();
-    
     public List<List<Integer>> combinationSum(int[] candidates, int target) { 
-        int[] cleanCandidates = removeDuplicates(candidates);
-        List<Integer> combination = new ArrayList<>();
-        dfs(cleanCandidates, target, 0, combination);
+        List<List<Integer>> ret = new ArrayList<>();
+        dfs(ret, candidates, target, new ArrayList<>(), 0, 0);
         return ret;
     }
     
-    public int[] removeDuplicates(int[] candidates) {
-        Set<Integer> hs = new HashSet<>();
-        for (int num : candidates) {
-            hs.add(num);
-        }
-        int[] cleanCandidates = new int[hs.size()];
-        int i = 0;
-        for (int num : hs) {
-            cleanCandidates[i] = num;
-            i++;
-        }
-        Arrays.sort(cleanCandidates);
-        return cleanCandidates;
-    }
-    
-    public void dfs(int[] candidates, int target, int index, List<Integer> combination) {
-        if (target == 0) {
-            // deep copy because modifying it later will affect the result
-            ret.add(new ArrayList<Integer>(combination));
+    public void dfs(List<List<Integer>> ret, int[] candidates, int target, List<Integer> current, int index, int currentSum) { 
+        // we can also simplify the paratermeters and replace target and currentSum with targetSum
+        if (currentSum == target) {
+            ret.add(new ArrayList<>(current));
             return;
         }
-
+        if (currentSum > target) {
+            return;
+        }
         for (int i = index; i < candidates.length; i++) {
-            if (candidates[i] > target) {
-                return;
-            }
-            combination.add(candidates[i]);
-            dfs(candidates, target - candidates[i], i, combination);
-            combination.remove(combination.size() - 1);
+            current.add(candidates[i]);
+            int sum = currentSum + candidates[i];
+            dfs(ret, candidates, target, current, i, sum);
+            current.remove(current.size()-1);
         }
     }
 }
