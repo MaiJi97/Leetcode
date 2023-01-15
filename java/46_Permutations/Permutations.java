@@ -9,6 +9,7 @@ class Solution {
     public void dfs(int[] nums, List<List<Integer>> ret, List<Integer> current) {
         if (current.size() == nums.length) {
             ret.add(new ArrayList<>(current));
+            return;
         }
         for (int i = 0; i < nums.length; i++) {
             if (!current.contains(nums[i])) {
