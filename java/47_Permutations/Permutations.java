@@ -12,6 +12,7 @@ class Solution {
     public void dfs(int[] nums, List<List<Integer>> ret, List<Integer> current, Map<Integer, Integer> hm) {
         if (current.size() == nums.length) {
             ret.add(new ArrayList<>(current));
+            return;
         }
         for (Map.Entry<Integer, Integer> entry : hm.entrySet()) {
             int key = entry.getKey();
