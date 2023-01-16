@@ -2,14 +2,14 @@
 
 | #        |  Title                                                                                        |  Category                    | Solution          |
 |----------|-----------------------------------------------------------------------------------------------|------------------------------|---------------|
-| 1        |  [Two Sum](https://leetcode.com/problems/two)                                                 | HashMap                      | [solution](java/1_TwoSum)|
+| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | HashMap                      | [solution](java/1_TwoSum)|
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | HashMap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | HashMap + Linked List        | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| HashMap                  | [solution](java/380_InsertDeleteGetRandom)| 
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers                 | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers                 | [solution](java/16_ThreeSumClosest)|
-| 125      |  [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                          | Two Pointers                 | [solution](java/125_ValidPalindrome)|
+| 125      |  [Valid Palindrome I](https://leetcode.com/problems/valid-palindrome/)                        | Two Pointers                 | [solution](java/125_ValidPalindrome)|
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers                 | [solution](java/680_ValidPalindrome)|
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers                 | [solution](java/611_ValidTriangleNumber)|
 | 11       |  [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)        | Two Pointers                 | [solution](java/11_ContainerWithMostWater)|
@@ -32,7 +32,7 @@
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum    | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum    | [solution](java/974_SubarraySumsDivisibleByK)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                   | [solution](java/370_RangeAddition)|
-| 252      |  [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)                                | Two Pointers                 | [solution](java/252_MeetingRooms)|
+| 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers                 | [solution](java/252_MeetingRooms)|
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
 | 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers                 | [solution](java/56_MergeIntervals)|
 | 57       |  [Insert Interval](https://leetcode.com/problems/insert-interval/)                            | Two Pointers                 | [solution](java/57_InsertInterval)|
@@ -43,10 +43,11 @@
 | 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
 | 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | DP / Greedy                  | [solution](java/435_NonOverlappingIntervals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search                | [solution](java/704_BinarySearch)|
+| 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search                | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search                | [solution](java/852_PeakIndexInMountainArray)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search                | [solution](java/287_FindTheDuplicateNumber)|
 | 34       |  [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| Binary Search| [solution](java/34_FindFirstAndLastPositionOfElementInSortedArray)|
-| 33       |  [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search              | [solution](java/33_SearchInRotatedSortedArray)|
+| 33       |  [Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search            | [solution](java/33_SearchInRotatedSortedArray)|
 | 81       |  [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| Binary Search        | [solution](java/81_SearchInRotatedSortedArray)|
 | 153      |  [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| Binary Search  | [solution](java/153_FindMinimumInRotatedSortedArray)|
 | 154      |  [Find Minimum In Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| Binary Search| [solution](java/154_FindMinimumInRotatedSortedArray)|
@@ -67,14 +68,14 @@
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                        | [solution](java/622_DesignCircularQueue)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)|  
-| 206      |  [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                    | Linked List                  | [solution](java/206_ReverseLinkedList)|
+| 206      |  [Reverse Linked List I](https://leetcode.com/problems/reverse-linked-list/)                  | Linked List                  | [solution](java/206_ReverseLinkedList)|
 | 92       |  [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)              | Linked List                  | [solution](java/92_ReverseLinkedList)|
 | 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List                  | [solution](java/25_ReverseNodesInKGroup)|
 | 2        |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                            | Linked List                  | [solution](java/2_AddTwoNumbers)|
 | 445      |  [Add Two Numbers](https://leetcode.com/problems/add-two-numbers-ii/)                         | Linked List + Stack          | [solution](java/445_AddTwoNumbers)|
 | 21       |  [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)              | Linked List                  | [solution](java/21_MergeTwoSortedLists)|
 | 23       |  [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                  | Linked List + Priority Queue | [solution](java/23_MergeKSortedLists)|
-| 141      |  [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                        | Linked List                  | [solution](java/141_LinkedListCycle)|  
+| 141      |  [Linked List Cycle I](https://leetcode.com/problems/linked-list-cycle/)                      | Linked List                  | [solution](java/141_LinkedListCycle)|  
 | 142      |  [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                  | Linked List                  | [solution](java/142_LinkedListCycle)|  
 | 203      |  [Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/)     | Linked List                  | [solution](java/203_RemoveLinkedListElement)| 
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
@@ -103,22 +104,31 @@
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS             | [solution](java/111_MinimumDepthOfBinaryTree)| 
 | 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / BFS / DFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
-| 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS           | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
+| 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS / DFS     | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
 | 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS|[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
 | 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS        | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                          | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                          | [solution](java/127_WordLadder)|
+| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS / DFS                    | [solution](java/207_CourseSchedule)| 
+| 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                    | [solution](java/490_TheMaze)| 
+| 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                    | [solution](java/505_TheMaze)| 
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS                          | [solution](java/1631_PathWithMinimumEffort)|
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | DFS / BFS                    | [solution](java/200_NumberOfIslands)|
-| 207      |  [Course Schedule](https://leetcode.com/problems/course-schedule/)                            | DFS / BFS                    | [solution](java/207_CourseSchedule)| 
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | DFS / BFS                    | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | DFS / BFS                    | [solution](java/695_MaxAreaOfIsland)| 
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS                      | [solution](java/797_AllPathsFromSourceToTarget)|
+| 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS                          | [solution](java/78_Subsets)| 
+| 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS                          | [solution](java/90_Subsets)| 
+| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                          | [solution](java/46_Permutations)| 
+| 47       |  [Permutations II](https://leetcode.com/problems/permutations-ii/)                            | DFS                          | [solution](java/47_Permutations)| 
+| 77       |  [Combinations](https://leetcode.com/problems/combinations/)                                  | DFS                          | [solution](java/77_Combinations)| 
+| 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS                          | [solution](java/39_CombinationSum)|
+| 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS                          | [solution](java/40_CombinationSum)|
+| 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS                          | [solution](java/216_CombinationSum)|
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS                          | [solution](java/721_AccountsMerge)|
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS           | [solution](java/17_LetterCombinationsOfPhoneNumber)|
-| 39       |  [Combination Sum](https://leetcode.com/problems/combination-sum/)                            | DFS                          | [solution](java/39_CombinationSum)|
-| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                          | [solution](java/46_Permutations)| 
-| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS                   | [solution](java/494_TargetSum)| 
+| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS                          | [solution](java/494_TargetSum)| 
+| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS                          | [solution](java/377_CombinationSum)|
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP                 | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                           | [solution](java/62_UniquePaths)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                           | [solution](java/72_EditDistance)| 
@@ -129,7 +139,6 @@
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP               | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                           | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                       | [solution](java/516_LongestPalindromeSubsequence)| 
-| 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP                 | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy                 | [solution](java/1029_TwoCityScheduling)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
 | 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                        | [solution](java/780_ReachingPoints)| 
