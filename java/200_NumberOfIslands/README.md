@@ -6,6 +6,6 @@ Time Complexity: O(mn)
 
 ## Method 2: BFS / Matrix Traverse through Queue
 
-BFS matrix traverse through queue. Similar as DFS but there two points to note: 1) We use a customized inner class here to include information of x axis and y axis of the current block, but can also be done through a direction array, which represent the step we take vertically and horizontally. 2) When we add neighbors of the current node to the queue. What are the neighbors? They are the four blocks that adjacent to / directly connected with the current block in the four direction and is not 0 / have not been visited / have not reached the border of the matrix. If it satisfies the conditions, add it to the queue and mark it as visited.
+BFS matrix traverse through queue. Similar as DFS but there two points to note: 1) We use a customized inner class here to include information of x axis and y axis of the current block, but can also be done through a direction array, which represent the step we take vertically and horizontally. 2) When we add neighbors of the current block to the queue. What are the neighbors? They are the four blocks that adjacent to / directly connected with the current block in the four direction and is not 0 / have not been visited / have not reached the border of the matrix. If it satisfies the conditions, add it to the queue and mark it as visited.
 
 Time Complexity: O(mn) 
