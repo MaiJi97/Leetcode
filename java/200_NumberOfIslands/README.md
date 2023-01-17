@@ -1,11 +1,11 @@
 ## Method 1: DFS / Matrix Traverse through recursion
 
-DFS matrix traverse through recursion. Break the recursion when the block is 0 / all the blocks have been visited / we reach the border of the matrix. Else we call the method on its four adjacent blocks and recursively find all the blocks connecting to it and count the whole area as 1. 
+DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the current state. Break the recursion when the block is 0 / all the blocks have been visited / we reach the border of the matrix and then add 1 to the result. Else we call the method recursively on its neighbors to keep finding elements in the same island. What are the neighbors? They are the four adjacent blocks that is not 0 / have not been visited / have not reached the border of the matrix. 
 
 Time Complexity: O(mn) 
 
 ## Method 2: BFS / Matrix Traverse through Queue
 
-BFS matrix traverse through queue. Similar as DFS but need to consider what to be pushed into the queue -> the index of the current block as a two element array or an inner class data structure. Also note the use of a direction array, which represents the next step to take both vertically and horizontally. Who are the neighbors? The four blocks that adjacent to / directly connected with the current block in the four direction, represented by the direction array. If the block is not yet visited, add it to the queue.
+BFS matrix traverse through queue. Similar as DFS but there two points to note: 1) We use a customized inner class here to include information of x axis and y axis of the current block, but can also be done through a direction array, which represent the step we take vertically and horizontally. 2) When we add neighbors of the current node to the queue. What are the neighbors? They are the four blocks that adjacent to / directly connected with the current block in the four direction and is not 0 / have not been visited / have not reached the border of the matrix. If it satisfies the conditions, add it to the queue and mark it as visited.
 
 Time Complexity: O(mn) 
