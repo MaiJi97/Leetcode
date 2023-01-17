@@ -7,6 +7,8 @@ Time Complexity: O(mn)
 
 ## Method 2: DFS / Matrix Traverse through recursion
 
-DFS traverse through recursion. Break the recursion when we reach the end point (return true) or when all the block has been visited (return false). Else we call the method on its neighbors and recursively find if there is a path from the start to the end point. What are the neighbors? They are the blocks that we will reach if keep going until hitting the wall and is not yet visited. We need to make sure the block is not visited repeatedly or else the ball might go into an infinite loop.
+DFS traverse through recursion. We have a helper method that takes in additional information regardign the current state. Break the recursion when we reach
+the end point (return true) or when all the block has been visited (return false). Else we call the method recursively on its neighbors and find if there 
+is a path from the start to the end point. What are the neighbors? They are the blocks that we will reach if keep going until hitting the wall and is not yet visited. We need to make sure the block is not visited repeatedly or else the ball might go into an infinite loop.
 
 Time Complexity: O(mn)
