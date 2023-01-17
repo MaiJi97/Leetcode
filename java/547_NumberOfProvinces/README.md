@@ -1,7 +1,11 @@
-## Method 1: DFS / Traverse through recursion
+Method 1: DFS / Matrix Traverse through recursion
 
-Base case for DF: when isConnected[i][j] is false, or when all the nodes are visited, though not explicitly written in the code.
+DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the current state. Call the method recursively on current province's neighbors. What are the neighbors? They are the neighbors we find through the isConnected matrix and has not been visited.
 
 Time Complexity: O(n^2)
 
-## Method 2: BFS / Matrix Traverse through Queue
+Method 2: BFS / Matrix Traverse through Queue
+
+BFS matrix traverse through queue. When we add neighbors of the current province to the queue. What are the neighbors? They are the neighbors we find through the isConnected matrix and has not been visited. If it satisfies the conditions, add it to the queue and mark it as visited.
+
+Time Complexity: O(n^2)
