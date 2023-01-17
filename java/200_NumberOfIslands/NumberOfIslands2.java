@@ -31,18 +31,18 @@ class Solution {
     }
     
     private void bfs(int i, int j, char[][] grid, boolean[][] visited) {
-        Queue<Coordinate> queue = new ArrayDeque<>();
-        queue.offer(new Coordinate(i, j));
+        Queue<Coordinate> q = new ArrayDeque<>();
+        q.offer(new Coordinate(i, j));
         visited[0][0] = true;
-        while (!queue.isEmpty()) {
-            Coordinate curr = queue.poll();
+        while (!q.isEmpty()) {
+            Coordinate current = q.poll();
             for (int[] direction : directions) {
-                int newX = curr.x + direction[0];
-                int newY = curr.y + direction[1];
+                int newX = current.x + direction[0];
+                int newY = current.y + direction[1];
                 if (newX < 0 || newX >= grid.length || newY < 0 || newY >= grid[0].length || grid[newX][newY] == '0' || visited[newX][newY] == true) {
                     continue;
                 }
-                queue.offer(new Coordinate(newX, newY));
+                q.offer(new Coordinate(newX, newY));
                 visited[newX][newY] = true;
             }
         }
