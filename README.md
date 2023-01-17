@@ -113,9 +113,9 @@
 | 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                    | [solution](java/490_TheMaze)| 
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                    | [solution](java/505_TheMaze)| 
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS                          | [solution](java/1631_PathWithMinimumEffort)|
-| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | DFS / BFS                    | [solution](java/200_NumberOfIslands)|
-| 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | DFS / BFS                    | [solution](java/547_NumberOfProvinces)| 
-| 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | DFS / BFS                    | [solution](java/695_MaxAreaOfIsland)| 
+| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                    | [solution](java/200_NumberOfIslands)|
+| 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS                    | [solution](java/547_NumberOfProvinces)| 
+| 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | BFS / DFS                    | [solution](java/695_MaxAreaOfIsland)| 
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS                      | [solution](java/797_AllPathsFromSourceToTarget)|
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS                          | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS                          | [solution](java/90_Subsets)| 
