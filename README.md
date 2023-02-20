@@ -188,7 +188,7 @@ Note: </br>
 ### 1) DFS through Recursion </br>
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
   
-   一条路走到黑，通常用于求最优解
+   一条路走到黑，通常用于求所有解
    
    Note: </br>
    - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. </br>
