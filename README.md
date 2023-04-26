@@ -195,11 +195,6 @@ Note: </br>
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    
-   Backtrack模版: </br>
-   <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
-   https://www.1point3acres.com/bbs/thread-583166-1-1.html
-
-   
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
    
@@ -282,6 +277,10 @@ Binary Tree 常见题型：
 Not only in Tree, Graph problems</br>
 Can also be used in combination and Permutation problems </br>
 Matrix problems and other problems </br>
+
+DFS之Backtrack: </br>
+<img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
+https://www.1point3acres.com/bbs/thread-583166-1-1.html
 
 ## Dynamic Programming（关键词：最优值，可行性，方案数）
 
