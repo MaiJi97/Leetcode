@@ -18,7 +18,7 @@ class Solution {
         else if (word.charAt(current) == board[i][j]) {
             char temp = board[i][j];
             board[i][j] = '#';
-            boolean ret = dfs(board, word, i+1, j, current + 1) || helper(board, word, i-1, j, current + 1) || helper(board, word, i, j+1, current + 1) || helper(board, word, i, j-1, current + 1);
+            boolean ret = dfs(board, word, i+1, j, current + 1) || dfs(board, word, i-1, j, current + 1) || dfs(board, word, i, j+1, current + 1) || dfs(board, word, i, j-1, current + 1);
             board[i][j] = temp;
             return ret;
         }
