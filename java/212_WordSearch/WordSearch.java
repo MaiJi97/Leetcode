@@ -9,12 +9,12 @@ class Solution {
             trie.insert(word);
         }
 
-        int m=board.length;
-        int n=board[0].length;
+        int m = board.length;
+        int n = board[0].length;
         boolean[][] visited = new boolean[m][n];
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 dfs(board, visited, trie, i, j, "");
             }
         }
@@ -23,7 +23,7 @@ class Solution {
 
     public void dfs(char[][] board, boolean[][] visited, Trie trie, int i, int j, String current) {
 
-        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length) return;
+        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || visited[i][j]) return;
 
         current += board[i][j];
 
@@ -31,14 +31,14 @@ class Solution {
 
         if (trie.search(current)) ret.add(current);
 
-        visited[i][j]=true;
+        visited[i][j] = true;
         
         dfs(board, visited, trie, i+1, j, current);
         dfs(board, visited, trie, i-1, j, current);
         dfs(board, visited, trie, i, j+1, current);
         dfs(board, visited, trie, i, j-1, current);
 
-        visited[i][j]=false;
+        visited[i][j] = false;
     }
 }
 
