@@ -9,4 +9,7 @@ Also note that for bit operation, we get the ith bit of the binary representatio
 to 0. For each number, we find the other number that gives the maximum XOR with it by traversing through the trie => if current bit is 
 x and there is no (1-x) in the trie, traverse through the current number's path; else traverse through the other number's path.
 
+<img width="288" alt="Screen Shot 2023-05-26 at 4 30 13 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/19606c01-3b83-41f1-90ff-bc13a84cd955.png">
+
+
 Time Complexity: O(n)
