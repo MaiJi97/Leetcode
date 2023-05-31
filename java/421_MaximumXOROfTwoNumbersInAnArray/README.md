@@ -1,7 +1,6 @@
 ## Method 1: Trie / Prefix Tree + Bit Operation
 
-In this problem, we use trie to match prefix of binary representation of a number instead of prefix of a word, therefore each trie node
-has two children instead of 26 characters. 
+We can use a brute force method that for each pair of numbers in the array, we compute the XOR value (^) and get the maximum. which takes O(n^2), To make it more efficient, we can construct a trie and insert the binary representation of all the numbers into the trie. Then for each number, we traverse along the trie to find the longest match of binary representation prefix. Note that each trie node has two children instead of 26 characters we and to match prefix of binary representation of a number instead of prefix of a word. 
 
 <img width="772" alt="Screen Shot 2023-05-25 at 3 20 16 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/287b75aa-d157-4e2c-a68f-389ced6e9eef.png">
 
@@ -13,3 +12,4 @@ x and there is no (1-x) in the trie, traverse through the current number's path;
 
 
 Time Complexity: O(n)
+
