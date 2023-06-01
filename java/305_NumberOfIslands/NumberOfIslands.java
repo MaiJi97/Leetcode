@@ -20,16 +20,16 @@ class Solution {
                 int component2 = dsu.find(newX * n + newY);
                 if (component1 != component2) {
                     count--;
-                    dsu.union(component1, component2);
+                    dsu.union(component1, component2); 
                 }
             } 
-            ret.add(count);
+            ret.add(count); 
         }
         return ret;
     }
 }
 
-class DSU {
+class DSU { // union find: parent储存每一个block所属的island（以linear mapping形式），最终我们需要的count是parent中element的种类数量
     int[] parent;
     public DSU(int n) {
         parent = new int[n];
