@@ -14,6 +14,6 @@ Union find can be either improved with size (weight) or rank:
 
 
 In this problem, the number of islands is dynamically changing, so we need to use union find to continuously check if the block and its
-adjacent blocks have the same parent. If they do not , we merge (union) them. Note that n * x + y is way we perform linear mapping.
+adjacent blocks have the same terminal parent / belong to the same island. If they do not , we merge (union) them. Note that n * x + y is way we perform linear mapping. Also note that what we want here is the number of islands / number of terminal parents.
 
 Time Complexity: O(M * N + L log(UF)) if union find is improved.
