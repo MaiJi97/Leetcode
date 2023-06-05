@@ -7,13 +7,13 @@ class MyQueue {
  
     }
     
-    public void push(int x) {
-        while (!s1.isEmpty()) {
-            s2.push(s1.pop());
+    public void push(int x) { // 6
+        while (!s1.isEmpty()) { // s1: 5,4,3,2,1 
+            s2.push(s1.pop()); // s2: 1,2,3,4,5
         }
-        s2.push(x);
+        s2.push(x); // s2: 1,2,3,4,5,6
         while (!s2.isEmpty()) {
-            s1.push(s2.pop());
+            s1.push(s2.pop()); // s1: 6,5,4,3,2,1
         }
     }
     
