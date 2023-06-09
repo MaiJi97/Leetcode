@@ -81,7 +81,7 @@
 | 83       |  [Remove Duplicates From Sorted List I](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| Linked List      | [solution](java/83_RemoveDuplicatesFromSortedList)| 
 | 82       |  [Remove Duplicates From Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Linked List  | [solution](java/82_RemoveDuplicatesFromSortedList)| 
 | 19       |  [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Linked List            | [solution](java/19_RemoveNthNodeFromEndOfList)| 
-| 1171     |  [Remove Zero Sum Consecutive Nodes From Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)| Linked List| [solution](java/1171_RemoveZeroSumConsecutiveNodesFromLinkedList)| 
+| 1171     |  [Remove Zero Sum Consecutive Nodes From Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)| Linked List + Prefix Sum| [solution](java/1171_RemoveZeroSumConsecutiveNodesFromLinkedList)| 
 | 1836     |  [Remove Duplicates From Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| Linked List| [solution](java/1836_RemoveDuplicatesFromUnsortedLinkedList)| 
 | 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedList)| 
 | 160      |  [Intersection Of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/)| Linked List             | [solution](java/160_IntersectionOfTwoLinkedList)| 
@@ -95,6 +95,12 @@
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List                  | [solution](java/61_RotateList)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List                  | [solution](java/725_SplitLinkedListInParts)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
+| 208      |  [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)                  | Trie                       | [solution](java/208_ImplementTrie)| 
+| 211      |  [Design Add and Search Word Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)    | Trie     | [solution](java/211_DesignAddAndSearchWordDataStructure)| 
+| 421      |  [Maximum XOR Of Two Numbers In An Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)                  | Trie     | [solution](java/421_MaximumXOROfTwoNumbersInAnArray)| 
+| 1707     |  [Maximum XOR With An Element From Array](https://leetcode.com/problems/maximum-xor-with-an-element-from-array/)                  | Trie     | [solution](java/1707_MaximumXORWithAnElementFromArray)| 
+| 128      |  [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  | Union Find                 | [solution](java/128_LongestConsecutiveSequence)| 
+| 305      |  [Number Of Islands II](https://leetcode.com/problems/number-of-islands-ii/)                  | Union Find                     | [solution](java/305_NumberOfIslands)|
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                   | [solution](java/230_KthSmallestElementInBST)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS                   | [solution](java/104_MaximumDepthOfBinaryTree)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS                   | [solution](java/110_BalancedBinaryTree)| 
@@ -113,9 +119,11 @@
 | 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                    | [solution](java/490_TheMaze)| 
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                    | [solution](java/505_TheMaze)| 
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS                          | [solution](java/1631_PathWithMinimumEffort)|
-| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                    | [solution](java/200_NumberOfIslands)|
+| 200      |  [Number Of Islands I](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                    | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS                    | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | BFS / DFS                    | [solution](java/695_MaxAreaOfIsland)| 
+| 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                        | [solution](java/79_WordSearch)|
+| 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie                     | [solution](java/212_WordSearch)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS                      | [solution](java/797_AllPathsFromSourceToTarget)|
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS                          | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS                          | [solution](java/90_Subsets)| 
@@ -142,7 +150,7 @@
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy                 | [solution](java/1029_TwoCityScheduling)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search         | [solution](java/300_LongestIncreasingSubsequence)| 
 | 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                        | [solution](java/780_ReachingPoints)| 
-| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                   | Negative Marking             | [solution](java/723_CandyCrush)| 
+| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Marking             | [solution](java/723_CandyCrush)| 
 
 # Notes in Essential Categories
 
