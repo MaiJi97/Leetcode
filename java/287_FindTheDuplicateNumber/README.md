@@ -19,12 +19,11 @@ Time Complexity: O(n)
 
 ## Method 3: Number index mapping + Negative Marking 
 
-The does not satisfy the requirement but is also a good method. We apply the idea that number of the array can be mapped to distinct index if there are no
-duplicate. Though if there is a duplicate, there can be two numbers mapping to the same index.
+The does not satisfy the requirement but is also a good method. We apply the idea that number of the array can be mapped to distinct index if there are no duplicate. Though if there is a duplicate, there can be two numbers mapping to the same index.
 
 Eg: 1, 3, 4, 2, 2 </br>
 
-The numbers is from 1 to 4, with a duplicate 2. If there is no duplicate, each number can be mapped to an index from 0 to 3. But since there is a duplicate in the numbers, there is also an index that appears twice. In this case the index are 0, 2, 3, 1, 1, with a duplciate index 1 (a duplicate index instead of increment to 4, since this is a mapping). So if we iterate through the array to access each index and find that we access an index twice, we know the number index+1 appears twice. How do we know we access a number at an index more than once? We can negate the number to mark it so if we see a negative number at the index we know we have already visited it.
+The numbers is from 1 to 4, with a duplicate 2. If there is no duplicate, each number can be mapped to an index from 0 to 3. But since there is a duplicate in the numbers, there is also an index that appears twice. In this case the index are 0, 2, 3, 1, 1, with a duplicate index 1 (a duplicate index instead of increment to 4, since this is a mapping). So if we iterate through the array to access each index and find that we access an index twice, we know the number index+1 appears twice. How do we know we access a number at an index more than once? We can negate the number to mark it so if we see a negative number at the index we know we have already visited it.
 
 Time Complexity: O(n)
 
