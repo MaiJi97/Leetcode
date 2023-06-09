@@ -83,7 +83,7 @@
 | 19       |  [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| Linked List            | [solution](java/19_RemoveNthNodeFromEndOfList)| 
 | 1171     |  [Remove Zero Sum Consecutive Nodes From Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)| Linked List| [solution](java/1171_RemoveZeroSumConsecutiveNodesFromLinkedList)| 
 | 1836     |  [Remove Duplicates From Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/)| Linked List| [solution](java/1836_RemoveDuplicatesFromUnsortedLinkedList)| 
-| 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedlist)| 
+| 234      |  [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)              | Linked List                  | [solution](java/234_PalindromeLinkedList)| 
 | 160      |  [Intersection Of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/)| Linked List             | [solution](java/160_IntersectionOfTwoLinkedList)| 
 | 138      |  [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| Linked List                  | [solution](java/138_CopyListWithRandomPointer)| 
 | 426      |  [Convert Binary Search Tree To Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)| Linked List | [solution](java/426_ConvertBinarySearchTreeToSortedDoublyLinkedList)| 
