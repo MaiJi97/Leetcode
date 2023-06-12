@@ -1,6 +1,6 @@
 ## Method 1: Brute Force
 
-Use nested for loops. For each element in nums1 array, iterate through each element in nums2 array and check for the next greater element.
+Use nested for loops. For each element in nums1 array, iterate through each element in nums2 array and locate the nums1 element first, and then continue to iterate until the end of nums2 array and check for the next greater element.
 
 Time Complexity: O(n)
 
