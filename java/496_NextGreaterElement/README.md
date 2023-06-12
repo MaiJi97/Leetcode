@@ -15,3 +15,5 @@ Time Complexity: O(n)
 
 Use monotonic stack for problems like next greater element or previous smaller element, etc:
 <img width="796" alt="Screen Shot 2023-06-12 at 5 18 48 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/1c6c250b-01d6-4ed4-8991-ddd17b3acc11.png">
+
+Time Complexity: O(n)
