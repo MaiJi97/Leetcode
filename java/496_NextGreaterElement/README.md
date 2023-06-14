@@ -15,7 +15,7 @@ Time Complexity: O(n^2)
 
 Use monotonic stack for problems like next greater element or previous smaller element, etc:
 
-递增栈，栈中的element都是比当前element大的。
+递增栈: for each element in the array, we are looking for an element AFTER it that is greater than it.
 
 <img width="796" alt="Screen Shot 2023-06-12 at 5 18 48 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/1c6c250b-01d6-4ed4-8991-ddd17b3acc11.png">
 
