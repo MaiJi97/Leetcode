@@ -6,8 +6,10 @@ end of the array.
 
 Time Complexity: O(n^2)
 
-## Method 2: Monotic Stack
+## Method 2: Monotonic Stack
 
-Similar as problem 496, but we iterate through the cycle two times as the array is circular.
+Similar as problem 496, but in this problem we need to loop through the array one additional time, as after the first iteration we can 
+only guarantee to find the next greater element for the first element in the array, while the next greater elements for the rest of the
+elements can only be decided after the second iteration.
 
 Time Complexity: O(n)
