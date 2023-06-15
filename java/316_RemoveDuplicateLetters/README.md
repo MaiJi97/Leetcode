@@ -4,7 +4,7 @@ The difficulty here is that the returned string needs to be lexicographically in
 
 <img width="367" alt="Screen Shot 2023-06-15 at 10 01 00 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/caef5e9c-b31f-4185-8234-ac270524be4f.png">
 
-当满足while的条件，用current element replace peek element: keep executing the while loop as stack not empty + peek element is greater than the current element + peek element occurs again later. Pop the peek element out of the stack and push the current element onto the stack to replace it.
+当满足while的条件，用current element replace peek element - keep executing the while loop as: stack not empty + peek element is greater than the current element + peek element occurs again later. Pop the peek element out of the stack and push the current element onto the stack to replace it.
 
 Note we need a seen array to track if we already have certain character. And the returned string through string builder has to be reversed as stack has the latest element on the top.
 
