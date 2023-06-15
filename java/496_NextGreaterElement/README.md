@@ -15,7 +15,7 @@ Time Complexity: O(n^2)
 
 Use monotonic stack for problems like next greater element, next smaller element, previous greater element and previous smaller element, etc (当we care about每个element与前后的element形成的大小关系）:
 
-递增栈: for each element in the array, we are looking for an element AFTER it that is greater than it. Keep executing the while loop as: the stack is not empty, and the peek element is smaller than the current element.
+递增栈: for each element in the array, we are looking for an element AFTER it that is greater than it. Keep executing the while loop as: the stack is not empty, and the peek element is smaller than or equal to the current element.
 
 <img width="796" alt="Screen Shot 2023-06-12 at 5 18 48 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/1c6c250b-01d6-4ed4-8991-ddd17b3acc11.png">
 
