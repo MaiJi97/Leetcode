@@ -10,6 +10,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             int current = s.charAt(i) - 'a';
             if (seen[current]) continue; // if seen continue as we need to pick only one char
+            // while stack not empty + peek element greater than current + peek element occurs again later
             while (!stack.isEmpty() && current < (stack.peek() - 'a') && lastIndex[stack.peek() - 'a'] > i) seen[stack.pop() - 'a'] = false;
             stack.push(s.charAt(i));
             seen[current] = true;
