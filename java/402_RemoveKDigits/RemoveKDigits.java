@@ -4,7 +4,7 @@ class Solution {
 
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < num.length(); i++) {
-            // stack is not empty + peek element is smaller than current element + number of replace is less than k
+            // stack is not empty + peek element greater than current element + number of removal is less than k
             while (!stack.isEmpty() && num.charAt(i) < stack.peek() && k > 0) {
                 stack.pop();
                 k--;
