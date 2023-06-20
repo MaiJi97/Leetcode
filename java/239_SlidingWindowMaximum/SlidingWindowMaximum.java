@@ -7,7 +7,7 @@ class Solution {
             while (!q.isEmpty() && i - q.peekFirst() >= k) q.pollFirst(); 
             while (!q.isEmpty() && nums[q.peekLast()] <= nums[i]) q.pollLast();
             q.offerLast(i); 
-            if (startWindowIndex >= 0) ret[startWindowIndex] = nums[q.peekFirst()]; // peek first的是当前window最大的element
+            if (startWindowIndex >= 0) ret[startWindowIndex] = nums[q.peekFirst()]; // peek first的是当前window最左侧的element，也是最大的element
         }
         return ret;
     }
