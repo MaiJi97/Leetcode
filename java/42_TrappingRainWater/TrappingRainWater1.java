@@ -6,10 +6,10 @@ class Solution {
 
         leftMax[0] = height[0];
         rightMax[height.length - 1] = height[height.length - 1];
-        for (int i = 1 ; i < height.length; i++) {
+        for (int i = 1 ; i < height.length; i++) { // 从index i处看到的左边最大高度
             leftMax[i] = Math.max(height[i], leftMax[i-1]);
         }
-        for (int i = height.length-2; i >= 0; i--) {
+        for (int i = height.length-2; i >= 0; i--) { // 从index i处看到的右边最大高度
             rightMax[i] = Math.max(height[i], rightMax[i+1]);
         }
         for (int i = 0; i < height.length; i++) {
