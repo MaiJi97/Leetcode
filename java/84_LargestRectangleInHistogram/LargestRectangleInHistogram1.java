@@ -1,6 +1,6 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
-        Stack<Integer> stack = new Stack();
+        Stack<Integer> stack = new Stack<>();
         int[] leftFirstSmaller = new int[heights.length];
         int[] rightFirstSmaller = new int[heights.length];
 
@@ -11,7 +11,7 @@ class Solution {
             stack.push(i);
         }
 
-        stack = new Stack(); 
+        stack = new Stack<>(); 
         for (int i = heights.length - 1; i >= 0; i--) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) stack.pop();
             if (stack.isEmpty()) rightFirstSmaller[i] = heights.length;
