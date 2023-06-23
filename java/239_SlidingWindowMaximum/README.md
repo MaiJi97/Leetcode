@@ -1,6 +1,8 @@
-## Method 1: Monotonic Deque
+## Method 1: Priority Queue
 
-A brute force method has time complexity of O(n*k), 
+A brute force method has time complexity of O(n*k), and a method with priority queue still needs O(nlogn).
+
+## Method 2: Monotonic Deque
 
 Need to use monotonic deque since we need pop / push from both ends
 
