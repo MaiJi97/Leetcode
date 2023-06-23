@@ -4,7 +4,7 @@ A brute force method has time complexity of O(n*k),
 
 Need to use monotonic deque since we need pop / push from both ends
 
-递减队列: for each element at index i in the array, we make sure elements are kept in a k element window, and they are monotonically decreasing within the window. The first (peekFirst) element in the k element window would be the greatest element corresponding to element at index i.
+递减队列: for each element at index i in the array, we make sure elements are kept in a k element window, and they are monotonically decreasing within the window. The first (peekFirst) element in the k element window would be the greatest element corresponding to element at index i which is the last element in the window.
 
 <img width="857" alt="Screen Shot 2023-06-20 at 1 14 33 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/9fbb5162-f057-45ee-ae51-7196ec862554.png">
 
