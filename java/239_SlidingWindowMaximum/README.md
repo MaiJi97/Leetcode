@@ -4,7 +4,7 @@ A brute force method has time complexity of O(n*k), and a method with priority q
 
 ## Method 2: Monotonic Deque
 
-Need to use monotonic deque since we need pop / push from both ends
+Need to use monotonic deque since we need to keep elements within a window -> pop / push from both ends
 
 递减队列: for each element at index i in the array, we make sure elements are kept in a k element window, and they are monotonically decreasing within the window. 为什么递减？We want the first (peekFirst) element to be the greatest element in the k element window corresponding to element at index i which is the last element in the window.
 
