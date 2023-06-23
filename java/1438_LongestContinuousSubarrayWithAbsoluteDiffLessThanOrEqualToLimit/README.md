@@ -10,3 +10,7 @@ subarray, we need to compute the difference between the maximum element and the 
 Time Complexity: O(nlogn)
 
 ## Method 2: Monotonic Deque
+
+手动maintain minDeque和maxDeque
+
+Time Complexity: O(n)
