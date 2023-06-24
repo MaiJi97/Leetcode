@@ -6,7 +6,7 @@ A brute force method has time complexity of O(n*k), and a method with priority q
 
 Need to use monotonic deque since we need to keep elements within a window -> pop / push from both ends
 
-递减队列: index i is the right boundary of the k element window in the original array, and we find the corresponding maximum value within the window. So, if the gap between i and the peek element is over k, we have to poll element out of the queue from the front; and as we offer element at index i into the queue, we have to make sure they are monotonically decreasing so we pop any smaller elements out of the queue from the tail. 为什么递减？We want the first (peekFirst) element to be the greatest element in the k element window and elements are in the order of potentially maximum.
+递减队列: index i is the right boundary of the k element window in the original array, and we find the corresponding maximum value within the window. So, if the gap between i and the peek element is over k, we have to poll element out of the queue from the front; and as we offer element at index i into the queue, we have to make sure they are monotonically decreasing so we poll any smaller elements out of the queue from the tail. 为什么递减？We want the first (peekFirst) element to be the greatest element in the k element window and elements are in the order of potentially maximum.
 
 <img width="857" alt="Screen Shot 2023-06-20 at 1 14 33 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/9fbb5162-f057-45ee-ae51-7196ec862554.png">
 
