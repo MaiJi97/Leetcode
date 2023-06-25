@@ -1,21 +1,18 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int left = 0;
-        int right = 0;
         int[] freq = new int[26];
-        
         int maxCount = 0;
-        
-        while (right < s.length()) { // 循环得出left-right区间的string为最终结果想要的string
-            freq[s.charAt(right) - 'A']++; // 记录right pointer指向的字母出现的次数
-            maxCount = Math.max(maxCount, freq[s.charAt(right) - 'A']); // 得到出现次数最多的字母出现的次数
-            right++;
-            
-            if (right - left > maxCount + k) {
-                freq[s.charAt(left) - 'A']--;
-                left++;
+        int j = 0;
+        int ret = 0;
+        for (int i = 0; i < s.length(); i++) {
+            freq[s.charAt(i) - 'A'] += 1;
+            maxCount = Math.max(maxCount, freq[s.charAt(i) - 'A']); // two pointers之间出现最多的char出现的次数
+            while (i - j + 1 - maxCount > k) { // 需要replace的大于k
+                freq[s.charAt(j) - 'A']--;
+                j++;
             }
+            ret = Math.max(ret, i - j + 1);
         }
-        return right - left;
+        return ret;
     }
 }
