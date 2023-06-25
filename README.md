@@ -17,14 +17,17 @@
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers               | [solution](java/75_SortColors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
-| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search | [solution](java/209_MinimumSizeSubarraySum)|
+| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers               | [solution](java/713_SubarrayProductLessThanK)|
-| 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers   | [solution](java/992_SubarraysWithKDifferentIntegers)|
+| 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
+| 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
+| 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
+| 395      |  [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| Two Pointers | [solution](java/395_LongestSubstringWithAtLeastKRepeatingCharacters)|
+| 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers   | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
+| 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers   | [solution](java/992_SubarraysWithKDifferentIntegers)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers               | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers               | [solution](java/781_RabbitsInForest)|
-| 3        |  [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
-| 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers                 | [solution](java/424_LongestRepeatingCharacterReplacement)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers               | [solution](java/88_MergeSortedArray)|
@@ -67,7 +70,19 @@
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                      | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                      | [solution](java/622_DesignCircularQueue)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
-| 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)|  
+| 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
+| 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack            | [solution](java/496_NextGreaterElement)| 
+| 503      |  [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)            | Monotonic Stack            | [solution](java/503_NextGreaterElement)| 
+| 1019     |  [Next Greater Node in Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)| Monotonic Stack      | [solution](java/1019_NextGreaterNodeInLinkedList)| 
+| 739      |  [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                      | Monotonic Stack            | [solution](java/739_DailyTemperatures)| 
+| 316      |  [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)          | Monotonic Stack            | [solution](java/316_RemoveDuplicateLetters)|
+| 1081     |  [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)| Monotonic Stack| [solution](java/1081_SmallestSubsequenceOfDistinctCharacters)|
+| 402      |  [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                            | Monotonic Stack            | [solution](java/402_RemoveKDigits)|
+| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack            | [solution](java/42_TrappingRainWater)|
+| 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack            | [solution](java/84_LargestRectangleInHistogram)|
+| 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Monotonic Deque            | [solution](java/239_SlidingWindowMaximum)|
+| 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
+| 1438     |  [Longest Continuous Subarray with Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)                                       | Monotonic Deque + Priority Queue      | [solution](java/1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit)|
 | 206      |  [Reverse Linked List I](https://leetcode.com/problems/reverse-linked-list/)                  | Linked List                | [solution](java/206_ReverseLinkedList)|
 | 92       |  [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)              | Linked List                | [solution](java/92_ReverseLinkedList)|
 | 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List                | [solution](java/25_ReverseNodesInKGroup)|
@@ -316,3 +331,6 @@ dp[0][0] or dp[i][0] or dp[0][i]
 ## Additional Notes
 Frequency -> Bucket sort </br>
 Mapping between numbers and their index / Hash Map as a way to store index of elements
+有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque
+Subarray -> Two Pointers (sliding window)
+Sorted -> Binary Search
