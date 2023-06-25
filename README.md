@@ -24,8 +24,9 @@
 | 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
 | 395      |  [Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| Two Pointers | [solution](java/395_LongestSubstringWithAtLeastKRepeatingCharacters)|
 | 424      |  [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)| Two Pointers   | [solution](java/424_LongestRepeatingCharacterReplacement)|
-| 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
 | 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers   | [solution](java/992_SubarraysWithKDifferentIntegers)|
+| 1248     |  [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)| Two Pointers | [solution](java/1248_CountNumberOfNiceSubarrays)|
+| 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers               | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers               | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
@@ -174,7 +175,7 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
-Both pointers start from the beginning of the array. One pointer keeps iterating through the array until certain conditions satisfy. Then start sliding the left pointer until the conditions no longer satisfy (sliding window) / update the left pointer to certain position (fast&slow). We use the left pointer to track the index of some specfic position. Also occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through.
+Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions satisfy, and then slide the left pointer until the conditions no longer satisfy (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
