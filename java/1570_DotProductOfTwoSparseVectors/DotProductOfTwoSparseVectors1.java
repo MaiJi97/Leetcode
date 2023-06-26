@@ -5,7 +5,9 @@ class SparseVector {
     SparseVector(int[] nums) {
         this.hm = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            hm.put(i, nums[i]);
+	    if (nums[i] != 0) {
+	        hm.put(i, nums[i]);
+	    }
         }
     }
     
