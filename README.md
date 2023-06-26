@@ -15,6 +15,8 @@
 | 11       |  [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)        | Two Pointers               | [solution](java/11_ContainerWithMostWater)|
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers               | [solution](java/977_SquaresOfASortedArray)|
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers               | [solution](java/75_SortColors)|
+| 408       |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)           | Two Pointers               | [solution](java/408_ValidWordAbbreviation)|
+| 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers     | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
@@ -175,7 +177,7 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
-Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions satisfy, and then slide the left pointer until the conditions no longer satisfy (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through.
+Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions satisfy, and then slide the left pointer until the conditions no longer satisfy (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
@@ -334,4 +336,4 @@ Frequency -> Bucket sort </br>
 Mapping between numbers and their index / Hash Map as a way to store index of elements
 有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque
 Subarray -> Two Pointers (sliding window)
-Sorted -> Binary Search
+Sorted, search for a target -> Binary Search
