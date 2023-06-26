@@ -6,7 +6,7 @@ computation method, we just need to iterate through the hashmap and look for val
 
 Time Complexity: O(n)
 
-## Method 2: Two Pointers 
+## Method 2: Two Pointers 同向双指针
 
 As there could be collisions when the amount of data grow large, we could use some other ways. One way is to use pointers - parallel pointers.
 
