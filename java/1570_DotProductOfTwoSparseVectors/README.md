@@ -8,13 +8,13 @@ Time Complexity: O(n)
 
 ## Method 2: Two Pointers 
 
-As there could be collisions when the amount of data grow large, we could use some other ways. One way is to use pointers - two pointers
-at different lists.
+As there could be collisions when the amount of data grow large, we could use some other ways. One way is to use pointers - parallel pointers.
 
 Time Complexity: O(n)
 
 ## Method 3: Binary Search
 
+Followup: what if only one vector is sparse?
 A third way is to use binary search, as for each index in one vector we are trying to look for value at the same index in the other 
 vector (if we are able to find the target index, the corresponding dot product component is non zero), and also the list are sorted
 by index.
