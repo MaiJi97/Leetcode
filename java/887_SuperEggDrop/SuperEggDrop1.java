@@ -11,7 +11,7 @@ class Solution {
         int min = Integer.MAX_VALUE;
         for (int i = 1; i <= n; i++) {
             int up = helper(k, n - i, memo);
-            int down = helper(k-1, i - 1, memo);
+            int down = helper(k - 1, i - 1, memo);
             min = Math.min(min, Math.max(up, down) + 1);
         }
         memo[k][n] = min;
