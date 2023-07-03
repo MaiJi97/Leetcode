@@ -1,6 +1,6 @@
 class Solution {
     public int subarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
+        HashMap<Integer, Integer> hm = new HashMap<>(); // <prefixSum, number of occurrence>
         hm.put(0, 1);
         int totalPrefixSum = 0;
         int ret = 0;
