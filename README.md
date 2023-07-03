@@ -177,7 +177,7 @@
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
 
 ### 2) 同向（sliding window型，fast&slow型）
-Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions satisfy, and then slide the left pointer until the conditions no longer satisfy (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
+Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions no longer satisfy, and then slide the left pointer until the conditions satisfy again (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
