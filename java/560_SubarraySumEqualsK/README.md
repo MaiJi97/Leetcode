@@ -1,6 +1,8 @@
 ## Method 1: Prefix Sum + HashMap
 
-Since there might be negative numbers in the input array, we cannot use two pointers approach, as we might continue to slide the right pointer while we can still slide the left pointer. Therefore, we apply the prefix sum approach instead here:
+Since there might be negative numbers in the input array, we cannot use two pointers approach, why?
+
+If there are only positive numbers, we slide the right pointer until it exceed certain boundary, and then start sliding the left pointer until it goes under the boundary. At this time we know we can slide the right pointer again because continue sliding the left pointer will only make the sum smaller and smaller. However, if there are negative number, it is possible to obtain a larger number by continuing sliding the left pointer. Therefore, the two pointer approach won't work and we should apply the prefix sum approach instead here:
 
 <img width="609" alt="Screen Shot 2022-07-23 at 11 42 16 PM" src="https://user-images.githubusercontent.com/106039830/180658103-6d15c331-1e60-45f4-8c76-a5c864f4b4d9.png">
 
