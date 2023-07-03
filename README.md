@@ -2,10 +2,10 @@
 
 | #        |  Title                                                                                        |  Category                  | Solution |
 |----------|-----------------------------------------------------------------------------------------------|----------------------------|----------|
-| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | HashMap                    | [solution](java/1_TwoSum)|
-| 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | HashMap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
-| 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | HashMap + Linked List      | [solution](java/146_LRUCache)| 
-| 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| HashMap                | [solution](java/380_InsertDeleteGetRandom)| 
+| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap                    | [solution](java/1_TwoSum)|
+| 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
+| 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List      | [solution](java/146_LRUCache)| 
+| 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| Hashmap                | [solution](java/380_InsertDeleteGetRandom)| 
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers               | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers               | [solution](java/16_ThreeSumClosest)|
@@ -35,9 +35,12 @@
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers               | [solution](java/88_MergeSortedArray)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
-| 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Two Pointers / Prefix Sum  | [solution](java/560_SubarraySumEqualsK)|
-| 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Two Pointers / Prefix Sum  | [solution](java/974_SubarraySumsDivisibleByK)|
+| 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap       | [solution](java/560_SubarraySumEqualsK)|
+| 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap       | [solution](java/974_SubarraySumsDivisibleByK)|
+| 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap       | [solution](java/523_ContinuousSubarraySum)|
+| 525      |  [Contiguous Array](https://leetcode.com/problems/contiguous-array/)                          | Prefix Sum + Hashmap       | [solution](java/525_ContiguousArray)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                 | [solution](java/370_RangeAddition)|
+| 304      |  [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)| Prefix Sum                 | [solution](java/304_RangeSumQuery2D)|
 | 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers               | [solution](java/252_MeetingRooms)|
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
 | 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers               | [solution](java/56_MergeIntervals)|
