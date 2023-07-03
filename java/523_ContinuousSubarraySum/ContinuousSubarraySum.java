@@ -1,6 +1,6 @@
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
+        HashMap<Integer, Integer> hm = new HashMap<>(); // <remainder, earliest index>
         hm.put(0, -1);
         int totalPrefixSum = 0;
         for (int i = 0; i < nums.length; i++) {
