@@ -8,7 +8,7 @@ class Solution {
             for (int i = 0; i < s.length(); i++) {
                 hm.put(s.charAt(i), hm.getOrDefault(s.charAt(i), 0) + 1);
                 if (hm.get(s.charAt(i)) == k) validCount++;
-                while (j < s.length() && hm.size() > distinct) {
+                while (j <= i && hm.size() > distinct) {
                     if (hm.get(s.charAt(j)) == k) validCount--;
                     hm.put(s.charAt(j), hm.getOrDefault(s.charAt(j), 0) - 1);
                     if (hm.get(s.charAt(j)) == 0) hm.remove(s.charAt(j));
