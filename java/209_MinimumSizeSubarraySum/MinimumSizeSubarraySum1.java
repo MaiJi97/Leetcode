@@ -5,7 +5,7 @@ class Solution {
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
-            while (sum >= target) {
+            while (j <= i && sum >= target) {
                 ret = Math.min(ret, i - j + 1);
                 sum -= nums[j];
                 j++;
