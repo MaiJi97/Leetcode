@@ -44,7 +44,6 @@
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers               | [solution](java/88_MergeSortedArray)|
-| 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap       | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap       | [solution](java/974_SubarraySumsDivisibleByK)|
 | 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap       | [solution](java/523_ContinuousSubarraySum)|
