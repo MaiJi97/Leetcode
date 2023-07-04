@@ -19,8 +19,6 @@
 | 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers     | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
-| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
-| 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers               | [solution](java/713_SubarrayProductLessThanK)|
 | 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
 | 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
 | 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
@@ -29,6 +27,18 @@
 | 992      |  [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/)| Two Pointers   | [solution](java/992_SubarraysWithKDifferentIntegers)|
 | 1248     |  [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description/)| Two Pointers | [solution](java/1248_CountNumberOfNiceSubarrays)|
 | 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
+| 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
+| 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers               | [solution](java/713_SubarrayProductLessThanK)|
+| 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers               | [solution](java/252_MeetingRooms)|
+| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
+| 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers               | [solution](java/56_MergeIntervals)|
+| 57       |  [Insert Interval](https://leetcode.com/problems/insert-interval/)                            | Two Pointers               | [solution](java/57_InsertInterval)|
+| 1272     |  [Remove Interval](https://leetcode.com/problems/remove-interval/)                            | Two Pointers               | [solution](java/1272_RemoveInterval)|
+| 1288     |  [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)          | Two Pointers               | [solution](java/1288_RemoveCoveredIntervals)|
+| 1229     |  [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)                        | Two Pointers               | [solution](java/1229_MeetingScheduler)|
+| 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers               | [solution](java/986_IntervalListIntersections)|
+| 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
+| 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | DP / Greedy                | [solution](java/435_NonOverlappingIntervals)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers               | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers               | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
@@ -41,16 +51,6 @@
 | 525      |  [Contiguous Array](https://leetcode.com/problems/contiguous-array/)                          | Prefix Sum + Hashmap       | [solution](java/525_ContiguousArray)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                 | [solution](java/370_RangeAddition)|
 | 304      |  [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)| Prefix Sum                 | [solution](java/304_RangeSumQuery2D)|
-| 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers               | [solution](java/252_MeetingRooms)|
-| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
-| 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers               | [solution](java/56_MergeIntervals)|
-| 57       |  [Insert Interval](https://leetcode.com/problems/insert-interval/)                            | Two Pointers               | [solution](java/57_InsertInterval)|
-| 1272     |  [Remove Interval](https://leetcode.com/problems/remove-interval/)                            | Two Pointers               | [solution](java/1272_RemoveInterval)|
-| 1288     |  [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)          | Two Pointers               | [solution](java/1288_RemoveCoveredIntervals)|
-| 1229     |  [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)                        | Two Pointers               | [solution](java/1229_MeetingScheduler)|
-| 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers               | [solution](java/986_IntervalListIntersections)|
-| 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
-| 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | DP / Greedy                | [solution](java/435_NonOverlappingIntervals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search              | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search              | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search              | [solution](java/852_PeakIndexInMountainArray)|
@@ -177,10 +177,10 @@
 
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
-One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually in some sort of order.
+One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually sorted.
 
 ### 2) 同向（sliding window型，fast&slow型）
-Both pointers start from the beginning of the array. Slide one pointer through the array until certain conditions no longer satisfy, and then slide the left pointer until the conditions satisfy again (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. Also there are occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
+Both pointers start from the beginning of the array. Slide one pointer through the array to the extreme (at most...) until certain conditions no longer satisfy, and then slide the left pointer until the conditions satisfy again (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. There are also occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
 
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
