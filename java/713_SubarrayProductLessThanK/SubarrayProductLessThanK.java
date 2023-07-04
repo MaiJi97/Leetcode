@@ -5,7 +5,7 @@ class Solution {
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
             product *= nums[i];
-            while (product >= k && j <= i) {
+            while (j <= i && product >= k) {
                 product /= nums[j];
                 j++;
             }
