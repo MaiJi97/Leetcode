@@ -9,7 +9,7 @@ class Solution {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 == 1) count++;
-            while (j < nums.length && count > k) {
+            while (j <= i && count > k) {
                 if (nums[j] % 2 == 1) count--;
                 j++;
             }
