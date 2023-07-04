@@ -4,7 +4,7 @@ class Solution {
         int j = 0;
         HashSet<Character> hs = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
-            while (j < s.length() && hs.contains(s.charAt(i))) {
+            while (j <= i && hs.contains(s.charAt(i))) {
                 hs.remove(s.charAt(j));
                 j++;
             }
