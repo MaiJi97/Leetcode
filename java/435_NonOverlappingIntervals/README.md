@@ -6,7 +6,7 @@ intervals with no intersection.
 
 Time Complexity: O(n^2)
 
-## Method 2: Greedy Approach + Two Pointers 同向双指针
+## Method 2: Greedy Algorithm + Two Pointers 同向双指针
 
 Always choose the interval that ends first.
 
