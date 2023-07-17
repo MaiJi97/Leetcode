@@ -14,11 +14,12 @@
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers               | [solution](java/611_ValidTriangleNumber)|
 | 11       |  [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)        | Two Pointers               | [solution](java/11_ContainerWithMostWater)|
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers               | [solution](java/977_SquaresOfASortedArray)|
-| 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Two Pointers               | [solution](java/75_SortColors)|
 | 408       |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)           | Two Pointers               | [solution](java/408_ValidWordAbbreviation)|
 | 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers     | [solution](java/1570_DotProductOfTwoSparseVectors)|
+| 54        |  [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                               | Two Pointers               | [solution](java/54_SpiralMatrix)|
 | 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
+| 443      |  [String Compression](https://leetcode.com/problems/string-compression/)                      | Two Pointers               | [solution](java/443_StringCompression)|
 | 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
 | 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
 | 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
@@ -42,14 +43,21 @@
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers               | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers               | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
-| 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers               | [solution](java/88_MergeSortedArray)|
+| 28       |  [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Two Pointers | [solution](java/28_FindTheIndexOfTheFirstOccurrenceInAString)|
+| 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers               | [solution](java/31_NextPermutation)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap       | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap       | [solution](java/974_SubarraySumsDivisibleByK)|
 | 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap       | [solution](java/523_ContinuousSubarraySum)|
 | 525      |  [Contiguous Array](https://leetcode.com/problems/contiguous-array/)                          | Prefix Sum + Hashmap       | [solution](java/525_ContiguousArray)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum                 | [solution](java/370_RangeAddition)|
 | 304      |  [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)| Prefix Sum                 | [solution](java/304_RangeSumQuery2D)|
+| 912      |  [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                | Sorting                    | [solution](java/912_SortAnArray)|
+| 215      |  [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| Sorting                | [solution](java/215_KthLargestElementInAnArray)|
+| 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Sorting                    | [solution](java/75_SortColors)|
+| 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
+| 451      |  [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)  | Sorting                    | [solution](java/451_SortCharactersByFrequency)|
+| 1481     |  [LeastNumberOfUniqueIntegersAfterKRemovals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search              | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search              | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search              | [solution](java/852_PeakIndexInMountainArray)|
@@ -65,7 +73,7 @@
 | 378      |  [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/merge-sorted-array/) | Binary Search              | [solution](java/378_KthSmallestElementInASortedMatrix)|
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search              | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search              | [solution](java/410_SplitArrayLargestSum)|
-| 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search                | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
+| 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                      | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                      | [solution](java/394_DecodeString)| 
@@ -168,6 +176,7 @@
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                         | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                     | [solution](java/516_LongestPalindromeSubsequence)| 
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy               | [solution](java/1029_TwoCityScheduling)| 
+| 881      |  [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)                   | Greedy                    | [solution](java/881_BoatsToSavePeople)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search       | [solution](java/300_LongestIncreasingSubsequence)| 
 | 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                      | [solution](java/780_ReachingPoints)| 
 | 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Marking          | [solution](java/723_CandyCrush)| 
