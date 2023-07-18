@@ -4,8 +4,7 @@ class Solution {
         char[] s1Array = s1.toCharArray();
         Arrays.sort(s1Array);
         for (int i = 0; i < s2.length() - s1.length() + 1; i++) {
-            String temp = s2.substring(i, i + s1.length());
-            char[] s2Array = temp.toCharArray();
+            char[] s2Array = s2.substring(i, i + s1.length()).toCharArray();
             Arrays.sort(s2Array);
             if (compareCharArray(s1Array, s2Array)) return true; 
         }
