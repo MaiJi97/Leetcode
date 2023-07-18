@@ -17,9 +17,6 @@
 | 408       |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)           | Two Pointers               | [solution](java/408_ValidWordAbbreviation)|
 | 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers     | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 54        |  [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                               | Two Pointers               | [solution](java/54_SpiralMatrix)|
-| 121      |  [Best Time To Buy And Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
-| 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
-| 443      |  [String Compression](https://leetcode.com/problems/string-compression/)                      | Two Pointers               | [solution](java/443_StringCompression)|
 | 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
 | 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
 | 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
@@ -30,6 +27,10 @@
 | 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers               | [solution](java/713_SubarrayProductLessThanK)|
+| 121      |  [Best Time To Buy And Sell Stocks I](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
+| 122      |  [Best Time To Buy And Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Two Pointers   | [solution](java/122_BestTimeToBuyAndSellStocks)|
+| 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
+| 443      |  [String Compression](https://leetcode.com/problems/string-compression/)                      | Two Pointers               | [solution](java/443_StringCompression)|
 | 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers               | [solution](java/252_MeetingRooms)|
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
 | 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers               | [solution](java/56_MergeIntervals)|
