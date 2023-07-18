@@ -5,7 +5,7 @@ be the sum of all the profits from the trades. Though this approach could cause 
 
 Time Complexity: O(n)
 
-## Method 2: Two Pointers - fast & slow
+## Method 2: Two Pointers - sliding window (?)
 
 To solve the problem from the brute force approach, we need to know when is the best itme to sell a stock. For example, in the example,
 [7, 1, 4, 5, 3, 6], profit is (5-1) + (6-3). However, if we do not do the trade each time there is an increase in price, how do we know
