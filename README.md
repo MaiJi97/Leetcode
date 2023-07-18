@@ -196,6 +196,9 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 ## Intervals 问题
 Basic idea is to sort first, then 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
 
+## Sorting 
+Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, bucket sort helps to sort elements in the map by value / frequencies)
+
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
 
@@ -344,8 +347,8 @@ dp[0][0] or dp[i][0] or dp[0][i]
 最后的return，如dp[m][n]
 
 ## Additional Notes
-Frequency -> Bucket sort </br>
-Mapping between numbers and their index / Hash Map as a way to store index of elements
-有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque
-Subarray -> Two Pointers (sliding window)
-Sorted, search for a target -> Binary Search
+Mapping between numbers and their index / Hashmap as a way to store index of elements </br>
+有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
+Subarray -> Two Pointers 同向双指针 (sliding window) </br>
+Sorted, search for a target in O(n) -> Two Pointers 相向双指针 </br>
+Sorted, search for a target in O(logn) -> Binary Search </br>
