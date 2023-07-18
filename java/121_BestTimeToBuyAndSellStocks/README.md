@@ -1,5 +1,5 @@
-## Method 1: Two Pointers 同向双指针
+## Method 1: Two Pointers 同向双指针 - faster & slow
 
-Sliding window - One pointer to loop through the array, the other pointer to keep track of the position of the current lowest price, and we use a counter variable to track the maximum profit and update it if needed.
+One pointer to iterate through the array, the other pointer to track the position of the local minimum price, and we use a counter variable to track the maximum profit and update it when needed.
 
 Time Complexity: O(n)
