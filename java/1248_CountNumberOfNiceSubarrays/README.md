@@ -1,5 +1,5 @@
-## Method 1: Two Pointers 相向双指针
+## Method 1: Two Pointers 同向双指针 - sliding window 
 
-Sliding window - similar as problem 992, 类似的套娃题
+Similar as problem 992, 类似的套娃题
 
 Time Complexity: O(n)
