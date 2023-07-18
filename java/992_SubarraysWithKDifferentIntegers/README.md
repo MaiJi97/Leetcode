@@ -1,6 +1,6 @@
-## Method 1: Two Pointers 同向双指针
+## Method 1: Two Pointers 同向双指针 - sliding window 
 
-Sliding window - compare with the traditional sliding window approach (slide the right pointer until condition no longer satisfies, and slide the left pointer until condition satisfies again, or vice versa), there are two things we need to note here:
+Compare with the traditional sliding window approach (slide the right pointer until condition no longer satisfies, and slide the left pointer until condition satisfies again, or vice versa), there are two things we need to note here:
 
 1) Instead of looking for the longest substring, we are looking for number of substrings, so instead of ret = Math.max(ret, i - j + 1), we add i - j + 1 to the result. Sometimes in order to count total number of subarrays, we can also use hashmap to record the number of occurrence of certain condition.
    
