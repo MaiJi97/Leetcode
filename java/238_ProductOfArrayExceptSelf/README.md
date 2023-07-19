@@ -1,4 +1,4 @@
-## Two Pointers 同向双指针 - parallel pointers
+## Method 1: Two Pointers 同向双指针 - parallel pointers
 
 We can solve the problem by keeping two arrays => a left array such that left[i] records the product of all elements on the left side
 of element at index i, and right[i] records the product of all elements on the right side of element at index i. Then we can loop through 
