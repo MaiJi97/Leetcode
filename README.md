@@ -206,6 +206,7 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 Note: </br>
+- 通常使用模版2或模版3，区别在于：1） initialize及update时，一个为左闭右开，一个为左闭右闭。2）while loop结束时两指针的状态不同。 3）模版3在mid对应的值等于target时，有时可以直接return。
 - 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
 
 ## Linked List
