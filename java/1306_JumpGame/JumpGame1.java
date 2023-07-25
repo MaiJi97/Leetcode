@@ -9,11 +9,11 @@ class Solution {
             visited[current] = true;
             int left = current - arr[current];
             int right = current + arr[current];
-            if (left >= 0) {
-                if (!visited[left]) q.add(left);
+            if (left >= 0 && !visited[left]) {
+                q.add(left);
             }
-            if (right <= arr.length - 1) {
-                if (!visited[right]) q.add(right);
+            if (right <= arr.length - 1 && !visited[right]) {
+                q.add(right);
             }
         }
         return false;
