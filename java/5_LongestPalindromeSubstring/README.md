@@ -16,9 +16,8 @@ For each character, consider center and expand on both sides to find maximum len
 Two possibilities: <br />
 1) For odd length of palindrome: center = i <br />
 2) For even length of palindrome: center = i to i + 1 <br />
-<br />
-Length = right - left + 1 <br />
 
+Length = right - left + 1 <br />
 
 Time Complexity: O(n^2)
 
