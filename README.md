@@ -16,6 +16,7 @@
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers               | [solution](java/977_SquaresOfASortedArray)|
 | 408       |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)           | Two Pointers               | [solution](java/408_ValidWordAbbreviation)|
 | 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers     | [solution](java/1570_DotProductOfTwoSparseVectors)|
+| 1498      |  [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Two Pointers | [solution](java/1498_NumberOfSubsequencesThatSatisfyTheGivenSumCondition)|
 | 54        |  [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                               | Two Pointers               | [solution](java/54_SpiralMatrix)|
 | 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
 | 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
@@ -27,6 +28,7 @@
 | 76       |  [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)          | Two Pointers               | [solution](java/76_MinimumWindowSubstring)|
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers               | [solution](java/713_SubarrayProductLessThanK)|
+| 567      |  [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                | Two Pointers               | [solution](java/567_PermutationInString)|
 | 121      |  [Best Time To Buy And Sell Stocks I](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers         | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 122      |  [Best Time To Buy And Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Two Pointers   | [solution](java/122_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
@@ -56,9 +58,9 @@
 | 912      |  [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                | Sorting                    | [solution](java/912_SortAnArray)|
 | 215      |  [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| Sorting                | [solution](java/215_KthLargestElementInAnArray)|
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Sorting                    | [solution](java/75_SortColors)|
-| 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Two Pointers  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
+| 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Sorting  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 451      |  [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)  | Sorting                    | [solution](java/451_SortCharactersByFrequency)|
-| 1481     |  [LeastNumberOfUniqueIntegersAfterKRemovals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
+| 1481     |  [Least Number of Unique Integers After K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search              | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search              | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search              | [solution](java/852_PeakIndexInMountainArray)|
@@ -349,8 +351,12 @@ dp[0][0] or dp[i][0] or dp[0][i]
 最后的return，如dp[m][n]
 
 ## Additional Notes
-Mapping between numbers and their index / Hashmap as a way to store index of elements </br>
+Mapping between elements and their index => Hashmap as a way to store index of elements </br>
+Mapping between elements and their frequencies => Bucket Sort </br>
 有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
 Subarray -> Two Pointers 同向双指针 (sliding window) </br>
 Sorted, search for a target in O(n) -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
+求最大最小值，可行性，方案数 => DP </br>
+最短路线，最小值 => 也可能是BFS </br>
+求全部方案 => DFS </br>
