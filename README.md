@@ -300,6 +300,7 @@ Note: </br>
    - When to break the iteration? When the queue becomes empty. </br>
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    - If we keep track of visited node / cell, mark as visited when offer it to the queue or when poll it from the queue? Usually when we offer it to the queue. </br>
+   - 有时可用于求最值（比如不需要traverse所有，满足某个条件时直接return；比如Dijkstra）
    
    a. Level Order Traversal through Queue </br>
    
