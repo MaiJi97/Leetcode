@@ -1,6 +1,8 @@
 class Solution {
-    int[] deltaX = {0, 1, -1, 0};
-    int[] deltaY = {1, 0, 0, -1};
+
+    int[] deltaX = {0, 1, 0, -1};
+    int[] deltaY = {1, 0, -1, 0};
+
     public int maxAreaOfIsland(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -24,8 +26,8 @@ class Solution {
         while (!q.isEmpty()) {
             int[] block = q.poll();
             for (int direction = 0; direction < 4; direction++) {
-                int newX = block[0]+deltaX[direction];
-                int newY = block[1]+deltaY[direction];
+                int newX = block[0] + deltaX[direction];
+                int newY = block[1] + deltaY[direction];
                 if (newX < 0 || newX >= grid.length || newY < 0 || newY >= grid[0].length || grid[newX][newY] == 0 || visited[newX][newY] == true) {
                     continue;
                 }
