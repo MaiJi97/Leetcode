@@ -4,6 +4,8 @@ BFS matrix traverse through queue. Each time we poll an element out of the queue
 
 <img width="338" alt="Screen Shot 2022-10-19 at 11 06 29 PM" src="https://user-images.githubusercontent.com/106039830/196988040-5a0be2b8-0314-4069-92eb-57219c6814ee.png">
 
+In this problem, we create bfs as a separate method because we want to count total number of islands, each could be traverseed through calling bfs method once.
+
 Time Complexity: O(m * n) 
 
 ## Method 2: DFS / Matrix Traverse through recursion
