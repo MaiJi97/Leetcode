@@ -253,9 +253,12 @@ Note: </br>
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited. Eg: in graph </br>
    
    Note: </br>
-   - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state. 
+   - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state.
+   - Since written as a separate method, do we need to return anything? Depends on if we need to use the returned result later. Also sometimes the method is void but we take in additional input to store 所有解，add potential solutions to the input in the base case (eg: backtracking)
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
+   - 此处的DFS仅代表graph或matrix中的DFS，DFS的其他形式见下方的Backtracking和DP 
+   
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -292,8 +295,11 @@ Note: </br>
    广撒网，通常用于求最优解(eg: Dijkstra)
    
    Note: </br>
-   - When to break the iteration? When the queue becomes empty or 已满足条件. </br>
+   - Do it in a separate helper method or in the main method? Depends on if we are going to call it multiple times.
+   - If written as a separate method, do we need to return anything? Depends on if we need to use the returned result later.
+   - When to break the iteration? When the queue becomes empty. </br>
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
+   - If we keep track of visited node / cell, mark as visited when offer it to the queue or when poll it from the queue? Usually when we offer it to the queue. </br>
    
    a. Level Order Traversal through Queue </br>
    
@@ -340,8 +346,11 @@ Not only in Tree, Graph problems</br>
 Can also be used in matrix problems, combination and permutation problems, etc </br>
 
 DFS之Backtrack: </br>
-一条路走到黑，可以用于traverse所有路径 => backtracking，进行一个step后需要后退一步，allows for other options
+一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options </br>
+什么时候需要后退一步? 当current step会影响到上一个state </br>
+
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
+
 https://www.1point3acres.com/bbs/thread-583166-1-1.html
 
 ## Dynamic Programming（关键词：最优值，可行性，方案数）
@@ -356,17 +365,18 @@ b. 迭代方式 / 多重循环
 
 DP的四要素: 
 1) 状态State: 递归的定义 </br>
-dp[i][j]定义某个规模更小的问题的答案
+dp[i][j]定义某个规模更小的问题的答案 </br>
+dp[i] length n (dp[i]代表index,所以从0到n-1) or n + 1 (dp[i]代表第i个,所以从0到n)? 视情况而定（题目需求，是否可能会index out of range等）
 
-2) 方程Function: 递归的拆解
+3) 方程Function: 递归的拆解
 大问题如何拆解为小问题 </br>
 dp[i][j]通过规模更小的一些状态求max/min/sum/or来进行推导
 
-3) 初始化Initialize: 递归的出口 </br>
+4) 初始化Initialize: 递归的出口 </br>
 无法再拆解的极限小的状态下的值 </br>
 dp[0][0] or dp[i][0] or dp[0][i]
 
-4) 答案Answer: 递归的调用 </br>
+5) 答案Answer: 递归的调用 </br>
 最后的return，如dp[m][n]
 
 ## Additional Notes
