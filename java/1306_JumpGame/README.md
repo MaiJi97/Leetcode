@@ -1,4 +1,4 @@
-## Method 1: BFS / Traverse through Queue
+## Method 1: BFS / Matrix Traverse through Queue
 
 Similar as DFS, but traverse the connected index through a queue. Each time we add neighbors of the current index to the queue.
 What are the neighbors? They are the left and right index we can reach from the current index.
