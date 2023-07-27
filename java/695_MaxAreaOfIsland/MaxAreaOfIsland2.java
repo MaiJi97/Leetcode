@@ -1,5 +1,9 @@
 
 class Solution {
+
+    int[] deltaX = {0, 1, 0, -1};
+    int[] deltaY = {1, 0, -1, 0};
+
     public int maxAreaOfIsland(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -16,7 +20,7 @@ class Solution {
     }
     
     public int dfs(int[][] grid, boolean[][] visited, int i, int j) {
-        if (i < 0 || i>= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0 || visited[i][j] == true) {
+        if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0 || visited[i][j] == true) {
             return 0;
         }
         visited[i][j] = true;
