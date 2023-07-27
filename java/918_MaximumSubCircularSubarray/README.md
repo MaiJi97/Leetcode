@@ -1,4 +1,4 @@
-## Method 1: Kadane's Algorithm
+## Method 1: Greedy / Kadane's Algorithm
 
 The difference between this problem and the normal maximum subarray is that, this problem also consider the case that the maximum subarray
 sum can be splitted into two parts, on both sides of the array. In this case, we can use the Kadane's algorithm to find the minimum
