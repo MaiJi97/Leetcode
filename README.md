@@ -47,6 +47,7 @@
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers               | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers       | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers               | [solution](java/88_MergeSortedArray)|
+| 238      |  [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  | Two Pointers               | [solution](java/238_ProductOfArrayExceptSelf)|
 | 28       |  [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Two Pointers | [solution](java/28_FindTheIndexOfTheFirstOccurrenceInAString)|
 | 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers               | [solution](java/31_NextPermutation)|
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap       | [solution](java/560_SubarraySumEqualsK)|
@@ -60,6 +61,7 @@
 | 75       |  [Sort Colors](https://leetcode.com/problems/sort-colors/)                                    | Sorting                    | [solution](java/75_SortColors)|
 | 2161     |  [Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)| Sorting  | [solution](java/2161_PartitionArrayAccordingToGivenPivot)|
 | 451      |  [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)  | Sorting                    | [solution](java/451_SortCharactersByFrequency)|
+| 347      |  [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)            | Sorting                    | [solution](java/347_TopKFrequentElements)|
 | 1481     |  [Least Number of Unique Integers After K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search              | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search              | [solution](java/278_FirstBadVersion)|
@@ -85,6 +87,7 @@
 | 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                      | [solution](java/232_ImplementQueueUsingStacks)| 
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                      | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                      | [solution](java/622_DesignCircularQueue)| 
+| 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue             | [solution](java/295_FindMedianFromDataStream)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack            | [solution](java/496_NextGreaterElement)| 
@@ -94,7 +97,7 @@
 | 316      |  [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)          | Monotonic Stack            | [solution](java/316_RemoveDuplicateLetters)|
 | 1081     |  [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)| Monotonic Stack| [solution](java/1081_SmallestSubsequenceOfDistinctCharacters)|
 | 402      |  [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                            | Monotonic Stack            | [solution](java/402_RemoveKDigits)|
-| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack            | [solution](java/42_TrappingRainWater)|
+| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack / Two Pointers   | [solution](java/42_TrappingRainWater)|
 | 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack            | [solution](java/84_LargestRectangleInHistogram)|
 | 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Monotonic Deque            | [solution](java/239_SlidingWindowMaximum)|
 | 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
@@ -146,43 +149,59 @@
 | 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS      | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                        | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                        | [solution](java/127_WordLadder)|
-| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS / DFS                  | [solution](java/207_CourseSchedule)| 
-| 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                  | [solution](java/490_TheMaze)| 
-| 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                  | [solution](java/505_TheMaze)| 
-| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS                        | [solution](java/1631_PathWithMinimumEffort)|
-| 200      |  [Number Of Islands I](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                | [solution](java/200_NumberOfIslands)|
+| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS / Dijkstra             | [solution](java/1631_PathWithMinimumEffort)|
+| 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                  | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS                  | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | BFS / DFS                  | [solution](java/695_MaxAreaOfIsland)| 
+| 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                  | [solution](java/490_TheMaze)| 
+| 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                  | [solution](java/505_TheMaze)| 
+| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS / DFS                  | [solution](java/207_CourseSchedule)| 
+| 1306     |  [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                | BFS / DFS                  | [solution](java/1306_JumpGame)|
+| 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                        | [solution](java/1345_JumpGame)|
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                        | [solution](java/79_WordSearch)|
 | 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie                 | [solution](java/212_WordSearch)|
-| 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS                    | [solution](java/797_AllPathsFromSourceToTarget)|
-| 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS                        | [solution](java/78_Subsets)| 
-| 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS                        | [solution](java/90_Subsets)| 
-| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS                        | [solution](java/46_Permutations)| 
-| 47       |  [Permutations II](https://leetcode.com/problems/permutations-ii/)                            | DFS                        | [solution](java/47_Permutations)| 
-| 77       |  [Combinations](https://leetcode.com/problems/combinations/)                                  | DFS                        | [solution](java/77_Combinations)| 
-| 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS                        | [solution](java/39_CombinationSum)|
-| 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS                        | [solution](java/40_CombinationSum)|
-| 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS                        | [solution](java/216_CombinationSum)|
-| 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS                        | [solution](java/721_AccountsMerge)|
-| 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS         | [solution](java/17_LetterCombinationsOfPhoneNumber)|
-| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS                        | [solution](java/494_TargetSum)| 
-| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS                        | [solution](java/377_CombinationSum)|
-| 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP               | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
+| 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking     | [solution](java/797_AllPathsFromSourceToTarget)|
+| 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS / Backtracking         | [solution](java/78_Subsets)| 
+| 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS / Backtracking         | [solution](java/90_Subsets)| 
+| 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Backtracking         | [solution](java/46_Permutations)| 
+| 47       |  [Permutations II](https://leetcode.com/problems/permutations-ii/)                            | DFS / Backtracking         | [solution](java/47_Permutations)| 
+| 77       |  [Combinations](https://leetcode.com/problems/combinations/)                                  | DFS / Backtracking         | [solution](java/77_Combinations)| 
+| 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS / Backtracking         | [solution](java/39_CombinationSum)|
+| 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS / Backtracking         | [solution](java/40_CombinationSum)|
+| 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS / Backtracking         | [solution](java/216_CombinationSum)|
+| 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking         | [solution](java/721_AccountsMerge)|
+| 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Backtracking | [solution](java/17_LetterCombinationsOfPhoneNumber)|
+| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking         | [solution](java/494_TargetSum)| 
+| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS / Backtracking         | [solution](java/377_CombinationSum)|
+| 22       |  [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                  | DFS / Backtracking         | [solution](java/22_GenerateParentheses)|
+| 70      |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                             | DP                         | [solution](java/70_ClimbingStairs)| 
+| 198     |  [House Robber I](https://leetcode.com/problems/house-robber/)                                 | DP                         | [solution](java/198_HouseRobber)| 
+| 213     |  [House Robber II](https://leetcode.com/problems/house-robber-ii/)                             | DP                         | [solution](java/213_HouseRobber)| 
+| 91     |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                      | DP                         | [solution](java/91_DecodeWays)| 
 | 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                         | [solution](java/62_UniquePaths)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                         | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                         | [solution](java/120_Triangle)| 
+| 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP               | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                         | [solution](java/139_WordBreak)| 
 | 312      |  [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                              | DP                         | [solution](java/312_BurstBalloons)| 
 | 1143     |  [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | DP                         | [solution](java/1143_LongestCommonSubsequence)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP             | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                         | [solution](java/5_LongestPalindromeSubstring)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                     | [solution](java/516_LongestPalindromeSubsequence)| 
-| 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                     | DP / Greedy               | [solution](java/1029_TwoCityScheduling)| 
-| 881      |  [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)                   | Greedy                    | [solution](java/881_BoatsToSavePeople)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search       | [solution](java/300_LongestIncreasingSubsequence)| 
-| 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                             | Math                      | [solution](java/780_ReachingPoints)| 
-| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                    | Negative Marking          | [solution](java/723_CandyCrush)| 
+| 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                    | DP / Greedy                | [solution](java/1029_TwoCityScheduling)| 
+| 55       |  [Jump Game I](https://leetcode.com/problems/jump-game/)                                      | DP / Greedy                | [solution](java/55_JumpGame)| 
+| 45       |  [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                  | DP / Greedy                | [solution](java/45_JumpGame)| 
+| 881      |  [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)                  | Greedy                     | [solution](java/881_BoatsToSavePeople)| 
+| 277      |  [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/)                      | Greedy                     | [solution](java/277_FindTheCelebrity)| 
+| 53       |  [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                          | Greedy / Prefix Sum        | [solution](java/53_MaximumSubarray)| 
+| 152      |  [Maximum Product Subarray](https://leetcode.com/problems/maximum-subarray/)                  | Greedy                     | [solution](java/152_MaximumProductSubarray)|
+| 918      |  [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)| Greedy                     | [solution](java/918_MaximumSumCircularSubarray)| 
+| 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                            | Math                       | [solution](java/780_ReachingPoints)| 
+| 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                   | Negative Marking           | [solution](java/723_CandyCrush)| 
+| 202      |  [Happy Number](https://leetcode.com/problems/happy-number/)                                  | Cycle Detection            | [solution](java/202_HappyNumber)| 
+| 73       |  [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                        | Matrix                     | [solution](java/73_SetMatrixZeroes)| 
+| 48       |  [Rotate Image](https://leetcode.com/problems/rotate-image/)                                  | Matrix                     | [solution](java/48_RotateImage)| 
 
 # Notes in Essential Categories
 
