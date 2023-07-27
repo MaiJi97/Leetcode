@@ -24,10 +24,10 @@ class Solution {
         q.offer(new int[]{i, j});
         visited[i][j] = true;
         while (!q.isEmpty()) {
-            int[] block = q.poll();
+            int[] current = q.poll();
             for (int direction = 0; direction < 4; direction++) {
-                int newX = block[0] + deltaX[direction];
-                int newY = block[1] + deltaY[direction];
+                int newX = current[0] + deltaX[direction];
+                int newY = current[1] + deltaY[direction];
                 if (newX < 0 || newX >= grid.length || newY < 0 || newY >= grid[0].length || grid[newX][newY] == 0 || visited[newX][newY] == true) {
                     continue;
                 }
