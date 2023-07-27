@@ -1,4 +1,4 @@
-## Method 1: Kadane's Algorithm / Greedy Algorithm
+## Method 1: Greedy / Kadane's Algorithm 
 
 Similar approach as in problem 53, but one thing tricky here is that a zero or negative number in the array can cause magic effect. If 
 there is a zero, the current subarray product will be reset, and we just need to update the maxSubarray as normal (the greater one 
