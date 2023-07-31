@@ -10,7 +10,7 @@ Time Complexity: O(m * n)
 
 ## Method 2: DFS / Matrix Traverse through recursion
 
-DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the current state, ie: the x and y axis of the current block. In the main method we iterate through each block of the matrix and find connected blocks as an island. In the helper method, break the recursion when the block is 0 / all the blocks have been visited / we reach the border of the matrix and then add 1 to the final result because we've found another island. Else we call the method recursively on its neighbors to keep finding elements in the same island. What are the neighbors? They are the four adjacent blocks that is not 0 / have not been visited / have not reached the border of the matrix. 
+DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the current state, ie: the x and y axis of the current cell. In the main method we iterate through each cell of the matrix and find connected cells as an island. In the helper method, break the recursion when the cell is 0 / all the blocks have been visited / we reach the border of the matrix and then add 1 to the final result because we've found another island. Else we call the method recursively on its neighbors to keep finding elements in the same island. What are the neighbors? They are the four adjacent cells that is not 0 / have not been visited / have not reached the border of the matrix. 
 
 Time Complexity: O(m * n) 
 
