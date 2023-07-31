@@ -23,12 +23,12 @@ class Solution {
         return maxSum;
     }
 
-    private int gainFromSubtree(TreeNode root) {
+    private int gainFromSubtree(TreeNode root) { // calculate the maximum path sum for a subtree rooted at the given node
         if (root == null) return 0;
         int gainFromLeft = Math.max(gainFromSubtree(root.left), 0);
         int gainFromRight = Math.max(gainFromSubtree(root.right), 0);
         int current = Math.max(gainFromLeft + root.val, gainFromRight + root.val);
-        maxSum = Math.max(current, gainFromLeft + root.val + gainFromRight);
+        maxSum = Math.max(maxSum, gainFromLeft + root.val + gainFromRight); // potential maximum path sum
         return current;
     }
 }
