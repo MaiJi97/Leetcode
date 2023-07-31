@@ -18,9 +18,7 @@ Time Complexity: O(m * n)
 Similar as problem 200. DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the
 current state, ie: the x and y axis of the current cell. In the main method we iterate through the cells that are adjacent to the oceans
 and continue to traverse through other cells from there. Then in the helper method, we call the method recursively on its neighbors to 
-find cells that have water flowing into the oceans. What are the neighbors? They are the four cells that adjacent to / directly connected 
-with the current cell in the four directions and is higher than the current cell / have not been marked recheable / have not reached the 
-border of the matrix. 
+find cells that have water flowing into the oceans. What are the neighbors? They are the four cells that adjacent to / directly connected with the current cell in the four directions and is higher than the current cell / have not been marked recheable / have not reached the border of the matrix. We need to return the reacheable matrix as result as we need to use it later (the output is taken as an input of the dfs method).
 
 Time Complexity: O(m * n)
 
