@@ -254,7 +254,7 @@ Note: </br>
    
    Note: </br>
    - Usually implemented through a seperate helper method with extra parameters that contains information regarding the current state.
-   - Since written as a separate method, do we need to return anything? Depends on if we need to use the returned result later. Also sometimes the method is void but we take in additional input to store 所有解，add potential solutions to the input in the base case (eg: backtracking)
+   - Since written as a separate method, do we need to return anything? Depends on if we need to use the returned result later. Sometimes we need to use the result later so we need to return the value (eg: return true/false, return max area); while sometimes we need to use the result later but the method might be void because we take in additional input or use global variable to store the result (eg: 求所有解，backtracking)
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    - 此处的DFS仅代表graph或matrix中的DFS，DFS的其他形式见下方的Backtracking和DP 
@@ -300,7 +300,7 @@ Note: </br>
    - When to break the iteration? When the queue becomes empty. </br>
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    - If we keep track of visited node / cell, mark as visited when offer it to the queue or when poll it from the queue? Usually when we offer it to the queue. </br>
-   - 有时可用于求最值（比如不需要traverse所有，满足某个条件时直接return；比如Dijkstra）
+   - 有时可用于求最值（比如不需要traverse所有，当满足某个条件时直接return (eg: word ladder, Dijkstra）
    
    a. Level Order Traversal through Queue </br>
    
