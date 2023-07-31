@@ -1,4 +1,4 @@
-## Method 1: Divide and Conquer
+## Method 1: DFS / Divide and Conquer
 
 There are four possibilities:
 
