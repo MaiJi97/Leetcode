@@ -22,13 +22,11 @@ class Solution {
 
     private void dfs(HashMap<Integer, List<Integer>> hm, boolean[] visited, int i) {
         visited[i] = true;
-        if (hm.containsKey(i)) {
-            for (int neighbor : hm.get(i)) {
-                if (visited[neighbor]) {
-                    continue;
-                }
-                dfs(hm, visited, neighbor);
+        for (int neighbor : hm.get(i)) {
+            if (visited[neighbor]) {
+                continue;
             }
+            dfs(hm, visited, neighbor);
         }
     }
 }
