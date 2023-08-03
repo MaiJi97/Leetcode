@@ -13,21 +13,25 @@ class Solution {
         boolean[] visited = new boolean[n];
         for (int i = 0; i < n; i++) {
             if (visited[i] == false) {
-                dfs(hm, visited, i);
+                bfs(hm, visited, i);
                 ret++;
             }
         }
         return ret;
     }
 
-    private void dfs(HashMap<Integer, List<Integer>> hm, boolean[] visited, int i) {
+    private void bfs(HashMap<Integer, List<Integer>> hm, boolean[] visited, int i) {
+        Queue<Integer> q = new ArrayDeque<>();
+        q.offer(i);
         visited[i] = true;
-        if (hm.containsKey(i)) {
-            for (int neighbor : hm.get(i)) {
+        while (!q.isEmpty()) {
+            int current = q.poll();
+            for (int neighbor : hm.get(current)) {
                 if (visited[neighbor]) {
                     continue;
                 }
-                dfs(hm, visited, neighbor);
+                q.offer(neighbor);
+                visited[neighbor] = true;
             }
         }
     }
