@@ -1,14 +1,11 @@
 class Solution {
     public int countComponents(int n, int[][] edges) {
         HashMap<Integer, List<Integer>> hm = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            hm.put(i, new ArrayList<>());
+        }
         for (int i = 0; i < edges.length; i++) {
             int[] edge = edges[i];
-            if (!hm.containsKey(edge[0])) {
-                hm.put(edge[0], new ArrayList<>());
-            }
-            if (!hm.containsKey(edge[1])) {
-                hm.put(edge[1], new ArrayList<>());
-            }
             hm.get(edge[0]).add(edge[1]);
             hm.get(edge[1]).add(edge[0]);
         }
