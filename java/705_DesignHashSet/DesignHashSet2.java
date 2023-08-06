@@ -6,15 +6,15 @@ class MyHashSet {
         this.set = new boolean[1000001];
     }
     
-    public void add(int key) { // O(n)
+    public void add(int key) { // O(1)
         set[key] = true;
     }
     
-    public void remove(int key) { // O(n)
+    public void remove(int key) { // O(1)
         set[key] = false;
     }
     
-    public boolean contains(int key) { // O(n)
+    public boolean contains(int key) { // O(1)
         return set[key] == true;
     }
 }
