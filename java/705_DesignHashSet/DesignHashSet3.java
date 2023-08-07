@@ -11,17 +11,17 @@ class MyHashSet {
         }
     }
     
-    public void add(int key) { // O(1)
+    public void add(int key) { // O(n/k)
         int index = key % this.keyRange;
         bucketArray[index].add(key);
     }
     
-    public void remove(int key) { // O(n)
+    public void remove(int key) { // O(n/k)
         int index = key % this.keyRange;
         bucketArray[index].remove(key);
     }
     
-    public boolean contains(int key) { // O(n)
+    public boolean contains(int key) { // O(n/k)
         int index = key % this.keyRange;
         return bucketArray[index].contains(key);
     }
@@ -34,7 +34,7 @@ class Bucket {
         this.container = new LinkedList<>();
     }
 
-    public void add(Integer key) { // O(1)
+    public void add(Integer key) { // O(n), add itself takes O(1)
         if (!container.contains(key)) this.container.addFirst(key);
     }
 
