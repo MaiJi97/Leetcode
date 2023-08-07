@@ -13,17 +13,17 @@ class MyHashSet {
     
     public void add(int key) { // O(n/k)
         int index = key % this.keyRange;
-        bucketArray[index].add(key);
+        this.bucketArray[index].add(key);
     }
     
     public void remove(int key) { // O(n/k)
         int index = key % this.keyRange;
-        bucketArray[index].remove(key);
+        this.bucketArray[index].remove(key);
     }
     
     public boolean contains(int key) { // O(n/k)
         int index = key % this.keyRange;
-        return bucketArray[index].contains(key);
+        return this.bucketArray[index].contains(key);
     }
 }
 
@@ -35,7 +35,7 @@ class Bucket {
     }
 
     public void add(Integer key) { // O(n), add itself takes O(1)
-        if (!container.contains(key)) this.container.addFirst(key);
+        if (!this.container.contains(key)) this.container.addFirst(key);
     }
 
     public void remove(Integer key) { // O(n)
