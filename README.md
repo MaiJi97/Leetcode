@@ -6,6 +6,8 @@
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List      | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| Hashmap                | [solution](java/380_InsertDeleteGetRandom)| 
+| 705      |  [Design HashSet](https://leetcode.com/problems/design-hashset/)                              | Hashmap / HashSet          | [solution](java/705_DesignHashSet)|
+| 706      |  [Design HashMap](https://leetcode.com/problems/design-hashmap/)                              | Hashmap                    | [solution](java/706_DesignHashMap)|
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers               | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers               | [solution](java/16_ThreeSumClosest)|
@@ -79,6 +81,7 @@
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search              | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search              | [solution](java/410_SplitArrayLargestSum)|
 | 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
+| 2187     |  [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)| Binary Search            | [solution](java/2187_MinimumTimeToCompleteTrips)|
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                      | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                      | [solution](java/394_DecodeString)| 
@@ -138,11 +141,16 @@
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS                 | [solution](java/230_KthSmallestElementInBST)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS                 | [solution](java/104_MaximumDepthOfBinaryTree)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS                 | [solution](java/110_BalancedBinaryTree)| 
+| 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS                 | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS                 | [solution](java/257_BinaryTreePaths)| 
-| 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS                 | [solution](java/98_ValidateBinarySearchTree)| 
+| 124      |  [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | Tree / DFS                 | [solution](java/124_BinaryTreeMaximumPathSum)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS       | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS           | [solution](java/111_MinimumDepthOfBinaryTree)| 
+| 572      |  [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)            | Tree / DFS                 | [solution](java/572_SubtreeOfAnotherTree)| 
+| 333      |  [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)                    | Tree / DFS                 | [solution](java/333_LargestBSTSubtree)| 
+| 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS                 | [solution](java/98_ValidateBinarySearchTree)| 
+| 449      |  [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)| Tree / DFS                 | [solution](java/449_SerializeAndDeserializeBST)| 
 | 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / BFS / DFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
 | 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS / DFS   | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
 | 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS|[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
@@ -153,9 +161,13 @@
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS                  | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS                  | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | BFS / DFS                  | [solution](java/695_MaxAreaOfIsland)| 
+| 417      |  [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)    | BFS / DFS                  | [solution](java/417_PacificAtlanticWaterFlow)|
+| 323      |  [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)| BFS / DFS | [solution](java/323_NumberOfConnectedComponentsInAnUndirectedGraph)| 
+| 261      |  [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                          | BFS / DFS                  | [solution](java/261_GraphValidTree)|
 | 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS                  | [solution](java/490_TheMaze)| 
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS                  | [solution](java/505_TheMaze)| 
 | 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS / DFS                  | [solution](java/207_CourseSchedule)| 
+| 269      |  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                          | BFS / DFS                  | [solution](java/269_AlienDictionary)| 
 | 1306     |  [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                | BFS / DFS                  | [solution](java/1306_JumpGame)|
 | 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                        | [solution](java/1345_JumpGame)|
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                        | [solution](java/79_WordSearch)|
@@ -187,6 +199,7 @@
 | 1143     |  [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | DP                         | [solution](java/1143_LongestCommonSubsequence)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP             | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                         | [solution](java/5_LongestPalindromeSubstring)| 
+| 647      |  [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)              | DP                         | [solution](java/647_PalindromeSubstrings)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                     | [solution](java/516_LongestPalindromeSubsequence)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search       | [solution](java/300_LongestIncreasingSubsequence)| 
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                    | DP / Greedy                | [solution](java/1029_TwoCityScheduling)| 
@@ -382,11 +395,12 @@ dp[0][0] or dp[i][0] or dp[0][i]
 
 ## Additional Notes
 Mapping between elements and their index => Hashmap as a way to store index of elements </br>
-Mapping between elements and their frequencies => Bucket Sort </br>
+Mapping between elements and their frequencies => Hashmap and Bucket Sort </br>
+Indices / freqencies / character (ie: c - 'a') are 0-index scale => we can use an array to replace hashmap </br>
 有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
 Subarray -> Two Pointers 同向双指针 (sliding window) </br>
 Sorted, search for a target in O(n) -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
 求最大最小值，可行性，方案数 => DP </br>
-最短路线，最小值 => 也可能是BFS </br>
+最短路线，最小值 => 也可能是BFS,或Binary Search </br>
 求全部方案 => DFS </br>
