@@ -1,6 +1,6 @@
 class Solution {
     public int subarraysDivByK(int[] nums, int k) {
-        HashMap<Integer, Integer> hm = new HashMap<>(); // <remainder of prefixSum divided by k, number of occurrence>
+        HashMap<Integer, Integer> hm = new HashMap<>(); // <remainder of prefixSum divided by k, frequencies>
         hm.put(0, 1);
         int ret = 0;
         int prefixSum = 0;
