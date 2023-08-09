@@ -1,6 +1,6 @@
 ## Method 1: ArrayList + HashMap
 
-Intuition is to use array list, add(e) and get(index) can be done in O(1), though remove(e) and also contains(e) take linear time O(n). How to improve the performance? 
+Intuition is to use array list, add(e) and get(index) can be done in O(1), though remove(e) and also contains(e) take linear time O(n). How to improve the performance? (HashSet doesn't seem like a better solution, as it does not support getting by index)
 
 Helpful if we can get the index of the element to be removed. We can use a hash map to store both the element and the index of the element in the 
 array list as key value pair. 
