@@ -3,9 +3,9 @@ class Solution {
         HashMap<Integer, Integer> hm = new HashMap<>();
         int[] ret = new int[2];
         
-        for (int i=0; i< nums.length; i++) {
-            if (hm.containsKey(target-nums[i])) {
-                ret[0]= hm.get(target-nums[i]);
+        for (int i = 0; i < nums.length; i++) {
+            if (hm.containsKey(target - nums[i])) {
+                ret[0] = hm.get(target - nums[i]);
                 ret[1] = i;
                 break;
             }              
