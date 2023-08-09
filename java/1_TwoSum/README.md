@@ -4,7 +4,7 @@ Use a nested for loop to look for the two numbers whose sum is the target value.
 
 Time Complexity: O(n^2)
 
-## Method 2: HashMap
+## Method 2: Hash Map
 
 Store <element, index> as a key value pair. Iterate through the element and look for the other element that sum up to the target with the current element.
 
