@@ -91,7 +91,7 @@
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                      | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                      | [solution](java/622_DesignCircularQueue)| 
 | 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue             | [solution](java/295_FindMedianFromDataStream)| 
-| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + HashMap / Bucket Sort + HashMap    | [solution](java/895_MaximumFrequencyStack)| 
+| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack            | [solution](java/496_NextGreaterElement)| 
 | 503      |  [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)            | Monotonic Stack            | [solution](java/503_NextGreaterElement)| 
@@ -217,6 +217,20 @@
 | 48       |  [Rotate Image](https://leetcode.com/problems/rotate-image/)                                  | Matrix                     | [solution](java/48_RotateImage)| 
 
 # Notes in Essential Categories
+
+## Hash Map
+
+Note: </br>
+- Use case: hashmap to store <element, index> as key value pair. 
+- Use case: hashmap to store <element, frequencies> as key value pair. 
+- Sometimes we can use array instead of hashmap, when element can be mapped to 0-index scale (eg: array[char - 'a'])
+- Sometimes we can easily sort the values in the hashmap, through bucket sort (eg: bucket[frequencies] = list...)
+
+## Prefix Sum
+Note: </br>
+- Prefix sum usually has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
+- Prefix sum stored in array or hashmap? Depends, hashmap is used when we want to get a value directly by key (eg: get frequencies of occurrence of a prefix sum)
+
 
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
@@ -394,13 +408,10 @@ dp[0][0] or dp[i][0] or dp[0][i]
 最后的return，如dp[m][n]
 
 ## Additional Notes
-Mapping between elements and their index => Hashmap as a way to store index of elements </br>
-Mapping between elements and their frequencies => Hashmap and Bucket Sort </br>
-Indices / freqencies / character (ie: c - 'a') are 0-index scale => we can use an array to replace hashmap </br>
 有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
 Subarray -> Two Pointers 同向双指针 (sliding window) </br>
 Sorted, search for a target in O(n) -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
 求最大最小值，可行性，方案数 => DP </br>
-最短路线，最小值 => 也可能是BFS,或Binary Search </br>
+最短路线，最小值 => 也可能是BFS,Dijkstra或Binary Search </br>
 求全部方案 => DFS </br>
