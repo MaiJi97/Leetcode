@@ -1,6 +1,6 @@
 class RandomizedSet {
     ArrayList<Integer> list;
-    Map<Integer, Integer> hm;
+    Map<Integer, Integer> hm; // <element, index>
     java.util.Random rand = new java.util.Random();
 
     public RandomizedSet() {
