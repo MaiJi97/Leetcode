@@ -7,4 +7,6 @@ satisfying substring so as we slide pointer j, we only need to slide until we ge
 as at pointer i. However, in this problem, any potential satisfying substring can have repeating characters, so we have to slide pointer j until we get rid of all the characters that occur at pointer j. This is why we need hash map to keep track of the number of 
 occurrence of each character.
 
+Problem 904 Fruits into Basket is exactly the same problem.
+
 Time Complexity: O(n)
