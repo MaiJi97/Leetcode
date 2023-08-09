@@ -6,7 +6,7 @@
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)      | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60)|
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List      | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)| Hashmap                | [solution](java/380_InsertDeleteGetRandom)| 
-| 705      |  [Design HashSet](https://leetcode.com/problems/design-hashset/)                              | Hashmap / HashSet          | [solution](java/705_DesignHashSet)|
+| 705      |  [Design HashSet](https://leetcode.com/problems/design-hashset/)                              | Hashmap / Hashset          | [solution](java/705_DesignHashSet)|
 | 706      |  [Design HashMap](https://leetcode.com/problems/design-hashmap/)                              | Hashmap                    | [solution](java/706_DesignHashMap)|
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers               | [solution](java/15_ThreeSum)|
