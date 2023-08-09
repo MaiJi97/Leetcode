@@ -1,13 +1,15 @@
 class Solution {
     public int numPairsDivisibleBy60(int[] time) {
-        Map<Integer, Integer> hm = new HashMap<>();
-        int ret = 0;
+        HashMap<Integer, Integer> hm = new HashMap<>(); // <remainder, frequncies>
+        int count = 0;
         for (int i = 0; i < time.length; i++) {
-            int reduced = time[i] % 60;
-            int target = reduced == 0 ? 0 : 60 - reduced;
-            ret += hm.getOrDefault(target, 0);
-            hm.put(reduced, hm.getOrDefault(reduced, 0) + 1);
+            int remainder = time[i] % 60;
+            int other = remainder == 0 ? 0 : 60 - remainder;
+            if (hm.containsKey(other)) {
+                count += hm.get(other);
+            }
+            hm.put(remainder, hm.getOrDefault(remainder, 0) + 1);
         }
-        return ret;
+        return count;
     }
 }
