@@ -16,9 +16,8 @@ class Solution {
         return false;
     }
 
-    public boolean matches(int[] s1Array, int[] s2Array) 
-        if (s1Array.length != s2Array.length) return false;
-        for (int i = 0; i < s1Array.length; i++) {
+    public boolean matches(int[] s1Array, int[] s2Array) {
+        for (int i = 0; i < 26; i++) {
             if (s1Array[i] != s2Array[i]) return false;
         }
         return true;
