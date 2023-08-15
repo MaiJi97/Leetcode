@@ -16,6 +16,6 @@ Similar as the hash map approach, but use arrays of size 26 instead.
 
 ## Method 4: Two Pointers - sliding window (fixed size)
 
-Another approach is to use sliding window, which is optimized from the above approaches. In method 2 and 3, we are doing a lot of repeated work as for each new substring that is only one place shift from the previous substring, we still need to recreate the hashmap / array and recount the frequencies. Instead, we can modify directly on the existing hashmap / array. 
+Another approach is to use sliding window, which is optimized from the above approaches. In method 2 and 3, we are doing a lot of repeated work as for each new substring that is only one place shift from the previous substring, we still need to recreate the hashmap / array and recount the frequencies. Instead, we can modify directly on the existing hashmap / array. Shift both left pointer and right pointer together, each for one step at a time.
 
 Time Complexity: O(l1 + (l2 - l1) * 26)
