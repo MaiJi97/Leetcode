@@ -11,7 +11,7 @@ class Solution {
             for (char c : substring.toCharArray()) {
                 s2Array[c - 'a'] += 1;
             }
-            if (matches(s1Array, s2Array)) return true; // can also use s1Array.equals(s2Array)
+            if (matches(s1Array, s2Array)) return true; // can also use Arrays.equals(s1Array, s2Array)
         }
         return false;
     }
