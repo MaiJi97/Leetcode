@@ -13,15 +13,14 @@
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers          | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers          | [solution](java/16_ThreeSumClosest)|
+| 259      |  [Three Sum Smaller](https://leetcode.com/problems/3sum-smaller/)                             | Two Pointers          | [solution](java/259_ThreeSumSmaller)|
+| 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers          | [solution](java/611_ValidTriangleNumber)|
 | 125      |  [Valid Palindrome I](https://leetcode.com/problems/valid-palindrome/)                        | Two Pointers          | [solution](java/125_ValidPalindrome)|
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers          | [solution](java/680_ValidPalindrome)|
-| 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers          | [solution](java/611_ValidTriangleNumber)|
 | 11       |  [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)        | Two Pointers          | [solution](java/11_ContainerWithMostWater)|
 | 977      |  [Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)        | Two Pointers          | [solution](java/977_SquaresOfASortedArray)|
-| 408       |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)           | Two Pointers          | [solution](java/408_ValidWordAbbreviation)|
-| 1570      |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers| [solution](java/1570_DotProductOfTwoSparseVectors)|
-| 1498      |  [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Two Pointers | [solution](java/1498_NumberOfSubsequencesThatSatisfyTheGivenSumCondition)|
-| 54        |  [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                               | Two Pointers          | [solution](java/54_SpiralMatrix)|
+| 1498     |  [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | Two Pointers | [solution](java/1498_NumberOfSubsequencesThatSatisfyTheGivenSumCondition)|
+| 54       |  [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                | Two Pointers          | [solution](java/54_SpiralMatrix)|
 | 3        |  [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| Two Pointers   | [solution](java/3_LongestSubstringWithoutRepeatingCharacters)|
 | 159      |  [Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/)| Two Pointers | [solution](java/159_LongestSubstringWithAtMostTwoDistinctCharacters)|
 | 340      |  [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)| Two Pointers | [solution](java/340_LongestSubstringWithAtMostKDistinctCharacters)|
@@ -52,6 +51,8 @@
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers  | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers          | [solution](java/88_MergeSortedArray)|
 | 392      |  [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                              | Two Pointers          | [solution](java/392_IsSubsequence)|
+| 408      |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)            | Two Pointers          | [solution](java/408_ValidWordAbbreviation)|
+| 1570     |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers| [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 238      |  [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  | Two Pointers          | [solution](java/238_ProductOfArrayExceptSelf)|
 | 28       |  [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Two Pointers | [solution](java/28_FindTheIndexOfTheFirstOccurrenceInAString)|
 | 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers          | [solution](java/31_NextPermutation)|
