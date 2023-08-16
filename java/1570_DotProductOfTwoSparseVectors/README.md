@@ -1,4 +1,4 @@
-## Method 1: HashMap
+## Method 1: Hash Map
 
 If both vectors are sparse, we can possibly skip those zero digits can only compute at index where both vectors have non-zero digits. 
 One way is to use a hash map to store all the non zero values in the form of <index, value> for each vector. In the dot product
