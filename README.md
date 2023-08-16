@@ -13,7 +13,7 @@
 | 167      |  [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)                | Two Pointers / Binary Search | [solution](java/167_TwoSum)| 
 | 15       |  [Three Sum](https://leetcode.com/problems/3sum/)                                             | Two Pointers          | [solution](java/15_ThreeSum)|
 | 16       |  [Three Sum Closest](https://leetcode.com/problems/3sum-closest/)                             | Two Pointers          | [solution](java/16_ThreeSumClosest)|
-| 259      |  [Three Sum Smaller](https://leetcode.com/problems/3sum-smaller/)                             | Two Pointers          | [solution](java/259_ThreeSumSmaller)|
+| 259      |  [Three Sum Smaller](https://leetcode.com/problems/3sum-smaller/)                             | Two Pointers          | [solution](java/259_ThreeSumSmaller)| 
 | 611      |  [Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/)                | Two Pointers          | [solution](java/611_ValidTriangleNumber)|
 | 125      |  [Valid Palindrome I](https://leetcode.com/problems/valid-palindrome/)                        | Two Pointers          | [solution](java/125_ValidPalindrome)|
 | 680      |  [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                    | Two Pointers          | [solution](java/680_ValidPalindrome)|
