@@ -8,15 +8,12 @@ class Solution {
         }
         Arrays.sort(starts);
         Arrays.sort(ends);
-        int endIndex = 0;
-        int ret = 0;
-        for (int i = 0; i < intervals.length; i++) {
-            if (starts[i] < ends[endIndex]) {
-                ret++;
-            }
-            else {
-                endIndex++;
-            }
+        
+        int ret = 1;
+        int j = 0;
+        for (int i = 1; i < intervals.length; i++) {
+            if (starts[i] < ends[j]) ret++;
+            else j++;
         }
         return ret;
     }
