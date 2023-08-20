@@ -2,11 +2,12 @@ class Solution {
     int[] deltaX = {-2, -1, 1, 2, -2, -1, 1, 2};
     int[] deltaY = {1, 2, 2, 1, -1, -2, -2, -1};
     public int minKnightMoves(int x, int y) {
+        x = Math.abs(x);
+        y = Math.abs(y);
         Queue<int[]> q = new ArrayDeque<>();
-        // HashSet<String> visited = new HashSet<>();
-        boolean[][] visited = new boolean[607][607];
+        HashSet<String> visited = new HashSet<>();
         q.offer(new int[]{0, 0});
-        visited[0][0] = true;
+        visited.add("0, 0");
         int ret = 0;
         while (!q.isEmpty()) {
             int size = q.size();
@@ -16,9 +17,10 @@ class Solution {
                 for (int direction = 0; direction < 8; direction++) {
                     int newX = current[0] + deltaX[direction];
                     int newY = current[1] + deltaY[direction];
-                    if (visited[newX + 302][newY + 302]) continue;
-                    q.offer(new int[]{newX, newY});
-                    visited[newX + 302][newY + 302] = true;
+                    if (!visited.contains(newX + ", " + newY) && newX >= -2 && newY >= -2) {
+                        q.offer(new int[]{newX, newY});
+                        visited.add(newX + ", " + newY);
+                    }
                 }
             }
             ret++;
