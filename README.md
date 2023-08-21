@@ -162,7 +162,9 @@
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                   | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
 | 1197     |  [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                  | BFS                   | [solution](java/1197_MinimumKnightMoves)|
-| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS / Dijkstra        | [solution](java/1631_PathWithMinimumEffort)|
+| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS (Dijkstra)        | [solution](java/1631_PathWithMinimumEffort)|
+| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)| 
+| 269      |  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                          | BFS (Topo)            | [solution](java/269_AlienDictionary)| 
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS             | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS             | [solution](java/547_NumberOfProvinces)| 
 | 695      |  [Max Area Of Island](https://leetcode.com/problems/max-area-of-island/)                      | BFS / DFS             | [solution](java/695_MaxAreaOfIsland)| 
@@ -171,8 +173,6 @@
 | 261      |  [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                          | BFS / DFS             | [solution](java/261_GraphValidTree)|
 | 490      |  [The Maze I](https://leetcode.com/problems/the-maze/)                                        | BFS / DFS             | [solution](java/490_TheMaze)| 
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS             | [solution](java/505_TheMaze)| 
-| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS / DFS             | [solution](java/207_CourseSchedule)| 
-| 269      |  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                          | BFS / DFS             | [solution](java/269_AlienDictionary)| 
 | 1306     |  [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                | BFS / DFS             | [solution](java/1306_JumpGame)|
 | 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                   | [solution](java/1345_JumpGame)|
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                   | [solution](java/79_WordSearch)|
