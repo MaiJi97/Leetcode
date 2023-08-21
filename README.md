@@ -357,7 +357,7 @@ Note: </br>
    
    d. Topological Sorting（拓扑排序）: 
    
-      For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. </br>
+      For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. 
       Topological sort is mainly used in scenarios where you have a set of tasks or activities with dependencies, and you need to determine an order in which these tasks can be executed or processed.
       
       算法描述：
