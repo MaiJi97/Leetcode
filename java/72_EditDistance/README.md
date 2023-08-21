@@ -2,7 +2,7 @@
 
 Top down solution, use recursion to get the edit distance of different prefixes of the two words, and use a matrix to store the result so we don't need to recompute when there are encountered values. </br>
 
-Time Complexity: O(mn)
+Time Complexity: O(m * n)
 
 
 ## Method 2: Dynamic Programming
@@ -25,5 +25,5 @@ for example, from hors to horse
 dp[i-1, j-1] + 1 is substitution, to replace the last character of v by the last character of w.
 
 
-Time Complexity: O(mn)
+Time Complexity: O(m * n)
 
