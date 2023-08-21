@@ -161,6 +161,7 @@
 | 107      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                   | [solution](java/133_CloneGraph)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
+| 1197     |  [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                  | BFS                   | [solution](java/1197_MinimumKnightMoves)|
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS / Dijkstra        | [solution](java/1631_PathWithMinimumEffort)|
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS             | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS             | [solution](java/547_NumberOfProvinces)| 
@@ -195,6 +196,7 @@
 | 213      |  [House Robber II](https://leetcode.com/problems/house-robber-ii/)                            | DP                    | [solution](java/213_HouseRobber)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)| 
 | 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                    | [solution](java/62_UniquePaths)| 
+| 740      |  [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                            | DP                    | [solution](java/740_DeleteAndEarn)| 
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                    | [solution](java/72_EditDistance)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                    | [solution](java/120_Triangle)| 
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP          | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
@@ -252,7 +254,7 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 Basic idea is to sort first, then 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
 
 ## Sorting 
-Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, bucket sort helps to sort elements in the map by value / frequencies)
+Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, hashmap interchangeable with array / bucket sort)
 
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
@@ -353,9 +355,10 @@ Note: </br>
    c. Dijkstra Algorithm for SSSP (Single Source Shortest Path): </br>
       Distance matrix and Priority Queue
    
-   d. Topological Sorting（拓扑排序）:
+   d. Topological Sorting（拓扑排序）: 
    
       For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. </br>
+      Topological sort is mainly used in scenarios where you have a set of tasks or activities with dependencies, and you need to determine an order in which these tasks can be executed or processed.
       
       算法描述：
       1) 统计每个点的入度(in degree)
@@ -416,9 +419,10 @@ dp[0][0] or dp[i][0] or dp[0][i]
 
 ## Additional Notes
 有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
-Subarray -> Two Pointers 同向双指针 (sliding window) </br>
-Sorted, search for a target in O(n) -> Two Pointers 相向双指针 </br>
+Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
+Sorted, search for a target in O(n)，且需要根据当前结果变大变小 -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
-求最大最小值，可行性，方案数 => DP </br>
-最短路线，最小值 => 也可能是BFS,Dijkstra或Binary Search </br>
+求最值，可行性，方案数 => DP </br>
+最短路线，最小值 => BFS, Dijkstra或Binary Search </br>
+有依赖关系的的Ordering => Topological Sort </br>
 求全部方案 => DFS </br>
