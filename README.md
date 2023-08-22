@@ -6,6 +6,7 @@
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60) |
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/)        | Hashmap               | [solution](java/380_InsertDeleteGetRandom)| 
+| 1570     |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Hashmap | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 12       |  [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                          | Hashmap               | [solution](java/12_IntegerToRoman)| 
 | 13       |  [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                          | Hashmap               | [solution](java/13_RomanToInteger)| 
 | 705      |  [Design HashSet](https://leetcode.com/problems/design-hashset/)                              | Hashmap / Hashset     | [solution](java/705_DesignHashSet)|
@@ -52,7 +53,6 @@
 | 88       |  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                      | Two Pointers          | [solution](java/88_MergeSortedArray)|
 | 392      |  [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                              | Two Pointers          | [solution](java/392_IsSubsequence)|
 | 408      |  [Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/)            | Two Pointers          | [solution](java/408_ValidWordAbbreviation)|
-| 1570     |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Two Pointers| [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 238      |  [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  | Two Pointers          | [solution](java/238_ProductOfArrayExceptSelf)|
 | 28       |  [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Two Pointers | [solution](java/28_FindTheIndexOfTheFirstOccurrenceInAString)|
 | 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers          | [solution](java/31_NextPermutation)|
