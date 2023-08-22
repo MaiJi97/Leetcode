@@ -27,8 +27,8 @@ class Solution {
         if (root == null) return 0;
         int gainFromLeft = Math.max(gainFromSubtree(root.left), 0);
         int gainFromRight = Math.max(gainFromSubtree(root.right), 0);
-        int current = Math.max(gainFromLeft + root.val, gainFromRight + root.val);
-        maxSum = Math.max(maxSum, gainFromLeft + root.val + gainFromRight); // potential maximum path sum
+        int current = Math.max(gainFromLeft + root.val, gainFromRight + root.val); // 传递到上一层的max value
+        maxSum = Math.max(maxSum, gainFromLeft + root.val + gainFromRight); // update最终的maximum path sum
         return current;
     }
 }
