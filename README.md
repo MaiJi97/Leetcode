@@ -232,7 +232,7 @@ Note: </br>
 - Use case: hashmap to store <element, index> as key value pair. 
 - Use case: hashmap to store <element, frequencies> as key value pair. 
 - Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to 0-index scale (eg: array[char - 'a'])
-- Sometimes we can easily sort the values in the hashmap, through bucket sort (eg: bucket[frequencies] = list...)
+- Sometimes we can easily sort by values in the hashmap, through bucket sort (eg: bucket[frequencies] = list...)
 - For sorted keys, use treemap, or an array + hashmap, or two static arrays
 
 ## Prefix Sum
