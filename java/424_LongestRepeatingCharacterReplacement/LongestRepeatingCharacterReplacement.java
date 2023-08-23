@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             freq[s.charAt(i) - 'A'] += 1;
             maxCount = Math.max(maxCount, freq[s.charAt(i) - 'A']); // two pointers之间出现最多的char出现的次数
-            while (i - j + 1 - maxCount > k) { // 需要replace的大于k
+            while (maxCount + k < i - j + 1) { // 需要replace的大于k, can also use if statement here because maxCount increment one by one
                 freq[s.charAt(j) - 'A']--;
                 j++;
             }
