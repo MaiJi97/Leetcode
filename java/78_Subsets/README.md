@@ -1,4 +1,4 @@
-## Method 1: DFS / Backtracking
+## Method 1: DFS / Traverse through recursion - backtracking
 
 <img width="389" alt="Screen Shot 2023-01-13 at 11 21 16 PM" src="https://user-images.githubusercontent.com/106039830/212457393-e4815666-bd5a-4913-b01a-99d76b46750f.png">
 
