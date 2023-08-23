@@ -1,4 +1,4 @@
-## Method 1: DFS / Backtracking
+## Method 1: DFS / Traverse through recursion
 
 - Build Graph
   Build a graph: each node represent an email, and there is an edge between two nodes if the two emails belong to the same person. In terms of the data structure, the graph is represented by HashMap<node, Set>, a node's neighbors are stored in the Set. </br>
