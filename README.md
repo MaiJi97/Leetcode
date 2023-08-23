@@ -298,7 +298,7 @@ Note: </br>
    - Since written as a separate method, do we need to return anything? Return if we need to use the result later (eg: 比如return true/false, 比如return max area，可能最后return也可能满足条件就return);  Don't return (void) if we don't need to use the result but instead doing the work within the method (eg: print node directly when traversing binary tree, or when we take in additional input or use global variable to store the result -> 比如求所有解时append当前result到最终result/list中, 比如modify visited matrix以用于后面); 
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
-   - 此处的DFS仅代表graph或matrix中的DFS，DFS的其他形式见下方的Backtracking和DP 
+   - DFS的变种见下方的Backtracking和DP 
    
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
@@ -388,7 +388,7 @@ Binary Tree 常见题型：
 Not only in Tree, Graph problems</br>
 Can also be used in matrix problems, combination and permutation problems, etc </br>
 
-DFS之Backtrack: </br>
+DFS之Backtrack - traverse and store paths: </br>
 一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options </br>
 什么时候需要后退一步? 当current step会影响到上一个state </br>
 
@@ -399,7 +399,7 @@ https://www.1point3acres.com/bbs/thread-583166-1-1.html
 ## Dynamic Programming（关键词：最优值，可行性，方案数）
 
 a. 记忆化搜索 Memoization Search through Recursion, 递归方式 </br>
-DFS + 记忆 </br>
+DFS + 记忆 (visited => 存具体值的memo) </br>
 缺点：不适合O(n)的DP问题，会造成stack overflow
 
 b. 迭代方式 / 多重循环
