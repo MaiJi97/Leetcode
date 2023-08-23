@@ -177,7 +177,9 @@
 | 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                   | [solution](java/1345_JumpGame)|
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                   | [solution](java/79_WordSearch)|
 | 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie            | [solution](java/212_WordSearch)|
+| 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
+| 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS / Backtracking    | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS / Backtracking    | [solution](java/90_Subsets)| 
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Backtracking    | [solution](java/46_Permutations)| 
@@ -186,7 +188,6 @@
 | 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS / Backtracking    | [solution](java/39_CombinationSum)|
 | 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS / Backtracking    | [solution](java/40_CombinationSum)|
 | 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS / Backtracking    | [solution](java/216_CombinationSum)|
-| 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Backtracking | [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking    | [solution](java/494_TargetSum)| 
 | 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS / Backtracking    | [solution](java/377_CombinationSum)|
@@ -194,10 +195,11 @@
 | 70       |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                            | DP                    | [solution](java/70_ClimbingStairs)| 
 | 198      |  [House Robber I](https://leetcode.com/problems/house-robber/)                                | DP                    | [solution](java/198_HouseRobber)| 
 | 213      |  [House Robber II](https://leetcode.com/problems/house-robber-ii/)                            | DP                    | [solution](java/213_HouseRobber)| 
-| 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)| 
-| 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                    | [solution](java/62_UniquePaths)| 
+| 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
 | 740      |  [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                            | DP                    | [solution](java/740_DeleteAndEarn)| 
+| 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                    | [solution](java/62_UniquePaths)|
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                    | [solution](java/72_EditDistance)| 
+| 64       |  [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)                           | DP                    | [solution](java/64_MinimumPathSum)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                    | [solution](java/120_Triangle)| 
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP          | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                    | [solution](java/139_WordBreak)| 
