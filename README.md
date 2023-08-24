@@ -2,7 +2,7 @@
 
 | #        |  Title                                                                                        |  Category              | Solution |
 |----------|-----------------------------------------------------------------------------------------------|------------------------|----------|
-| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap               | [solution](java/1_TwoSum)|
+| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap                | [solution](java/1_TwoSum)|
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60) |
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/)        | Hashmap               | [solution](java/380_InsertDeleteGetRandom)| 
@@ -47,7 +47,7 @@
 | 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers          | [solution](java/986_IntervalListIntersections)|
 | 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
 | 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | Two Pointers / DP     | [solution](java/435_NonOverlappingIntervals)|
-| 452      |  [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | Two Pointers | [solution](java/452_MinimumNumberOfArrowsToburstBalloons)|
+| 452      |  [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | Two Pointers | [solution](java/452_MinimumNumberOfArrowsToBurstBalloons)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers          | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers          | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers  | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
