@@ -256,7 +256,9 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
 ## Intervals 问题
-Traditional greedy problems. Basic procedure is to sort first, either by start or by end, then use 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
+Traditional greedy problems. Basic procedure is to sort either by start or by end, then use 同向双指针 to consider different situations (ie. has intersection, no intersection, etc). But, sort by start time or end time? </br>
+<img width="565" alt="Screen Shot 2023-08-24 at 11 27 44 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/2e6a2e9b-18ec-41d2-8bba-022e653d7769.png">
+
 
 ## Sorting 
 Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, hashmap interchangeable with array / bucket sort)
