@@ -38,7 +38,7 @@
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
 | 443      |  [String Compression](https://leetcode.com/problems/string-compression/)                      | Two Pointers          | [solution](java/443_StringCompression)|
 | 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers          | [solution](java/252_MeetingRooms)|
-| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Priority Queue| [solution](java/253_MeetingRooms)|
+| 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Two Pointers / Priority Queue| [solution](java/253_MeetingRooms)|
 | 56       |  [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                            | Two Pointers          | [solution](java/56_MergeIntervals)|
 | 57       |  [Insert Interval](https://leetcode.com/problems/insert-interval/)                            | Two Pointers          | [solution](java/57_InsertInterval)|
 | 1272     |  [Remove Interval](https://leetcode.com/problems/remove-interval/)                            | Two Pointers          | [solution](java/1272_RemoveInterval)|
@@ -46,7 +46,7 @@
 | 1229     |  [Meeting Scheduler](https://leetcode.com/problems/meeting-scheduler/)                        | Two Pointers          | [solution](java/1229_MeetingScheduler)|
 | 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers          | [solution](java/986_IntervalListIntersections)|
 | 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
-| 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | DP / Greedy           | [solution](java/435_NonOverlappingIntervals)|
+| 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | Two Pointers / DP     | [solution](java/435_NonOverlappingIntervals)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers          | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers          | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers  | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
@@ -256,7 +256,7 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
 ## Intervals 问题
-Basic idea is to sort first, then 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
+Traditional greedy problems. Basic procedure is to sort first, either by start or by end, then use 同向双指针, need to consider different situations (ie. has intersection, no intersection, etc)
 
 ## Sorting 
 Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, hashmap interchangeable with array / bucket sort)
