@@ -4,6 +4,9 @@ Time Complexity: O(n^3)
 
 ## Method 2: Dynamic Programming
 Store true / false information in a matrix, dp[i][j] represents if the substring from index i to index j is palindromic or not. <br />
+
+We can not use a normal nested for loop as for checking palindrome of a substring s(i, j), we need to check for s(i+1, j-1), but s(i+1, j-1) may not yet be filled at the time we need to fill s(i, j). So in the nested loop, one pointer goes from 0 to n, the other has to go from i to 0 backward. 
+
 Recurrence relation is: <br />
 dp[i][j] = true if i == j (base case) <br />
 dp[i][j] = true if s.charAt(i) == s.charAt(j) && j - i <= 2 <br />
