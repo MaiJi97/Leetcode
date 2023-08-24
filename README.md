@@ -47,6 +47,7 @@
 | 986      |  [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)    | Two Pointers          | [solution](java/986_IntervalListIntersections)|
 | 759      |  [Employee Free Time](https://leetcode.com/problems/employee-free-time/)                      | Two Pointers + Priority Queue| [solution](java/759_EmployeeFreeTime)|
 | 435      |  [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)        | Two Pointers / DP     | [solution](java/435_NonOverlappingIntervals)|
+| 452      |  [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons) | Two Pointers | [solution](java/452_MinimumNumberOfArrowsToburstBalloons)|
 | 283      |  [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                    | Two Pointers          | [solution](java/283_MoveZeroes)|
 | 781      |  [Rabbits In Forest](https://leetcode.com/problems/rabbits-in-forest/)                        | Two Pointers          | [solution](java/781_RabbitsInForest)|
 | 1513     |  [Number Of Substrings With Only 1s](https://leetcode.com/problems/number-of-substrings-with-only-1s/)| Two Pointers  | [solution](java/1513_NumberOfSubstringsWithOnly1s)|
