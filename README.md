@@ -234,8 +234,8 @@
 Note: </br>
 - Use case: hashmap to store <element, index> as key value pair. 
 - Use case: hashmap to store <element, frequencies> as key value pair. 
-- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to 0-index scale (eg: array[char - 'a'])
-- Sometimes we can easily sort by values in the hashmap, through bucket sort (eg: bucket[frequencies] = list...)
+- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to 0-index scale (eg: when count frequencies, array[char - 'a'])
+- Sometimes we can easily sort by values in the hashmap, through bucket sort (eg: when count frequencies, bucket[frequencies] = list<element>...)
   但如果只是求mode，可以在construct map的时候直接求，不需要bucket sort
   <img width="816" alt="Screen Shot 2023-08-22 at 11 08 29 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4c35ad7e-bf92-4c27-8a7e-a113733a2e72.png">
 
