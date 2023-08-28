@@ -27,8 +27,8 @@ The numbers is from 1 to 4, with a duplicate 2. If there is no duplicate, each n
 
 Time Complexity: O(n)
 
-## Method 4: Sort and iterate
-Another way is to sort the array and iterate through it until we find two adjacent same numbers.
+## Method 4: Count frequencies through Hash Map / Array
+Count the frequency of each element through an array, and return the one with frequency greater than 1. General idea is similar as method 3.
 
 Time Complexity: O(n)
 
