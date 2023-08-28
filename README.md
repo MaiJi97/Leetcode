@@ -60,7 +60,7 @@
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap  | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap  | [solution](java/974_SubarraySumsDivisibleByK)|
 | 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap  | [solution](java/523_ContinuousSubarraySum)|
-| 525      |  [Contiguous Array](https://leetcode.com/problems/contiguous-array/)                          | Prefix Sum + Hashmap  | [solution](java/525_ContiguousArray)|
+| 525      |  [Contiguous Array](https://leetcode.com/problems/contiguous-array/)                          | Prefix Sum + Hashmap + Negative Marking | [solution](java/525_ContiguousArray)|
 | 370      |  [Range Addition](https://leetcode.com/problems/range-addition/)                              | Prefix Sum            | [solution](java/370_RangeAddition)|
 | 304      |  [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)| Prefix Sum            | [solution](java/304_RangeSumQuery2D)|
 | 912      |  [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                | Sorting               | [solution](java/912_SortAnArray)|
