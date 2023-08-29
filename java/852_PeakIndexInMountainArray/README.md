@@ -7,6 +7,6 @@ Time Complexity: O(n)
 
 ## Method 2: Binary Search
 
-Choose to use template 3 of bianry search.
+Choose to use template 3 of binary search.
 
 Time Complexity: O(logn)
