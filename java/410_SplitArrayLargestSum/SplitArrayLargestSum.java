@@ -7,7 +7,6 @@ class Solution {
             left = Math.max(left, nums[i]);
             right += nums[i];
         }
-        int ret = -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             int split = helper(nums, mid); // return the number of subarrays whose sum is at least mid
@@ -15,11 +14,10 @@ class Solution {
                 left = mid + 1;
             }
             else {
-                ret = mid;
                 right = mid - 1;
             }
         }
-        return ret;
+        return left;
     }
     
     private int helper(int[] nums, int targetSum) {
