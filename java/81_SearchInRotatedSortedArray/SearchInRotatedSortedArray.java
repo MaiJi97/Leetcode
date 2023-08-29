@@ -10,12 +10,10 @@ class Solution {
             if (nums[mid] == target) {
                 return true;
             }
-            if (nums[mid] == nums[left] && nums[mid] == nums[right]) {
-                left++;
+            if (nums[mid] == nums[right]) {
                 right--;
-                continue;
             }
-            if (nums[mid] >= nums[left]) {
+            else if (nums[mid] >= nums[left]) {
                 if (target < nums[mid] && target >= nums[left]) { // target between left and mid
                     right = mid - 1;
                 }
