@@ -1,4 +1,4 @@
-## Method 1: Binary Search + Matrix
+## Method 1: Two Pointers
 
 <img width="943" alt="Screen Shot 2022-08-02 at 6 54 46 PM" src="https://user-images.githubusercontent.com/106039830/182487626-586c8694-990f-42ad-a518-6389ffb63822.png">
 
