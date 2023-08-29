@@ -12,7 +12,7 @@ class Solution {
                 return mid;
             }
             else if (nums[mid] >= nums[left]) {
-                if (target < nums[mid] && target >= nums[left]) { // target between left and mid, including mid
+                if (target < nums[mid] && target >= nums[left]) { // target between left and mid
                     right = mid - 1;
                 }
                 else {
@@ -20,7 +20,7 @@ class Solution {
                 }
             }
             else {
-                if (target > nums[mid] && target <= nums[right]) { // target between mid and right-1, excluding mid
+                if (target > nums[mid] && target <= nums[right]) { // target between mid and right
                     left = mid + 1;
                 }
                 else {
