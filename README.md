@@ -80,9 +80,9 @@
 | 153      |  [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| Binary Search  | [solution](java/153_FindMinimumInRotatedSortedArray)|
 | 154      |  [Find Minimum In Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| Binary Search| [solution](java/154_FindMinimumInRotatedSortedArray)|
 | 74       |  [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                      | Binary Search         | [solution](java/74_SearchA2DMatrix)|
-| 240      |  [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                | Binary Search         | [solution](java/240_SearchA2DMatrix)|
+| 240      |  [Search A 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                | Two Pointers          | [solution](java/240_SearchA2DMatrix)|
 | 658      |  [Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)             | Binary Search         | [solution](java/658_FindKClosestElement)|
-| 378      |  [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/merge-sorted-array/) | Binary Search         | [solution](java/378_KthSmallestElementInASortedMatrix)|
+| 378      |  [Kth Smallest Element In A Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | Binary Search + Two Pointers | [solution](java/378_KthSmallestElementInASortedMatrix)|
 | 4        |  [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)    | Binary Search         | [solution](java/4_MedianOfTwoSortedArrays)|
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search         | [solution](java/410_SplitArrayLargestSum)|
 | 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
@@ -272,9 +272,10 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 Note: </br>
-- 通常使用模版2或模版3，区别在于：1） initialize及update时，一个为左闭右开，一个为左闭右闭，所以模版不同时if condition也要对应变化，比如小于还是小于等于。2）while loop结束时两指针的状态不同，一个为left == right,一个为(end, start)
-- 在mid对应的值等于target时，有时可以直接return。
-- 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他函数再将函数返回值与target比较。
+- 通常使用模版2或模版3，区别在于：(1) initialize及update时，一个为左闭右开，一个为左闭右闭，所以模版不同时if condition也要对应变化，比如小于还是小于等于，具体根据题目而变化。(2) while loop结束时两指针的状态不同，一个为left == right,一个为(end, start)
+- 大多情况使用模版3，找最低点 => 通常使用模版2；有duplicate => mid与right对比并decrement right
+- 如果寻找某个target，在mid对应的值等于target时，可以直接return。
+- 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他helper函数再将函数返回值与target比较（eg: 猜答案类型的题目）
 
 ## Linked List
 常见方法：
