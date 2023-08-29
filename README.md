@@ -272,9 +272,8 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 Note: </br>
-- 通常使用模版2或模版3，区别在于：(1) initialize及update时，一个为左闭右开，一个为左闭右闭，所以模版不同时if condition也要对应变化，比如小于还是小于等于，具体根据题目而变化。(2) while loop结束时两指针的状态不同，一个为left == right,一个为(end, start)
-- 大多情况使用模版3，找最低点 => 通常使用模版2；有duplicate => mid与right对比并decrement right
-- 如果寻找某个target，在mid对应的值等于target时，可以直接return。
+- 模版3：较常用，有target时可直接分裂出mid==target的case并return mid，或不分裂但在包含等于的case中将mid储存在最终结果中。两个case => left=mid+1和right=mid-1的condition根据题目而定。结束条件后(right, left)，通常return left(?)
+- 模版2：less常用，求最低点时用这个，有duplicate时mid与right对比并decrement right。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，通常return left
 - 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他helper函数再将函数返回值与target比较（eg: 猜答案类型的题目）
 
 ## Linked List
