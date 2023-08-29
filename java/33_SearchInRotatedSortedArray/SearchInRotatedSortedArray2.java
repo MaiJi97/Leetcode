@@ -20,7 +20,7 @@ class Solution {
                 }
             }
             else {
-                if (target > nums[mid] && target <= nums[right]) { // target between mid and right
+                if (target > nums[mid] && target <= nums[right]) { // target between mid and right-1
                     left = mid + 1;
                 }
                 else {
