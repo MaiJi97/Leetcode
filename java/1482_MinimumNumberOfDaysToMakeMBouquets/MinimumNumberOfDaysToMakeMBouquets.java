@@ -11,17 +11,19 @@ class Solution {
                 left = bloomDay[i];
             }
         }
+        int ret = -1;
         
-        while (left < right) { // pick m subarrays of length k, max of each subarray is minimized
+        while (left <= right) { // pick m subarrays of length k, max of each subarray is minimized
             int mid = left + (right - left) / 2;
             if (helper(bloomDay, mid, k) < m) { // return number of subarray whose max value is mid (number of bouquets can be made on a given day)
                 left = mid + 1;
             }
             else {
-                right = mid;
+                ret = mid;
+                right = mid - 1;
             }
         }
-        return left; 
+        return ret; 
     }
     
     public int helper(int[] bloomDay, int mid, int k) {
