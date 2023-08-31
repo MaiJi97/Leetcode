@@ -73,6 +73,9 @@
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search         | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search         | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search         | [solution](java/852_PeakIndexInMountainArray)|
+| 162      |  [Find Peak Element](https://leetcode.com/problems/find-peak-element)                         | Binary Search         | [solution](java/162_FindPeakElement)|
+| 2300     |  [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)| Binary Search | [solution](java/2300_SuccessfulPairsOfSpellsAndPotions)|
+| 981      |  [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store)       | Binary Search         | [solution](java//981_TimeBasedKeyValueStore)|
 | 287      |  [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)        | Binary Search         | [solution](java/287_FindTheDuplicateNumber)|
 | 34       |  [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| Binary Search| [solution](java/34_FindFirstAndLastPositionOfElementInSortedArray)|
 | 33       |  [Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/)| Binary Search     | [solution](java/33_SearchInRotatedSortedArray)|
@@ -87,6 +90,7 @@
 | 410      |  [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)            | Binary Search         | [solution](java/410_SplitArrayLargestSum)|
 | 1482     |  [Minimum Number Of Days To Make M Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)| Binary Search | [solution](java/1482_MinimumNumberOfDaysToMakeMBouquets)|
 | 2187     |  [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)| Binary Search       | [solution](java/2187_MinimumTimeToCompleteTrips)|
+| 1011     |  [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)| Binary Search | [solution](java/1011_CapacityToShipPackagesWithinDDays)|
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                 | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                 | [solution](java/394_DecodeString)| 
@@ -176,8 +180,9 @@
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS             | [solution](java/505_TheMaze)| 
 | 1306     |  [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                | BFS / DFS             | [solution](java/1306_JumpGame)|
 | 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                   | [solution](java/1345_JumpGame)|
-| 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS                   | [solution](java/79_WordSearch)|
+| 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS / Backtracking    | [solution](java/79_WordSearch)|
 | 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie            | [solution](java/212_WordSearch)|
+| 1268     |  [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)         | DFS + Trie            | [solution](java/1268_SearchSuggestionsSystem)|
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
 | 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
@@ -272,8 +277,8 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
 
 Note: </br>
-- 模版3：较常用，有target且结果可能为-1时可直接分裂出mid==target的case并return mid，或不分裂但在包含等于的case中将ret update为mid。两个case => left=mid+1和right=mid-1的condition根据题目而定。结束条件后(right, left)，通常return left(?)
-- 模版2：less常用，求最低点时用这个，有duplicate时mid与right对比并decrement right。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，通常return left
+- 模版3：较常用，有target且结果可能为-1时可直接分裂出mid==target的case并return mid，或不分裂但在包含等于的case中将ret update为mid。两个case => left=mid+1和right=mid-1的condition根据题目而定。结束条件后(right, left)，right和left分别指向boundary两侧的element，根据题目要求决定用哪个。
+- 模版2：less常用，求最低点时用这个，有duplicate时mid与right对比并decrement right。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，可以直接用left。
 - 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他helper函数再将函数返回值与target比较（eg: 猜答案类型的题目）
 
 ## Linked List
