@@ -6,4 +6,13 @@ Note things to pay attention to: </br>
 1) To pop characters out and construct the substring we need to insert each newly poped character to the beginning since stack is first in last out, and we can do this through a string builder.
 2) After we repeat k number times the substring we will need to push them back to the stack because there can be outer "[]" so that the substring might be a part of the repeating again later.
 
-Time Complexity: O(n)
+Time Complexity:
+<img width="596" alt="Screen Shot 2023-09-09 at 6 46 50 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/5df0b93f-49b7-4147-8c1d-40a484377eb7.png">
+
+## Method 2: Two Stacks
+
+In the previous approach, we use a single character stack to store both letters and digits. If there are many nested strings to be decoded, we will need to repeat popping out and pushing in the elements to the stack many times. Now instead, we can maintain two separate stacks.
+
+<img width="594" alt="Screen Shot 2023-09-09 at 3 49 44 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/bfa131e3-a8e0-4d5f-bb63-6d6b7a083470.png">
+
+Time Complexity: O(maxK * n)
