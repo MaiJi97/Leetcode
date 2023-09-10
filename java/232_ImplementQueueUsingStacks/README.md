@@ -4,8 +4,7 @@ A queue should satisfy FIFO / LILO, while stack is LIFO. So each time we push an
 In order to do this we can pop and push all the existing elements on stack 1 to stack 2, then push the new element onto stack 2, finally pop and push all
 the elements on stack 2 back to stack 1. All other operations can be done in O(1) on stack 1. 
 
-Note: Can also push to stack 1 directly when implementing push() method, but do the pop and push when implementing pop() method: pop and push all the 
-elements from stack 1 to stack 2, then pop the top element from stack 2, finally pop and push all the elements on stack 2 back to stack 1.
+Note: Current implementation does the reordering in push(), but executes pop() directly. We can also execute push() directly, but do the pop and push when implementing pop() method: pop and push all the elements from stack 1 to stack 2, then pop the top element from stack 2, finally pop and push all the elements on stack 2 back to stack 1.
 
 Time Complexity: O(n) for push, O(1) for all other
 
