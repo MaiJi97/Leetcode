@@ -240,7 +240,7 @@ Note: </br>
 - Use case: hashmap to store <element, index> as key value pair. 
 - Use case: hashmap to store <element, frequencies> as key value pair. 
 - Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to 0-index scale (eg: when count frequencies, array[char - 'a'])
-- Sometimes we can easily sort by values in the hashmap, through bucket sort (eg: when count frequencies, bucket[frequencies] = list<element>...)
+- Sometimes we can easily sort hashmap values, through priority queue, or through bucket sort (eg: when count frequencies, bucket[frequencies] = list<element>...)
   但如果只是求mode，可以在construct map的时候直接求，不需要bucket sort
   <img width="816" alt="Screen Shot 2023-08-22 at 11 08 29 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4c35ad7e-bf92-4c27-8a7e-a113733a2e72.png">
 
@@ -268,7 +268,7 @@ Greedy approach to pick the one that ends earlier => sort by end time
 
 
 ## Sorting 
-Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to keep a mapping between element and frequencies, hashmap interchangeable with array / bucket sort)
+Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to sort hashmap values / keep a mapping between element and frequencies).
 
 ## Binary Search
 In a sorted array with boundaries, want to look for a target value or index. </br>
@@ -432,7 +432,7 @@ dp[0][0] or dp[i][0] or dp[0][i]
 最后的return，如dp[m][n]
 
 ## Additional Notes
-有大小关系 -> Priority Queue, Monotonic Stack, Monotonic Deque </br>
+有大小关系 -> Priority Queue, Bucket Sort, Monotonic Stack, Monotonic Deque </br>
 Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
 Sorted, search for a target in O(n)，且需要根据当前结果变大变小 -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
