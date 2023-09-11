@@ -1,7 +1,7 @@
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         List<List<Integer>> ret = new ArrayList<>();
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[0] + a[1])-(b[0] + b[1]));
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[0] + a[1])-(b[0] + b[1])); // int[num1 from nums1, num2 from nums2]
         for (int num1 : nums1) {
             for (int num2 : nums2) {
                 pq.offer(new int[]{num1, num2});
