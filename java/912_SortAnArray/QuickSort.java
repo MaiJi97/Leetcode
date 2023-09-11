@@ -6,7 +6,7 @@ class Solution {
 
     private void quickSort(int[] nums, int left, int right) {
         if (left >= right) return;
-        int pivot = partition(nums, left, right); // partition后所有比pivot index小的element值都比pivot小，反之比其大
+        int pivot = partition(nums, left, right); // partition后所有比pivot index小(在pivot前面）的element都比pivot小，反之比其大
         quickSort(nums, left, pivot - 1);
         quickSort(nums, pivot + 1, right);
     }
