@@ -118,7 +118,7 @@
 | 901      |  [Online Stock Span](https://leetcode.com/problems/online-stock-span)                         | Monotonic Stack       | [solution](java/901_OnlineStockSpan)|
 | 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack / Two Pointers   | [solution](java/42_TrappingRainWater)|
 | 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack       | [solution](java/84_LargestRectangleInHistogram)|
-| 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
+| 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Treemap / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
 | 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
 | 1438     |  [Longest Continuous Subarray with Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Monotonic Deque + Priority Queue      | [solution](java/1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit)|
 | 206      |  [Reverse Linked List I](https://leetcode.com/problems/reverse-linked-list/)                  | Linked List           | [solution](java/206_ReverseLinkedList)|
@@ -246,12 +246,12 @@
 Note: </br>
 - Use case: hashmap to store <element, index> as key value pair. 
 - Use case: hashmap to store <element, frequencies> as key value pair. 
-- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to 0-index scale (eg: when count frequencies, array[char - 'a'])
+- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to finite 0-index scale (eg: when count frequencies of letter character, array[char - 'a'])
 - Sometimes we can easily sort hashmap values, through priority queue, or through bucket sort (eg: when count frequencies, bucket[frequencies] = list<element>...)
   但如果只是求mode，可以在construct map的时候直接求，不需要bucket sort
   <img width="816" alt="Screen Shot 2023-08-22 at 11 08 29 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4c35ad7e-bf92-4c27-8a7e-a113733a2e72.png">
 
-- For sorted keys, use treemap, or an array + hashmap, or two static arrays
+- To sort hashmap keys, can also use priority queue, or use treemap, or an array + hashmap, or two static arrays
 
 ## Prefix Sum
 Note: </br>
