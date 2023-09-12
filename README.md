@@ -105,7 +105,6 @@
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                 | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                 | [solution](java/622_DesignCircularQueue)| 
 | 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue        | [solution](java/295_FindMedianFromDataStream)| 
-| 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / TreeMap | [solution](java/239_SlidingWindowMaximum)|
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
 | 2099     |  [Find Subsequence of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue | [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 373      |  [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)| Priority Queue     | [solution](java/373_FindKPairsWithSmallestSums)| 
@@ -119,6 +118,7 @@
 | 901      |  [Online Stock Span](https://leetcode.com/problems/online-stock-span)                         | Monotonic Stack       | [solution](java/901_OnlineStockSpan)|
 | 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack / Two Pointers   | [solution](java/42_TrappingRainWater)|
 | 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack       | [solution](java/84_LargestRectangleInHistogram)|
+| 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
 | 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
 | 1438     |  [Longest Continuous Subarray with Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Monotonic Deque + Priority Queue      | [solution](java/1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit)|
 | 206      |  [Reverse Linked List I](https://leetcode.com/problems/reverse-linked-list/)                  | Linked List           | [solution](java/206_ReverseLinkedList)|
