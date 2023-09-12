@@ -94,14 +94,20 @@
 | 20       |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                        | Stack                 | [solution](java/20_ValidParentheses)| 
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                 | [solution](java/394_DecodeString)| 
-| 1381     |  [Design Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)| Stack    | [solution](java/1381_DesignStackWithIncrementOperation)| 
+| 1381     |  [Design Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)| Stack | [solution](java/1381_DesignStackWithIncrementOperation)| 
+| 1472     |  [Design Browser History](https://leetcode.com/problems/evaluate-reverse-polish-notation/)    | Stack                 | [solution](java/1472_DesignBrowserHistory)| 
+| 150      |  [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| Stack           | [solution](java/150_EvaluateReversePolishNotation)| 
+| 946      |  [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)           | Stack                 | [solution](java/946_ValidateStackSequences)| 
+| 735      |  [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)                       | Stack                 | [solution](java/735_AsteroidCollision)| 
+| 853      |  [Car Fleet](https://leetcode.com/problems/car-fleet)                                         | Stack                 | [solution](java/853_CarFleet)| 
 | 155      |  [Min Stack](https://leetcode.com/problems/min-stack/)                                        | Stack                 | [solution](java/155_MinStack)| 
 | 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                 | [solution](java/232_ImplementQueueUsingStacks)| 
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                 | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                 | [solution](java/622_DesignCircularQueue)| 
 | 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue        | [solution](java/295_FindMedianFromDataStream)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
-| 2099     |  [Find Subsequence Of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue| [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
+| 2099     |  [Find Subsequence of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue | [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
+| 373      |  [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)| Priority Queue     | [solution](java/373_FindKPairsWithSmallestSums)| 
 | 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack       | [solution](java/496_NextGreaterElement)| 
 | 503      |  [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)            | Monotonic Stack       | [solution](java/503_NextGreaterElement)| 
 | 1019     |  [Next Greater Node in Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)| Monotonic Stack | [solution](java/1019_NextGreaterNodeInLinkedList)| 
@@ -109,6 +115,7 @@
 | 316      |  [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)          | Monotonic Stack       | [solution](java/316_RemoveDuplicateLetters)|
 | 1081     |  [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)| Monotonic Stack| [solution](java/1081_SmallestSubsequenceOfDistinctCharacters)|
 | 402      |  [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                            | Monotonic Stack       | [solution](java/402_RemoveKDigits)|
+| 901      |  [Online Stock Span](https://leetcode.com/problems/online-stock-span)                         | Monotonic Stack       | [solution](java/901_OnlineStockSpan)|
 | 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack / Two Pointers   | [solution](java/42_TrappingRainWater)|
 | 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack       | [solution](java/84_LargestRectangleInHistogram)|
 | 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Monotonic Deque       | [solution](java/239_SlidingWindowMaximum)|
