@@ -1,4 +1,4 @@
-## Method 1: Priority Queue
+## Method 1: Priority Queue / Tree Map
 
 A brute force method has time complexity of O(n*k), and a method with priority queue still needs O(nlogn).
 
