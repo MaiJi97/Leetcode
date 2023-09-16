@@ -104,9 +104,9 @@
 | 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                 | [solution](java/232_ImplementQueueUsingStacks)| 
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                 | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                 | [solution](java/622_DesignCircularQueue)| 
+| 2099     |  [Find Subsequence of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue | [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue        | [solution](java/295_FindMedianFromDataStream)| 
 | 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
-| 2099     |  [Find Subsequence of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue | [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 373      |  [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)| Priority Queue     | [solution](java/373_FindKPairsWithSmallestSums)| 
 | 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack       | [solution](java/496_NextGreaterElement)| 
 | 503      |  [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)            | Monotonic Stack       | [solution](java/503_NextGreaterElement)| 
