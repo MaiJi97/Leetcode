@@ -220,7 +220,7 @@
 | 1143     |  [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | DP                    | [solution](java/1143_LongestCommonSubsequence)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP        | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                    | [solution](java/5_LongestPalindromeSubstring)| 
-| 647      |  [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)              | DP                    | [solution](java/647_PalindromeSubstrings)| 
+| 647      |  [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)              | DP                    | [solution](java/647_PalindromicSubstrings)| 
 | 516      |  [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| DP                | [solution](java/516_LongestPalindromeSubsequence)| 
 | 300      |  [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| DP / Binary Search  | [solution](java/300_LongestIncreasingSubsequence)| 
 | 1029     |  [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/)                    | DP / Greedy           | [solution](java/1029_TwoCityScheduling)| 
