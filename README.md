@@ -232,12 +232,16 @@
 | 152      |  [Maximum Product Subarray](https://leetcode.com/problems/maximum-subarray/)                  | Greedy                | [solution](java/152_MaximumProductSubarray)|
 | 918      |  [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)| Greedy                | [solution](java/918_MaximumSumCircularSubarray)| 
 | 134      |  [Gas Station](https://leetcode.com/problems/gas-station/)                                    | Greedy                | [solution](java/134_GasStation)| 
-| 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                            | Math                  | [solution](java/780_ReachingPoints)| 
 | 723      |  [Candy Crush](https://leetcode.com/problems/candy-crush/ )                                   | Negative Marking      | [solution](java/723_CandyCrush)| 
 | 202      |  [Happy Number](https://leetcode.com/problems/happy-number/)                                  | Cycle Detection       | [solution](java/202_HappyNumber)| 
 | 73       |  [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                        | Matrix                | [solution](java/73_SetMatrixZeroes)| 
 | 289      |  [Game of Life](https://leetcode.com/problems/game-of-life/)                                  | Matrix                | [solution](java/289_GameOfLife)| 
 | 48       |  [Rotate Image](https://leetcode.com/problems/rotate-image/)                                  | Matrix                | [solution](java/48_RotateImage)| 
+| 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                            | Math                  | [solution](java/780_ReachingPoints)| 
+| 191      |  [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)                           | Bit Manipulation      | [solution](java/191_NumberOf1Bits)| 
+| 338      |  [Counting Bits](https://leetcode.com/problems/counting-bits)                                 | Bit Manipulation      | [solution](java/338_CountingBits)| 
+| 190      |  [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                  | Bit Manipulation      | [solution](java/190_ReverseBits)| 
+| 371      |  [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)                     | Bit Manipulation      | [solution](java//371_SumOfTwoIntegers)| 
 
 # Notes in Essential Categories
 
