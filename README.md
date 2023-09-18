@@ -314,11 +314,11 @@ Note: </br>
    If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited.       Eg: in graph </br>
    
    Note: </br>
-   - Do we need a seprate helper method? Yes when we need to take in extra parameters that contain information regarding the current state.
+   - Do we need a separate helper method? Yes when we need to take in extra parameters that contain information regarding the current state.
    - Since written as a separate method, do we need to return anything? Return if we need to use the result later (eg: 比如return true/false, 比如return max area，可能最后return也可能满足条件就return);  Don't return (void) if we don't need to use the result but instead doing the work within the method (eg: print node directly when traversing binary tree, or when we take in additional input or use global variable to store the result -> 比如求所有解时append当前result到最终result/list中, 比如modify visited matrix以用于后面); 
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
-   - DFS的变种见下方的Backtracking和DP 
+   - DFS的变种见下方的Backtracking和DP记忆化搜索
    
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
