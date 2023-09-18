@@ -1,6 +1,6 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int[] frequencies = new int[26];
+        int[] frequencies = new int[26]; // record frequency of each character within the window
         int maxCount = 0;
         int j = 0;
         int ret = 0;
