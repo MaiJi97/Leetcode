@@ -15,8 +15,7 @@ class Solution {
         
         if (left != null) { // if left subtree has a LCA
             return left;
-        }
-        
+        }    
         
         if (right != null) { // if right subtree has a LCA
             return right;
