@@ -5,4 +5,4 @@ The tree is balanced if:
 2) The difference between heights of left tree and right tree is no more than 1. </br>
    We need a helper function to calculate the height of a tree.
 
-Time Complexity: O(nlogn)
+Time Complexity: O(n^2) - can be O(nlogn) if balanced
