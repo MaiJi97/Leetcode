@@ -8,7 +8,7 @@ class Solution {
         for (char key : hm.keySet()) {
             int frequency = hm.get(key);
             if (bucketSort[frequency] == null) {
-                List<Character> list = new ArrayList<>(); // need this step else we'll get type error
+                List<Character> list = new ArrayList<>(); 
                 bucketSort[frequency] = list;
             }
             bucketSort[frequency].add(key);
