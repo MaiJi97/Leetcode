@@ -1,14 +1,14 @@
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> ret = new ArrayList<>();
+        if (root == null) {
+            return ret;
+        }
         pathHelper(ret, "", root);
         return ret;
     }
     
     public void pathHelper(List<String> ret, String path, TreeNode root) {
-        if (root == null) {
-            return;
-        }
         
         path += root.val;
         
