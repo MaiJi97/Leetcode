@@ -155,6 +155,8 @@
 | 128      |  [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  | Union Find            | [solution](java/128_LongestConsecutiveSequence)| 
 | 305      |  [Number Of Islands II](https://leetcode.com/problems/number-of-islands-ii/)                  | Union Find            | [solution](java/305_NumberOfIslands)|
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS            | [solution](java/230_KthSmallestElementInBST)| 
+| 100      |  [Same Tree](https://leetcode.com/problems/same-tree)                                         | Tree / DFS            | [solution](java/100_SameTree)| 
+| 101      |  [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                               | Tree / DFS            | [solution](java/101_SymmetricTree)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS            | [solution](java/104_MaximumDepthOfBinaryTree)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
@@ -166,6 +168,7 @@
 | 572      |  [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)            | Tree / DFS            | [solution](java/572_SubtreeOfAnotherTree)| 
 | 333      |  [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)                    | Tree / DFS            | [solution](java/333_LargestBSTSubtree)| 
 | 98       |  [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | Tree / DFS            | [solution](java/98_ValidateBinarySearchTree)| 
+| 669      |  [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree)         | Tree / DFS            | [solution](java/669_TrimABinarySearchTree)| 
 | 449      |  [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)| Tree / DFS            | [solution](java/449_SerializeAndDeserializeBST)| 
 | 314      |  [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)| Tree / BFS / DFS| [solution](java/314_BinaryTreeVerticalOrderTraversal)| 
 | 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS / DFS   | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
@@ -175,7 +178,8 @@
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
 | 1197     |  [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                  | BFS                   | [solution](java/1197_MinimumKnightMoves)|
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS (Dijkstra)        | [solution](java/1631_PathWithMinimumEffort)|
-| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)| 
+| 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)|
+| 210      |  [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                      | BFS (Topo)            | [solution](java/210_CourseSchedule)| 
 | 269      |  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                          | BFS (Topo)            | [solution](java/269_AlienDictionary)| 
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS             | [solution](java/200_NumberOfIslands)|
 | 547      |  [Number Of Provinces](https://leetcode.com/problems/number-of-provinces/)                    | BFS / DFS             | [solution](java/547_NumberOfProvinces)| 
