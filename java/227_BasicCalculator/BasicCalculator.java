@@ -15,6 +15,7 @@ class Solution {
             }
             if (!Character.isDigit(c) && !Character.isWhitespace(c) || i == s.length()-1) {
                 // evaluating last operation instead of the current one
+                // operation is the previous operation, currentNumber is the previous number
                 if (operation == '+') { 
                     stack.push(currentNumber);
                 }
