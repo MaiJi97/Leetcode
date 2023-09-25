@@ -1,8 +1,8 @@
 # Java Solutions to Leetcode 
 
-| #        |  Title                                                                                        |  Category              | Solution |
-|----------|-----------------------------------------------------------------------------------------------|------------------------|----------|
-| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap                | [solution](java/1_TwoSum)|
+| #        |  Title                                                                                        |  Category             | Solution |
+|----------|-----------------------------------------------------------------------------------------------|-----------------------|----------|
+| 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap               | [solution](java/1_TwoSum)|
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60) |
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List | [solution](java/146_LRUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/)        | Hashmap               | [solution](java/380_InsertDeleteGetRandom)| 
@@ -267,7 +267,6 @@ Note: </br>
 - Prefix sum usually has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
 - Prefix sum stored in array or hashmap? Depends, hashmap is used when we want to get a value directly by key (eg: get frequencies of occurrence of a prefix sum)
 
-
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
 One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually sorted.
@@ -281,7 +280,6 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 Traditional greedy problems. Basic procedure is to sort either by start or by end, then use 同向双指针 to consider different situations (ie. has intersection, no intersection, etc). But, sort by start time or end time? </br>
 
 Greedy approach to pick the one that ends earlier => sort by end time
-
 
 ## Sorting 
 Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to sort hashmap values / keep a mapping between element and frequencies).
@@ -324,7 +322,6 @@ Note: </br>
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    - DFS的变种见下方的Backtracking和DP记忆化搜索
-   
    
    a. Preorder / Inorder / Postorder Traversal 遍历法</br>
    Eg: #230
@@ -382,7 +379,7 @@ Note: </br>
    b. Matrix Traverse（连通块）: </br>
       Eg: #200
       
-   c. Dijkstra Algorithm for SSSP (Single Source Shortest Path): </br>
+   c. Dijkstra Algorithm for SSSP (Single Source Shortest Path 最短路线问题): </br>
       Distance matrix and Priority Queue
    
    d. Topological Sorting（拓扑排序）: 
@@ -408,12 +405,13 @@ Binary Tree 常见题型：
 - 二叉树结构变化 (Flatten to Linked List)
 - BST
 
-## DFS ***(关键词：traverse全部方案)
-万物皆可DFS </br>
-Not only in Tree, Graph problems</br>
-Can also be used in matrix problems, combination and permutation problems, etc </br>
+Note:
+- 有些题目很明显属于graph可以用BFS/DFS解决，还有些题目不明显但可以转化为graph的问题用BFS/DFS解决，比如Course Schedule, Card Game (SLB Karat面经），Word Labber，Backtracking中的Subset，Combination, Permutation等。
 
-DFS之Backtrack - traverse and store paths: </br>
+## DFS ***(关键词：traverse全部方案)
+万物皆可DFS - DFS应用面很广，可以延伸出很多用法。 </br>
+
+DFS之Backtracking - traverse and store paths: </br>
 一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options </br>
 什么时候需要后退一步? 当current step会影响到上一个state </br>
 
@@ -453,6 +451,6 @@ Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) 
 Sorted, search for a target in O(n)，且需要根据当前结果变大变小 -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn) -> Binary Search </br>
 求最值，可行性，方案数 => DP </br>
-最短路线，最小值 => BFS, Dijkstra或Binary Search </br>
-有依赖关系的的Ordering => Topological Sort </br>
+最短路线，最小值 => BFS(Dijkstra)或Binary Search猜答案 </br>
+有依赖关系的的Ordering => BFS(Topological Sort) </br>
 求全部方案 => DFS </br>
