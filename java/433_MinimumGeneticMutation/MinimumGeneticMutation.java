@@ -1,6 +1,7 @@
 class Solution {
     public int minMutation(String startGene, String endGene, String[] bank) {
         Queue<String> q = new ArrayDeque<>();
+        HashSet<String> set = new HashSet<String>(Arrays.asList(bank));
         Set<String> visited = new HashSet<>();
         q.offer(startGene);
         visited.add(startGene);
@@ -15,7 +16,7 @@ class Solution {
                         StringBuilder sb = new StringBuilder(current);
                         sb.setCharAt(j, c);
                         String newGene = sb.toString();
-                        if (Arrays.asList(bank).contains(newGene) && !visited.contains(newGene)) {
+                        if (set.contains(newGene) && !visited.contains(newGene)) {
                             q.offer(newGene);
                             visited.add(newGene);
                         } 
