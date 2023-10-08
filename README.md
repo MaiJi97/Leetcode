@@ -406,7 +406,7 @@ Binary Tree 常见题型：
 - BST
 
 Note:
-- 有些题目很明显属于graph可以用BFS/DFS解决，还有些题目不明显但可以转化为graph的问题用BFS/DFS解决，比如Course Schedule, Card Game (SLB Karat面经），Word Labber，Backtracking中的Subset，Combination, Permutation等。
+- 有些题目很明显属于graph可以用BFS/DFS解决，还有些题目不明显但可以转化为graph的问题用BFS/DFS解决，比如Course Schedule, Card Game (SLB Karat面经），Word Labber，Backtracking中的Subset，Combination, Permutation等。根据题目来决定是否需要先construct graph。
 
 ## DFS ***(关键词：traverse全部方案)
 万物皆可DFS - DFS应用面很广，可以延伸出很多用法。 </br>
