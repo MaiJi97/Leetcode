@@ -7,4 +7,4 @@ Recurrence relation:
 dp[i][j] = 1 if i == 0 or j == 0 </br>
 dp[i][j] = dp[i-1][j] + dp[i][j-1]
 
-Time Complexity: O(mn)
+Time Complexity: O(m * n)
