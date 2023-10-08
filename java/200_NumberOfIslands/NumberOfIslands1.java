@@ -18,12 +18,12 @@ class Solution {
         }
         int m = grid.length;
         int n = grid[0].length;    
-        boolean[][] visited = new boolean[m][n];
+        boolean[][] visited = new boolean[m][n]; 
         
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (visited[i][j] == false && grid[i][j] == '1') {
-                    bfs(i, j, grid, visited);
+                    bfs(i, j, grid, visited); // we are using the same visited matrix each time we call bfs()
                     count++;
                 }
             }
