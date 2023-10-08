@@ -22,10 +22,7 @@ class Solution {
             int[] current = q.poll();
             int x = current[0];
             int y = current[1];
-            if (x == 0 || x == board.length - 1 || y == 0 || y == board[0].length - 1) {
-                visited[x][y] = true;
-                flip = false;
-            }
+            if (x == 0 || x == board.length - 1 || y == 0 || y == board[0].length - 1) flip = false;
             list.add(current);
             
             for (int[] direction : directions) {
