@@ -2,8 +2,6 @@
 
 Assume we have "3 + 2 * 2 - 4".
 
-Since '*' and '/' have higher priority, we sometimes need to undo some operations to ensure the ordering as we go over the string iteratively (eg: 3 + is done 
-after 2 * 2). Therefore, when we encounter a current operator, we will always have to look one step back to evaluate the previous operator with related numbers 
-and determine if we need to redo the operation from current number, number before current number (peek element on the stack) and the previous operator. In this given example, as we see '-', current number is 2, number before current number (peek element on the stack) is also 2, and the previous operator is '*'. So we will compute 2 * 2 and then push this result to the stack. See comments in the code to see state of stacks after each step.
+We keep track of a current number and current operator. Whenever we see a new operator, we process the result using the current number and current operator, push the result to the stack, and then update these two variables (看到新的operator时，处理上一个operator和number，并push进stack，因为乘除符号需要用到).  Meanwhile, since 乘除 have higher priority, we need to handle them differently. As we see a new operator, we will need to check the previous operator and if it is '*' or '/', we will need to compute using current operator, current number and previous number (peek element on the stack), then finally push the combined result to the stack.
 
 Time Complexity: O(n)
