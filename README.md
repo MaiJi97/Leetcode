@@ -95,7 +95,7 @@
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                 | [solution](java/394_DecodeString)| 
 | 1381     |  [Design Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)| Stack | [solution](java/1381_DesignStackWithIncrementOperation)| 
-| 1472     |  [Design Browser History](https://leetcode.com/problems/evaluate-reverse-polish-notation/)    | Stack                 | [solution](java/1472_DesignBrowserHistory)| 
+| 1472     |  [Design Browser History](https://leetcode.com/problems/evaluate-reverse-polish-notation/)    | Stack / Linked List   | [solution](java/1472_DesignBrowserHistory)| 
 | 150      |  [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| Stack           | [solution](java/150_EvaluateReversePolishNotation)| 
 | 946      |  [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)           | Stack                 | [solution](java/946_ValidateStackSequences)| 
 | 735      |  [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)                       | Stack                 | [solution](java/735_AsteroidCollision)| 
@@ -123,7 +123,7 @@
 | 2866     |  [Beautiful Towers](https://leetcode.com/problems/beautiful-towers-ii)                        | Monotonic Stack       | [solution](java/2866_BeautifulTowers)|
 | 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Treemap / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
 | 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
-| 1438     |  [Longest Continuous Subarray with Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Monotonic Deque + Priority Queue      | [solution](java/1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit)|
+| 1438     |  [Longest Continuous Subarray with Absolute Diff Less Than Or Equal To Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | Monotonic Deque + Priority Queue    | [solution](java/1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanOrEqualToLimit)|
 | 206      |  [Reverse Linked List I](https://leetcode.com/problems/reverse-linked-list/)                  | Linked List           | [solution](java/206_ReverseLinkedList)|
 | 92       |  [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)              | Linked List           | [solution](java/92_ReverseLinkedList)|
 | 25       |  [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)          | Linked List           | [solution](java/25_ReverseNodesInKGroup)|
