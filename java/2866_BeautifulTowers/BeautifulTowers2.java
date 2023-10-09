@@ -13,8 +13,8 @@ class Solution {
         stack = new Stack<>();
         for (int i = maxHeights.size() - 1; i >= 0; i--) {
             long current = maxHeights.get(i);
-            while (!stack.isEmpty() && maxHeights.get(stack.peek()) > current) stack.pop(); // keep the stack monotonically increasing
-            right[i] = stack.isEmpty() ? current * (maxHeights.size() - i) : right[stack.peek()] + current * (stack.peek() - i);
+            while (!stack.isEmpty() && maxHeights.get(stack.peek()) > current) stack.pop(); // keep the stack monotonically decreasing
+            right[i] = stack.isEmpty() ? current * (maxHeights.size() - i) : right[stack.peek()] + current * (stack.peek() - i); // sum from the rightmost element up to current element
             stack.push(i);
         }
         long ret = 0;
