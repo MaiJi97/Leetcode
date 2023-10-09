@@ -5,7 +5,7 @@
 Why use Hash Map? </br>
 To maintain the key value structure and accomplish put and get in O(1) time complexity.
 
-Why use Linked List?
+Why use Linked List? </br>
 Since the capacity of the hashmap is limited, we will need a way to track the least recent visited key. We can do it through a queue,
 so that most recently visited elements are added to the tail and least recently visited elements are removed from the front. But the
 operation takes O(n). Linked List is most suitable for insertion / deletion of element from arbitrary position.
