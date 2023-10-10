@@ -260,10 +260,10 @@
 ## Hash Map
 
 Note: </br>
-- Use case: hashmap to store <element, index> as key value pair. 
-- Use case: hashmap to store <element, frequencies> as key value pair. 
-- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to finite 0-index scale (eg: when count frequencies of letter character, array[char - 'a'])
-- Sometimes we can easily sort hashmap values, through priority queue, or through bucket sort (eg: when count frequencies, bucket[frequencies] = list<element>...)
+- Use case: hashmap to store <element, index> or <index, element> as key value pair. 
+- Use case: hashmap to store <element, frequency> or <frequency, element(collection)> as key value pair. 
+- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to finite 0-index scale (eg: when count frequencies of letter characters, array[char - 'a'])
+- Sometimes we can easily sort hashmap values, through priority queue, or through bucket sort if we want keys together with values (eg: when count frequencies, bucket[frequency] = list<elements> where frequency is 0 to n)
   但如果只是求mode，可以在construct map的时候直接求，不需要bucket sort
   <img width="816" alt="Screen Shot 2023-08-22 at 11 08 29 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4c35ad7e-bf92-4c27-8a7e-a113733a2e72.png">
 
