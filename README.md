@@ -5,6 +5,7 @@
 | 1        |  [Two Sum I](https://leetcode.com/problems/two)                                               | Hashmap               | [solution](java/1_TwoSum)|
 | 1010     |  [Pairs Of Songs With Total Duration Divisible By 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  | Hashmap  | [solution](java/1010_PairsOfSongsWithTotalDurationDivisibleBy60) |
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List | [solution](java/146_LRUCache)| 
+| 460      |  [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                        | Hashmap + Linked Hashset | [solution](java/460_LFUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/)        | Hashmap               | [solution](java/380_InsertDeleteGetRandom)| 
 | 1570     |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Hashmap | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 12       |  [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                          | Hashmap               | [solution](java/12_IntegerToRoman)| 
