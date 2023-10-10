@@ -393,7 +393,7 @@ Note: </br>
    d. Topological Sorting（拓扑排序）: 
    
       For DAG (directed cyclic graph), for every directed edge uv, vertex u comes before v. 
-      Topological sort is mainly used in scenarios where you have a set of tasks or activities with dependencies, and you need to determine an order in which these tasks can be executed or processed.
+      Topological sort is mainly used in scenarios where you have a set of tasks or activities with dependencies, and you need to determine an order in which these tasks can be executed or processed. 解决有序图中的依赖关系。
       
       算法描述：
       1) 统计每个点的入度(in degree)
@@ -420,8 +420,8 @@ Note:
 万物皆可DFS - DFS应用面很广，可以延伸出很多用法。 </br>
 
 DFS之Backtracking - traverse and store paths: </br>
-一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options </br>
-什么时候需要后退一步? 当current step会影响到上一个state </br>
+一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options. </br>
+什么时候需要后退一步? 当current step会影响到上一个state，比如在String Builder上append new character，will need to remove it; 但如果直接使用String Concatenation就不用因为每次都会create a new string. </br>
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
 
