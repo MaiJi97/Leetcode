@@ -368,7 +368,7 @@ Note: </br>
    Note: </br>
    - Do it in a separate helper method or in the main method? Depends on if we are going to call it multiple times.
    - If written as a separate method, do we need to return anything? Depends on if we need to use the returned result later （同DFS）.
-   - When to break the iteration? When the queue becomes empty. </br>
+   - When to break the iteration? When the queue becomes empty, or when we find the result. </br>
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    - If we keep track of visited node / cell, mark as visited when offer it to the queue or when poll it from the queue? Usually when we offer it to the queue. </br>
    - 有时可用于求最值（比如不需要traverse所有，当满足某个条件时直接return (eg: word ladder, Dijkstra）
