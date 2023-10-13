@@ -456,9 +456,9 @@ dp[0][0] or dp[i][0] or dp[0][i]
 ## Additional Notes
 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque </br>
 Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
-Sorted, search for a target in O(n)，target not a single value，需要根据当前结果需更大或更小来shift pointers -> Two Pointers 相向双指针 </br>
+Sorted, search for a target in O(n)，more than a single target，需要根据当前结果大于或小于target来shift pointers寻找elements -> Two Pointers 相向双指针 </br>
 Sorted, search for a target in O(logn)，有明确target -> Binary Search </br>
-Unsorted, search for a target in O(1), 有明确target -> HashMap（可能需要先iterate在map中存值） </br>
+Unsorted, search for a target in O(1)， 有明确target -> HashMap（可能需要先iterate在map中存值） </br>
 求最值，可行性，方案数 => DP </br>
 最短路线，最小值 => BFS(Dijkstra)或Binary Search猜答案 </br>
 有依赖关系的的Ordering => BFS(Topological Sort) </br>
