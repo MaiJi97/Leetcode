@@ -8,6 +8,6 @@ We can use a brute force method here, to get all possible subarrays in O(n^2) an
 
 <img width="609" alt="Screen Shot 2022-07-23 at 11 42 16 PM" src="https://user-images.githubusercontent.com/106039830/180658103-6d15c331-1e60-45f4-8c76-a5c864f4b4d9.png">
 
-Theoratically we should use an array to compute the prefix sum at each element first and then use the hash map to count the frequency of each prefix sum. But actually we can skip the array as in the iteration we only need to each possible prefix sum and update its number of occurrences directly in a hash map. By substracting k from it we know the target prefix sum we are looking for. Now we can get the occurrence of the prefix sum and add it to the result.
+Theoratically we should use an array to compute the prefix sum at each element through one iteration first, and then use the hash map to update the frequency of each prefix sum through another iteration. But actually we can skip the array in the first iteration as we only need to compute each possible prefix sum and update its frequency directly in a hash map. By substracting k from it we know the target prefix sum we are looking for. Now we can get the occurrence of the prefix sum and add it to the result.
 
 Time Complexity: O(n)
