@@ -273,7 +273,7 @@ Note: </br>
 ## Prefix Sum
 Note: </br>
 - Prefix sum usually has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
-- Prefix sum stored in array or hashmap? Depends, hashmap is used when we want to get a value directly by key (eg: get frequencies of occurrence of a prefix sum)
+- In some cases can skip the procedure of storing prefix sum in an array (eg: #560, the prefix sum value is only used once and we can store it directly into the hash map)
 
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
