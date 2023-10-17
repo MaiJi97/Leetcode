@@ -4,4 +4,4 @@ Similar to problem 767 Reorganize String. Difference is that in problem 767, k i
 track of the latest index at which each character appears. Also at the end we need to add a special case for k = 0 and k = 1 (no restriction on arrangement). The rest
 are all the same.
 
-Time Complexity: O((n + k) log k)
+Time Complexity: O((n + k) log k) where n is the length of the string and k is the number of unique characters in the string
