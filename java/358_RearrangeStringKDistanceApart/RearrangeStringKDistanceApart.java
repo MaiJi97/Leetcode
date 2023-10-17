@@ -20,7 +20,7 @@ class Solution {
             ArrayList<Pair<Character, Integer>> temp = new ArrayList<>();
             hm.put(pair.getKey(), sb.length());
             sb.append(pair.getKey());
-            while (!pq.isEmpty() && sb.length() - hm.getOrDefault(pq.peek().getKey(), -300000) < k) {
+            while (!pq.isEmpty() && hm.containsKey(pq.peek().getKey()) && sb.length() - hm.get(pq.peek().getKey()) < k) {
                 temp.add(pq.poll());
             }
             if (pq.isEmpty()) return ""; // cannot find the next character to append that satisfies k distance
