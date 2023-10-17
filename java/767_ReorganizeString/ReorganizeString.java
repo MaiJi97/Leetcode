@@ -11,10 +11,10 @@ class Solution {
         }
         StringBuilder sb = new StringBuilder();
 
-        Pair pair = pq.poll();
+        Pair<Character, Integer> pair = pq.poll();
         while (!pq.isEmpty()) {
             sb.append(pair.getKey());
-            Pair next = pq.poll();
+            Pair<Character, Integer> next = pq.poll();
             int frequencyLeft = (int) pair.getValue() - 1;
             if (frequencyLeft > 0) {
                 pq.offer(new Pair(pair.getKey(), frequencyLeft));
