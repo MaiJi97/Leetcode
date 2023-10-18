@@ -20,15 +20,15 @@ class Solution {
             ArrayList<Pair<Character, Integer>> temp = new ArrayList<>();
             hm.put(pair.getKey(), sb.length());
             sb.append(pair.getKey());
+            int frequencyLeft = (int) pair.getValue() - 1;
+            if (frequencyLeft > 0) {
+                pq.offer(new Pair(pair.getKey(), frequencyLeft));
+            }
             while (!pq.isEmpty() && hm.containsKey(pq.peek().getKey()) && sb.length() - hm.get(pq.peek().getKey()) < k) {
                 temp.add(pq.poll());
             }
             if (pq.isEmpty()) return ""; // cannot find the next character to append that satisfies k distance
             Pair<Character, Integer> next = pq.poll();
-            int frequencyLeft = (int) pair.getValue() - 1;
-            if (frequencyLeft > 0) {
-                pq.offer(new Pair(pair.getKey(), frequencyLeft));
-            }
             for (Pair p : temp) pq.offer(p);
             pair = next;
         }
