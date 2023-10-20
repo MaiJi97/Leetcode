@@ -37,6 +37,7 @@
 | 121      |  [Best Time To Buy And Sell Stocks I](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers  | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 122      |  [Best Time To Buy And Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Two Pointers   | [solution](java/122_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
+| 80       |  [Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)| Two Pointers   | [solution](java/80_RemoveDuplicatesFromSortedArray)|
 | 443      |  [String Compression](https://leetcode.com/problems/string-compression/)                      | Two Pointers          | [solution](java/443_StringCompression)|
 | 252      |  [Meeting Rooms I](https://leetcode.com/problems/meeting-rooms/)                              | Two Pointers          | [solution](java/252_MeetingRooms)|
 | 253      |  [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)                          | Sweeping Line / Two Pointers / Priority Queue| [solution](java/253_MeetingRooms)|
@@ -109,8 +110,11 @@
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                 | [solution](java/622_DesignCircularQueue)| 
 | 2099     |  [Find Subsequence of Length K With The Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)| Priority Queue | [solution](java/2099_FindSubsequenceOfLengthKWithTheLargestSum)| 
 | 295      |  [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  | Priority Queue        | [solution](java/295_FindMedianFromDataStream)| 
-| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
 | 373      |  [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)| Priority Queue     | [solution](java/373_FindKPairsWithSmallestSums)| 
+| 895      |  [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)            | Priority Queue + Hashmap / Bucket Sort + Hashmap    | [solution](java/895_MaximumFrequencyStack)| 
+| 767      |  [Reorganize String](https://leetcode.com/problems/reorganize-string)                         | Priority Queue + Hashmap | [solution](java/767_ReorganizeString)| 
+| 358      |  [Rearrange String K Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)| Priority Queue + Hashmap | [solution](java/358_RearrangeStringKDistanceApart)| 
+| 621      |  [Task Scheduler](https://leetcode.com/problems/task-scheduler)                               | Priority Queue + Hashmap | [solution](java/621_TaskScheduler)| 
 | 496      |  [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)              | Monotonic Stack       | [solution](java/496_NextGreaterElement)| 
 | 503      |  [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)            | Monotonic Stack       | [solution](java/503_NextGreaterElement)| 
 | 1019     |  [Next Greater Node in Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)| Monotonic Stack | [solution](java/1019_NextGreaterNodeInLinkedList)| 
@@ -151,7 +155,6 @@
 | 24       |  [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | Linked List           | [solution](java/24_SwapNodesInPairs)| 
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List           | [solution](java/61_RotateList)| 
 | 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List           | [solution](java/725_SplitLinkedListInParts)| 
-| 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 208      |  [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)                  | Trie                  | [solution](java/208_ImplementTrie)| 
 | 211      |  [Design Add and Search Word Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Trie     | [solution](java/211_DesignAddAndSearchWordDataStructure)| 
 | 421      |  [Maximum XOR Of Two Numbers In An Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)       | Trie     | [solution](java/421_MaximumXOROfTwoNumbersInAnArray)| 
@@ -162,12 +165,15 @@
 | 100      |  [Same Tree](https://leetcode.com/problems/same-tree)                                         | Tree / DFS            | [solution](java/100_SameTree)| 
 | 101      |  [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                               | Tree / DFS            | [solution](java/101_SymmetricTree)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS            | [solution](java/104_MaximumDepthOfBinaryTree)| 
+| 108      |  [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)| Linked List| [solution](java/108_ConvertSortedArrayToBinarySearchTree)| 
+| 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Linked List| [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS            | [solution](java/257_BinaryTreePaths)| 
 | 124      |  [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | Tree / DFS            | [solution](java/124_BinaryTreeMaximumPathSum)| 
 | 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS  | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
-| 236      |  [Lowest Common Ancester of Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfBinaryTree)| 
+| 235      |  [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)| Tree / DFS | [solution](java/235_LowestCommonAncestorOfABinarySearchTree)| 
+| 236      |  [Lowest Common Ancester of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfABinaryTree)| 
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS      | [solution](java/111_MinimumDepthOfBinaryTree)| 
 | 572      |  [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)            | Tree / DFS            | [solution](java/572_SubtreeOfAnotherTree)| 
 | 333      |  [Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree/)                    | Tree / DFS            | [solution](java/333_LargestBSTSubtree)| 
@@ -182,9 +188,11 @@
 | 1197     |  [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                  | BFS                   | [solution](java/1197_MinimumKnightMoves)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
 | 433      |  [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)           | BFS                   | [solution](java/433_MinimumGeneticMutation)|
+| 1293     |  [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)| BFS | [solution](java/1293_ShortestPathInAGridWithObstaclesElimination)|
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS (Dijkstra)        | [solution](java/1631_PathWithMinimumEffort)|
 | 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)|
 | 210      |  [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                      | BFS (Topo)            | [solution](java/210_CourseSchedule)| 
+| 2115     |  [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | BFS (Topo) | [solution](java/2115_FindAllPossibleRecipesFromGivenSupplies)| 
 | 269      |  [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                          | BFS (Topo)            | [solution](java/269_AlienDictionary)| 
 | 399      |  [Evaluate Division](https://leetcode.com/problems/evaluate-division)                         | BFS / DFS             | [solution](java/399_EvaluateDivision)|
 | 200      |  [Number Of Islands](https://leetcode.com/problems/number-of-islands/)                        | BFS / DFS             | [solution](java/200_NumberOfIslands)|
@@ -230,6 +238,7 @@
 | 72       |  [Edit Distance](https://leetcode.com/problems/edit-distance/)                                | DP                    | [solution](java/72_EditDistance)| 
 | 2361     |  [Minimum Costs Using The Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line/)| DP          | [solution](java/2361_MinimumCostsUsingTheTrainLine)| 
 | 312      |  [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                              | DP                    | [solution](java/312_BurstBalloons)| 
+| 221      |  [Maximal Square](https://leetcode.com/problems/maximal-square)                               | DP                    | [solution](java/221_MaximalSquare)| 
 | 1143     |  [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)      | DP                    | [solution](java/1143_LongestCommonSubsequence)| 
 | 718      |  [Maximum Length Of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)| DP        | [solution](java/718_MaximumLengthOfRepeatedSubarray)| 
 | 5        |  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| DP                    | [solution](java/5_LongestPalindromeSubstring)| 
@@ -251,6 +260,7 @@
 | 289      |  [Game of Life](https://leetcode.com/problems/game-of-life/)                                  | Matrix                | [solution](java/289_GameOfLife)| 
 | 48       |  [Rotate Image](https://leetcode.com/problems/rotate-image/)                                  | Matrix                | [solution](java/48_RotateImage)| 
 | 780      |  [Reaching Points](https://leetcode.com/problems/reaching-points/)                            | Math                  | [solution](java/780_ReachingPoints)| 
+| 204      |  [Count Primes](https://leetcode.com/problems/count-primes)                                   | Math                  | [solution](java/204_CountPrimes)| 
 | 191      |  [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)                           | Bit Manipulation      | [solution](java/191_NumberOf1Bits)| 
 | 338      |  [Counting Bits](https://leetcode.com/problems/counting-bits)                                 | Bit Manipulation      | [solution](java/338_CountingBits)| 
 | 190      |  [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                  | Bit Manipulation      | [solution](java/190_ReverseBits)| 
