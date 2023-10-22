@@ -1,4 +1,4 @@
-## Method 1: Two Pointers 同向双指针
+## Method 1: Two Pointers 同向双指针 - parallel pointers
 
 This approach compute sum of water using each column as a unit. We keep track of a left maximum and right maximum for each column (对于每个column来说向左右分别看到的最高点）Then we iterate through each column and add trapped water at each column to the result.
 
