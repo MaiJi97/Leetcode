@@ -464,7 +464,7 @@ dp[0][0] or dp[i][0] or dp[0][i]
 最后的return，如dp[m][n]
 
 ## Additional Notes
-- 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque </br>
+- 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque, Two Pointers 同向双指针 (parallel pointers, two arrays to track minimum/maximum with respect to each index, #42 #2909)</br>
 - Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
 - Sorted, search for a target in O(n)，more than a single target，需要根据当前结果大于或小于target来shift pointers寻找elements -> Two Pointers 相向双指针 </br>
 - Sorted, search for a target in O(logn)，有明确target -> Binary Search </br>
