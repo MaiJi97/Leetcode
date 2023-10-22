@@ -295,9 +295,9 @@ Both pointers start from the beginning of the array. Slide one pointer through t
 <img width="551" alt="Screen Shot 2022-07-10 at 1 39 28 PM" src="https://user-images.githubusercontent.com/106039830/178155926-88a1980b-ad9b-4422-a0ae-192911589385.png">
 
 ## Intervals 问题
-Traditional greedy problems. Basic procedure is to sort either by start or by end, then use 同向双指针 to consider different situations (ie. has intersection, no intersection, etc). But, sort by start time or end time? </br>
+Traditional greedy problems. Basic procedure is to sort either by start or by end, then use 同向双指针-fast&slow to consider different situations (ie. has intersection, no intersection, etc). But, sort by start time or end time? </br>
 
-Greedy approach to pick the one that ends earlier => sort by end time
+Greedy approach to pick the one that ends earlier => sort by end time，其他sort by start time
 
 ## Sorting 
 Merge sort, quick sort, bucket sort (often used together with hashmap <element, frequency>, to sort hashmap values / keep a mapping between element and frequencies).
@@ -332,7 +332,7 @@ Note: </br>
 ## Binary Tree / Binary Search Tree / Graph / 类卿
 
 ### 1) DFS through Recursion </br>
-   If have the possibility to visit a node repeatedly, will need to use a hashset to track if the node has already been visited.       Eg: in graph </br>
+   If have the possibility to visit a node repeatedly, will need track if the node has already been visited. Eg: in graph </br>
    
    Note: </br>
    - Do we need a separate helper method? Yes if we need to take in different parameters that contain additional information regarding the current state, or if the return type is different.
@@ -364,7 +364,7 @@ Note: </br>
    
 ### 2) BFS through Queue </br>
    Queue的实现：Linked List / ArrayDeque (preferred because it is faster) </br>
-   If have the possibility to visit a node repeatedly, will need to track and if the node has already been visited before adding it to a queue. </br>
+   If have the possibility to visit a node repeatedly, will need to track if the node has already been visited before adding it to a queue. </br>
    
    1. Create an empty queue 
    2. Add root node to the queue
