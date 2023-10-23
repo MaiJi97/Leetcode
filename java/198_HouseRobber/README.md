@@ -1,7 +1,7 @@
 ## Method 1: Dynamic Programming
 
-Bottom up solution, dp[i] represents the maximum amount of money can be robbed up to the ith index house, so i is from 0 to n - 1 (so
-length n)
+Bottom up solution, dp[i] represents the maximum amount of money can be robbed up to the ith index house. So i is from 0 to n - 1 (
+length of n)
 
 Recurrence relation:
 
