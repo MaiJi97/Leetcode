@@ -281,7 +281,7 @@ Note: </br>
 - To sort hashmap keys, can also use priority queue, or use treemap, or an array + hashmap, or two static arrays
 
 ## Prefix Sum
-Note: </br>
+Note: 
 - Prefix sum usually has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
 - In some cases can skip the procedure of storing prefix sum in an array (eg: #560, the prefix sum value is only used once and we can store it directly into the hash map)
 
@@ -323,7 +323,7 @@ c. dummy pointer </br>
 
    - What is the purpose of dummy node? To standardize the situation, for example, make the linked list never to be empty or headless (eg: in case when  the first node is the node we want to remove)
 
-Note: </br>
+Note:
 - For variable that we do not need to track values, we can manipute on them directly instead of create a new variable from it. Same for pointers, some problems is all about manipulate the pointers, try not to create too many variables.
  
 ## Divide and Conquer 
@@ -334,7 +334,7 @@ Note: </br>
 ### 1) DFS through Recursion </br>
    If have the possibility to visit a node repeatedly, will need track if the node has already been visited. Eg: in graph </br>
    
-   Note: </br>
+   Note: 
    - Do we need a separate helper method? Yes if we need to take in different parameters that contain additional information regarding the current state, or if the return type is different.
    - Since written as a separate method, do we need to return anything? Return if we need to use the result later (eg: 比如return true/false, 比如return max area);  Don't return (void) if we want to modify a global(?) variable within the method (eg: print directly when traversing binary tree vs store values into a list -> 比如求所有解时append当前result到最终result/list中, 比如modify visited matrix以用于后面) - global variable可以是global scope也可以takes in as parameter.
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
@@ -375,7 +375,7 @@ Note: </br>
       
    广撒网，通常用于求最优解(eg: Dijkstra)
    
-   Note: </br>
+   Note: 
    - Do it in a separate helper method or in the main method? Depends on if we are going to call it multiple times.
    - If written as a separate method, do we need to return anything? Depends on if we need to use the returned result later （同DFS）.
    - When to break the iteration? When the queue becomes empty, or when we find the result. </br>
@@ -462,6 +462,9 @@ dp[0][0] or dp[i][0] or dp[0][i]
 
 5) 答案Answer: 递归的调用 </br>
 最后的return，如dp[m][n]
+
+Note:
+- dp array could have length of n (from 0 to n - 1 or 1 to n), or length of n + 1 (from 0 to n), depends on which one is more convenient.
 
 ## Additional Notes
 - 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque, Two Pointers 同向双指针 (parallel pointers, two arrays to track minimum/maximum with respect to each index, #42 #2909)</br>
