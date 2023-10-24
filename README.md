@@ -336,7 +336,7 @@ Note:
    
    Note: 
    - Do we need a separate helper method? Yes if we need to take in different parameters that contain additional information regarding the current state, or if the return type is different.
-   - Since written as a separate method, do we need to return anything? Return if we need to use the result later (eg: 比如return true/false, 比如return max area);  Don't return (void) if we want to modify a global(?) variable within the method (eg: print directly when traversing binary tree vs store values into a list -> 比如求所有解时append当前result到最终result/list中, 比如modify visited matrix以用于后面) - global variable可以是global scope也可以takes in as parameter.
+   - Since written as a separate method, do we need to return anything? Return if we need to use the result later (eg: 比如return true/false, 比如return sum, 比如return max area);  Don't return (void) if we want to modify a variable directly within the method (eg: print directly when traversing binary tree vs store values into a list -> 比如求所有解时append当前result到最终result/list中, 比如modify visited matrix以用于后面 -> 被modify的variable可以是takes in as parameter of helper method，也可以是global scope，global scope的话如果没有其他additional parameter就可以省略helper method了.)
    - When to break the recursion? When we reach the base case -> we complete the task / subtask, 视具体情况决定。</br>
    - During recursion, call the method on the next state / its neighbors. What are the neighbors? 视具体情况决定。</br>
    - DFS的变种见下方的Backtracking和DP记忆化搜索
