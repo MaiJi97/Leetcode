@@ -1,7 +1,6 @@
 ## Method 1: Memoization Search (DFS/recursion + Memoization)
 
-Similar to problem 95, but since here it is binary tree instead of binary search tree, we do not need to take in additional parameters
-like start / end (also memo can be a global variable instead of taken as a parameter) and everything can be written inside the main
+Similar to problem 95, but since here it is binary tree instead of binary search tree, we do not need to take in additional parameters like start / end (also memo can be a global variable instead of taken as a parameter) and everything can be written inside the main
 method. Also to ensure left and right subtrees are full tree, i is incremented by 2 each time.
 
 Time Complexity: 
