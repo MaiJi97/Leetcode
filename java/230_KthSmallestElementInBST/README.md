@@ -1,6 +1,6 @@
 ## Method 1: DFS / Inorder traverse through recursion
 
-Use a helper function to traverse and store the elements in order into an array list. The extra parameter contains information about the current state (the nodes we have already visited) and we are calling the method recursively on its left child and right child in order. We don't need to return anything from the helper method as we are modifying the list taken as parameter directly. Then, since the input is a BST so we are visiting and storing its elements in ascending order, we can get the value directly by using get(k-1) method.
+Use a helper function to traverse and store the elements in order into an array list. The extra parameter contains information about the current state (the nodes we have already visited) and we are calling the method recursively on its left child and right child in order. We don't need to return anything (void) from the helper method as we are modifying the list taken as parameter directly. Then, since the input is a BST so we are visiting and storing its elements in ascending order, we can get the value directly by using get(k-1) method.
 
 Note that we can also get rid of the extra method which takes in the result list as a parameter, but instead make it a global variable within the main method.
 
