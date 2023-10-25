@@ -8,8 +8,6 @@ Time Complexity: O(n)
 
 ## Method 2: BFS / Level Order Traverse through Queue
 
-Another solution is by traversing the binary tree using a queue. What being stored on the queue should not only contain the tree node
-but also the current sum up to the current node. So as we reach the end of a path (when both left child and right child become null),
-we can add the current sum to the final result.
+Another solution is by traversing the binary tree using a queue. What being stored on the queue should not only contain the tree node but also the current sum up to the current node. So as we reach the end of a path (when both left child and right child become null), we can add the current sum to the final result.
 
 Time Complexity: O(n)
