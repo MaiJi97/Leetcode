@@ -21,7 +21,7 @@ class Solution {
                 current.add(key);
                 hm.put(key, count - 1);
                 dfs(nums, ret, current, hm);
-                current.remove(current.size()-1);
+                current.remove(current.size() - 1);
                 hm.put(key, count);
             }
         }
