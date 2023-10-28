@@ -9,12 +9,12 @@ class Solution {
     public void dfs(int[] nums, List<List<Integer>> ret, List<Integer> current, int start) {
         ret.add(new ArrayList<>(current));
         for (int i = start; i < nums.length; i++) { 
-            if (i != start && nums[i] == nums[i-1]) {
+            if (i != start && nums[i] == nums[i - 1]) {
                 continue;
             }
             current.add(nums[i]);
-            dfs(nums, ret, current, i+1);
-            current.remove(current.size()-1);
+            dfs(nums, ret, current, i + 1);
+            current.remove(current.size() - 1);
         }
     }
 }
