@@ -10,8 +10,8 @@ class Solution {
 
         for (int i = start; i < nums.length; i++) {
             current.add(nums[i]);
-            dfs(nums, ret, current, i+1);
-            current.remove(current.size()-1);
+            dfs(nums, ret, current, i + 1);
+            current.remove(current.size() - 1);
         }
     }
 }
