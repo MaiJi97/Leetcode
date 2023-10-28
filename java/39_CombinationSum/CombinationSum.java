@@ -19,7 +19,7 @@ class Solution {
             current.add(candidates[i]);
             int sum = currentSum + candidates[i];
             dfs(ret, candidates, target, current, i, sum);
-            current.remove(current.size()-1);
+            current.remove(current.size() - 1);
         }
     }
 }
