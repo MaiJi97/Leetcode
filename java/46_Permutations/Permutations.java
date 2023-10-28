@@ -15,7 +15,7 @@ class Solution {
             if (!current.contains(nums[i])) {
                 current.add(nums[i]);
                 dfs(nums, ret, current);
-                current.remove(current.size()-1);
+                current.remove(current.size() - 1);
             }
         }
     }
