@@ -16,8 +16,8 @@ class Solution {
         }
         for (int i = index; i < nums.length; i++) {
             current.add(nums[i]);
-            dfs(nums, k, ret, current, i+1);
-            current.remove(current.size()-1);
+            dfs(nums, k, ret, current, i + 1);
+            current.remove(current.size() - 1);
         }
     }
 }
