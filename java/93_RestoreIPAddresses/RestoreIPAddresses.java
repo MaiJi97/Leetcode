@@ -5,7 +5,7 @@ class Solution {
         return ret;
     }
 
-    public void dfs(String s, List<String> current, List<String> ret, int index) {
+    private void dfs(String s, List<String> current, List<String> ret, int index) {
         if (index == s.length()) {
             if (current.size() == 4) {
                 StringBuilder sb = new StringBuilder();
