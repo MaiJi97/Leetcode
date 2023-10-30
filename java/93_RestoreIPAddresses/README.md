@@ -9,4 +9,4 @@ one step back and remove the last IP address we found to allow the pick up of ot
 
 Time Complexity: 
 
-<img width="481" alt="Screen Shot 2023-10-30 at 1 24 25 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/25bfd0f8-d3e6-4558-8f07-9c81adafb96f.png">
+<img width="477" alt="Screen Shot 2023-10-30 at 1 25 45 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4b9f60b8-9108-4e85-a594-780f3c495f32.png">
