@@ -59,6 +59,8 @@
 | 238      |  [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  | Two Pointers          | [solution](java/238_ProductOfArrayExceptSelf)|
 | 28       |  [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Two Pointers | [solution](java/28_FindTheIndexOfTheFirstOccurrenceInAString)|
 | 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers          | [solution](java/31_NextPermutation)|
+| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Two Pointers          | [solution](java/42_TrappingRainWater)|  
+| 2909     |  [Minimum Sum of Mountain Triplets](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii) | Two Pointers | [solution](java/2909_MinimumSumOfMountainTriplets)|  
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap  | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap  | [solution](java/974_SubarraySumsDivisibleByK)|
 | 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap  | [solution](java/523_ContinuousSubarraySum)|
@@ -123,7 +125,7 @@
 | 1081     |  [Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)| Monotonic Stack| [solution](java/1081_SmallestSubsequenceOfDistinctCharacters)|
 | 402      |  [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                            | Monotonic Stack       | [solution](java/402_RemoveKDigits)|
 | 901      |  [Online Stock Span](https://leetcode.com/problems/online-stock-span)                         | Monotonic Stack       | [solution](java/901_OnlineStockSpan)|
-| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack / Two Pointers   | [solution](java/42_TrappingRainWater)|
+| 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack       | [solution](java/42_TrappingRainWater)|   
 | 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack       | [solution](java/84_LargestRectangleInHistogram)|
 | 2866     |  [Beautiful Towers](https://leetcode.com/problems/beautiful-towers-ii)                        | Monotonic Stack       | [solution](java/2866_BeautifulTowers)|
 | 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Treemap / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
@@ -162,11 +164,20 @@
 | 128      |  [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)  | Union Find            | [solution](java/128_LongestConsecutiveSequence)| 
 | 305      |  [Number Of Islands II](https://leetcode.com/problems/number-of-islands-ii/)                  | Union Find            | [solution](java/305_NumberOfIslands)|
 | 230      |  [Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)  | Tree / DFS            | [solution](java/230_KthSmallestElementInBST)| 
+| 173      |  [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator)     | Tree / DFS            | [solution](java/173_BinarySearchTreeIterator)| 
+| 129      |  [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)           | Tree / DFS / BFS      | [solution](java/129_SumRootToLeafNumbers)| 
+| 652      |  [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)            | Tree / DFS            | [solution](java/652_FindDuplicateSubtrees)| 
 | 100      |  [Same Tree](https://leetcode.com/problems/same-tree)                                         | Tree / DFS            | [solution](java/100_SameTree)| 
 | 101      |  [Symmetric Tree](https://leetcode.com/problems/symmetric-tree)                               | Tree / DFS            | [solution](java/101_SymmetricTree)| 
 | 104      |  [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  | Tree / DFS            | [solution](java/104_MaximumDepthOfBinaryTree)| 
+| 105      |  [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)| Tree / DFS | [solution](java/105_ConstructBinaryTreeFromPreorderAndInorderTraversal)| 
+| 106      |  [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)| Tree / DFS | [solution](java/106_ConstructBinaryTreeFromInorderAndPostorderTraversal)| 
+| 1008     |  [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)| Tree / DFS | [solution](java/1008_ConstructBinarySearchTreeFromPreorderTraversal)| 
 | 108      |  [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)| Tree / DFS | [solution](java/108_ConvertSortedArrayToBinarySearchTree)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Tree / DFS | [solution](java/109_ConvertSortedListToBinarySearchTree)| 
+| 96     |  [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)         | Tree / DP             | [solution](java/96_UniqueBinarySearchTrees)| 
+| 95     |  [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees)      | Tree / DFS            | [solution](java/95_UniqueBinarySearchTrees)| 
+| 894    |  [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | Tree / DFS            | [solution](java/894_AllPossibleFullBinaryTrees)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS            | [solution](java/257_BinaryTreePaths)| 
@@ -184,6 +195,7 @@
 | 102      |  [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| Tree / BFS / DFS   | [solution](java/102_BinaryTreeLevelOrderTraversal)| 
 | 103      |  [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| Tree / BFS|[solution](java/103_BinaryTreeZigzagLevelOrderTraversal)| 
 | 107      |  [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| Tree / BFS | [solution](java/107_BinaryTreeLevelOrderTraversal)| 
+| 958      |  [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)| Tree / BFS | [solution](java/958_CheckCompletenessOfABinaryTree)| 
 | 133      |  [Clone Graph](https://leetcode.com/problems/clone-graph/)                                    | BFS                   | [solution](java/133_CloneGraph)|
 | 1197     |  [Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves/)                  | BFS                   | [solution](java/1197_MinimumKnightMoves)|
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
@@ -224,6 +236,10 @@
 | 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking    | [solution](java/494_TargetSum)| 
 | 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS / Backtracking    | [solution](java/377_CombinationSum)|
 | 22       |  [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                  | DFS / Backtracking    | [solution](java/22_GenerateParentheses)|
+| 131      |  [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)             | DFS / Backtracking    | [solution](java/131_PalindromePartitioning)|
+| 93       |  [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)                   | DFS / Backtracking    | [solution](java/93_RestoreIPAddresses)|
+| 473      |  [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square)                 | DFS / Backtracking    | [solution](java/473_MatchsticksToSquare)|
+| 1239     |  [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | DFS / Backtracking    | [solution](java/1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters)|
 | 70       |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                            | DP                    | [solution](java/70_ClimbingStairs)| 
 | 740      |  [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                            | DP                    | [solution](java/740_DeleteAndEarn)| 
 | 198      |  [House Robber I](https://leetcode.com/problems/house-robber/)                                | DP                    | [solution](java/198_HouseRobber)| 
