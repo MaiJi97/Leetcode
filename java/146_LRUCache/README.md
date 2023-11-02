@@ -14,7 +14,7 @@ Why use Double Linked List instead of Single Linked List? </br>
 By using Double Linked List we can get access to the node before a specific node. There are certain circumstances we need to access a previous node, for example, when we remove a node in the middle of list, or when we want to get access to the node before the tail dummy node and remove it when we reach the maximum capacity. If use Single Linked List, we will have to traverse from the beginning of the list, since we only have a next pointer.
 
 Why we store both key and value as a part of the node structure instead of just value? </br>
-To make it easier when remove the entry from the Hash Map.
+To make it easier when remove the entry from the Hash Map, ie: remove(tail.prev.key);
 
 Why we need dummy node head and tail? </br>
 To avoid issues that at the beginning the cache is empty; To make it simpler if the node we want to remove is the first node; To accurately locate the last node.
