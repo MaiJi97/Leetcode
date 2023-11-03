@@ -1,6 +1,11 @@
-## Method 1: ArrayList + HashMap
+## Method 1: Hash Set
 
-Intuition is to use array list, add(e) and get(index) can be done in O(1), though remove(e) and also contains(e) take linear time O(n). How to improve the performance? (HashSet doesn't seem like a better solution, as it does not support getting by index)
+Intuition is to use a hash set, though to get a random element, we need to convert the hash set to an array first and then pick the element at a random index, which 
+takes O(n).
+
+## Method 2: ArrayList + HashMap
+
+Another intuition is to use array list, add(e) and get(index) can be done in O(1), though remove(e) and also contains(e) take linear time O(n). How to improve the performance? (HashSet doesn't seem like a better solution, as it does not support getting by index)
 
 Helpful if we can get the index of the element to be removed. We can use a hash map to store both the element and the index of the element in the 
 array list as key value pair. 
