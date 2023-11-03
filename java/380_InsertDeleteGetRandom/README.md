@@ -3,7 +3,7 @@
 Intuition is to use a hash set, though to get a random element, we need to convert the hash set to an array first and then pick the element at a random index, which 
 takes O(n).
 
-## Method 2: ArrayList + HashMap
+## Method 2: Array List + Hash Map
 
 Another intuition is to use array list, add(e) and get(index) can be done in O(1), though remove(e) and also contains(e) take linear time O(n). How to improve the performance? (HashSet doesn't seem like a better solution, as it does not support getting by index)
 
