@@ -38,7 +38,7 @@ class LRUCache {
     }
 
     public void put(int key, int value) {
-        if (hm.containsKey(key)) remove(key); // if contains, remove first and then add
+        if (hm.containsKey(key)) remove(key); // if already contains, remove first and then add
         addHead(key, value);
     }
 
