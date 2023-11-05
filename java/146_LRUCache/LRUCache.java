@@ -30,7 +30,7 @@ class LRUCache {
     }
 
     public int get(int key) {
-        if (!hm.containsKey(key)) return -1;
+        if (!hm.containsKey(key)) return -1; // if not contains, return -1
         int value = hm.get(key).value;
         remove(key);
         addHead(key, value);
@@ -38,7 +38,7 @@ class LRUCache {
     }
 
     public void put(int key, int value) {
-        if (hm.containsKey(key)) remove(key);
+        if (hm.containsKey(key)) remove(key); // if contains, remove first and then add
         addHead(key, value);
     }
 
