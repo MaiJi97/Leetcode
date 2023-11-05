@@ -1,7 +1,7 @@
 class LFUCache {
 
     Map<Integer, Pair<Integer, Integer>> map; // <key, <value, frequency>>
-    Map<Integer, LinkedHashSet<Integer>> freqMap; // <frequency, collection of keys with the frequency> 
+    Map<Integer, LinkedHashSet<Integer>> freqMap; // <frequency, collection of keys with the frequency>, LinkedHashSet to satisfy O(1)
     int capacity;
     int freqMin;
 
@@ -13,7 +13,7 @@ class LFUCache {
     }
     
     public int get(int key) {
-        if (!map.containsKey(key)) return -1;
+        if (!map.containsKey(key)) return -1; // if not contains, return -1
 
         int value = map.get(key).getKey();
         int frequency = map.get(key).getValue();
@@ -30,7 +30,7 @@ class LFUCache {
     }
     
     public void put(int key, int value) {
-        if (map.containsKey(key)) {
+        if (map.containsKey(key)) { // if already contains, update value directly, no need to update freqMap
             Pair<Integer, Integer> temp = map.get(key);
             map.put(key, new Pair<>(value, temp.getValue()));
             get(key);
