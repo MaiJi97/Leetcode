@@ -303,7 +303,7 @@ Note:
 
 ## Two Pointers（关键词：subarray, substring）
 ### 1) 相向（two sum型，partition型）
-One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left <= right, and the array is usually sorted.
+One pointer starting from the beginning of the array, the other pointer starting from the end of the array, and shift towards each other. Incrementing or decrementing the left or right pointers in order to reach a target value. We usually use a while loop with condition left < right, and the array is usually sorted.
 
 ### 2) 同向（sliding window型，fast&slow型，parallel pointers型）
 Both pointers start from the beginning of the array. Slide one pointer through the array to the extreme (at most...) until certain conditions no longer satisfy, and then slide the left pointer until the conditions satisfy again (or vice versa), which is the sliding window approach. The other type is to keep updating the left pointer to record certain position, which is the fast&slow approach. There are also occasions when we have two arrays or strings and we use two pointers seperately/parallelly to loop through 每人一个pointer, which is the parallel pointer approach.
