@@ -1,7 +1,7 @@
 class Solution {
     public int longestSubstring(String s, int k) {
         int ret = 0;
-        for (int distinct = 1; distinct <= 26; distinct++) { // i distinct characters in the substring
+        for (int distinct = 1; distinct <= 26; distinct++) { // substring of at most "distinct" distinct characters, each with at least k repeating characters
             HashMap<Character, Integer> hm = new HashMap<>();
             int j = 0;
             int validCount = 0;
