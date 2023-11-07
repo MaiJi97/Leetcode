@@ -1,6 +1,8 @@
 ## Method 1: Two Pointers 同向双指针 - sliding window
 One pointer i to loop through the array, and the other pointer j to locate the start index of the sliding window / subarray. While the sum is the greater or equal to the target, we keep incrementing pointer j until the greater or equal condition no longer satisfies, and update the counter / ret to get the minimum value.
 
+Note: compare with at most系列 - at most is to slide right pointer until condition no longer satisfies, then slide left pointer until condition satisfies again, so condition is always satisfied outside the while loop which is where we update the result. Though in this problem, we slide the right pointer until condition no longer satisfies, then slide left pointer until condition satifies again, so condition is always satisfied within the while loop which is where we update the result.
+
 Time Complexity: O(n) - each element can be visited at most once, once by the i pointer and once by the j pointer
 
 ## Method 2: Binary Search + Prefix Sum
