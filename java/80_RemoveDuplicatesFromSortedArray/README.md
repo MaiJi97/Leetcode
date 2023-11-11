@@ -1,6 +1,5 @@
 ## Method 1: Two Pointers 同向双指针 - fast & slow
 
-Similar as problem 26, but will need to use a counter to count number of times a number repeat, and check different conditions (when the current element is same as 
-previous element, need to check if it occurs within twice or more than twice).
+Similar to problem 26, but will need to use a counter to count number of times a number repeat and add an additional case. Even when the element pointed by i is the same as the element pointed by j, as long as counter is less than two, we still increment i and assign element pointed by i to position at j.
 
 Time Complexity: O(n)
