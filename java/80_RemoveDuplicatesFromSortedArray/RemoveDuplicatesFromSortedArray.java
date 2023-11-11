@@ -3,24 +3,17 @@ class Solution {
         if (nums.length == 0 || nums.length == 1) {
             return nums.length;
         }
-        int i = 1;
-        int j = 1;
-        int count = 1;
+        int i = 0;
+        int j = 0;
         while (i < nums.length) {
-            if (nums[i] == nums[i - 1]) {
-                count++;
-                if (count > 2) i++;
-                else {
-                    nums[j] = nums[i];
-                    i++;
-                    j++;
+            int current = nums[i];
+            int count = 0;
+            while (i < nums.length && nums[i] == current) {
+                if (count < 2) {
+                    nums[j++] = current;
                 }
-            }
-            else {
-                count = 1;
-                nums[j] = nums[i];
                 i++;
-                j++;
+                count++;
             }
         }
         return j;
