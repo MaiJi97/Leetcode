@@ -13,8 +13,8 @@ class Solution {
                     }
                 }
                 j++;
-                chars[j] = chars[i]; 
                 count = 1;
+                chars[j] = chars[i]; 
             }
             else count++;
         }
