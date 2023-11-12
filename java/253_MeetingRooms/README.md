@@ -22,7 +22,7 @@ Time Complexity: O(nlogn)
 
 ## Method 4: Two Pointers 同向双指针 Priority Queue 版本
 
-Similar idea as using two arrays. Here we replace the array holding the ends times by a priority queue. If the peek element (earliest unchecked end time) is earlier than the current start time we pop one element out (the earliest unchecked end time) and add a new element (the current start time) in to the queue. The overall number of element in the queue does not change since we can reuse the room to be released. Else it means we need an additional room 
+Similar idea as using two arrays. Here we sort the original intervals array by start time and replace the array holding the ends times with a priority queue. If the peek element (earliest unchecked end time) is earlier than the current start time we pop one element out (the earliest unchecked end time) and add a new element (the current start time) in to the queue. The overall number of element in the queue does not change since we can reuse the room to be released. Else it means we need an additional room 
 for the new meeting, so we just add a new element into the queue.
 
 Time Complexity: O(nlogn)
