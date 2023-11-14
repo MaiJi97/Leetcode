@@ -2,7 +2,7 @@
 
 This approach compute sum of water using each column as a unit. We keep track of a left maximum and right maximum for each column (对于每个column来说向左右分别看到的最高点）Then we iterate through each column and add trapped water at each column to the result.
 
- Can also written as:
+ Can also be written as:
 
  <img width="505" alt="Screen Shot 2023-11-13 at 8 57 53 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/36e9e9a2-e463-4c71-8235-eb703ffa282d">
 
