@@ -7,6 +7,6 @@ Time Complexity: O(n)
 
 ## Method 2: Binary Search
 
-Choose to use template 3 of binary search. After we break the while loop, left and right pointers are like (right, left), where left points to the peak element and right points to the element before the peak element.
+Let's use template 2 of binary search. After we break the while loop, left and right pointers are the same, so we just need to return any of them.
 
 Time Complexity: O(logn)
