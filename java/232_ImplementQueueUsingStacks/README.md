@@ -1,6 +1,6 @@
 ## Method 1: Two Stacks Brute Force
 
-早加的放上面。
+晚加的放下面。
 
 A queue should satisfy FIFO / LILO, while stack is LIFO. So each time we push an item onto the stack, we would want to push it to the bottom of the stack.
 In order to do this we can pop and push all the existing elements on stack 1 to stack 2, then push the new element onto stack 2, finally pop and push all
