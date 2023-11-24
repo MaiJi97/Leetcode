@@ -27,7 +27,7 @@ class Solution {
             sorted[index] = nums2[pointer2];
             pointer2++;
         }
-        return (m + n) % 2 == 1 ? (double)sorted[(m + n) / 2] : (double)(sorted[(m + n) / 2 - 1] + sorted[(m + n) / 2]) / 2;
+        return (m + n) % 2 == 1 ? sorted[(m + n) / 2.0] : (sorted[(m + n) / 2 - 1] + sorted[(m + n) / 2]) / 2.0;
         
     }
 }
