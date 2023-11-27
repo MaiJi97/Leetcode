@@ -13,11 +13,11 @@ Time Complexity: O(n)
 ## Method 3: A More Advanced Binary Search
 Mid value represents the index of the left boundary of the k closest numbers. The intial boundary is from 0 to arr.length - k </br>
 
----------|---------x----|----- </br>
-In this first case, we would shift the left boundary towards the right, setting the low boundary as mid + 1. </br>
-
-
 ---------|---x----------|----- </br>
-In the second case, we would shift the left boundary towards the left, setting the high boundary as mid. </br>
+If the element at arr[mid] is closer to x than arr[mid + k], then that means arr[mid + k], as well as every element to the right of it can never be in the answer. This means we should move our right pointer to avoid considering them. 
+
+---------|---------x----|----- </br>
+The logic is the same vice-versa - if arr[mid + k] is closer to x, then move the left pointer.
+
 
 
