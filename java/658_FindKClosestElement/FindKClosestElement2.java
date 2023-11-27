@@ -4,9 +4,6 @@ class Solution {
         int low = 0;
         int high = arr.length - k;
         
-        // ---|--------------x-----|--- 1st case
-        // ---|-----x--------------|--- 2nd case
-        
         while (low < high) {
             int mid = low + (high - low) / 2; // mid represents the left boundary of the k numbers
             if (x - arr[mid] > arr[mid+k] - x) { // 1st case
