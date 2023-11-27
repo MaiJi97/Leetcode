@@ -6,7 +6,7 @@ class Solution {
         
         while (low < high) {
             int mid = low + (high - low) / 2; // mid represents the left boundary of the k numbers
-            if (x - arr[mid] > arr[mid+k] - x) { // 1st case
+            if (x - arr[mid] > arr[mid+k] - x) { 
                 low = mid + 1;
             }
             else {
