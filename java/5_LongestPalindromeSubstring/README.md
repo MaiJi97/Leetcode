@@ -12,6 +12,8 @@ dp[i][j] = true if i == j (base case) <br />
 dp[i][j] = true if s.charAt(i) == s.charAt(j) && j - i <= 2 <br />
 dp[i][j] = true if s.charAt(i) == s.charAt(j) && dp[i+1][j-1] == true <br />
 
+Why dp as a boolean 2-D array instead of int 2-D array? Because we want to return the actual substring, so we have to track the start and end of the substring.
+
 Time Complexity: O(n^2)
 
 ## Method 3: Expand from Center
