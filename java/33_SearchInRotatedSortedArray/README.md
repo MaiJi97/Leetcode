@@ -6,6 +6,7 @@ Time Complexity: O(logn)
 
 ## Method 2: Binary Search
 
-Do the binary search direcly.
+Do the binary search direcly. Additional conditional statements because compare with traditional binary search template, we need to first determine the shape of the array and then 
+distinguish the position of the target within the array.
 
 Time Complexity: O(logn)
