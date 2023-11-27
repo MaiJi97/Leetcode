@@ -4,7 +4,13 @@ This method has a lot of edge cases we will need to consider. </br>
 
 Time Complexity: O(logn + k)
 
-## Method 2: A More Advanced Binary Search
+## Method 2: Two Pointers
+
+Continue shifting a left and right pointer to keep a window.
+
+Time Complexity: O(n)
+
+## Method 3: A More Advanced Binary Search
 Mid value represents the index of the left boundary of the k closest numbers. The intial boundary is from 0 to arr.length - k </br>
 
 ---------|---------x----|----- </br>
