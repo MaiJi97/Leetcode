@@ -2,20 +2,15 @@ class Solution {
     public int splitArray(int[] nums, int m) {
         int left = 0;
         int right = 0;
-        int ret = 0;
         for (int i = 0; i < nums.length; i++) {
-            left = Math.max(left, nums[i]);
+            left = Math.max(nums[i], left);
             right += nums[i];
         }
-        while (left <= right) {
+        while (left < right) {
             int mid = left + (right - left) / 2;
-            int split = helper(nums, mid); // return the number of subarrays whose sum is at least mid
-            if (split > m) {
-                left = mid + 1;
-            }
-            else {
-                right = mid - 1;
-            }
+            int count = helper(nums, mid);
+            if (count > m) left = mid + 1;
+            else right = mid;
         }
         return left;
     }
