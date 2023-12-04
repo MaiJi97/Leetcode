@@ -327,7 +327,7 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 https://leetcode.com/problems/binary-search/solutions/423162/Binary-Search-101-The-Ultimate-Binary-Search-Handbook/
 
 Note: </br>
-- 模版3：用于寻找特定target，有时可直接分裂出等于的情况并直接return/update ret。两个case => left=mid+1和right=mid-1。while(left <= right), 结束条件后(right, left)，right和left分别指向boundary两侧的element，根据题目要求决定用哪个。
+- 模版3：用于寻找特定target，比如寻找某个明确值，和猜答案类型的题目。有时可直接分裂出等于的情况并直接return/update ret。两个case => left=mid+1和right=mid-1。while(left <= right), 结束条件后(right, left)，right和left分别指向boundary两侧的element，根据题目要求决定用哪个。
 - 模版2：用于无特定target的情况，比如求最低点。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，可以直接用left。
 - 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他helper函数再将函数返回值与target比较（eg: 猜答案类型的题目）
 
@@ -487,8 +487,8 @@ Note:
 ## Additional Notes
 - 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque, Two Pointers 同向双指针 (parallel pointers, two arrays to track minimum/maximum with respect to each index, #42 #2909)</br>
 - Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
-- Sorted, search for a target in O(n)，more than a single target，需要根据当前结果大于或小于target来shift pointers寻找elements -> Two Pointers 相向双指针 </br>
-- Sorted, search for a target in O(logn)，有明确target -> Binary Search </br>
+- Sorted, search for a target in O(n), more than a single target，需要根据当前结果大于或小于target来shift pointers寻找elements -> Two Pointers 相向双指针 </br>
+- Sorted, search for a target in O(logn), usually a single target -> Binary Search </br>
 - Unsorted, search for a target in O(1)， 有明确target -> HashMap（可能需要先iterate在map中存值） </br>
 - 求最值，可行性，方案数 => DP </br>
 - 最短路线，最小值 => BFS(Dijkstra)或Binary Search猜答案 </br>
