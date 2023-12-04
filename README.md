@@ -323,10 +323,12 @@ In a sorted array with boundaries, want to look for a target value or index. </b
 
 模版: </br>
 <img width="514" alt="Screen Shot 2022-10-23 at 12 57 07 AM" src="https://user-images.githubusercontent.com/106039830/197376899-9bd01af5-8849-4eb1-ab5d-3b203e72bae2.png">
+<img width="527" alt="Screen Shot 2023-12-03 at 5 38 27 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/f39ee403-d4ec-4759-baff-5c63d9ca1c67.png"> </br>
+https://leetcode.com/problems/binary-search/solutions/423162/Binary-Search-101-The-Ultimate-Binary-Search-Handbook/
 
 Note: </br>
-- 模版3：较常用，有时可直接分裂出等于的情况并直接return/update ret。两个case => left=mid+1和right=mid-1的condition根据题目而定。结束条件后(right, left)，right和left分别指向boundary两侧的element，根据题目要求决定用哪个。
-- 模版2：less常用，求最低点时用这个，有duplicate时mid与right对比并decrement right。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，可以直接用left。
+- 模版3：用于寻找特定target，有时可直接分裂出等于的情况并直接return/update ret。两个case => left=mid+1和right=mid-1。while(left <= right), 结束条件后(right, left)，right和left分别指向boundary两侧的element，根据题目要求决定用哪个。
+- 模版2：用于无特定target的情况，比如求最低点。两个case => left=mid+1和right=mid的condition根据题目而定。结束条件后left==right，可以直接用left。
 - 有时题目并没有通过mid来找target这么直接，需要用mid和其他值比较（比如right most value）或是将mid代入其他helper函数再将函数返回值与target比较（eg: 猜答案类型的题目）
 
 ## Linked List
