@@ -13,3 +13,5 @@ Time Complexity: O(n)
 ## Method 2: Prefix Sum + Hash Map Improved
 
 Theoratically we should use an array to compute the prefix sum at each element through one iteration first, and then use the hash map to update the frequency of each prefix sum through another iteration as in method 1. But actually we can skip the array in the first iteration as we only need to compute each possible prefix sum and update its frequency directly in a hash map. By substracting k from it we know the target prefix sum we are looking for. Now we can get the occurrence of the prefix sum and add it to the result.
+
+Time Complexity: O(n)
