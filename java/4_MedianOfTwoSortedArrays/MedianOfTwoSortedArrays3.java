@@ -9,7 +9,7 @@ class Solution {
         int cutA; // nums1分割线左边元素个数
         int cutB; // nums2分割线左边元素个数
         while (leftA <= rightA) {
-            cutA = (leftA + rightA) / 2;
+            cutA = leftA + (rightA - leftA) / 2;
             cutB = (len + 1) / 2 - cutA;
             double L1 = cutA == 0 ? Integer.MIN_VALUE : nums1[cutA - 1]; // nums1分割线左侧元素index
             double L2 = cutB == 0 ? Integer.MIN_VALUE : nums2[cutB - 1]; // nums2分割线左侧元素index
