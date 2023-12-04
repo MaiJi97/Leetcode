@@ -14,11 +14,10 @@ class Solution {
                 left = mid + 1;
             }
             else {
-                ret = mid;
                 right = mid - 1;
             }
         }
-        return ret;
+        return left;
     }
     
     private int helper(int[] nums, int targetSum) {
