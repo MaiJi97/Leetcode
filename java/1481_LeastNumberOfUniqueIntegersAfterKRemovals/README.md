@@ -8,8 +8,7 @@ Time Complexity: O(n)
 
 ## Method 2: Bucket Sort Improved
 
-Same as method 1, but in the bucket sort, we do not need to store a list of actual elements for each frequency, but instead just need to count
-how many elements there are with this frequency. 
+Same as method 1, but in the bucket sort, instead of storing a list of actual elements for each frequency, we only need to count how many elements there are have this frequency and proceed with removing the frequency as k is still greater than 0.
 
 Time Complexity: O(n)
 
