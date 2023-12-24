@@ -18,7 +18,7 @@ class Solution {
                     k -= index;
                     totalUnique--;
                 }
-                else break;
+                else return totalUnique;
             }
             index++;
         }
