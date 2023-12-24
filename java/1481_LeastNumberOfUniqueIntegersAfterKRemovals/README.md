@@ -5,3 +5,11 @@ number and then start removing from those with least frequency -> we can use buc
 and their frequencies. Start removing from the start of the bucket sort array which includes numbers with least frequency.
 
 Time Complexity: O(n)
+
+## Method 2: Bucket Sort Improved
+
+Same as method 1, but in the bucket sort, we do not need to store a list of actual elements for each frequency, but instead just need to count
+how many elements there are with this frequency. 
+
+Time Complexity: O(n)
+
