@@ -99,7 +99,7 @@
 | 1209     |  [Remove All Adjacent Duplicates in String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|Stack| [solution](java/1209_RemoveAllAdjacentDuplicatesInString)| 
 | 394      |  [Decode String](https://leetcode.com/problems/decode-string/)                                | Stack                 | [solution](java/394_DecodeString)| 
 | 1381     |  [Design Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)| Stack | [solution](java/1381_DesignStackWithIncrementOperation)| 
-| 1472     |  [Design Browser History](https://leetcode.com/problems/evaluate-reverse-polish-notation/)    | Stack / Linked List   | [solution](java/1472_DesignBrowserHistory)| 
+| 1472     |  [Design Browser History](https://leetcode.com/problems/design-browser-history/)              | Stack / Linked List   | [solution](java/1472_DesignBrowserHistory)| 
 | 150      |  [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| Stack           | [solution](java/150_EvaluateReversePolishNotation)| 
 | 946      |  [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)           | Stack                 | [solution](java/946_ValidateStackSequences)| 
 | 735      |  [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)                       | Stack                 | [solution](java/735_AsteroidCollision)| 
