@@ -6,3 +6,10 @@ To begin with, a 'b' is pushed to the first stack, and 1 is pushed to the second
 We have to use a stack instead of a hashmap because to keep the correspondence between the adjacent character substring and number of adjacent character. If we use hashmap, the above case won't be solved correctly because the first 'b' can also be counted toward the adjacent 4 'b's.
 
 Time Complexity: O(n)
+
+## Method 2: One Stack
+
+We can simplify the solution to use one stack only by getting rid of the count stack, and integrate the count of frequency of each character into the single stack by using a self
+defined data structure with two parameters, or using a pair data structure.
+
+Time Complexity: O(n)
