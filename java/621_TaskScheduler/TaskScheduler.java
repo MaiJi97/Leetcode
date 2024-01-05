@@ -23,7 +23,7 @@ class Solution {
                 frequency--;
                 if (frequency > 0) pq.add(frequency);
             }
-            count += pq.isEmpty() ? temp.size() : n + 1;
+            count += pq.isEmpty() ? temp.size() : n + 1; // if we reach the end and the rest of the element is less than n + 1
         }
         return count;
         
