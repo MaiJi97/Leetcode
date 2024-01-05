@@ -17,6 +17,8 @@ Use monotonic stack for problems like next greater element, next smaller element
 
 递增栈: for each element in the array, we are looking for an element AFTER it that is greater than it. Keep executing the while loop as: the stack is not empty, and the peek element is smaller than or equal to the current element.
 
+Note: Always push the current element to the stack as we traverse, but determine if or not to keep previous elements depending on their relationship with the current element and some other conditions.
+
 <img width="796" alt="Screen Shot 2023-06-12 at 5 18 48 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/1c6c250b-01d6-4ed4-8991-ddd17b3acc11.png">
 
 Time Complexity: O(n)
