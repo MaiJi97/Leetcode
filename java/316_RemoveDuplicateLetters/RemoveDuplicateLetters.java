@@ -1,19 +1,19 @@
 class Solution {
     public String removeDuplicateLetters(String s) {
+        Stack<Character> stack = new Stack<>();
         int[] lastIndex = new int[26];
+
         for (int i = 0; i < s.length(); i++) {
             lastIndex[s.charAt(i) - 'a'] = i;
         }
-
         boolean[] seen = new boolean[26];
-        Stack<Character> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
-            int current = s.charAt(i) - 'a';
-            if (seen[current]) continue; // if seen continue as we need to pick only one char
-            // while stack not empty + peek element greater than current + peek element occurs again later
-            while (!stack.isEmpty() && current < (stack.peek() - 'a') && lastIndex[stack.peek() - 'a'] > i) seen[stack.pop() - 'a'] = false;
-            stack.push(s.charAt(i));
-            seen[current] = true;
+            char c = s.charAt(i);
+            if (seen[c - 'a']) continue; // if seen continue as we need to pick only one char
+            while (!stack.isEmpty() && stack.peek() > c && lastIndex[stack.peek() - 'a'] > i) seen[stack.pop() - 'a'] = false;
+            // while stack not empty + peek element greater than current + peek element occurs again later, pop it from stack and mark it as unseen
+            stack.push(c);
+            seen[c - 'a'] = true;
         }
         StringBuilder sb = new StringBuilder();
         while (!stack.isEmpty()) {
