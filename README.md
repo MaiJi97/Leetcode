@@ -126,7 +126,7 @@
 | 402      |  [Remove K Digits](https://leetcode.com/problems/remove-k-digits/)                            | Monotonic Stack       | [solution](java/402_RemoveKDigits)|
 | 901      |  [Online Stock Span](https://leetcode.com/problems/online-stock-span)                         | Monotonic Stack       | [solution](java/901_OnlineStockSpan)|
 | 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Monotonic Stack       | [solution](java/42_TrappingRainWater)|   
-| 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/trapping-rain-water/)         | Monotonic Stack       | [solution](java/84_LargestRectangleInHistogram)|
+| 84       |  [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Monotonic Stack    | [solution](java/84_LargestRectangleInHistogram)|
 | 2866     |  [Beautiful Towers](https://leetcode.com/problems/beautiful-towers-ii)                        | Monotonic Stack       | [solution](java/2866_BeautifulTowers)|
 | 239      |  [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)              | Priority Queue / Treemap / Monotonic Deque | [solution](java/239_SlidingWindowMaximum)|
 | 862      |  [Shortest Subarray with Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)| Monotonic Deque + Prefix Sum | [solution](java/862_ShortestSubarrayWithSumAtLeastK)|
