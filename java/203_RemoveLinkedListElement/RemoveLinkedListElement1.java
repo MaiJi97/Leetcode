@@ -21,3 +21,17 @@ class Solution {
         return dummy.next;
     }
 }
+
+// class Solution {
+//     public ListNode removeElements(ListNode head, int val) {
+//         ListNode dummy = new ListNode(-1, head);
+//         ListNode current = dummy;
+//         while (current != null) {
+//             while (current.next != null && current.next.val == val) {
+//                 current.next = current.next.next;
+//             }
+//             current = current.next;
+//         }
+//         return dummy.next;
+//     }
+// }
