@@ -1,6 +1,6 @@
 ## Method 1: Two Pointers 同向双指针 - parallel pointers + Monotonic Stack
 
-We can use monotonic stack as we care about next greater element / next smaller element / previous greater element / previous smaller element. In this approach, we keep track of closest previous index and later index up to which the corresponsing heights start to be less than the current height for each column (对于每个column来说向左右分别看到的维持和自己一样或比自己高的index. Then we iterate through each column, compute the sum of rectangle using the current column as height, and update the maximum value. 一个是递增栈一个是递减栈。
+In this approach, we want to keep track of closest previous index and later index up to which the corresponsing heights start to be less than the current height for each column (对于每个column来说向左右分别看到的维持和自己一样或比自己高的index). This cannot be done through a simple two rounds of iteration from both directions as in problem 42. We can use monotonic stack as we care about next greater element / next smaller element / previous greater element / previous smaller element. Then we iterate through each column, compute the sum of rectangle using the current column as height, and update the maximum value. 一个是递增栈一个是递减栈。
 
 Time Complexity: O(n)
 
