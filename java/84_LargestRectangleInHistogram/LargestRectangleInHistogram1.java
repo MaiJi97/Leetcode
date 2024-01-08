@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < heights.length; i++) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) stack.pop();
             if (stack.isEmpty()) leftFirstSmaller[i] = -1;
-            else leftFirstSmaller[i] = stack.peek(); // 记录左边的next smaller element index
+            else leftFirstSmaller[i] = stack.peek(); // 记录左边up to which index height becomes smaller than current height
             stack.push(i);
         }
 
@@ -15,7 +15,7 @@ class Solution {
         for (int i = heights.length - 1; i >= 0; i--) {
             while (!stack.isEmpty() && heights[stack.peek()] >= heights[i]) stack.pop();
             if (stack.isEmpty()) rightFirstSmaller[i] = heights.length;
-            else rightFirstSmaller[i] = stack.peek(); // 记录右边的next smaller element index
+            else rightFirstSmaller[i] = stack.peek(); // 记录右边up to which index height becomes smaller than current height
             stack.push(i);
         }
 
