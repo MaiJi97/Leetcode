@@ -10,20 +10,16 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        return divideAndConquer(lists, 0, lists.length-1);
+        return divideAndConquer(lists, 0, lists.length - 1);
     }
 
     public ListNode divideAndConquer(ListNode[] lists, int start, int end) {
-        if (start == end) {
-            return lists[start];
-        }
-        if (start < end) {
-            int mid = (start + end)/ 2;
-            ListNode left = divideAndConquer(lists, start, mid);
-            ListNode right = divideAndConquer(lists, mid + 1, end);
-            return merge(left, right);
-        }
-        return null;
+        if (start > end) return null;
+        if (start == end) return lists[end];
+        int mid = start + (end - start) / 2;
+        ListNode left = divideAndConquer(lists, start, mid);
+        ListNode right = divideAndConquer(lists, mid + 1, end);
+        return merge(left, right);
     }
 
     public ListNode merge(ListNode list1, ListNode list2) {
