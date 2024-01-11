@@ -13,10 +13,11 @@ the node that the slow pointer is at as the fast pointer finish iterating the st
 
 <img width="513" alt="Screen Shot 2023-01-03 at 11 22 11 PM" src="https://user-images.githubusercontent.com/106039830/210489664-6fbf0518-1934-4de0-8b91-367b57af586e.png">
 
-
 Why not count the length of the linked list and cut it into half through length / 2? Take more effort to consider cases when the number of elements is an 
 even number or an odd number.
 
-Followup: If we need to retain the original linked list? If so, call reverse again on the second half of the linked list and link back.
+Note that we also don't need to use two additional pointers l1 and l2. We can call next directly on the head node of the two lists, as we do not need to return the original list / track the start of the list as the return.
+
+Followup: If we need to retain the original linked list? If so, call reverse again on the second half of the linked list and link back. We can also use a stack instead.
 
 Time Complexity: O(n)
