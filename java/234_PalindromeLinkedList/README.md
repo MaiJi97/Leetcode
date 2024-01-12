@@ -18,6 +18,6 @@ even number or an odd number.
 
 Note that we also don't need to use two additional pointers l1 and l2. We can call next directly on the head node of the two lists, as we do not need to return the original list / track the start of the list as the return.
 
-Followup: If we need to retain the original linked list? If so, call reverse again on the second half of the linked list and link back. We can also use a stack instead.
+Followup: If we need to retain the original linked list? If so, call reverse again on the second half of the linked list and link back. We can also use a stack instead, but will need to consider various cases (odd / even number of nodes in the list).
 
 Time Complexity: O(n)
