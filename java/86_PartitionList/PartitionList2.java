@@ -10,6 +10,7 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
+        // if we do not want to use additional space 
         ListNode dummy1 = new ListNode(-1, head);
         ListNode dummy2 = new ListNode(-1, head);
         ListNode dummy1_pointer = dummy1;
