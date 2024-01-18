@@ -10,27 +10,23 @@
  */
 class Solution {
     public ListNode partition(ListNode head, int x) {
-        // if we do not want to use additional space 
         ListNode dummy1 = new ListNode(-1, head);
         ListNode dummy2 = new ListNode(-1, head);
-        ListNode dummy1_pointer = dummy1;
-        ListNode dummy2_pointer = dummy2;
-        ListNode current = head;
-        while (current != null) {
-            if (current.val < x) {
-                dummy1_pointer.next = current;
-                dummy1_pointer = dummy1_pointer.next;
+        ListNode dummy1Pointer = dummy1;
+        ListNode dummy2Pointer = dummy2;
+        while (head != null) {
+            if (head.val < x) {
+                dummy1Pointer.next = head;
+                dummy1Pointer = dummy1Pointer.next;
             }
             else {
-                dummy2_pointer.next = current;
-                dummy2_pointer = dummy2_pointer.next;
+                dummy2Pointer.next = head;
+                dummy2Pointer = dummy2Pointer.next;
             }
-            current = current.next;
+            head = head.next;
         }
-        
-        dummy2_pointer.next = null;
-        dummy1_pointer.next = dummy2.next;
-       
+        dummy2Pointer.next = null;
+        dummy1Pointer.next = dummy2.next;
         return dummy1.next;
     }
 }
