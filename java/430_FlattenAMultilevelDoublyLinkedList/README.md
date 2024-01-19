@@ -6,8 +6,15 @@ Time Complexity: O(n)
 
 ## Method 2: Iterative - Pointers and Stack
 
-First in, last out. We use a stack to track the expected order of the flattened linked list and use two pointers (current & previous) to handle the linkage 
-between nodes with correct order. This is similar to binary tree in order traversal using stack - first push the head node into the stack. While the stack is not empty, we pop one node from the stack which is the current node, set all appropriate pointers of the current node with the previous, and update previous node to be current node. Finally add next node and child not of the current node to the stack (remember to set child node to null after adding). Current node will be updated when we pop the next node from the stack. </br>
+参考binary tree preorder traversal using stack. 
+
+Two ways:
+1) Create a dummy node so we can generalize implementation within the while loop. Use the dummy node as prev pointer.
+2) No dummy node, but create a first & prev node. Split into cases.
+
+We can use either way, which are method 2 and method 3.
+
+We use a stack to track the expected order of the flattened linked list and use two pointers (current & previous) to handle the linkage between nodes with correct order. This is similar to binary tree preorder traversal using stack - first push the head node into the stack. While the stack is not empty, we pop one node from the stack which is the current node, set all appropriate pointers of the current node with the previous, and update previous node to be current node. Finally add next node and child not of the current node to the stack (remember to set child node to null after adding). Current node will be updated when we pop the next node from the stack. </br>
 
 Time Complexity: O(n)
 
