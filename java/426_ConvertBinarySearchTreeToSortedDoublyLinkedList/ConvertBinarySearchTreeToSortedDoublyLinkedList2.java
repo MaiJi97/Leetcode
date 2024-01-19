@@ -20,13 +20,15 @@ class Node {
 */
 
 class Solution {
-    Node current = null;
+
+    Node prev = null;
     Node first = null;
+
     public Node treeToDoublyList(Node root) { // in order traversal, BST 从小到大
         if (root == null) return root;
         inOrder(root);
-        current.right = first;
-        first.left = current;
+        prev.right = first;
+        first.left = prev;
         return first;
     }
 
@@ -36,11 +38,11 @@ class Solution {
         }
         inOrder(root.left);
         if (first == null) first = root; // at the beginning
-        if (current != null) { // if not at the beginning
-            current.right = root;
-            root.left = current;
+        if (prev != null) { // if not at the beginning
+            prev.right = root;
+            root.left = prev;
         }
-        current = root;
+        prev = root;
         inOrder(root.right);
     }
 }
