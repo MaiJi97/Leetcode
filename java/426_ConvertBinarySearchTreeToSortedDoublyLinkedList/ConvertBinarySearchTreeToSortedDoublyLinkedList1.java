@@ -20,29 +20,35 @@ class Node {
 */
 
 class Solution {
+
+    Node first = null;
+    Node prev = null;
+    
     public Node treeToDoublyList(Node root) { // in order traversal, BST 从小到大
-        if (root == null) return root;
-        Node current = null;
-        Node first = null;
+        if (root == null) return null;
+
         Stack<Node> stack = new Stack<>();
-        while (!stack.isEmpty() || root != null) {
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            root = stack.pop();
 
-            if (first == null) first = root; // at the beginning
-            if (current != null) { // if not at the beginning
-                current.right = root;
-                root.left = current;
-            }
-            current = root;
+        Node current = root;
+        Node first = null;
+        Node prev = null;
 
-            root = root.right;
+        while (!stack.isEmpty() || current != null) {
+            while (current != null) {
+                stack.push(current);
+                current = current.left;
+            }
+            current = stack.pop();
+            if (first == null) first = current;
+            if (prev != null) {
+                current.left = prev;
+                prev.right = current;
+            }
+            prev = current;
+            current = current.right;
         }
-        current.right = first;
-        first.left = current;
-        return first;
+        prev.right = first;
+        first.left = prev;
+        return first; 
     }
 }
