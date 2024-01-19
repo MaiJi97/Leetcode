@@ -19,16 +19,15 @@ class Solution {
         l2 = reverse(l2);
         ListNode l1 = head;
         while (l1 != null && l2 != null) {
-            ListNode temp = l1.next;
+            ListNode temp1 = l1.next;
+            ListNode temp2 = l2.next;
             l1.next = l2;
-            l1 = temp;
-            
-            temp = l2.next;
-            l2.next = l1;
-            l2 = temp;
+            l2.next = temp1;
+            l1 = temp1;
+            l2 = temp2;
         }
     }
-    
+
     public ListNode findMid(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
