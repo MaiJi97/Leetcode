@@ -7,7 +7,7 @@ Time Complexity: O(n)
 ## Method 2: Iterative - Pointers and Stack
 
 First in, last out. We use a stack to track the expected order of the flattened linked list and use two pointers (current & previous) to handle the linkage 
-between nodes with correct order. First push the head node into the stack. While the stack is not empty, we pop one node from the stack which is the current node, and set all appropriate pointers of the current node with the previous. Then previous node is updated to be the current node, and current node will be updated when we pop the next node from the stack. </br>
+between nodes with correct order. This is similar to binary tree in order traversal using stack - first push the head node into the stack. While the stack is not empty, we pop one node from the stack which is the current node, set all appropriate pointers of the current node with the previous, and update previous node to be current node. Finally add next node and child not of the current node to the stack (remember to set child node to null after adding). Current node will be updated when we pop the next node from the stack. </br>
 
 Time Complexity: O(n)
 
