@@ -14,13 +14,12 @@ class Solution {
         Stack<Node> stack = new Stack<>();
         stack.push(head);
         Node dummy = new Node();
-        Node current = head;
-        Node previous = dummy;
+        Node prev = dummy;
         while (!stack.isEmpty()) {
-            current = stack.pop(); // current is the node we are at
-            previous.next = current; // these two lines connect the current node and the previous node in correct order
-            current.prev = previous;
-            previous = current; // update the previous node to be the node we are at
+            Node current = stack.pop(); // current is the node we are at
+            prev.next = current; // these two lines connect the current node and the previous node in correct order
+            current.prev = prev;
+            prev = current; // update the previous node to be the node we are at
             if (current.next != null) {
                 stack.push(current.next);
             }
