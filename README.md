@@ -74,6 +74,7 @@
 | 451      |  [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)  | Sorting               | [solution](java/451_SortCharactersByFrequency)|
 | 347      |  [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)            | Sorting               | [solution](java/347_TopKFrequentElements)|
 | 1481     |  [Least Number of Unique Integers After K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
+| 3016     |  [Minimum Number of Pushes to Type Word](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii)| Sorting | [solution](java/3016_MinimumNumberOfPushesToTypeWord)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search         | [solution](java/704_BinarySearch)|
 | 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search         | [solution](java/278_FirstBadVersion)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search         | [solution](java/852_PeakIndexInMountainArray)|
@@ -103,10 +104,12 @@
 | 150      |  [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)| Stack           | [solution](java/150_EvaluateReversePolishNotation)| 
 | 946      |  [Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)           | Stack                 | [solution](java/946_ValidateStackSequences)| 
 | 735      |  [Asteroid Collision](https://leetcode.com/problems/asteroid-collision)                       | Stack                 | [solution](java/735_AsteroidCollision)| 
+| 71       |  [Simplify Path](https://leetcode.com/problems/simplify-path)                                 | Stack                 | [solution](java/71_SimplifyPath)| 
 | 853      |  [Car Fleet](https://leetcode.com/problems/car-fleet)                                         | Stack                 | [solution](java/853_CarFleet)| 
 | 155      |  [Min Stack](https://leetcode.com/problems/min-stack/)                                        | Stack                 | [solution](java/155_MinStack)| 
 | 224      |  [Basic Calculator I](https://leetcode.com/problems/basic-calculator/)                        | Stack                 | [solution](java/224_BasicCalculator)| 
 | 227      |  [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                    | Stack                 | [solution](java/227_BasicCalculator)| 
+| 772      |  [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)                  | Stack                 | [solution](java/772_BasicCalculator)| 
 | 232      |  [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)  | Stack                 | [solution](java/232_ImplementQueueUsingStacks)| 
 | 225      |  [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)  | Queue                 | [solution](java/225_ImplementStackUsingQueues)| 
 | 622      |  [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                | Queue                 | [solution](java/622_DesignCircularQueue)| 
@@ -155,8 +158,9 @@
 | 143      |  [Reorder List](https://leetcode.com/problems/reorder-list/)                                  | Linked List           | [solution](java/143_ReorderList)|  
 | 148      |  [Sort List](https://leetcode.com/problems/sort-list/)                                        | Linked List           | [solution](java/148_SortList)| 
 | 24       |  [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | Linked List           | [solution](java/24_SwapNodesInPairs)| 
+| 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List           | [solution](java/725_SplitLinkedListInParts)|
 | 61       |  [Rotate List](https://leetcode.com/problems/rotate-list/)                                    | Linked List           | [solution](java/61_RotateList)| 
-| 725      |  [Split Linked List In Parts](https://leetcode.com/problems/split-linked-list-in-parts/)      | Linked List           | [solution](java/725_SplitLinkedListInParts)| 
+| 189      |  [Rotate Array](https://leetcode.com/problems/rotate-array/)                                  | Array                 | [solution](java/189_RotateArray)| 
 | 208      |  [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)                  | Trie                  | [solution](java/208_ImplementTrie)| 
 | 211      |  [Design Add and Search Word Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Trie     | [solution](java/211_DesignAddAndSearchWordDataStructure)| 
 | 421      |  [Maximum XOR Of Two Numbers In An Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)       | Trie     | [solution](java/421_MaximumXOROfTwoNumbersInAnArray)| 
@@ -202,6 +206,7 @@
 | 433      |  [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)           | BFS                   | [solution](java/433_MinimumGeneticMutation)|
 | 1293     |  [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)| BFS | [solution](java/1293_ShortestPathInAGridWithObstaclesElimination)|
 | 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS (Dijkstra)        | [solution](java/1631_PathWithMinimumEffort)|
+| 3015     |  [Count the Number of Houses at a Certain Distance](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i)          | BFS / Dijkstra      | [solution](java/3015_CountTheNumberOfHousesAtACertainDistance)|
 | 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)|
 | 210      |  [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                      | BFS (Topo)            | [solution](java/210_CourseSchedule)| 
 | 2115     |  [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | BFS (Topo) | [solution](java/2115_FindAllPossibleRecipesFromGivenSupplies)| 
