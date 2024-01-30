@@ -1,7 +1,6 @@
 ## Method 1: DFS / Divide and Conquer through recursion
 
-Similar to problem 235, but in this problem is tree is not a binary search tree, so we are not able to determine which part of the 
-tree the LCA is at depending on the comparison between value of current node and the two given nodes.
+Similar to problem 235, but in this problem is tree is not a binary search tree, so we are not able to determine where the two given nodes p and q are at in the tree, and make use of the property of a BST.
 
 Four cases: </br>
 1) root is p or q
