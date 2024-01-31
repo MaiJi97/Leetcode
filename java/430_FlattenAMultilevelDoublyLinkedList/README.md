@@ -9,8 +9,8 @@ Time Complexity: O(n)
 参考binary tree preorder traversal using stack. 
 
 Two ways:
-1) Create a dummy node so we can generalize implementation within the while loop. Use the dummy node as prev pointer.
-2) No dummy node, but create a first & prev node. Split into cases.
+1) One way is to create a dummy node so we can generalize the implementation within the while loop. Use the dummy node as prev pointer.
+2) No dummy node. Instead, we can split into cases (when current is the first node & when current is a later node).
 
 We can use either way, which are method 2 and method 3.
 
