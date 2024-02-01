@@ -153,6 +153,7 @@
 | 160      |  [Intersection Of Two Linked List](https://leetcode.com/problems/intersection-of-two-linked-lists/)| Linked List      | [solution](java/160_IntersectionOfTwoLinkedList)| 
 | 138      |  [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| Linked List           | [solution](java/138_CopyListWithRandomPointer)| 
 | 426      |  [Convert Binary Search Tree To Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)| Linked List | [solution](java/426_ConvertBinarySearchTreeToSortedDoublyLinkedList)| 
+| 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS  | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 430      |  [Flatten A Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| Linked List| [solution](java/430_FlattenAMultilevelDoublyLinkedList)| 
 | 86       |  [Partition List](https://leetcode.com/problems/partition-list/)                              | Linked List           | [solution](java/86_PartitionList)| 
 | 143      |  [Reorder List](https://leetcode.com/problems/reorder-list/)                                  | Linked List           | [solution](java/143_ReorderList)|  
@@ -180,13 +181,12 @@
 | 108      |  [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)| Tree / DFS | [solution](java/108_ConvertSortedArrayToBinarySearchTree)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Tree / DFS | [solution](java/109_ConvertSortedListToBinarySearchTree)| 
 | 96     |  [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)         | Tree / DP             | [solution](java/96_UniqueBinarySearchTrees)| 
-| 95     |  [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees)      | Tree / DFS            | [solution](java/95_UniqueBinarySearchTrees)| 
+| 95     |  [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)      | Tree / DFS            | [solution](java/95_UniqueBinarySearchTrees)| 
 | 894    |  [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | Tree / DFS            | [solution](java/894_AllPossibleFullBinaryTrees)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS            | [solution](java/257_BinaryTreePaths)| 
 | 124      |  [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | Tree / DFS            | [solution](java/124_BinaryTreeMaximumPathSum)| 
-| 114      |  [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Tree / DFS  | [solution](java/114_FlattenBinaryTreeToLinkedList)| 
 | 235      |  [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)| Tree / DFS | [solution](java/235_LowestCommonAncestorOfABinarySearchTree)| 
 | 236      |  [Lowest Common Ancester of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfABinaryTree)| 
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS      | [solution](java/111_MinimumDepthOfBinaryTree)| 
