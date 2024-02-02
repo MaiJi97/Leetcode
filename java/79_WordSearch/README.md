@@ -1,4 +1,4 @@
-## Method 1: DFS / Matrix Traverse through recursion
+## Method 1: DFS / Matrix Traverse through recursion - backtracking
 
 DFS matrix traverse through recursion. We have a helper method that takes in additional information regarding the current state, 
 ie: the x and y axis of the current block, and up to which point we've matched characters of the word string. In the main method we 
@@ -7,3 +7,5 @@ helper method, break the recursion when we complete matching all the characters 
 
 Time Complexity: O(m * n * 3 ^ k) where k is the length of the word
 
+
+## Method 2: What if we also want to print the path?
