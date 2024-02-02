@@ -403,6 +403,7 @@ Note:
    - In each iteration, add neighbors to the queue. What are the neighbors? 视具体情况决定。</br>
    - If we keep track of visited node / cell, mark as visited when offer it to the queue or when poll it from the queue? Usually when we offer it to the queue. </br>
    - 有时可用于求最值（比如不需要traverse所有，当满足某个条件时直接return (eg: word ladder, Dijkstra）
+   - BFS会在将新节点放入queue时检查validity，因此放入queue的都是valid的节点；DFS则通常在下一个call时的base case中检查。
    
    a. Level Order Traversal through Queue </br>
    
@@ -451,8 +452,11 @@ Note:
 万物皆可DFS - DFS应用面很广，可以延伸出很多用法。 </br>
 
 DFS之Backtracking - traverse and store paths: </br>
-一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步，allows for other options. </br>
-什么时候需要后退一步? 当current step会影响到上一个state，比如在String Builder上append new character，will need to remove it; 但如果直接使用String Concatenation就不用因为每次都会create a new string. </br>
+一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步 => Choose, Explore, Unchoose => allows for other options. </br>
+
+Note:
+- 为什么需要后退一步? 因为current step会影响到上一个state，比如在String Builder上append new character，will need to remove it; 但如果直接使用String Concatenation就不用因为每次都会create a new string. </br>
+- 什么时候Choose, 有时在loop即将explore的部分时 (eg: subset系列），有时在那之前 (eg: word search)
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
 
