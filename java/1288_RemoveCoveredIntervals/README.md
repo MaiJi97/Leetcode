@@ -1,4 +1,4 @@
-## Method 1: Two Pointers 同向双指针 - fast & slow
+## Method 1: Two Pointers 同向双指针 - sliding window
 
 First sort the intervals by start time. Then we use one pointer to iterate through the intervals and the other pointer to keep track of previous interval. If the current interval's end is smaller than the previous interval's end, we won't count current interval into the result. Else, we know that the current interval's end is greater than the previous interval's end, or there is no intersection at all, then count the current interval into the result and update the previous interval. 
 
