@@ -1,4 +1,4 @@
-## Method 1 & 2: Two Pointers 同向双指针 - fast & slow
+## Method 1 & 2: Two Pointers 同向双指针 - sliding window
 
 Two methods are similar - one uses for loop while the other uses while loop. 
 
