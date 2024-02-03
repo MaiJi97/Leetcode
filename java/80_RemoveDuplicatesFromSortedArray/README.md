@@ -1,4 +1,4 @@
-## Method 1 & 2: Two Pointers 同向双指针 - fast & slow
+## Method 1 & 2: Two Pointers 同向双指针 - sliding window
 
 Similar to problem 26, but will need to use a counter to count number of times a number repeat and add some additional checks. 
 
