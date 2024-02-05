@@ -456,7 +456,10 @@ DFS之Backtracking - traverse and store paths: </br>
 
 Note:
 - 为什么需要后退一步? 因为current step会影响到上一个state，比如在String Builder上append new character，will need to remove it; 但如果直接使用String Concatenation就不用因为每次都会create a new string. </br>
-- 什么时候Choose, 有时在loop即将explore的部分时 (eg: subset系列），有时在那之前 (eg: word search)
+- Backtrack同常要记录current path / visited set, Choose和unchoose在什么时候进行，对象是啥？
+  Two cases:
+  1) 当前的状态还没有记录，在当前recursion中记录 (eg: word search)
+  2) 当前状态已经记录过了，loop下一轮并在当前recursion中记录下一轮的 (eg: all paths to node，subset系列）
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
 
