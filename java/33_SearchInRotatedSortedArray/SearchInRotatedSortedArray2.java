@@ -11,16 +11,16 @@ class Solution {
             if (nums[mid] == target) {
                 return mid;
             }
-            else if (nums[mid] <= nums[right]) {
-                if (target > nums[mid] && target <= nums[right]) { // target between left and mid
+            else if (nums[mid] <= nums[right]) { // pivot on the left half (right half is sorted)
+                if (target > nums[mid] && target <= nums[right]) { // target on the right half
                     left = mid + 1;
                 }
                 else {
                     right = mid - 1;
                 }
             }
-            else {
-                if (target < nums[mid] && target >= nums[left]) { // target between mid and right-1
+            else { // pivot on the right half (left half is sorted)
+                if (target < nums[mid] && target >= nums[left]) { // target on the left half
                     right = mid - 1;
                 }
                 else {
