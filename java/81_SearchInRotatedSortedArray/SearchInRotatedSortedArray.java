@@ -12,7 +12,7 @@ class Solution {
                 return true;
             }
             if (nums[mid] == nums[right]) right--;
-            else if (nums[mid] <= nums[right]) { // pivot on the left half (right half is sorted)
+            else if (nums[mid] < nums[right]) { // pivot on the left half (right half is sorted)
                 if (target > nums[mid] && target <= nums[right]) { // target on the right half
                     left = mid + 1;
                 }
