@@ -1,5 +1,5 @@
 class Solution {
-    int total = 0;
+
     public int combinationSum4(int[] nums, int target) {
         Arrays.sort(nums);
         int[] memo = new int[target + 1];
