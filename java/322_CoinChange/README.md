@@ -8,4 +8,4 @@ dp[i] = min(dp[j]+1) if i - dp[j] is in coins </br>
 dp[i] = Integer.MAX_VALUE otherwise </br>
 Finally return dp[amount] if it is not Integer.MAX_VALUE, -1 otherwise
 
-Time Complexity: O(n)
+Time Complexity: O(n * m) where n is amount and m is number of coins
