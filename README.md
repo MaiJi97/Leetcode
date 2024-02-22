@@ -237,7 +237,6 @@
 | 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS / Backtracking    | [solution](java/39_CombinationSum)|
 | 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS / Backtracking    | [solution](java/40_CombinationSum)|
 | 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS / Backtracking    | [solution](java/216_CombinationSum)|
-| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DP                    | [solution](java/377_CombinationSum)|
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Backtracking | [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking    | [solution](java/494_TargetSum)| 
 | 22       |  [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                  | DFS / Backtracking    | [solution](java/22_GenerateParentheses)|
@@ -254,6 +253,9 @@
 | 97       |  [Interleaving String](https://leetcode.com/problems/interleaving-string)                     | DP                    | [solution](java/97_InterleavingString)| 
 | 198      |  [House Robber I](https://leetcode.com/problems/house-robber/)                                | DP                    | [solution](java/198_HouseRobber)| 
 | 213      |  [House Robber II](https://leetcode.com/problems/house-robber-ii/)                            | DP                    | [solution](java/213_HouseRobber)| 
+| 322      |  [Coin Change I](https://leetcode.com/problems/coin-change/)                                  | DP                    | [solution](java/322_CoinChange)| 
+| 518      |  [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                              | DP                    | [solution](java/518_CoinChange)| 
+| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DP                    | [solution](java/377_CombinationSum)|
 | 62       |  [Unique Paths](https://leetcode.com/problems/unique-paths/)                                  | DP                    | [solution](java/62_UniquePaths)|
 | 63       |  [Unique Paths](https://leetcode.com/problems/unique-paths-ii)                                | DP                    | [solution](java/63_UniquePaths)|
 | 64       |  [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)                           | DP                    | [solution](java/64_MinimumPathSum)| 
