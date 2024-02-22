@@ -237,9 +237,9 @@
 | 39       |  [Combination Sum I](https://leetcode.com/problems/combination-sum/)                          | DFS / Backtracking    | [solution](java/39_CombinationSum)|
 | 40       |  [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                      | DFS / Backtracking    | [solution](java/40_CombinationSum)|
 | 216      |  [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)                    | DFS / Backtracking    | [solution](java/216_CombinationSum)|
+| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DP                    | [solution](java/377_CombinationSum)|
 | 17       |  [Letter Combinations Of Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | DFS / Backtracking | [solution](java/17_LetterCombinationsOfPhoneNumber)|
 | 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking    | [solution](java/494_TargetSum)| 
-| 377      |  [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                      | DFS / Backtracking    | [solution](java/377_CombinationSum)|
 | 22       |  [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                  | DFS / Backtracking    | [solution](java/22_GenerateParentheses)|
 | 131      |  [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)             | DFS / Backtracking    | [solution](java/131_PalindromePartitioning)|
 | 93       |  [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)                   | DFS / Backtracking    | [solution](java/93_RestoreIPAddresses)|
@@ -247,6 +247,7 @@
 | 1239     |  [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | DFS / Backtracking    | [solution](java/1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters)|
 | 70       |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                            | DP                    | [solution](java/70_ClimbingStairs)| 
 | 740      |  [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                            | DP                    | [solution](java/740_DeleteAndEarn)| 
+| 691      |  [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)              | DP                    | [solution](java/691_StickersToSpellWord)| 
 | 198      |  [House Robber I](https://leetcode.com/problems/house-robber/)                                | DP                    | [solution](java/198_HouseRobber)| 
 | 213      |  [House Robber II](https://leetcode.com/problems/house-robber-ii/)                            | DP                    | [solution](java/213_HouseRobber)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
