@@ -297,7 +297,7 @@
 Note: </br>
 - Use case: hashmap to store <element, index> or <index, element> as key value pair. 
 - Use case: hashmap to store <element, frequency> or <frequency, collection of elements>(alternative is bucket sort) as key value pair. 
-- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when element can be mapped to finite 0-index scale (eg: when count frequencies of letter characters, array[char - 'a'], eg: bucket sort to get collection of elements with specific frequency, bucket[frequency])
+- Sometimes hashmap and array are interchangeable. We can use array instead of hashmap, when key can be mapped to finite 0-index scale (eg: when count frequencies of letter characters, array[char - 'a'], eg: bucket sort to get collection of elements with specific frequency, bucket[frequency])
 - To sort hashmap by key, can consider using treemap / priority queue / bucket sort; To sort hashmap by value, consider using priority queue / bucket sort
   但如果只是求mode，可以在construct map的时候track max frequency，不需要bucket sort
   <img width="816" alt="Screen Shot 2023-08-22 at 11 08 29 AM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/4c35ad7e-bf92-4c27-8a7e-a113733a2e72.png">
@@ -498,7 +498,7 @@ Note:
 - dp array could have length of n (from 0 to n - 1 or 1 to n), or length of n + 1 (from 0 to n), depends on which one is more convenient.
 
 ## Additional Notes
-- 有大小关系 -> Priority Queue, Bucket Sort, TreeMap, Monotonic Stack, Monotonic Deque, Two Pointers 同向双指针 (parallel pointers, two arrays to track minimum/maximum with respect to each index, #42 #2909)</br>
+- 有大小关系 -> Priority Queue, TreeMap, Bucket Sort, Monotonic Stack, Monotonic Deque, Two Pointers 同向双指针 (parallel pointers, two arrays to track minimum/maximum with respect to each index, #42 #2909)</br>
 - Subarray / substring 求最值 -> Two Pointers 同向双指针 (sliding window) </br>
 - Sorted, search for a target in O(n), more than a single target，需要根据当前结果大于或小于target来shift pointers寻找elements -> Two Pointers 相向双指针 </br>
 - Sorted, search for a target in O(logn), usually a single target -> Binary Search </br>
