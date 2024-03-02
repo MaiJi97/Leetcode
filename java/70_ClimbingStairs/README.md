@@ -1,6 +1,6 @@
-## Method 1: Brute Force through recursion
+## Method 1: Simple Recursion
 
-Most straight forward approach, but will result in TLE.
+Without memoization
 
 ## Method 2: Memoization Search (DFS/recursion + Memoization)
 
