@@ -6,8 +6,7 @@ Time Complexity: O(n)
 
 ## Method 2: Dynamic Programming
 
-Bottom up solution, dp[i][j] represents the maximum score we can earn from the subarray that contains elements up to the current 
-index's element. So i is from 0 to n (length of n+1).
+Bottom up solution, dp[i] represents the maximum score we can earn from elements that are in between 0 and i. So i is from 0 to max value in the array.
 
 Recurrence relation: 
 dp[i] = 0 if i == 0 </br>
