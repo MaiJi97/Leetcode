@@ -61,6 +61,7 @@
 | 31       |  [Next Permutation](https://leetcode.com/problems/next-permutation/)                          | Two Pointers          | [solution](java/31_NextPermutation)|
 | 42       |  [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                    | Two Pointers          | [solution](java/42_TrappingRainWater)|  
 | 2909     |  [Minimum Sum of Mountain Triplets](https://leetcode.com/problems/minimum-sum-of-mountain-triplets-ii) | Two Pointers | [solution](java/2909_MinimumSumOfMountainTriplets)|  
+| 135      |  [Candy ](https://leetcode.com/problems/candy/)                                               | Two Pointers          | [solution](java/135_Candy)| 
 | 560      |  [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                | Prefix Sum + Hashmap  | [solution](java/560_SubarraySumEqualsK)|
 | 974      |  [Subarray Sums Divisible By K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)  | Prefix Sum + Hashmap  | [solution](java/974_SubarraySumsDivisibleByK)|
 | 523      |  [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)            | Prefix Sum + Hashmap  | [solution](java/523_ContinuousSubarraySum)|
