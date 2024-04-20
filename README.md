@@ -7,6 +7,7 @@
 | 146      |  [LRU Cache](https://leetcode.com/problems/lru-cache/)                                        | Hashmap + Linked List | [solution](java/146_LRUCache)| 
 | 460      |  [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                        | Hashmap + Linked Hashset | [solution](java/460_LFUCache)| 
 | 380      |  [Insert Delete Get Random](https://leetcode.com/problems/insert-delete-getrandom-o1/)        | Hashmap               | [solution](java/380_InsertDeleteGetRandom)| 
+| 166      |  [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)| Hashmap               | [solution](java/166_FractionToRecurringDecimal)|
 | 1570     |  [Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors/) | Hashmap | [solution](java/1570_DotProductOfTwoSparseVectors)|
 | 12       |  [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                          | Hashmap               | [solution](java/12_IntegerToRoman)| 
 | 13       |  [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                          | Hashmap               | [solution](java/13_RomanToInteger)| 
