@@ -246,7 +246,7 @@
 | 473      |  [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square)                 | DFS / Backtracking    | [solution](java/473_MatchsticksToSquare)|
 | 1239     |  [Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) | DFS / Backtracking    | [solution](java/1239_MaximumLengthOfAConcatenatedStringWithUniqueCharacters)|
 | 70       |  [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                            | DP                    | [solution](java/70_ClimbingStairs)| 
-| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DFS / Backtracking    | [solution](java/494_TargetSum)| 
+| 494      |  [Target Sum](https://leetcode.com/problems/target-sum/)                                      | DP                    | [solution](java/494_TargetSum)| 
 | 740      |  [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                            | DP                    | [solution](java/740_DeleteAndEarn)| 
 | 691      |  [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)              | DP                    | [solution](java/691_StickersToSpellWord)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
