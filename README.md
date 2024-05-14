@@ -78,7 +78,8 @@
 | 1481     |  [Least Number of Unique Integers After K Removals](https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/) | Sorting    | [solution](java/1481_LeastNumberOfUniqueIntegersAfterKRemovals)|
 | 3016     |  [Minimum Number of Pushes to Type Word](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii)| Sorting | [solution](java/3016_MinimumNumberOfPushesToTypeWord)|
 | 704      |  [Binary Search](https://leetcode.com/problems/binary-search/)                                | Binary Search         | [solution](java/704_BinarySearch)|
-| 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/description/)            | Binary Search         | [solution](java/278_FirstBadVersion)|
+| 278      |  [First Bad Version](https://leetcode.com/problems/first-bad-version/)                        | Binary Search         | [solution](java/278_FirstBadVersion)|
+| 475      |  [Heaters](https://leetcode.com/problems/heaters/)                                            | Binary Search         | [solution](java/475_Heaters)|
 | 852      |  [Peak Index in Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)| Binary Search         | [solution](java/852_PeakIndexInMountainArray)|
 | 162      |  [Find Peak Element](https://leetcode.com/problems/find-peak-element)                         | Binary Search         | [solution](java/162_FindPeakElement)|
 | 2300     |  [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions)| Binary Search | [solution](java/2300_SuccessfulPairsOfSpellsAndPotions)|
@@ -228,6 +229,7 @@
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS / Backtracking    | [solution](java/79_WordSearch)|
 | 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie            | [solution](java/212_WordSearch)|
 | 1268     |  [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)         | DFS + Trie            | [solution](java/1268_SearchSuggestionsSystem)|
+| 1219     |  [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold)               | DFS / Backtracking    | [solution](java/1219_PathWithMaximumGold)|
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
 | 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
@@ -251,6 +253,7 @@
 | 691      |  [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)              | DP                    | [solution](java/691_StickersToSpellWord)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                    | [solution](java/139_WordBreak)| 
+| 3144     |  [Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)     | DP       | [solution](java/3144_MinimumSubstringPartitionOfEqualCharacterFrequency)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                    | [solution](java/120_Triangle)| 
 | 97       |  [Interleaving String](https://leetcode.com/problems/interleaving-string)                     | DP                    | [solution](java/97_InterleavingString)| 
 | 198      |  [House Robber I](https://leetcode.com/problems/house-robber/)                                | DP                    | [solution](java/198_HouseRobber)| 
