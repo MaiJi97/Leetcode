@@ -208,8 +208,9 @@
 | 127      |  [Word Ladder](https://leetcode.com/problems/word-ladder/)                                    | BFS                   | [solution](java/127_WordLadder)|
 | 433      |  [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)           | BFS                   | [solution](java/433_MinimumGeneticMutation)|
 | 1293     |  [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)| BFS | [solution](java/1293_ShortestPathInAGridWithObstaclesElimination)|
-| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS (Dijkstra)        | [solution](java/1631_PathWithMinimumEffort)|
-| 3015     |  [Count the Number of Houses at a Certain Distance](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i)          | BFS / Dijkstra      | [solution](java/3015_CountTheNumberOfHousesAtACertainDistance)|
+| 1631     |  [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)          | BFS / Dijkstra)       | [solution](java/1631_PathWithMinimumEffort)|
+| 3015     |  [Count the Number of Houses at a Certain Distance](https://leetcode.com/problems/count-the-number-of-houses-at-a-certain-distance-i) | BFS / Dijkstra      | [solution](java/3015_CountTheNumberOfHousesAtACertainDistance)|
+| 2812     |  [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/)| BFS / Dijkstra)     | [solution](java/2812_FindTheSafestPathInAGrid)|
 | 207      |  [Course Schedule I](https://leetcode.com/problems/course-schedule/)                          | BFS (Topo) / DFS      | [solution](java/207_CourseSchedule)|
 | 210      |  [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                      | BFS (Topo)            | [solution](java/210_CourseSchedule)| 
 | 2115     |  [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) | BFS (Topo) | [solution](java/2115_FindAllPossibleRecipesFromGivenSupplies)| 
