@@ -4,19 +4,9 @@ There are four possibilities:
 
 <img width="632" alt="Screen Shot 2023-07-31 at 3 33 20 PM" src="https://github.com/MaiJi97/Leetcode/assets/106039830/59bf56cc-e390-40be-b956-c6a208aad8ad.png">
 
-We know that the path contains the root. Therefore, in the beginning, we can assume that the path sum is the root node's value. To find 
-the maximum path sum, we determine if there is a viable path leading down through the left or the right subtree. Please remember that a 
-node can have negative or positive values. So a path sum contributed by a subtree could also be negative or positive. It would make sense
-to consider a path sum contributed by a subtree only if it is positive. If not, we can safely ignore it. In other words, the path goes 
-down the left or the right subtree only if we see a gain in the path sum.
+Note that a node can have negative or positive values, so a path sum contributed by a subtree could also be negative or positive. It would make sense to consider a path sum contributed by a subtree only if it is positive. In other words, the path goes down the left or the right subtree only if we see a gain in the path sum. If not, we can safely ignore it.
 
-This means we must first determine the gain in the path sum contributed by the left and the right subtree. Once we have both, we decide 
-whether to include their contribution. We can see that we need to process the children before we process a node. This indicates that we 
-need to perform a post-order traversal of the tree because, in post-order, children are processed before the parent.
-
-To implement post-order traversal, we implement a recursive function. This function takes the root of the subtree as the input. The 
-function returns the path sum gain contributed by the subtree. To calculate the path sum gain, the function calls itself recursively on 
-the subtree's left and right child.
+This helper method takes the root of the subtree as the input. The function returns the path sum gain contributed by the subtree. We can understand it as the maximum sum of the path (either from left subtree or right subtree) that ends at the current subtree node. To calculate the path sum gain, the function calls itself recursively on the subtree's left and right child. 
 
 We have considered the scenario where the maximum sum path passes through the root. But what if it doesn't?
 
