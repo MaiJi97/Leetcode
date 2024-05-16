@@ -15,7 +15,7 @@ class Solution {
 
         int[] ret = new int[n];
 
-        int[][] minDistance = new int[n][n];
+        int[][] minDistance = new int[n][n]; // store min distance from each house to other houses
         for (int[] row : minDistance) {
             Arrays.fill(row, Integer.MAX_VALUE);
         }
