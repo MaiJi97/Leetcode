@@ -23,7 +23,7 @@ class Solution {
         return maxSum;
     }
 
-    private int gainFromSubtree(TreeNode root) { // calculate the maximum path sum for a subtree rooted at the given node
+    private int gainFromSubtree(TreeNode root) { // calculate the maximum path sum for a subtree ends at the given node
         if (root == null) return 0;
         int gainFromLeft = Math.max(gainFromSubtree(root.left), 0);
         int gainFromRight = Math.max(gainFromSubtree(root.right), 0);
