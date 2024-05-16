@@ -183,13 +183,15 @@
 | 1008     |  [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)| Tree / DFS | [solution](java/1008_ConstructBinarySearchTreeFromPreorderTraversal)| 
 | 108      |  [Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)| Tree / DFS | [solution](java/108_ConvertSortedArrayToBinarySearchTree)| 
 | 109      |  [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| Tree / DFS | [solution](java/109_ConvertSortedListToBinarySearchTree)| 
-| 96     |  [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)         | Tree / DP             | [solution](java/96_UniqueBinarySearchTrees)| 
-| 95     |  [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)      | Tree / DFS            | [solution](java/95_UniqueBinarySearchTrees)| 
-| 894    |  [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | Tree / DFS            | [solution](java/894_AllPossibleFullBinaryTrees)| 
+| 96       |  [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)       | Tree / DP             | [solution](java/96_UniqueBinarySearchTrees)| 
+| 95       |  [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii) | Tree / DFS            | [solution](java/95_UniqueBinarySearchTrees)| 
+| 894      |  [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees) | Tree / DFS          | [solution](java/894_AllPossibleFullBinaryTrees)| 
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS            | [solution](java/257_BinaryTreePaths)| 
+| 543      |  [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)             | Tree / DFS            | [solution](java/543_DiameterOfBinaryTree)| 
 | 124      |  [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | Tree / DFS            | [solution](java/124_BinaryTreeMaximumPathSum)| 
+| 687      |  [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)                 | Tree / DFS            | [solution](java/687_LongestUnivaluePath)| 
 | 235      |  [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)| Tree / DFS | [solution](java/235_LowestCommonAncestorOfABinarySearchTree)| 
 | 236      |  [Lowest Common Ancester of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| Tree / DFS | [solution](java/236_LowestCommonAncestorOfABinaryTree)| 
 | 111      |  [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)  | Tree / BFS / DFS      | [solution](java/111_MinimumDepthOfBinaryTree)| 
