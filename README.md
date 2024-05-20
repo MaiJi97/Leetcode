@@ -466,7 +466,7 @@ DFS之Backtracking - traverse and store paths: </br>
 一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步 => Choose, Explore, Unchoose => allows for other options. </br>
 
 Note:
-- 为什么需要后退一步? 因为current step会影响其他的结果，比如在String Builder上append new character或是add new element to Array List，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为不会影响其他的结果. </br>
+- 为什么需要后退一步? 因为mutable(current step会影响其他的结果)，比如在String Builder上append new character或是add new element to Array List，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响其他的结果). </br>
 - Backtrack同常要记录current path / visited set, Choose和unchoose在什么时候进行，对象是啥？
   Two cases:
   1) 当前的状态还没有记录，在当前recursion中记录 (eg: word search)
