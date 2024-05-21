@@ -236,6 +236,7 @@
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
 | 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
+| 1863     |  [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)   | DFS / Backtracking    | [solution|(java/1863_SumOfAllSubsetXORTotals)| 
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS / Backtracking    | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS / Backtracking    | [solution](java/90_Subsets)| 
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Backtracking    | [solution](java/46_Permutations)| 
@@ -479,7 +480,8 @@ https://www.1point3acres.com/bbs/thread-583166-1-1.html
 ## Dynamic Programming（关键词：最优值，可行性，方案数）
 
 a. 记忆化搜索 Memoization Search through Recursion, 递归方式 </br>
-DFS + 记忆 (visited => 存具体值的memo) </br>
+DFS + 记忆 </br>
+Memoization储存已计算过的结果，与迭代dp中dp array中储存的一样
 缺点：不适合O(n)的DP问题，会造成stack overflow
 
 b. 迭代方式 / 多重循环
