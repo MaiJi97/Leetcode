@@ -229,6 +229,7 @@
 | 505      |  [The Maze II](https://leetcode.com/problems/the-maze-ii/)                                    | BFS / DFS             | [solution](java/505_TheMaze)| 
 | 1306     |  [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                | BFS / DFS             | [solution](java/1306_JumpGame)|
 | 1345     |  [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                  | BFS                   | [solution](java/1345_JumpGame)|
+| 339      |  [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)              | DFS                   | [solution](java/339_NestedListWeightSum)|
 | 79       |  [Word Search I](https://leetcode.com/problems/word-search/)                                  | DFS / Backtracking    | [solution](java/79_WordSearch)|
 | 212      |  [Word Search II](https://leetcode.com/problems/word-search-ii/)                              | DFS + Trie            | [solution](java/212_WordSearch)|
 | 1268     |  [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)         | DFS + Trie            | [solution](java/1268_SearchSuggestionsSystem)|
@@ -257,6 +258,7 @@
 | 691      |  [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)              | DP                    | [solution](java/691_StickersToSpellWord)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                    | [solution](java/139_WordBreak)| 
+| 1043     |  [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum)| DP                 | [solution](java/1043_PartitionArrayForMaximumSum)| 
 | 3144     |  [Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)     | DP       | [solution](java/3144_MinimumSubstringPartitionOfEqualCharacterFrequency)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                    | [solution](java/120_Triangle)| 
 | 97       |  [Interleaving String](https://leetcode.com/problems/interleaving-string)                     | DP                    | [solution](java/97_InterleavingString)| 
@@ -432,7 +434,7 @@ Note:
       Eg: #200
       
    c. Dijkstra Algorithm for SSSP (Single Source Shortest Path 最短路线问题): </br>
-      Distance matrix and Priority Queue
+      When the weights of edges are not all the same, use priority queue instead.
    
    d. Topological Sorting（拓扑排序）: 
    
