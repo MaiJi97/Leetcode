@@ -367,6 +367,7 @@ Note:
 ## Binary Tree / Binary Search Tree / Graph / 类卿
 
 ### 1) DFS through Recursion </br>
+   Call the method recursively on subproblems to reduce the case. </br>
    If have the possibility to visit a node repeatedly, will need track if the node has already been visited. Eg: in graph </br>
    
    Note: 
