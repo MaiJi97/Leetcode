@@ -238,10 +238,10 @@
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
 | 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
-| 1863     |  [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)   | DFS / Backtracking    | [solution|(java/1863_SumOfAllSubsetXORTotals| 
+| 1863     |  [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)   | DFS / Backtracking    | [solution](java/1863_SumOfAllSubsetXORTotals)| 
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS / Backtracking    | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS / Backtracking    | [solution](java/90_Subsets)| 
-| 2597     |  [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)| DFS / Backtracking| [solution|(java/2597_TheNumberOfBeautifulSubsets| 
+| 2597     |  [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)| DFS / Backtracking| [solution](java/2597_TheNumberOfBeautifulSubsets)| 
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Backtracking    | [solution](java/46_Permutations)| 
 | 47       |  [Permutations II](https://leetcode.com/problems/permutations-ii/)                            | DFS / Backtracking    | [solution](java/47_Permutations)| 
 | 77       |  [Combinations](https://leetcode.com/problems/combinations/)                                  | DFS / Backtracking    | [solution](java/77_Combinations)| 
