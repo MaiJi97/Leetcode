@@ -4,8 +4,10 @@ Similar as the subset problems, but instead of finding all possible subsets we o
 
 Time Complexity: O(2 ^ n) 
 
-## Method 2: Memoization Search (DFS/recursion + Memoization)
+## Method 2: DFS / Traverse through recursion
 
-The idea is to use dynamic programming. Though it would be good to record existing results obtained by recursion, the memoization here will be a 2D array since there are two attributes to take into account - index and current sum. 
+The other way is just a traditional DFS through recursion
+
+Though it would be good to record existing results obtained by recursion, the memoization here will be a 2D array since there are two attributes to take into account - index and current sum. 
 
 Time Complexity: O(2 ^ n) 
