@@ -35,6 +35,7 @@
 | 209      |  [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)        | Two Pointers / Binary Search     | [solution](java/209_MinimumSizeSubarraySum)|
 | 713      |  [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)  | Two Pointers          | [solution](java/713_SubarrayProductLessThanK)|
 | 567      |  [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                | Two Pointers          | [solution](java/567_PermutationInString)|
+| 2379     |  [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)            | Two Pointers | [solution](java/2379_MinimumRecolorsToGetKConsecutiveBlackBlocks)|
 | 121      |  [Best Time To Buy And Sell Stocks I](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Two Pointers  | [solution](java/121_BestTimeToBuyAndSellStocks)|
 | 122      |  [Best Time To Buy And Sell Stocks II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Two Pointers   | [solution](java/122_BestTimeToBuyAndSellStocks)|
 | 26       |  [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| Two Pointers   | [solution](java/26_RemoveDuplicatesFromSortedArray)|
@@ -237,9 +238,10 @@
 | 721      |  [Accounts Merge](https://leetcode.com/problems/accounts-merge/)                              | DFS / Backtracking    | [solution](java/721_AccountsMerge)|
 | 797      |  [All Paths From Source To Target](https://leetcode.com/problems/all-paths-from-source-to-target/)| DFS / Backtracking| [solution](java/797_AllPathsFromSourceToTarget)|
 | 51       |  [N Queens](https://leetcode.com/problems/n-queens/)                                          | DFS / Backtracking    | [solution](java/51_NQueens)| 
-| 1863     |  [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)   | DFS / Backtracking    | [solution|(java/1863_SumOfAllSubsetXORTotals)| 
+| 1863     |  [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals)   | DFS / Backtracking    | [solution|(java/1863_SumOfAllSubsetXORTotals| 
 | 78       |  [Subsets I](https://leetcode.com/problems/subsets/)                                          | DFS / Backtracking    | [solution](java/78_Subsets)| 
 | 90       |  [Subsets II](https://leetcode.com/problems/subsets-ii/)                                      | DFS / Backtracking    | [solution](java/90_Subsets)| 
+| 2597     |  [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/)| DFS / Backtracking| [solution|(java/2597_TheNumberOfBeautifulSubsets| 
 | 46       |  [Permutations I](https://leetcode.com/problems/permutations/)                                | DFS / Backtracking    | [solution](java/46_Permutations)| 
 | 47       |  [Permutations II](https://leetcode.com/problems/permutations-ii/)                            | DFS / Backtracking    | [solution](java/47_Permutations)| 
 | 77       |  [Combinations](https://leetcode.com/problems/combinations/)                                  | DFS / Backtracking    | [solution](java/77_Combinations)| 
@@ -471,10 +473,10 @@ DFS之Backtracking - traverse and store paths: </br>
 
 Note:
 - 为什么需要后退一步? 因为mutable(current step会影响其他的结果)，比如在String Builder上append new character或是add new element to Array List，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响其他的结果). </br>
-- Backtrack同常要记录current path / visited set, Choose和unchoose在什么时候进行，对象是啥？
+- 在哪进行choose-recursion-unchoose的流程？
   Two cases:
-  1) 当前的状态还没有记录，在当前recursion中记录 (eg: word search)
-  2) 当前状态已经记录过了，loop下一轮并在当前recursion中记录下一轮的 (eg: all paths to node，subset系列）
+  1) 在当前method主体中进行 (eg: word search)
+  2) 通过loop traverse下一个visit的对象时进行 (eg: all paths to node，subset系列）
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
 
