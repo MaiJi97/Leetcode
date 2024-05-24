@@ -474,7 +474,7 @@ DFS之Backtracking - traverse and store paths: </br>
 
 Note:
 - 什么时候用backtrack？</br>
-  当满足一下两个条件时：</br>
+  当满足以下两个条件时：</br>
   1）需要traverse所有解的情况 </br>
   2）当前的visit会影响到后面的recursive call - mutable，比如在String Builder上append new character，add new element to Array List，update hash set or hash table，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响后面的recursive call). </br>
 - 在哪进行choose-recursion-unchoose的流程？</br>
