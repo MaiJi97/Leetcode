@@ -1,11 +1,19 @@
 class Solution {
 
+    int ret = 0;
+
     public int subsetXORSum(int[] nums) {
-        return dfs(nums, 0, 0);
+        dfs(nums, 0, 0);
+        return ret;
     }
 
-    public int dfs(int[] nums, int index, int current) {
-        if (index == nums.length) return current;
-        return dfs(nums, index + 1, current) + dfs(nums, index + 1, current ^ nums[index]);
+    public void dfs(int[] nums, int index, int currentSum) {
+        if (index == nums.length) {
+            ret += currentSum;
+            return;
+        }
+        dfs(nums, index + 1, currentSum);
+        dfs(nums, index + 1, currentSum ^ nums[index]);
     }
+
 }
