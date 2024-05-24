@@ -1,4 +1,4 @@
-## Method 1: DFS / Traverse through recursion - backtracking
+## Method 1: DFS / Traverse through recursion - backtracking (?)
 
 Similar as the subset problems, but instead of finding all possible subsets we only need the sum and calling the method recursively will not be affected by the current visit. So in this case can just use a traditional DFS and do not need to do the add and remove steps.
 
