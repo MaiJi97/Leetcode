@@ -371,6 +371,7 @@ Note:
 ### 1) DFS through Recursion </br>
    Call the method recursively on subproblems to reduce the case. </br>
    If have the possibility to visit a node repeatedly, will need track if the node has already been visited. Eg: in graph </br>
+   常用于求所有解
    
    Note: 
    - Do we need a separate helper method? Yes if we need to take in different parameters that contain additional information regarding the current state, or if the return type is different. (通常需要记录当前状态，比如通过matrix, set或是map)
@@ -472,11 +473,14 @@ DFS之Backtracking - traverse and store paths: </br>
 一条路走到黑，可以用于traverse所有路径 => Backtracking，进行一个step后需要后退一步 => Choose, Explore, Unchoose => allows for other options. </br>
 
 Note:
-- 为什么需要后退一步? 因为mutable(current step会影响其他的结果)，比如在String Builder上append new character或是add new element to Array List，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响其他的结果). </br>
-- 在哪进行choose-recursion-unchoose的流程？
-  Two cases:
-  1) 在当前method主体中进行 (eg: word search)
-  2) 通过loop traverse下一个visit的对象时进行 (eg: all paths to node，subset系列）
+- 什么时候用backtrack？</br>
+  当满足一下两个条件时：</br>
+  1）需要traverse所有解的情况 </br>
+  2）当前的visit会影响到后面的recursive call - mutable，比如在String Builder上append new character，add new element to Array List，update hash set or hash table，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响后面的recursive call). </br>
+- 在哪进行choose-recursion-unchoose的流程？</br>
+  Two cases: </br>
+  1）在当前method主体中进行 (eg: word search) </br>
+  2）通过loop traverse下一个visit的对象时进行 (eg: all paths to node，subset系列）</br>
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
 
