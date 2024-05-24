@@ -13,3 +13,9 @@ The other way is to do recursive call in the main body of the method instead of 
 Though it would be good to record existing results obtained by recursion, the memoization here will be a 2D array since there are two attributes to take into account - index and current sum. 
 
 Time Complexity: O(2 ^ n) 
+
+## Method 3: DFS / Traverse through recursion
+
+Same as method 2, just change the return type to integer directly.
+
+Time Complexity: O(2 ^ n) 
