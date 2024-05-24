@@ -12,8 +12,8 @@ class Solution {
             ret += currentSum;
             return;
         }
-        dfs(nums, index + 1, currentSum);
-        dfs(nums, index + 1, currentSum ^ nums[index]);
+        dfs(nums, index + 1, currentSum); // choose the current element
+        dfs(nums, index + 1, currentSum ^ nums[index]); // not choose the current element
     }
 
 }
