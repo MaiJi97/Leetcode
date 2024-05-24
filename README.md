@@ -477,9 +477,9 @@ Note:
   当满足以下两个条件时：</br>
   1）需要traverse所有解的情况 </br>
   2）当前的visit会影响到后面的recursive call - mutable，比如在String Builder上append new character，add new element to Array List，update hash set or hash table，will need to remove it; 但如果直接使用String concatenation / add value 就不用，因为immutable(不会影响后面的recursive call). </br>
-- 在哪进行choose-recursion-unchoose的流程？</br>
+- 在哪进行choose-recursion-unchoose的流程？(recursion only in traditional DFS)</br> 
   Two cases: </br>
-  1）在当前method主体中进行 (eg: word search) </br>
+  1）在当前method主体中进行, traverse当前visit的对象 (eg: word search) </br>
   2）通过loop traverse下一个visit的对象时进行 (eg: all paths to node，subset系列）</br>
 
 <img width="341" alt="Screen Shot 2023-01-13 at 4 44 56 PM" src="https://user-images.githubusercontent.com/106039830/212435290-462f08ad-184d-4e2e-a1a7-82ee6b57e75f.png"> </br>
