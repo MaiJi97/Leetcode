@@ -13,9 +13,9 @@ class Solution {
             return;
         }
         current.add(nums[start]); 
-        dfs(nums, current, start + 1); // taking the current element and continue
+        dfs(nums, current, start + 1); // choose the current element
         current.remove(current.size() - 1);
         
-        dfs(nums, current, start + 1); // not taking the current element and continue
+        dfs(nums, current, start + 1); // not choose the current element
     }
 }
