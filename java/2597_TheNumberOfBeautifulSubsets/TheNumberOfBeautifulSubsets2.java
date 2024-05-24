@@ -13,11 +13,11 @@ class Solution {
         int pick = 0;
         if (!hm.containsKey(nums[index] - k)) {
             hm.put(nums[index], hm.getOrDefault(nums[index], 0) + 1);
-            pick = dfs(nums, k, index + 1, hm);
+            pick = dfs(nums, k, index + 1, hm); // choose the current element
             hm.put(nums[index], hm.get(nums[index]) - 1);
             if (hm.get(nums[index]) == 0) hm.remove(nums[index]);
         }
-        int nopick = dfs(nums, k, index + 1, hm);
+        int nopick = dfs(nums, k, index + 1, hm); // not choose the current element
         return pick + nopick;
     }
 }
