@@ -2,7 +2,7 @@ class Solution {
     
     int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         
-        class Coordinate {
+    class Coordinate {
         int x, y;
         public Coordinate(int x, int y) {
             this.x = x;
