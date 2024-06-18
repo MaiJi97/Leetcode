@@ -13,26 +13,23 @@ class Solution {
         if (head == null) return head;
         Stack<Node> stack = new Stack<>();
         stack.push(head);
-        Node first = null;
         Node prev = null;
         while (!stack.isEmpty()) {
-            Node current = stack.pop(); // current is the node we are at
-            if (first == null) {
-                first = current;
-            }
+            Node current = stack.pop();
             if (prev != null) {
-                prev.next = current; // these two lines connect the current node and the previous node in correct order
+                prev.next = current;
                 current.prev = prev;
             }
-            prev = current; // update the previous node to be the node we are at
+            prev = current;
             if (current.next != null) {
                 stack.push(current.next);
+                current.next = null;
             }
             if (current.child != null) {
                 stack.push(current.child);
                 current.child = null;
             }
         }
-        return first;
+        return head;
     }
 }
