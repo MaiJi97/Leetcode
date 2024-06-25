@@ -317,7 +317,7 @@ Note: </br>
 
 ## Prefix Sum
 Note: 
-- Prefix sum usually has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
+- Prefix sum sometimes has length of n+1 because the first sum is the sum of first 0 element (in order not to ignite the first element)
 - In some cases can skip the procedure of storing prefix sum in an array (eg: #560, the prefix sum value is only used once and we can store it directly into the hash map)
 
 ## Two Pointers（关键词：subarray, substring）
