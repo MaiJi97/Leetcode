@@ -14,6 +14,7 @@ class Solution {
                 left = mid + 1;
             }
             else {
+                ret = mid;
                 right = mid - 1;
             }
         }
