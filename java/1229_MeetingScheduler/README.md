@@ -8,4 +8,6 @@ Time Complexity: O(nlogn)
 
 The code from previous method can be simplified.
 
+What if there are multiple lists of intervals? Compute and update the common intersection a pair at a time.
+
 Time Complexity: O(nlogn)
