@@ -11,7 +11,8 @@ class Solution {
         for (int i = 0; i < word.length(); i++) {
             sb.append(word.charAt(i));
             for (int j = sb.length() - 1; j >= Math.max(0, sb.length() - max); j--) {
-                if (hs.contains(sb.toString().substring(j))) {
+                String s = sb.substring(j);
+                if (hs.contains(s)) {
                     sb.delete(0, j + 1);
                     break;
                 }
