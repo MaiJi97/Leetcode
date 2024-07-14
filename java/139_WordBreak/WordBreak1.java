@@ -1,22 +1,24 @@
 class Solution {
-    Map<String, Boolean> memo = new HashMap<>();
+
     public boolean wordBreak(String s, List<String> wordDict) {
-        if (s == "") {
+        HashSet<String> hs = new HashSet<>();
+        for (String word : wordDict) hs.add(word);
+        return dfs(s, hs);
+    }
+
+    public boolean dfs(String s, HashSet<String> hs) {
+        if (hs.contains(s)) {
+            memo.put(s, true);
             return true;
         }
-        if (memo.containsKey(s)) {
-            return memo.get(s);
-        }
-        boolean ret = false;
-        for (String word : wordDict) {
-            if (s.startsWith(word)) {
-                ret = wordBreak(s.substring(word.length()), wordDict);
-            }
-            memo.put(s, ret);
-            if (ret) {
-                break;
+        else if (memo.containsKey(s)) return memo.get(s);
+        for (int i = 1; i < s.length(); i++) {
+            if (hs.contains(s.substring(0, i)) && dfs(s.substring(i), hs)) {
+                memo.put(s, true);
+                return true;
             }
         }
-        return ret;
+        memo.put(s, false);
+        return false;
     }
 }
