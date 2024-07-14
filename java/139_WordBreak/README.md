@@ -1,6 +1,6 @@
 ## Method 1: Memoization Search (DFS/recursion + Memoization)
 
-Top down solution, if the string starts with a word in the dictionary, then call the method recursively to find if the rest of the string is also composed of words in the dictionary, and use an array to store the result so we don't need to recompute when there are encountered values. </br>
+Top down solution, if the string starts with a word in the dictionary, then call the method recursively to find if the rest of the string is also composed of words in the dictionary. To optimize, use a hash map to store the result so we don't need to recompute when we meet the same string again. </br>
 
 Time Complexity: O(n^2)
 
