@@ -9,20 +9,13 @@ class Solution {
     }
     
     public void pathHelper(List<String> ret, String path, TreeNode root) {
-        
-        path += root.val;
-        
-        // usually do not need to consider the leaf case seperately.
-        // 如果叶子的返回结果可以通过两个空节点的返回节点得到则可以省略
         if (root.left == null && root.right == null) {
+            path += root.val;
             ret.add(path);
             return;
         }
-        if (root.left != null) {
-            pathHelper(ret, path + "->", root.left);
-        }
-        if (root.right != null) {
-            pathHelper(ret, path + "->", root.right);
-        }
+        path += root.val;
+        if (root.left != null) pathHelper(ret, path + "->", root.left);
+        if (root.right != null) pathHelper(ret, path + "->", root.right);
     }
 }
