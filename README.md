@@ -190,6 +190,7 @@
 | 110      |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)                  | Tree / DFS            | [solution](java/110_BalancedBinaryTree)| 
 | 226      |  [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                      | Tree / DFS            | [solution](java/226_InvertBinaryTree)|
 | 257      |  [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)                        | Tree / DFS            | [solution](java/257_BinaryTreePaths)| 
+| 1457     |  [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/) | Tree / DFS | [solution](java/1457_PseudoPalindromicPathsInABinaryTree)| 
 | 543      |  [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)             | Tree / DFS            | [solution](java/543_DiameterOfBinaryTree)| 
 | 124      |  [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)  | Tree / DFS            | [solution](java/124_BinaryTreeMaximumPathSum)| 
 | 687      |  [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)                 | Tree / DFS            | [solution](java/687_LongestUnivaluePath)| 
@@ -260,6 +261,7 @@
 | 691      |  [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)              | DP                    | [solution](java/691_StickersToSpellWord)| 
 | 91       |  [Decode Ways](https://leetcode.com/problems/decode-ways/)                                    | DP                    | [solution](java/91_DecodeWays)|  
 | 139      |  [Word Break](https://leetcode.com/problems/word-break/)                                      | DP                    | [solution](java/139_WordBreak)| 
+| 140      |  [Word Break II](https://leetcode.com/problems/word-break-ii/)                                | DP                    | [solution](java/140_WordBreak)| 
 | 1043     |  [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum)| DP                 | [solution](java/1043_PartitionArrayForMaximumSum)| 
 | 3144     |  [Minimum Substring Partition of Equal Character Frequency](https://leetcode.com/problems/minimum-substring-partition-of-equal-character-frequency/)     | DP       | [solution](java/3144_MinimumSubstringPartitionOfEqualCharacterFrequency)| 
 | 120      |  [Triangle](https://leetcode.com/problems/triangle/)                                          | DP                    | [solution](java/120_Triangle)| 
